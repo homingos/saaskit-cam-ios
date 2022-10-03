@@ -5,8 +5,8 @@
 
 // NativeCallsProtocol defines protocol with methods you want to be called from managed
 @protocol NativeCallsProtocol
-@required
-- (void) showHostMainWindow:(NSString*)color;
+//@required
+//- (void) showHostMainWindow:(NSString*)color;
 // other methods
 @end
 

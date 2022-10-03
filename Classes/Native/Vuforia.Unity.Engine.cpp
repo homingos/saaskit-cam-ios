@@ -221,6 +221,8 @@ struct Action_1_t5F58196E8DC3F1245D764C6178DEBD7E3C17E325;
 struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87;
 // System.Action`1<Vuforia.ObserverBehaviour>
 struct Action_1_t49AD19663F9D6070EBF5FD37F8BEA43810805799;
+// System.Action`1<System.Single>
+struct Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A;
 // System.Action`1<UnityEngine.Transform>
 struct Action_1_t10D7C827ADC73ED438E0CA8F04465BA6F2BAED7D;
 // System.Action`1<Vuforia.VuforiaInitError>
@@ -271,6 +273,8 @@ struct Dictionary_2_t7327A6211FC8FD3792B02509DFD55016E9BAFFA4;
 struct Dictionary_2_t640789D3435116C52428CE4AEB2450C6D0A337F6;
 // System.Func`1<System.Boolean>
 struct Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457;
+// System.Func`1<System.Single>
+struct Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7;
 // System.Func`2<Vuforia.AMigratableVideoBackgroundConfigProperty,System.Boolean>
 struct Func_2_tF8F196EA5828CDB3BB772E3E66182BF10E60C815;
 // System.Func`2<System.Boolean,System.Boolean>
@@ -661,6 +665,8 @@ struct ImageTargetBehaviour_t014481FC6A8B819C2BCE7922BA6BD53E1B23F120;
 struct ImageTargetObserver_t37CA9AEAE11535DFD06CD5C9D7D2F356A5D20252;
 // Vuforia.ImageTargetPreview
 struct ImageTargetPreview_tC3CEEA7E57439F3D488B9F24D2DA2E2C07BD4AF2;
+// Vuforia.Intrinsics
+struct Intrinsics_t8B83C668202E2AC898C6D64A501FD32AB02388DB;
 // System.InvalidOperationException
 struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB;
 // Vuforia.LegacyCylinderTargetPreview
@@ -855,10 +861,10 @@ struct World_t0332C3F77BBFBA826A13D263DAED199D01BCE050;
 struct AreaTargetDescriptorType_tA97495B30047549DD285A605E9B510F5EBF199E4;
 // UnityEngine.Camera/CameraCallback
 struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
-// Vuforia.CameraController/<>c__DisplayClass32_0
-struct U3CU3Ec__DisplayClass32_0_tAA7E503B3896C52FD2668EC1982D218EF5B82D9B;
-// Vuforia.CameraController/<GetCameraFields>d__43
-struct U3CGetCameraFieldsU3Ed__43_t8E4A7231F3848F1D0767199AB4349CD6FE4F2538;
+// Vuforia.CameraController/<>c__DisplayClass33_0
+struct U3CU3Ec__DisplayClass33_0_tED9805604F07B6EE6FC6D4E0671EEB48F8E93E8B;
+// Vuforia.CameraController/<GetCameraFields>d__45
+struct U3CGetCameraFieldsU3Ed__45_t810BD1FA374544042FA52DBE58D79D2A17597BA2;
 // Vuforia.CameraDevice/AndroidDevice
 struct AndroidDevice_t46CFCDADC9E4C1BB0381CB01CC937C56F22BE38C;
 // Vuforia.CameraDevice/HoloLensDevice
@@ -1021,8 +1027,8 @@ IL2CPP_EXTERN_C RuntimeClass* TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A
 IL2CPP_EXTERN_C RuntimeClass* Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CBuildContentMeshU3Ed__31_tB3F3D46A3026C023029B318ECBECB505C8A79453_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CGetCameraFieldsU3Ed__43_t8E4A7231F3848F1D0767199AB4349CD6FE4F2538_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass32_0_tAA7E503B3896C52FD2668EC1982D218EF5B82D9B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CGetCameraFieldsU3Ed__45_t810BD1FA374544042FA52DBE58D79D2A17597BA2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass33_0_tED9805604F07B6EE6FC6D4E0671EEB48F8E93E8B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t671FEAE9F0EC74A9B8A29B01B1EC289B7871DF0F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_tD775AFFE641B1D6AC56A70B9BA9952F16FC0ABB6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CWaitForFirstWebCamFrameU3Ed__26_t72730C96B5013697A311149063A17189AC94465D_il2cpp_TypeInfo_var;
@@ -1342,11 +1348,11 @@ IL2CPP_EXTERN_C const RuntimeMethod* Resources_GetBuiltinResource_TisFont_tC9527
 IL2CPP_EXTERN_C const RuntimeMethod* TargetPreview_OnVirtualSceneScaleUpdated_m6E1672C17D68C7A9DF8BBF43721B9D9A83E88ED8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TargetPreview_SetupPropagationToTargetRoot_mCE7002B7A0A49B71949013C52AD6CA8607FDC875_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Texture2D_GetRawTextureData_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m225198C8CEB0AB84CF9FE0B40337778AA4C75608_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CGetCameraFieldsU3Ed__43_System_Collections_IEnumerator_Reset_m12C2C01F1C423F777A5A1B4D8A004F20E736D4BE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CGetCameraFieldsU3Ed__45_System_Collections_IEnumerator_Reset_m756EAC2FE310395E2FB3836E064BA8C3BB3A46BF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CGetMaterialsU3Eb__12_0_mEC489DF847C1E891F932429B73C2E5C59B664A2D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CMigrateAllU3Eb__2_0_m76BEF457B8639D46CD60F1AE8FCDEDFFD8B4127E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CMigrateAllU3Eb__2_1_m1A5E9877B00AF7AC8D0FC549A5A098C36038735A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass32_0_U3CGetVideoModeU3Eb__0_m0D4B272D0F18F375C6275863B6BCEBF8DE96E154_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass33_0_U3CGetVideoModeU3Eb__0_mD8D4C143D75A53D751A46539CE7CE97FA4BFB255_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CWaitForFirstWebCamFrameU3Ed__26_System_Collections_IEnumerator_Reset_m682CFF8AB063AA7193AFAF5B716964E5A30C8D13_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ValueCollection_GetEnumerator_m49E3254AAF4FA55837A50B7AAA9997E3B19ECF8C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ValueTuple_2__ctor_m9B176C301791A9A4BDF238822FCA654AAA7F9A2C_RuntimeMethod_var;
@@ -2666,14 +2672,14 @@ struct VuAreaTargetCaptureGenerationConfig_t18CF7F50DE1C5812052F4601B9B421DB5E49
 // Vuforia.VuforiaApplication
 struct VuforiaApplication_t84202EE6AE3488947F9398AA46BAB1D6F7CCDA46  : public RuntimeObject
 {
-	// System.Action Vuforia.VuforiaApplication::mOnBeforeVuforiaInitialized
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___mOnBeforeVuforiaInitialized_0;
-	// System.Action`1<Vuforia.VuforiaInitError> Vuforia.VuforiaApplication::mOnVuforiaInitialized
-	Action_1_tF4CAAB52A69FEBB4D629E2D59C8EE77A263FEE43* ___mOnVuforiaInitialized_1;
-	// System.Action Vuforia.VuforiaApplication::mOnVuforiaStarted
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___mOnVuforiaStarted_2;
 	// Vuforia.VuforiaInitError Vuforia.VuforiaApplication::mInitError
-	int32_t ___mInitError_3;
+	int32_t ___mInitError_1;
+	// System.Action Vuforia.VuforiaApplication::mOnBeforeVuforiaInitialized
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___mOnBeforeVuforiaInitialized_2;
+	// System.Action`1<Vuforia.VuforiaInitError> Vuforia.VuforiaApplication::mOnVuforiaInitialized
+	Action_1_tF4CAAB52A69FEBB4D629E2D59C8EE77A263FEE43* ___mOnVuforiaInitialized_3;
+	// System.Action Vuforia.VuforiaApplication::mOnVuforiaStarted
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___mOnVuforiaStarted_4;
 	// System.Action`1<System.Boolean> Vuforia.VuforiaApplication::OnVuforiaPaused
 	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___OnVuforiaPaused_5;
 	// System.Action Vuforia.VuforiaApplication::OnVuforiaStopped
@@ -2685,7 +2691,7 @@ struct VuforiaApplication_t84202EE6AE3488947F9398AA46BAB1D6F7CCDA46  : public Ru
 struct VuforiaApplication_t84202EE6AE3488947F9398AA46BAB1D6F7CCDA46_StaticFields
 {
 	// Vuforia.VuforiaApplication Vuforia.VuforiaApplication::sInstance
-	VuforiaApplication_t84202EE6AE3488947F9398AA46BAB1D6F7CCDA46* ___sInstance_4;
+	VuforiaApplication_t84202EE6AE3488947F9398AA46BAB1D6F7CCDA46* ___sInstance_0;
 };
 
 // Vuforia.WebCamTexAdaptor
@@ -2721,10 +2727,10 @@ struct AreaTargetDescriptorType_tA97495B30047549DD285A605E9B510F5EBF199E4  : pub
 	int32_t ___Type_2;
 };
 
-// Vuforia.CameraController/<>c__DisplayClass32_0
-struct U3CU3Ec__DisplayClass32_0_tAA7E503B3896C52FD2668EC1982D218EF5B82D9B  : public RuntimeObject
+// Vuforia.CameraController/<>c__DisplayClass33_0
+struct U3CU3Ec__DisplayClass33_0_tED9805604F07B6EE6FC6D4E0671EEB48F8E93E8B  : public RuntimeObject
 {
-	// Vuforia.CameraMode Vuforia.CameraController/<>c__DisplayClass32_0::cameraMode
+	// Vuforia.CameraMode Vuforia.CameraController/<>c__DisplayClass33_0::cameraMode
 	int32_t ___cameraMode_0;
 };
 
@@ -2800,16 +2806,20 @@ struct GenericVuforiaConfiguration_t10EDE5A6E35CF893071DDF204C6936DADB6ED8AF  : 
 	float ___previousVirtualSceneScaleFactor_9;
 	// System.Single Vuforia.VuforiaConfiguration/GenericVuforiaConfiguration::virtualSceneScaleFactor
 	float ___virtualSceneScaleFactor_10;
+	// System.Func`1<System.Single> Vuforia.VuforiaConfiguration/GenericVuforiaConfiguration::GetVirtualSceneScaleDelegate
+	Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* ___GetVirtualSceneScaleDelegate_11;
+	// System.Action`1<System.Single> Vuforia.VuforiaConfiguration/GenericVuforiaConfiguration::SetVirtualSceneScaleDelegate
+	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___SetVirtualSceneScaleDelegate_12;
 	// System.Boolean Vuforia.VuforiaConfiguration/GenericVuforiaConfiguration::modelTargetRecoWhileExtendedTracked
-	bool ___modelTargetRecoWhileExtendedTracked_11;
+	bool ___modelTargetRecoWhileExtendedTracked_13;
 	// System.Boolean Vuforia.VuforiaConfiguration/GenericVuforiaConfiguration::shareRecordingsInITunes
-	bool ___shareRecordingsInITunes_12;
+	bool ___shareRecordingsInITunes_14;
 	// Vuforia.Internal.Utility.LogLevel Vuforia.VuforiaConfiguration/GenericVuforiaConfiguration::logLevel
-	int32_t ___logLevel_13;
+	int32_t ___logLevel_15;
 	// System.String Vuforia.VuforiaConfiguration/GenericVuforiaConfiguration::version
-	String_t* ___version_14;
+	String_t* ___version_16;
 	// System.String Vuforia.VuforiaConfiguration/GenericVuforiaConfiguration::eulaAcceptedVersions
-	String_t* ___eulaAcceptedVersions_15;
+	String_t* ___eulaAcceptedVersions_17;
 };
 
 struct GenericVuforiaConfiguration_t10EDE5A6E35CF893071DDF204C6936DADB6ED8AF_StaticFields
@@ -3576,12 +3586,14 @@ struct CameraController_t628ECB14EC39F79BC7642F7038800217BDD3C3F7  : public Runt
 	RuntimeObject* ___mCameraConfiguration_6;
 	// System.Action Vuforia.CameraController::mOnVideoBackgroundConfigChanged
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___mOnVideoBackgroundConfigChanged_7;
+	// Vuforia.Intrinsics Vuforia.CameraController::mCameraIntrinsics
+	Intrinsics_t8B83C668202E2AC898C6D64A501FD32AB02388DB* ___mCameraIntrinsics_8;
 	// System.Boolean Vuforia.CameraController::mSetFocusPlaneAutomatically
-	bool ___mSetFocusPlaneAutomatically_8;
+	bool ___mSetFocusPlaneAutomatically_9;
 	// UnityEngine.Camera Vuforia.CameraController::<ARCamera>k__BackingField
-	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___U3CARCameraU3Ek__BackingField_9;
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___U3CARCameraU3Ek__BackingField_10;
 	// UnityEngine.Vector2 Vuforia.CameraController::<FieldOfViewRads>k__BackingField
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CFieldOfViewRadsU3Ek__BackingField_10;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CFieldOfViewRadsU3Ek__BackingField_11;
 };
 
 // Vuforia.Internal.VuforiaDriver.CameraIntrinsics
@@ -3818,6 +3830,23 @@ struct Image_tC8F1E47959853F15CF7B56529F313496B2DD740B  : public RuntimeObject
 	ImageDescription_t7AD8291D09910BE56F4441B19AA77433CE010B3B* ___U3CDescriptionU3Ek__BackingField_2;
 };
 
+// Vuforia.Intrinsics
+struct Intrinsics_t8B83C668202E2AC898C6D64A501FD32AB02388DB  : public RuntimeObject
+{
+	// UnityEngine.Vector2 Vuforia.Intrinsics::<Size>k__BackingField
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CSizeU3Ek__BackingField_0;
+	// Vuforia.DistortionMode Vuforia.Intrinsics::<DistortionMode>k__BackingField
+	int32_t ___U3CDistortionModeU3Ek__BackingField_1;
+	// UnityEngine.Vector2 Vuforia.Intrinsics::<FocalLength>k__BackingField
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CFocalLengthU3Ek__BackingField_2;
+	// UnityEngine.Vector2 Vuforia.Intrinsics::<PrincipalPoint>k__BackingField
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CPrincipalPointU3Ek__BackingField_3;
+	// UnityEngine.Vector2 Vuforia.Intrinsics::<FieldOfViewInDeg>k__BackingField
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CFieldOfViewInDegU3Ek__BackingField_4;
+	// System.Single[] Vuforia.Intrinsics::<DistortionParameters>k__BackingField
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___U3CDistortionParametersU3Ek__BackingField_5;
+};
+
 // Vuforia.NullWebCamTexAdaptor
 struct NullWebCamTexAdaptor_t068A947A04160FF3F4C2ACB94EF2FF89D74B6A0C  : public RuntimeObject
 {
@@ -3915,18 +3944,18 @@ struct VuCameraVideoMode_tB492EBEB0605860CCAC237A94369C4C29011350D
 	int32_t ___format_3;
 };
 
-// Vuforia.CameraController/<GetCameraFields>d__43
-struct U3CGetCameraFieldsU3Ed__43_t8E4A7231F3848F1D0767199AB4349CD6FE4F2538  : public RuntimeObject
+// Vuforia.CameraController/<GetCameraFields>d__45
+struct U3CGetCameraFieldsU3Ed__45_t810BD1FA374544042FA52DBE58D79D2A17597BA2  : public RuntimeObject
 {
-	// System.Int32 Vuforia.CameraController/<GetCameraFields>d__43::<>1__state
+	// System.Int32 Vuforia.CameraController/<GetCameraFields>d__45::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// Vuforia.CameraDevice/AndroidDevice/CameraField Vuforia.CameraController/<GetCameraFields>d__43::<>2__current
+	// Vuforia.CameraDevice/AndroidDevice/CameraField Vuforia.CameraController/<GetCameraFields>d__45::<>2__current
 	CameraField_t5D0061A829678D5208C76F4FC4FD4A77C6177FB7 ___U3CU3E2__current_1;
-	// System.Int32 Vuforia.CameraController/<GetCameraFields>d__43::<>l__initialThreadId
+	// System.Int32 Vuforia.CameraController/<GetCameraFields>d__45::<>l__initialThreadId
 	int32_t ___U3CU3El__initialThreadId_2;
-	// Vuforia.CameraController Vuforia.CameraController/<GetCameraFields>d__43::<>4__this
+	// Vuforia.CameraController Vuforia.CameraController/<GetCameraFields>d__45::<>4__this
 	CameraController_t628ECB14EC39F79BC7642F7038800217BDD3C3F7* ___U3CU3E4__this_3;
-	// System.Collections.Generic.IEnumerator`1<Vuforia.VuCameraField> Vuforia.CameraController/<GetCameraFields>d__43::<>7__wrap1
+	// System.Collections.Generic.IEnumerator`1<Vuforia.VuCameraField> Vuforia.CameraController/<GetCameraFields>d__45::<>7__wrap1
 	RuntimeObject* ___U3CU3E7__wrap1_4;
 };
 
@@ -6426,8 +6455,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Screen_set_autorotateToLandscapeRight_m2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Screen_set_orientation_mFCC880DDE7D3916DD8DA84E546F4743EEE773C4D (int32_t ___value0, const RuntimeMethod* method) ;
 // System.Void Vuforia.CameraController::ConfigureView()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraController_ConfigureView_mE8DA9AA4B737E74799F9F494BAC73221A188C6F2 (CameraController_t628ECB14EC39F79BC7642F7038800217BDD3C3F7* __this, const RuntimeMethod* method) ;
-// System.Void Vuforia.CameraController/<>c__DisplayClass32_0::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass32_0__ctor_m7DB8A39E67CE2F8726D2A4F4FB7079C7CDD72C9A (U3CU3Ec__DisplayClass32_0_tAA7E503B3896C52FD2668EC1982D218EF5B82D9B* __this, const RuntimeMethod* method) ;
+// System.Void Vuforia.CameraController/<>c__DisplayClass33_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass33_0__ctor_m98E75AD7AE0F05A3126D33E8461A584F874E929B (U3CU3Ec__DisplayClass33_0_tED9805604F07B6EE6FC6D4E0671EEB48F8E93E8B* __this, const RuntimeMethod* method) ;
 // System.Void System.Func`2<Vuforia.VuCameraVideoMode,System.Boolean>::.ctor(System.Object,System.IntPtr)
 inline void Func_2__ctor_m1EDF10D3DFDB789C604D10746CB41361AFD51E44 (Func_2_t02ED907DC3EF35FC8FFDF4659EF23E0172D1766D* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
@@ -6537,8 +6566,8 @@ inline bool Enumerator_MoveNext_mF47A1C2FA031ABB8FD88BD8978F0C24590836ACB (Enume
 {
 	return ((  bool (*) (Enumerator_tC93DC67E3488301F4AEB522E163A9F8CFEF30AB7*, const RuntimeMethod*))Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared)(__this, method);
 }
-// System.Void Vuforia.CameraController/<GetCameraFields>d__43::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetCameraFieldsU3Ed__43__ctor_m368EE4DFFF32C811EA4F3FA37E0B7BC72C1E6F81 (U3CGetCameraFieldsU3Ed__43_t8E4A7231F3848F1D0767199AB4349CD6FE4F2538* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+// System.Void Vuforia.CameraController/<GetCameraFields>d__45::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetCameraFieldsU3Ed__45__ctor_m184F478D33CB39EE6D122B80C3B82E5002930D3C (U3CGetCameraFieldsU3Ed__45_t810BD1FA374544042FA52DBE58D79D2A17597BA2* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
 // T System.Runtime.InteropServices.Marshal::PtrToStructure<Vuforia.CameraDevice/AndroidDevice/Int64Range>(System.IntPtr)
 inline Int64Range_t4CDEED159954F777DD7D5983731FB5FC1BF9A8FF Marshal_PtrToStructure_TisInt64Range_t4CDEED159954F777DD7D5983731FB5FC1BF9A8FF_m41E28883D01DC638B5B786B70B421648FA20616B (intptr_t ___ptr0, const RuntimeMethod* method)
 {
@@ -6580,16 +6609,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateHelper_InvokeWithExceptionHandling_mF00B496234E5F6F505DDF9EFF8266EBA0BADD8A2 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___action0, const RuntimeMethod* method) ;
 // System.Int32 System.Environment::get_CurrentManagedThreadId()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Environment_get_CurrentManagedThreadId_m66483AADCCC13272EBDCD94D31D2E52603C24BDF (const RuntimeMethod* method) ;
-// System.Void Vuforia.CameraController/<GetCameraFields>d__43::<>m__Finally1()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetCameraFieldsU3Ed__43_U3CU3Em__Finally1_m1A9D52719776D8E19AAE20615C13AA149AD8AE36 (U3CGetCameraFieldsU3Ed__43_t8E4A7231F3848F1D0767199AB4349CD6FE4F2538* __this, const RuntimeMethod* method) ;
-// System.Void Vuforia.CameraController/<GetCameraFields>d__43::System.IDisposable.Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetCameraFieldsU3Ed__43_System_IDisposable_Dispose_m99520751664DA6D13E963355C7D52CA7AF172E33 (U3CGetCameraFieldsU3Ed__43_t8E4A7231F3848F1D0767199AB4349CD6FE4F2538* __this, const RuntimeMethod* method) ;
+// System.Void Vuforia.CameraController/<GetCameraFields>d__45::<>m__Finally1()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetCameraFieldsU3Ed__45_U3CU3Em__Finally1_m4A158CD864CB766634EF63E0557B9EB916712D9D (U3CGetCameraFieldsU3Ed__45_t810BD1FA374544042FA52DBE58D79D2A17597BA2* __this, const RuntimeMethod* method) ;
+// System.Void Vuforia.CameraController/<GetCameraFields>d__45::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetCameraFieldsU3Ed__45_System_IDisposable_Dispose_m475577AD13110C0CC388C3FD9F3579100D8F3E00 (U3CGetCameraFieldsU3Ed__45_t810BD1FA374544042FA52DBE58D79D2A17597BA2* __this, const RuntimeMethod* method) ;
 // Vuforia.CameraDevice/AndroidDevice/CameraField Vuforia.Utility.ExtensionMethods.WrapperExtensionMethods::ToCameraField(Vuforia.VuCameraField)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CameraField_t5D0061A829678D5208C76F4FC4FD4A77C6177FB7 WrapperExtensionMethods_ToCameraField_mB37B29D0D59E4948CF6329E303A3BA73DCCC10E0 (VuCameraField_t7AC365EF4287A60061C14B9E6BC7A5B5CA4BC122 ___cameraField0, const RuntimeMethod* method) ;
 // System.Void System.NotSupportedException::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
-// System.Collections.Generic.IEnumerator`1<Vuforia.CameraDevice/AndroidDevice/CameraField> Vuforia.CameraController/<GetCameraFields>d__43::System.Collections.Generic.IEnumerable<Vuforia.CameraDevice.AndroidDevice.CameraField>.GetEnumerator()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetCameraFieldsU3Ed__43_System_Collections_Generic_IEnumerableU3CVuforia_CameraDevice_AndroidDevice_CameraFieldU3E_GetEnumerator_m8440370AF6B60B0C4CC757AF865AF73E4C05D2FF (U3CGetCameraFieldsU3Ed__43_t8E4A7231F3848F1D0767199AB4349CD6FE4F2538* __this, const RuntimeMethod* method) ;
+// System.Collections.Generic.IEnumerator`1<Vuforia.CameraDevice/AndroidDevice/CameraField> Vuforia.CameraController/<GetCameraFields>d__45::System.Collections.Generic.IEnumerable<Vuforia.CameraDevice.AndroidDevice.CameraField>.GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetCameraFieldsU3Ed__45_System_Collections_Generic_IEnumerableU3CVuforia_CameraDevice_AndroidDevice_CameraFieldU3E_GetEnumerator_mB5EA58E54AF97712DACA2F6AD74A9BF5429A87E0 (U3CGetCameraFieldsU3Ed__45_t810BD1FA374544042FA52DBE58D79D2A17597BA2* __this, const RuntimeMethod* method) ;
 // System.DateTime System.DateTime::get_Now()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D DateTime_get_Now_m636CB9651A9099D20BA1CF813A0C69637317325C (const RuntimeMethod* method) ;
 // System.TimeSpan System.DateTime::op_Subtraction(System.DateTime,System.DateTime)
@@ -7299,7 +7328,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VuforiaConfiguration_tB8FED41875D85B07E63C303
 // Vuforia.VuforiaConfiguration/GenericVuforiaConfiguration Vuforia.VuforiaConfiguration::get_Vuforia()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GenericVuforiaConfiguration_t10EDE5A6E35CF893071DDF204C6936DADB6ED8AF* VuforiaConfiguration_get_Vuforia_mD882CD21CB55271DD92A51B13A33C6E5A2629E37_inline (VuforiaConfiguration_tB8FED41875D85B07E63C303B17812767E0C51F65* __this, const RuntimeMethod* method) ;
 // System.Single Vuforia.VuforiaConfiguration/GenericVuforiaConfiguration::get_VirtualSceneScaleFactor()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float GenericVuforiaConfiguration_get_VirtualSceneScaleFactor_m28648D0C20503A1093C95389751D9255325C218B_inline (GenericVuforiaConfiguration_t10EDE5A6E35CF893071DDF204C6936DADB6ED8AF* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float GenericVuforiaConfiguration_get_VirtualSceneScaleFactor_m28648D0C20503A1093C95389751D9255325C218B (GenericVuforiaConfiguration_t10EDE5A6E35CF893071DDF204C6936DADB6ED8AF* __this, const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponent<Vuforia.ObserverBehaviour>()
 inline ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* Component_GetComponent_TisObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB_mDC639300BE47642C9C8B6B9B1037E43085704742 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
@@ -10527,7 +10556,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CameraController_get_CameraCon
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* CameraController_get_ARCamera_m5AEDB85EB21134F26CDF50F286AA87EBE7CA0CCA (CameraController_t628ECB14EC39F79BC7642F7038800217BDD3C3F7* __this, const RuntimeMethod* method) 
 {
 	{
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->___U3CARCameraU3Ek__BackingField_9;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->___U3CARCameraU3Ek__BackingField_10;
 		return L_0;
 	}
 }
@@ -10536,8 +10565,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraController_set_ARCamera_mB0A8C984A
 {
 	{
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = ___value0;
-		__this->___U3CARCameraU3Ek__BackingField_9 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CARCameraU3Ek__BackingField_9), (void*)L_0);
+		__this->___U3CARCameraU3Ek__BackingField_10 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CARCameraU3Ek__BackingField_10), (void*)L_0);
 		return;
 	}
 }
@@ -10623,7 +10652,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CameraController_get_Flash_m6DECB770EAE5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 CameraController_get_FieldOfViewRads_m0ACC9C4144488CCA58CD36B165D35FDF91541E3A (CameraController_t628ECB14EC39F79BC7642F7038800217BDD3C3F7* __this, const RuntimeMethod* method) 
 {
 	{
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = __this->___U3CFieldOfViewRadsU3Ek__BackingField_10;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = __this->___U3CFieldOfViewRadsU3Ek__BackingField_11;
 		return L_0;
 	}
 }
@@ -10632,7 +10661,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraController_set_FieldOfViewRads_m1A
 {
 	{
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___value0;
-		__this->___U3CFieldOfViewRadsU3Ek__BackingField_10 = L_0;
+		__this->___U3CFieldOfViewRadsU3Ek__BackingField_11 = L_0;
 		return;
 	}
 }
@@ -10648,7 +10677,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraController__ctor_mE3C3EB784FD55845
 	}
 	{
 		__this->___mCameraMode_4 = (-1);
-		__this->___mSetFocusPlaneAutomatically_8 = (bool)1;
+		__this->___mSetFocusPlaneAutomatically_9 = (bool)1;
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		RuntimeObject* L_0 = ___vuCameraController0;
 		__this->___mVuCameraController_0 = L_0;
@@ -10723,7 +10752,7 @@ IL_000e:
 
 IL_0043:
 	{
-		__this->___mSetFocusPlaneAutomatically_8 = (bool)0;
+		__this->___mSetFocusPlaneAutomatically_9 = (bool)0;
 	}
 
 IL_004a:
@@ -10737,7 +10766,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraController_EnableAutomaticFocusPoi
 {
 	{
 		bool L_0 = ___enable0;
-		__this->___mSetFocusPlaneAutomatically_8 = L_0;
+		__this->___mSetFocusPlaneAutomatically_9 = L_0;
 		return;
 	}
 }
@@ -10750,17 +10779,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VideoModeData_t2A4FCC1C58217A7BF5BCC61E492F9B
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_First_TisVuCameraVideoMode_tB492EBEB0605860CCAC237A94369C4C29011350D_mF835FC0140CAFAFAD9FDCFAD0640DB2021729714_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t02ED907DC3EF35FC8FFDF4659EF23E0172D1766D_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IVuCameraController_t4A3889794BB0CF2BB79C96C13BE46B9338059217_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass32_0_U3CGetVideoModeU3Eb__0_m0D4B272D0F18F375C6275863B6BCEBF8DE96E154_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass32_0_tAA7E503B3896C52FD2668EC1982D218EF5B82D9B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass33_0_U3CGetVideoModeU3Eb__0_mD8D4C143D75A53D751A46539CE7CE97FA4BFB255_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass33_0_tED9805604F07B6EE6FC6D4E0671EEB48F8E93E8B_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	U3CU3Ec__DisplayClass32_0_tAA7E503B3896C52FD2668EC1982D218EF5B82D9B* V_0 = NULL;
+	U3CU3Ec__DisplayClass33_0_tED9805604F07B6EE6FC6D4E0671EEB48F8E93E8B* V_0 = NULL;
 	{
-		U3CU3Ec__DisplayClass32_0_tAA7E503B3896C52FD2668EC1982D218EF5B82D9B* L_0 = (U3CU3Ec__DisplayClass32_0_tAA7E503B3896C52FD2668EC1982D218EF5B82D9B*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass32_0_tAA7E503B3896C52FD2668EC1982D218EF5B82D9B_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass33_0_tED9805604F07B6EE6FC6D4E0671EEB48F8E93E8B* L_0 = (U3CU3Ec__DisplayClass33_0_tED9805604F07B6EE6FC6D4E0671EEB48F8E93E8B*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass33_0_tED9805604F07B6EE6FC6D4E0671EEB48F8E93E8B_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
-		U3CU3Ec__DisplayClass32_0__ctor_m7DB8A39E67CE2F8726D2A4F4FB7079C7CDD72C9A(L_0, NULL);
+		U3CU3Ec__DisplayClass33_0__ctor_m98E75AD7AE0F05A3126D33E8461A584F874E929B(L_0, NULL);
 		V_0 = L_0;
-		U3CU3Ec__DisplayClass32_0_tAA7E503B3896C52FD2668EC1982D218EF5B82D9B* L_1 = V_0;
+		U3CU3Ec__DisplayClass33_0_tED9805604F07B6EE6FC6D4E0671EEB48F8E93E8B* L_1 = V_0;
 		int32_t L_2 = ___cameraMode0;
 		NullCheck(L_1);
 		L_1->___cameraMode_0 = L_2;
@@ -10768,10 +10797,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VideoModeData_t2A4FCC1C58217A7BF5BCC61E492F9B
 		NullCheck(L_3);
 		RuntimeObject* L_4;
 		L_4 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(6 /* System.Collections.Generic.IList`1<Vuforia.VuCameraVideoMode> Vuforia.IVuCameraController::GetVideoModes() */, IVuCameraController_t4A3889794BB0CF2BB79C96C13BE46B9338059217_il2cpp_TypeInfo_var, L_3);
-		U3CU3Ec__DisplayClass32_0_tAA7E503B3896C52FD2668EC1982D218EF5B82D9B* L_5 = V_0;
+		U3CU3Ec__DisplayClass33_0_tED9805604F07B6EE6FC6D4E0671EEB48F8E93E8B* L_5 = V_0;
 		Func_2_t02ED907DC3EF35FC8FFDF4659EF23E0172D1766D* L_6 = (Func_2_t02ED907DC3EF35FC8FFDF4659EF23E0172D1766D*)il2cpp_codegen_object_new(Func_2_t02ED907DC3EF35FC8FFDF4659EF23E0172D1766D_il2cpp_TypeInfo_var);
 		NullCheck(L_6);
-		Func_2__ctor_m1EDF10D3DFDB789C604D10746CB41361AFD51E44(L_6, L_5, (intptr_t)((void*)U3CU3Ec__DisplayClass32_0_U3CGetVideoModeU3Eb__0_m0D4B272D0F18F375C6275863B6BCEBF8DE96E154_RuntimeMethod_var), NULL);
+		Func_2__ctor_m1EDF10D3DFDB789C604D10746CB41361AFD51E44(L_6, L_5, (intptr_t)((void*)U3CU3Ec__DisplayClass33_0_U3CGetVideoModeU3Eb__0_mD8D4C143D75A53D751A46539CE7CE97FA4BFB255_RuntimeMethod_var), NULL);
 		VuCameraVideoMode_tB492EBEB0605860CCAC237A94369C4C29011350D L_7;
 		L_7 = Enumerable_First_TisVuCameraVideoMode_tB492EBEB0605860CCAC237A94369C4C29011350D_mF835FC0140CAFAFAD9FDCFAD0640DB2021729714(L_4, L_6, Enumerable_First_TisVuCameraVideoMode_tB492EBEB0605860CCAC237A94369C4C29011350D_mF835FC0140CAFAFAD9FDCFAD0640DB2021729714_RuntimeMethod_var);
 		VideoModeData_t2A4FCC1C58217A7BF5BCC61E492F9B6CCB5E2A43 L_8;
@@ -10832,6 +10861,14 @@ IL_0038:
 		return (Image_tC8F1E47959853F15CF7B56529F313496B2DD740B*)NULL;
 	}
 }
+// Vuforia.Intrinsics Vuforia.CameraController::GetCameraIntrinsics()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Intrinsics_t8B83C668202E2AC898C6D64A501FD32AB02388DB* CameraController_GetCameraIntrinsics_mE51A2DF09418F95171360F21E46A1DF566177097 (CameraController_t628ECB14EC39F79BC7642F7038800217BDD3C3F7* __this, const RuntimeMethod* method) 
+{
+	{
+		Intrinsics_t8B83C668202E2AC898C6D64A501FD32AB02388DB* L_0 = __this->___mCameraIntrinsics_8;
+		return L_0;
+	}
+}
 // System.Void Vuforia.CameraController::SetFocusPoint()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraController_SetFocusPoint_m05F916F4B04768C0C2990AC3C98492282850B8D4 (CameraController_t628ECB14EC39F79BC7642F7038800217BDD3C3F7* __this, const RuntimeMethod* method) 
 {
@@ -10863,7 +10900,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraController_SetFocusPoint_m05F916F4
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_8;
 	memset((&V_8), 0, sizeof(V_8));
 	{
-		bool L_0 = __this->___mSetFocusPlaneAutomatically_8;
+		bool L_0 = __this->___mSetFocusPlaneAutomatically_9;
 		if (!L_0)
 		{
 			goto IL_00f2;
@@ -11368,14 +11405,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CameraController_GetCameraFiel
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CGetCameraFieldsU3Ed__43_t8E4A7231F3848F1D0767199AB4349CD6FE4F2538_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CGetCameraFieldsU3Ed__45_t810BD1FA374544042FA52DBE58D79D2A17597BA2_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CGetCameraFieldsU3Ed__43_t8E4A7231F3848F1D0767199AB4349CD6FE4F2538* L_0 = (U3CGetCameraFieldsU3Ed__43_t8E4A7231F3848F1D0767199AB4349CD6FE4F2538*)il2cpp_codegen_object_new(U3CGetCameraFieldsU3Ed__43_t8E4A7231F3848F1D0767199AB4349CD6FE4F2538_il2cpp_TypeInfo_var);
+		U3CGetCameraFieldsU3Ed__45_t810BD1FA374544042FA52DBE58D79D2A17597BA2* L_0 = (U3CGetCameraFieldsU3Ed__45_t810BD1FA374544042FA52DBE58D79D2A17597BA2*)il2cpp_codegen_object_new(U3CGetCameraFieldsU3Ed__45_t810BD1FA374544042FA52DBE58D79D2A17597BA2_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
-		U3CGetCameraFieldsU3Ed__43__ctor_m368EE4DFFF32C811EA4F3FA37E0B7BC72C1E6F81(L_0, ((int32_t)-2), NULL);
-		U3CGetCameraFieldsU3Ed__43_t8E4A7231F3848F1D0767199AB4349CD6FE4F2538* L_1 = L_0;
+		U3CGetCameraFieldsU3Ed__45__ctor_m184F478D33CB39EE6D122B80C3B82E5002930D3C(L_0, ((int32_t)-2), NULL);
+		U3CGetCameraFieldsU3Ed__45_t810BD1FA374544042FA52DBE58D79D2A17597BA2* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this_3 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_3), (void*)__this);
@@ -11663,6 +11700,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraController_UpdateCamera_m9B7BE3096
 		return;
 	}
 }
+// System.Void Vuforia.CameraController::UpdateIntrinsics(Vuforia.Intrinsics)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraController_UpdateIntrinsics_mF300D05BF3481FC0C64AFDBA67E2D2BD2AC9F349 (CameraController_t628ECB14EC39F79BC7642F7038800217BDD3C3F7* __this, Intrinsics_t8B83C668202E2AC898C6D64A501FD32AB02388DB* ___intrinsics0, const RuntimeMethod* method) 
+{
+	{
+		Intrinsics_t8B83C668202E2AC898C6D64A501FD32AB02388DB* L_0 = ___intrinsics0;
+		__this->___mCameraIntrinsics_8 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___mCameraIntrinsics_8), (void*)L_0);
+		return;
+	}
+}
 // System.Void Vuforia.CameraController::CorrectCameraConfiguration()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraController_CorrectCameraConfiguration_m127E2313B6969C5A7B8CA5E254720E48848D18B3 (CameraController_t628ECB14EC39F79BC7642F7038800217BDD3C3F7* __this, const RuntimeMethod* method) 
 {
@@ -11809,16 +11856,16 @@ IL_000b:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void Vuforia.CameraController/<>c__DisplayClass32_0::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass32_0__ctor_m7DB8A39E67CE2F8726D2A4F4FB7079C7CDD72C9A (U3CU3Ec__DisplayClass32_0_tAA7E503B3896C52FD2668EC1982D218EF5B82D9B* __this, const RuntimeMethod* method) 
+// System.Void Vuforia.CameraController/<>c__DisplayClass33_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass33_0__ctor_m98E75AD7AE0F05A3126D33E8461A584F874E929B (U3CU3Ec__DisplayClass33_0_tED9805604F07B6EE6FC6D4E0671EEB48F8E93E8B* __this, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
 }
-// System.Boolean Vuforia.CameraController/<>c__DisplayClass32_0::<GetVideoMode>b__0(Vuforia.VuCameraVideoMode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass32_0_U3CGetVideoModeU3Eb__0_m0D4B272D0F18F375C6275863B6BCEBF8DE96E154 (U3CU3Ec__DisplayClass32_0_tAA7E503B3896C52FD2668EC1982D218EF5B82D9B* __this, VuCameraVideoMode_tB492EBEB0605860CCAC237A94369C4C29011350D ___v0, const RuntimeMethod* method) 
+// System.Boolean Vuforia.CameraController/<>c__DisplayClass33_0::<GetVideoMode>b__0(Vuforia.VuCameraVideoMode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass33_0_U3CGetVideoModeU3Eb__0_mD8D4C143D75A53D751A46539CE7CE97FA4BFB255 (U3CU3Ec__DisplayClass33_0_tED9805604F07B6EE6FC6D4E0671EEB48F8E93E8B* __this, VuCameraVideoMode_tB492EBEB0605860CCAC237A94369C4C29011350D ___v0, const RuntimeMethod* method) 
 {
 	{
 		VuCameraVideoMode_tB492EBEB0605860CCAC237A94369C4C29011350D L_0 = ___v0;
@@ -11837,8 +11884,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass32_0_U3CGetVideoMod
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void Vuforia.CameraController/<GetCameraFields>d__43::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetCameraFieldsU3Ed__43__ctor_m368EE4DFFF32C811EA4F3FA37E0B7BC72C1E6F81 (U3CGetCameraFieldsU3Ed__43_t8E4A7231F3848F1D0767199AB4349CD6FE4F2538* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+// System.Void Vuforia.CameraController/<GetCameraFields>d__45::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetCameraFieldsU3Ed__45__ctor_m184F478D33CB39EE6D122B80C3B82E5002930D3C (U3CGetCameraFieldsU3Ed__45_t810BD1FA374544042FA52DBE58D79D2A17597BA2* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -11850,8 +11897,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetCameraFieldsU3Ed__43__ctor_m368EE4
 		return;
 	}
 }
-// System.Void Vuforia.CameraController/<GetCameraFields>d__43::System.IDisposable.Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetCameraFieldsU3Ed__43_System_IDisposable_Dispose_m99520751664DA6D13E963355C7D52CA7AF172E33 (U3CGetCameraFieldsU3Ed__43_t8E4A7231F3848F1D0767199AB4349CD6FE4F2538* __this, const RuntimeMethod* method) 
+// System.Void Vuforia.CameraController/<GetCameraFields>d__45::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetCameraFieldsU3Ed__45_System_IDisposable_Dispose_m475577AD13110C0CC388C3FD9F3579100D8F3E00 (U3CGetCameraFieldsU3Ed__45_t810BD1FA374544042FA52DBE58D79D2A17597BA2* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
@@ -11880,7 +11927,7 @@ IL_0010:
 
 FINALLY_0013:
 			{// begin finally (depth: 1)
-				U3CGetCameraFieldsU3Ed__43_U3CU3Em__Finally1_m1A9D52719776D8E19AAE20615C13AA149AD8AE36(__this, NULL);
+				U3CGetCameraFieldsU3Ed__45_U3CU3Em__Finally1_m4A158CD864CB766634EF63E0557B9EB916712D9D(__this, NULL);
 				return;
 			}// end finally (depth: 1)
 		});
@@ -11899,8 +11946,8 @@ IL_001a:
 		return;
 	}
 }
-// System.Boolean Vuforia.CameraController/<GetCameraFields>d__43::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CGetCameraFieldsU3Ed__43_MoveNext_m9454622D6DFEC6FF66D53ADD7F4DFA9DFE7EE8AC (U3CGetCameraFieldsU3Ed__43_t8E4A7231F3848F1D0767199AB4349CD6FE4F2538* __this, const RuntimeMethod* method) 
+// System.Boolean Vuforia.CameraController/<GetCameraFields>d__45::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CGetCameraFieldsU3Ed__45_MoveNext_m42B99D18BAECA0F963803C09D8B7AAB39E1EF60B (U3CGetCameraFieldsU3Ed__45_t810BD1FA374544042FA52DBE58D79D2A17597BA2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -11923,7 +11970,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CGetCameraFieldsU3Ed__43_MoveNext_m945
 
 FAULT_008d:
 			{// begin fault (depth: 1)
-				U3CGetCameraFieldsU3Ed__43_System_IDisposable_Dispose_m99520751664DA6D13E963355C7D52CA7AF172E33(__this, NULL);
+				U3CGetCameraFieldsU3Ed__45_System_IDisposable_Dispose_m475577AD13110C0CC388C3FD9F3579100D8F3E00(__this, NULL);
 				return;
 			}// end fault
 		});
@@ -12006,7 +12053,7 @@ IL_006f_1:
 				}
 			}
 			{
-				U3CGetCameraFieldsU3Ed__43_U3CU3Em__Finally1_m1A9D52719776D8E19AAE20615C13AA149AD8AE36(__this, NULL);
+				U3CGetCameraFieldsU3Ed__45_U3CU3Em__Finally1_m4A158CD864CB766634EF63E0557B9EB916712D9D(__this, NULL);
 				__this->___U3CU3E7__wrap1_4 = (RuntimeObject*)NULL;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E7__wrap1_4), (void*)(RuntimeObject*)NULL);
 				V_0 = (bool)0;
@@ -12025,8 +12072,8 @@ IL_0094:
 		return L_15;
 	}
 }
-// System.Void Vuforia.CameraController/<GetCameraFields>d__43::<>m__Finally1()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetCameraFieldsU3Ed__43_U3CU3Em__Finally1_m1A9D52719776D8E19AAE20615C13AA149AD8AE36 (U3CGetCameraFieldsU3Ed__43_t8E4A7231F3848F1D0767199AB4349CD6FE4F2538* __this, const RuntimeMethod* method) 
+// System.Void Vuforia.CameraController/<GetCameraFields>d__45::<>m__Finally1()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetCameraFieldsU3Ed__45_U3CU3Em__Finally1_m4A158CD864CB766634EF63E0557B9EB916712D9D (U3CGetCameraFieldsU3Ed__45_t810BD1FA374544042FA52DBE58D79D2A17597BA2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -12053,26 +12100,26 @@ IL_001a:
 		return;
 	}
 }
-// Vuforia.CameraDevice/AndroidDevice/CameraField Vuforia.CameraController/<GetCameraFields>d__43::System.Collections.Generic.IEnumerator<Vuforia.CameraDevice.AndroidDevice.CameraField>.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CameraField_t5D0061A829678D5208C76F4FC4FD4A77C6177FB7 U3CGetCameraFieldsU3Ed__43_System_Collections_Generic_IEnumeratorU3CVuforia_CameraDevice_AndroidDevice_CameraFieldU3E_get_Current_m8AB25A962361FD5A34C2AE076D96A50E417CC8A3 (U3CGetCameraFieldsU3Ed__43_t8E4A7231F3848F1D0767199AB4349CD6FE4F2538* __this, const RuntimeMethod* method) 
+// Vuforia.CameraDevice/AndroidDevice/CameraField Vuforia.CameraController/<GetCameraFields>d__45::System.Collections.Generic.IEnumerator<Vuforia.CameraDevice.AndroidDevice.CameraField>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CameraField_t5D0061A829678D5208C76F4FC4FD4A77C6177FB7 U3CGetCameraFieldsU3Ed__45_System_Collections_Generic_IEnumeratorU3CVuforia_CameraDevice_AndroidDevice_CameraFieldU3E_get_Current_m2CB8FB252C69B3ABC58377B58F2BF5C13DDFFD59 (U3CGetCameraFieldsU3Ed__45_t810BD1FA374544042FA52DBE58D79D2A17597BA2* __this, const RuntimeMethod* method) 
 {
 	{
 		CameraField_t5D0061A829678D5208C76F4FC4FD4A77C6177FB7 L_0 = __this->___U3CU3E2__current_1;
 		return L_0;
 	}
 }
-// System.Void Vuforia.CameraController/<GetCameraFields>d__43::System.Collections.IEnumerator.Reset()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetCameraFieldsU3Ed__43_System_Collections_IEnumerator_Reset_m12C2C01F1C423F777A5A1B4D8A004F20E736D4BE (U3CGetCameraFieldsU3Ed__43_t8E4A7231F3848F1D0767199AB4349CD6FE4F2538* __this, const RuntimeMethod* method) 
+// System.Void Vuforia.CameraController/<GetCameraFields>d__45::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetCameraFieldsU3Ed__45_System_Collections_IEnumerator_Reset_m756EAC2FE310395E2FB3836E064BA8C3BB3A46BF (U3CGetCameraFieldsU3Ed__45_t810BD1FA374544042FA52DBE58D79D2A17597BA2* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CGetCameraFieldsU3Ed__43_System_Collections_IEnumerator_Reset_m12C2C01F1C423F777A5A1B4D8A004F20E736D4BE_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CGetCameraFieldsU3Ed__45_System_Collections_IEnumerator_Reset_m756EAC2FE310395E2FB3836E064BA8C3BB3A46BF_RuntimeMethod_var)));
 	}
 }
-// System.Object Vuforia.CameraController/<GetCameraFields>d__43::System.Collections.IEnumerator.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetCameraFieldsU3Ed__43_System_Collections_IEnumerator_get_Current_m76387F173CBCC1354183DC4A23DC9B4ACFA9C9F1 (U3CGetCameraFieldsU3Ed__43_t8E4A7231F3848F1D0767199AB4349CD6FE4F2538* __this, const RuntimeMethod* method) 
+// System.Object Vuforia.CameraController/<GetCameraFields>d__45::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetCameraFieldsU3Ed__45_System_Collections_IEnumerator_get_Current_m862B3587DA0386E8670BEAAE275FC68A5262DDFF (U3CGetCameraFieldsU3Ed__45_t810BD1FA374544042FA52DBE58D79D2A17597BA2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -12087,16 +12134,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetCameraFieldsU3Ed__43_Sys
 		return L_2;
 	}
 }
-// System.Collections.Generic.IEnumerator`1<Vuforia.CameraDevice/AndroidDevice/CameraField> Vuforia.CameraController/<GetCameraFields>d__43::System.Collections.Generic.IEnumerable<Vuforia.CameraDevice.AndroidDevice.CameraField>.GetEnumerator()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetCameraFieldsU3Ed__43_System_Collections_Generic_IEnumerableU3CVuforia_CameraDevice_AndroidDevice_CameraFieldU3E_GetEnumerator_m8440370AF6B60B0C4CC757AF865AF73E4C05D2FF (U3CGetCameraFieldsU3Ed__43_t8E4A7231F3848F1D0767199AB4349CD6FE4F2538* __this, const RuntimeMethod* method) 
+// System.Collections.Generic.IEnumerator`1<Vuforia.CameraDevice/AndroidDevice/CameraField> Vuforia.CameraController/<GetCameraFields>d__45::System.Collections.Generic.IEnumerable<Vuforia.CameraDevice.AndroidDevice.CameraField>.GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetCameraFieldsU3Ed__45_System_Collections_Generic_IEnumerableU3CVuforia_CameraDevice_AndroidDevice_CameraFieldU3E_GetEnumerator_mB5EA58E54AF97712DACA2F6AD74A9BF5429A87E0 (U3CGetCameraFieldsU3Ed__45_t810BD1FA374544042FA52DBE58D79D2A17597BA2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CGetCameraFieldsU3Ed__43_t8E4A7231F3848F1D0767199AB4349CD6FE4F2538_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CGetCameraFieldsU3Ed__45_t810BD1FA374544042FA52DBE58D79D2A17597BA2_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	U3CGetCameraFieldsU3Ed__43_t8E4A7231F3848F1D0767199AB4349CD6FE4F2538* V_0 = NULL;
+	U3CGetCameraFieldsU3Ed__45_t810BD1FA374544042FA52DBE58D79D2A17597BA2* V_0 = NULL;
 	{
 		int32_t L_0 = __this->___U3CU3E1__state_0;
 		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)-2)))))
@@ -12121,11 +12168,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetCameraFieldsU3Ed__43_Sys
 
 IL_0022:
 	{
-		U3CGetCameraFieldsU3Ed__43_t8E4A7231F3848F1D0767199AB4349CD6FE4F2538* L_3 = (U3CGetCameraFieldsU3Ed__43_t8E4A7231F3848F1D0767199AB4349CD6FE4F2538*)il2cpp_codegen_object_new(U3CGetCameraFieldsU3Ed__43_t8E4A7231F3848F1D0767199AB4349CD6FE4F2538_il2cpp_TypeInfo_var);
+		U3CGetCameraFieldsU3Ed__45_t810BD1FA374544042FA52DBE58D79D2A17597BA2* L_3 = (U3CGetCameraFieldsU3Ed__45_t810BD1FA374544042FA52DBE58D79D2A17597BA2*)il2cpp_codegen_object_new(U3CGetCameraFieldsU3Ed__45_t810BD1FA374544042FA52DBE58D79D2A17597BA2_il2cpp_TypeInfo_var);
 		NullCheck(L_3);
-		U3CGetCameraFieldsU3Ed__43__ctor_m368EE4DFFF32C811EA4F3FA37E0B7BC72C1E6F81(L_3, 0, NULL);
+		U3CGetCameraFieldsU3Ed__45__ctor_m184F478D33CB39EE6D122B80C3B82E5002930D3C(L_3, 0, NULL);
 		V_0 = L_3;
-		U3CGetCameraFieldsU3Ed__43_t8E4A7231F3848F1D0767199AB4349CD6FE4F2538* L_4 = V_0;
+		U3CGetCameraFieldsU3Ed__45_t810BD1FA374544042FA52DBE58D79D2A17597BA2* L_4 = V_0;
 		CameraController_t628ECB14EC39F79BC7642F7038800217BDD3C3F7* L_5 = __this->___U3CU3E4__this_3;
 		NullCheck(L_4);
 		L_4->___U3CU3E4__this_3 = L_5;
@@ -12134,16 +12181,16 @@ IL_0022:
 
 IL_0035:
 	{
-		U3CGetCameraFieldsU3Ed__43_t8E4A7231F3848F1D0767199AB4349CD6FE4F2538* L_6 = V_0;
+		U3CGetCameraFieldsU3Ed__45_t810BD1FA374544042FA52DBE58D79D2A17597BA2* L_6 = V_0;
 		return L_6;
 	}
 }
-// System.Collections.IEnumerator Vuforia.CameraController/<GetCameraFields>d__43::System.Collections.IEnumerable.GetEnumerator()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetCameraFieldsU3Ed__43_System_Collections_IEnumerable_GetEnumerator_mE8D484C117574996605CAFD9FD705B5E349D76AA (U3CGetCameraFieldsU3Ed__43_t8E4A7231F3848F1D0767199AB4349CD6FE4F2538* __this, const RuntimeMethod* method) 
+// System.Collections.IEnumerator Vuforia.CameraController/<GetCameraFields>d__45::System.Collections.IEnumerable.GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetCameraFieldsU3Ed__45_System_Collections_IEnumerable_GetEnumerator_mF651724FFBE647024F6ABEAB4959D0E9ED6B8D3A (U3CGetCameraFieldsU3Ed__45_t810BD1FA374544042FA52DBE58D79D2A17597BA2* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0;
-		L_0 = U3CGetCameraFieldsU3Ed__43_System_Collections_Generic_IEnumerableU3CVuforia_CameraDevice_AndroidDevice_CameraFieldU3E_GetEnumerator_m8440370AF6B60B0C4CC757AF865AF73E4C05D2FF(__this, NULL);
+		L_0 = U3CGetCameraFieldsU3Ed__45_System_Collections_Generic_IEnumerableU3CVuforia_CameraDevice_AndroidDevice_CameraFieldU3E_GetEnumerator_mB5EA58E54AF97712DACA2F6AD74A9BF5429A87E0(__this, NULL);
 		return L_0;
 	}
 }
@@ -20674,7 +20721,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TargetPreview_Awake_mD64C39D9B3E8C5ACD8B
 		L_2 = VuforiaConfiguration_get_Vuforia_mD882CD21CB55271DD92A51B13A33C6E5A2629E37_inline(L_1, NULL);
 		NullCheck(L_2);
 		float L_3;
-		L_3 = GenericVuforiaConfiguration_get_VirtualSceneScaleFactor_m28648D0C20503A1093C95389751D9255325C218B_inline(L_2, NULL);
+		L_3 = GenericVuforiaConfiguration_get_VirtualSceneScaleFactor_m28648D0C20503A1093C95389751D9255325C218B(L_2, NULL);
 		__this->___mVirtualScale_9 = L_3;
 		ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* L_4;
 		L_4 = Component_GetComponent_TisObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB_mDC639300BE47642C9C8B6B9B1037E43085704742(__this, Component_GetComponent_TisObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB_mDC639300BE47642C9C8B6B9B1037E43085704742_RuntimeMethod_var);
@@ -30936,7 +30983,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CameraController_set_FieldOf
 {
 	{
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___value0;
-		__this->___U3CFieldOfViewRadsU3Ek__BackingField_10 = L_0;
+		__this->___U3CFieldOfViewRadsU3Ek__BackingField_11 = L_0;
 		return;
 	}
 }
@@ -30944,15 +30991,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CameraController_set_ARCamer
 {
 	{
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = ___value0;
-		__this->___U3CARCameraU3Ek__BackingField_9 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CARCameraU3Ek__BackingField_9), (void*)L_0);
+		__this->___U3CARCameraU3Ek__BackingField_10 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CARCameraU3Ek__BackingField_10), (void*)L_0);
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* CameraController_get_ARCamera_m5AEDB85EB21134F26CDF50F286AA87EBE7CA0CCA_inline (CameraController_t628ECB14EC39F79BC7642F7038800217BDD3C3F7* __this, const RuntimeMethod* method) 
 {
 	{
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->___U3CARCameraU3Ek__BackingField_9;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->___U3CARCameraU3Ek__BackingField_10;
 		return L_0;
 	}
 }
@@ -31178,13 +31225,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GenericVuforiaConfiguration_t10ED
 {
 	{
 		GenericVuforiaConfiguration_t10EDE5A6E35CF893071DDF204C6936DADB6ED8AF* L_0 = __this->___vuforia_5;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float GenericVuforiaConfiguration_get_VirtualSceneScaleFactor_m28648D0C20503A1093C95389751D9255325C218B_inline (GenericVuforiaConfiguration_t10EDE5A6E35CF893071DDF204C6936DADB6ED8AF* __this, const RuntimeMethod* method) 
-{
-	{
-		float L_0 = __this->___virtualSceneScaleFactor_10;
 		return L_0;
 	}
 }
@@ -31517,14 +31557,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Version_get_Minor_m5EEC53
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* GenericVuforiaConfiguration_get_Version_m31D6E2D8EF87E4F095032E9722A4D934F576CEE0_inline (GenericVuforiaConfiguration_t10EDE5A6E35CF893071DDF204C6936DADB6ED8AF* __this, const RuntimeMethod* method) 
 {
 	{
-		String_t* L_0 = __this->___version_14;
+		String_t* L_0 = __this->___version_16;
 		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* GenericVuforiaConfiguration_get_EULAAcceptedVersions_m169A804DADAEA970983ADF3A84CB8857234C85A5_inline (GenericVuforiaConfiguration_t10EDE5A6E35CF893071DDF204C6936DADB6ED8AF* __this, const RuntimeMethod* method) 
 {
 	{
-		String_t* L_0 = __this->___eulaAcceptedVersions_15;
+		String_t* L_0 = __this->___eulaAcceptedVersions_17;
 		return L_0;
 	}
 }

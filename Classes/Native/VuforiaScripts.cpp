@@ -73,6 +73,8 @@ struct Action_1_tC926860F20D428DA3E93D6FBA36420E904DD903B;
 struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87;
 // System.Action`1<Vuforia.ObserverBehaviour>
 struct Action_1_t49AD19663F9D6070EBF5FD37F8BEA43810805799;
+// System.Action`1<System.Single>
+struct Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A;
 // System.Action`1<Vuforia.VuforiaInitError>
 struct Action_1_tF4CAAB52A69FEBB4D629E2D59C8EE77A263FEE43;
 // System.Action`2<System.Collections.Generic.List`1<System.Tuple`2<System.String,UnityEngine.Transform>>,System.Collections.Generic.List`1<System.Tuple`2<System.String,UnityEngine.Transform>>>
@@ -99,6 +101,8 @@ struct Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132;
 struct Action_2_tCC24325D5E2655D9D5E3500F79D4050DCA3B6C00;
 // System.Comparison`1<UnityEngine.EventSystems.RaycastResult>
 struct Comparison_1_t9FCAC8C8CE160A96C5AAD2DE1D353DCE8A2FEEFC;
+// System.Func`1<System.Single>
+struct Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7;
 // System.Collections.Generic.List`1<System.Tuple`2<System.String,UnityEngine.Transform>>
 struct List_1_t62BA79DBA78E249CF069675D730077EABD7E4251;
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>
@@ -109,6 +113,8 @@ struct List_1_t16519B0267E1CE76021061AB406FB0F31B8460B0;
 struct List_1_tF2FE88545EFEC788CAAE6C74EC2F78E937FCCAC3;
 // System.Collections.Generic.List`1<UnityEngine.Pose>
 struct List_1_t785970ECD3400B166B17F92860A0ABA24BBD51B2;
+// System.Collections.Generic.List`1<System.String>
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD;
 // System.Tuple`2<System.String,UnityEngine.Transform>[]
 struct Tuple_2U5BU5D_t32F5C987353BA2FC1AC82172CDBC7702AEF57D8B;
 // UnityEngine.Camera[]
@@ -201,6 +207,8 @@ struct IHitTestProvider_tF44E562823A50A24916C1F67EE3464366541DA01;
 struct IObserver_tF96DF70DC62190F4AAF66B7DA6053BB7C714503C;
 // Vuforia.IObserverRegistry
 struct IObserverRegistry_tF348538635CECA2D834952442BB63123A2C411A1;
+// Vuforia.UnityRuntimeCompiled.IUnityMagicLeapPrivileges
+struct IUnityMagicLeapPrivileges_tCE946860F3F97A769AC222C69C191D4FAD5B0EF3;
 // Vuforia.UnityRuntimeCompiled.IUnityRenderPipeline
 struct IUnityRenderPipeline_t240F34EC160B1B64D583CB3639F44C7252847BAA;
 // Vuforia.UnityRuntimeCompiled.IUnityRuntimeCompiledFacade
@@ -297,6 +305,8 @@ struct U3CCheckAvailabilityU3Ed__13_tFBB0CF06A577A8317DEEBE02BCA67D1A837DC3D2;
 struct U3CWaitForCameraReadyU3Ed__16_t949C54F71EE635A6FC093AC563904419375099E5;
 // Vuforia.UnityRuntimeCompiled.RuntimeOpenSourceInitializer/OpenSourceUnityRuntimeCompiledFacade
 struct OpenSourceUnityRuntimeCompiledFacade_t815B05082DC1E807312F66EA1BBDA1A5A0D33196;
+// Vuforia.UnityRuntimeCompiled.RuntimeOpenSourceInitializer/UnityMagicLeapPrivileges
+struct UnityMagicLeapPrivileges_t9BE13BC8FAE5D9DECFACB14348F3FA10F9D382E0;
 // Vuforia.UnityRuntimeCompiled.RuntimeOpenSourceInitializer/UnityRenderPipeline
 struct UnityRenderPipeline_tE86C1B05873DF655F9064CC7AE971A7617144F52;
 // Vuforia.UnityRuntimeCompiled.RuntimeOpenSourceInitializer/UnityXRBridge
@@ -356,6 +366,7 @@ IL2CPP_EXTERN_C RuntimeClass* Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF
 IL2CPP_EXTERN_C RuntimeClass* U3CCheckAvailabilityU3Ed__13_tFBB0CF06A577A8317DEEBE02BCA67D1A837DC3D2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t0B7F30159AA2AA4D1BBBEA6BF4F84BFAC1F0AA80_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CWaitForCameraReadyU3Ed__16_t949C54F71EE635A6FC093AC563904419375099E5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnityMagicLeapPrivileges_t9BE13BC8FAE5D9DECFACB14348F3FA10F9D382E0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UnityRenderPipeline_tE86C1B05873DF655F9064CC7AE971A7617144F52_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UnityRuntimeCompiledFacade_tA24702C52A24B4B3BB77FD92F8D1F78182ECEF60_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UnityXRBridge_t551826E7037E54E943A945B24D6059B9206611EF_il2cpp_TypeInfo_var;
@@ -510,6 +521,25 @@ struct List_1_t785970ECD3400B166B17F92860A0ABA24BBD51B2_StaticFields
 	PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* ___s_emptyArray_5;
 };
 
+// System.Collections.Generic.List`1<System.String>
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD  : public RuntimeObject
+{
+	// T[] System.Collections.Generic.List`1::_items
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+	// System.Object System.Collections.Generic.List`1::_syncRoot
+	RuntimeObject* ____syncRoot_4;
+};
+
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___s_emptyArray_5;
+};
+
 // Vuforia.ARFoundation.ARFoundationFacade
 struct ARFoundationFacade_tE4CD80FD49D8D36E04435137A1964D6C99946EFA  : public RuntimeObject
 {
@@ -612,14 +642,14 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
 // Vuforia.VuforiaApplication
 struct VuforiaApplication_t84202EE6AE3488947F9398AA46BAB1D6F7CCDA46  : public RuntimeObject
 {
-	// System.Action Vuforia.VuforiaApplication::mOnBeforeVuforiaInitialized
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___mOnBeforeVuforiaInitialized_0;
-	// System.Action`1<Vuforia.VuforiaInitError> Vuforia.VuforiaApplication::mOnVuforiaInitialized
-	Action_1_tF4CAAB52A69FEBB4D629E2D59C8EE77A263FEE43* ___mOnVuforiaInitialized_1;
-	// System.Action Vuforia.VuforiaApplication::mOnVuforiaStarted
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___mOnVuforiaStarted_2;
 	// Vuforia.VuforiaInitError Vuforia.VuforiaApplication::mInitError
-	int32_t ___mInitError_3;
+	int32_t ___mInitError_1;
+	// System.Action Vuforia.VuforiaApplication::mOnBeforeVuforiaInitialized
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___mOnBeforeVuforiaInitialized_2;
+	// System.Action`1<Vuforia.VuforiaInitError> Vuforia.VuforiaApplication::mOnVuforiaInitialized
+	Action_1_tF4CAAB52A69FEBB4D629E2D59C8EE77A263FEE43* ___mOnVuforiaInitialized_3;
+	// System.Action Vuforia.VuforiaApplication::mOnVuforiaStarted
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___mOnVuforiaStarted_4;
 	// System.Action`1<System.Boolean> Vuforia.VuforiaApplication::OnVuforiaPaused
 	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___OnVuforiaPaused_5;
 	// System.Action Vuforia.VuforiaApplication::OnVuforiaStopped
@@ -631,7 +661,7 @@ struct VuforiaApplication_t84202EE6AE3488947F9398AA46BAB1D6F7CCDA46  : public Ru
 struct VuforiaApplication_t84202EE6AE3488947F9398AA46BAB1D6F7CCDA46_StaticFields
 {
 	// Vuforia.VuforiaApplication Vuforia.VuforiaApplication::sInstance
-	VuforiaApplication_t84202EE6AE3488947F9398AA46BAB1D6F7CCDA46* ___sInstance_4;
+	VuforiaApplication_t84202EE6AE3488947F9398AA46BAB1D6F7CCDA46* ___sInstance_0;
 };
 
 // Vuforia.World
@@ -699,6 +729,17 @@ struct OpenSourceUnityRuntimeCompiledFacade_t815B05082DC1E807312F66EA1BBDA1A5A0D
 	RuntimeObject* ___mUnityRenderPipeline_0;
 	// Vuforia.UnityRuntimeCompiled.IUnityXRBridge Vuforia.UnityRuntimeCompiled.RuntimeOpenSourceInitializer/OpenSourceUnityRuntimeCompiledFacade::mUnityXRBridge
 	RuntimeObject* ___mUnityXRBridge_1;
+	// Vuforia.UnityRuntimeCompiled.IUnityMagicLeapPrivileges Vuforia.UnityRuntimeCompiled.RuntimeOpenSourceInitializer/OpenSourceUnityRuntimeCompiledFacade::mUnityMagicLeapPrivileges
+	RuntimeObject* ___mUnityMagicLeapPrivileges_2;
+};
+
+// Vuforia.UnityRuntimeCompiled.RuntimeOpenSourceInitializer/UnityMagicLeapPrivileges
+struct UnityMagicLeapPrivileges_t9BE13BC8FAE5D9DECFACB14348F3FA10F9D382E0  : public RuntimeObject
+{
+	// UnityEngine.GameObject Vuforia.UnityRuntimeCompiled.RuntimeOpenSourceInitializer/UnityMagicLeapPrivileges::mRequesterObject
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___mRequesterObject_0;
+	// System.Action`1<System.Boolean> Vuforia.UnityRuntimeCompiled.RuntimeOpenSourceInitializer/UnityMagicLeapPrivileges::mPrivilegesCallback
+	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___mPrivilegesCallback_1;
 };
 
 // Vuforia.UnityRuntimeCompiled.RuntimeOpenSourceInitializer/UnityRenderPipeline
@@ -736,16 +777,20 @@ struct GenericVuforiaConfiguration_t10EDE5A6E35CF893071DDF204C6936DADB6ED8AF  : 
 	float ___previousVirtualSceneScaleFactor_9;
 	// System.Single Vuforia.VuforiaConfiguration/GenericVuforiaConfiguration::virtualSceneScaleFactor
 	float ___virtualSceneScaleFactor_10;
+	// System.Func`1<System.Single> Vuforia.VuforiaConfiguration/GenericVuforiaConfiguration::GetVirtualSceneScaleDelegate
+	Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* ___GetVirtualSceneScaleDelegate_11;
+	// System.Action`1<System.Single> Vuforia.VuforiaConfiguration/GenericVuforiaConfiguration::SetVirtualSceneScaleDelegate
+	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___SetVirtualSceneScaleDelegate_12;
 	// System.Boolean Vuforia.VuforiaConfiguration/GenericVuforiaConfiguration::modelTargetRecoWhileExtendedTracked
-	bool ___modelTargetRecoWhileExtendedTracked_11;
+	bool ___modelTargetRecoWhileExtendedTracked_13;
 	// System.Boolean Vuforia.VuforiaConfiguration/GenericVuforiaConfiguration::shareRecordingsInITunes
-	bool ___shareRecordingsInITunes_12;
+	bool ___shareRecordingsInITunes_14;
 	// Vuforia.Internal.Utility.LogLevel Vuforia.VuforiaConfiguration/GenericVuforiaConfiguration::logLevel
-	int32_t ___logLevel_13;
+	int32_t ___logLevel_15;
 	// System.String Vuforia.VuforiaConfiguration/GenericVuforiaConfiguration::version
-	String_t* ___version_14;
+	String_t* ___version_16;
 	// System.String Vuforia.VuforiaConfiguration/GenericVuforiaConfiguration::eulaAcceptedVersions
-	String_t* ___eulaAcceptedVersions_15;
+	String_t* ___eulaAcceptedVersions_17;
 };
 
 struct GenericVuforiaConfiguration_t10EDE5A6E35CF893071DDF204C6936DADB6ED8AF_StaticFields
@@ -1594,6 +1639,11 @@ struct Action_1_tC29A810A03B1CC8C8CEDCEA7BE30A80C5D962EBD  : public MulticastDel
 
 // System.Action`1<Vuforia.ARFoundation.ARFoundationImage>
 struct Action_1_t621B568A0F3505BCD2F3141CCD3B458315A6BE56  : public MulticastDelegate_t
+{
+};
+
+// System.Action`1<System.Boolean>
+struct Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C  : public MulticastDelegate_t
 {
 };
 
@@ -2662,6 +2712,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityRenderPipeline__ctor_m77CFB72321FC2FDB05C6673865A67F188350BAEC (UnityRenderPipeline_tE86C1B05873DF655F9064CC7AE971A7617144F52* __this, const RuntimeMethod* method) ;
 // System.Void Vuforia.UnityRuntimeCompiled.RuntimeOpenSourceInitializer/UnityXRBridge::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityXRBridge__ctor_m16C6E108CE006F1C493252E7695B46F901BBD542 (UnityXRBridge_t551826E7037E54E943A945B24D6059B9206611EF* __this, const RuntimeMethod* method) ;
+// System.Void Vuforia.UnityRuntimeCompiled.RuntimeOpenSourceInitializer/UnityMagicLeapPrivileges::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityMagicLeapPrivileges__ctor_m03C62B2C019B20F96880C174692FBB0172084BEE (UnityMagicLeapPrivileges_t9BE13BC8FAE5D9DECFACB14348F3FA10F9D382E0* __this, const RuntimeMethod* method) ;
 // System.Void System.Action`2<UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[]>::.ctor(System.Object,System.IntPtr)
 inline void Action_2__ctor_mDD0B44EA1C60ACB47ACDB66134FC9473D24E9FED (Action_2_tBFF2A95C6B603A20229CAD6BD0749C19A9AC849C* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
@@ -6284,6 +6336,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OpenSourceUnityRuntimeCompiled
 		return L_0;
 	}
 }
+// Vuforia.UnityRuntimeCompiled.IUnityMagicLeapPrivileges Vuforia.UnityRuntimeCompiled.RuntimeOpenSourceInitializer/OpenSourceUnityRuntimeCompiledFacade::get_UnityMagicLeapPrivileges()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OpenSourceUnityRuntimeCompiledFacade_get_UnityMagicLeapPrivileges_mC6BDCE6A945347201AD9E1B602C2F93563C495AD (OpenSourceUnityRuntimeCompiledFacade_t815B05082DC1E807312F66EA1BBDA1A5A0D33196* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return mUnityMagicLeapPrivileges; }
+		RuntimeObject* L_0 = __this->___mUnityMagicLeapPrivileges_2;
+		return L_0;
+	}
+}
 // System.Boolean Vuforia.UnityRuntimeCompiled.RuntimeOpenSourceInitializer/OpenSourceUnityRuntimeCompiledFacade::IsUnityUICurrentlySelected()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OpenSourceUnityRuntimeCompiledFacade_IsUnityUICurrentlySelected_mA2C327ABCB7FAC621ACE1D6BDB64360863F11558 (OpenSourceUnityRuntimeCompiledFacade_t815B05082DC1E807312F66EA1BBDA1A5A0D33196* __this, const RuntimeMethod* method) 
 {
@@ -6331,6 +6392,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenSourceUnityRuntimeCompiledFacade__ct
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityMagicLeapPrivileges_t9BE13BC8FAE5D9DECFACB14348F3FA10F9D382E0_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityRenderPipeline_tE86C1B05873DF655F9064CC7AE971A7617144F52_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityXRBridge_t551826E7037E54E943A945B24D6059B9206611EF_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
@@ -6348,6 +6410,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenSourceUnityRuntimeCompiledFacade__ct
 		UnityXRBridge__ctor_m16C6E108CE006F1C493252E7695B46F901BBD542(L_1, NULL);
 		__this->___mUnityXRBridge_1 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___mUnityXRBridge_1), (void*)L_1);
+		// readonly IUnityMagicLeapPrivileges mUnityMagicLeapPrivileges = new UnityMagicLeapPrivileges();
+		UnityMagicLeapPrivileges_t9BE13BC8FAE5D9DECFACB14348F3FA10F9D382E0* L_2 = (UnityMagicLeapPrivileges_t9BE13BC8FAE5D9DECFACB14348F3FA10F9D382E0*)il2cpp_codegen_object_new(UnityMagicLeapPrivileges_t9BE13BC8FAE5D9DECFACB14348F3FA10F9D382E0_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
+		UnityMagicLeapPrivileges__ctor_m03C62B2C019B20F96880C174692FBB0172084BEE(L_2, NULL);
+		__this->___mUnityMagicLeapPrivileges_2 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___mUnityMagicLeapPrivileges_2), (void*)L_2);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -6769,6 +6837,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityXRBridge_SetFocusPointForFrame_mF1E
 {
 	{
 		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Vuforia.UnityRuntimeCompiled.RuntimeOpenSourceInitializer/UnityMagicLeapPrivileges::RequestMagicLeapPrivileges(System.Collections.Generic.List`1<System.String>,System.Action`1<System.Boolean>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityMagicLeapPrivileges_RequestMagicLeapPrivileges_m5550BB57ABEF7766F1E6F4A91560EA36395452C7 (UnityMagicLeapPrivileges_t9BE13BC8FAE5D9DECFACB14348F3FA10F9D382E0* __this, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___permissions0, Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___callback1, const RuntimeMethod* method) 
+{
+	{
+		// mPrivilegesCallback = callback;
+		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_0 = ___callback1;
+		__this->___mPrivilegesCallback_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___mPrivilegesCallback_1), (void*)L_0);
+		// }
+		return;
+	}
+}
+// System.Void Vuforia.UnityRuntimeCompiled.RuntimeOpenSourceInitializer/UnityMagicLeapPrivileges::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityMagicLeapPrivileges__ctor_m03C62B2C019B20F96880C174692FBB0172084BEE (UnityMagicLeapPrivileges_t9BE13BC8FAE5D9DECFACB14348F3FA10F9D382E0* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
 }
