@@ -39,21 +39,21 @@ extern void VideoPlayer_add_errorReceived_mDB5EB3E78A571249C101BF6A7CB394A8AF7C0
 // 0x0000000D System.Void UnityEngine.Video.VideoPlayer::remove_errorReceived(UnityEngine.Video.VideoPlayer/ErrorEventHandler)
 extern void VideoPlayer_remove_errorReceived_m419AC4C19034B872B7DB82B59B4E61302213FA2A (void);
 // 0x0000000E System.Void UnityEngine.Video.VideoPlayer::InvokePrepareCompletedCallback_Internal(UnityEngine.Video.VideoPlayer)
-extern void VideoPlayer_InvokePrepareCompletedCallback_Internal_mC94FCD225C9CABC2AC72329FADF1D6955409D1B8 (void);
+extern void VideoPlayer_InvokePrepareCompletedCallback_Internal_mF483B141E9AF0B553FF87B32A0EE54E40BE21EFD (void);
 // 0x0000000F System.Void UnityEngine.Video.VideoPlayer::InvokeFrameReadyCallback_Internal(UnityEngine.Video.VideoPlayer,System.Int64)
-extern void VideoPlayer_InvokeFrameReadyCallback_Internal_m5183AE08C934A0B2F3DFC7DA0D6E19F6967D7E78 (void);
+extern void VideoPlayer_InvokeFrameReadyCallback_Internal_mF5F02FE6BBEA70C62108F3FD836E1B378CB9F5E7 (void);
 // 0x00000010 System.Void UnityEngine.Video.VideoPlayer::InvokeLoopPointReachedCallback_Internal(UnityEngine.Video.VideoPlayer)
-extern void VideoPlayer_InvokeLoopPointReachedCallback_Internal_m255A7C42DD95CA87E8F10AD275558785B245104E (void);
+extern void VideoPlayer_InvokeLoopPointReachedCallback_Internal_m090FD00BB12721EB3CEB337E30687D5DE6B1EBD6 (void);
 // 0x00000011 System.Void UnityEngine.Video.VideoPlayer::InvokeStartedCallback_Internal(UnityEngine.Video.VideoPlayer)
-extern void VideoPlayer_InvokeStartedCallback_Internal_mFE37D79FFF07321BD1FB1EF8265B474D314B4FB3 (void);
+extern void VideoPlayer_InvokeStartedCallback_Internal_mBDD186C95E57DD264CD0957FA46D9F65728C67EF (void);
 // 0x00000012 System.Void UnityEngine.Video.VideoPlayer::InvokeFrameDroppedCallback_Internal(UnityEngine.Video.VideoPlayer)
-extern void VideoPlayer_InvokeFrameDroppedCallback_Internal_m18C4083C7AFB50DCF98E3054CA3BE7572D5331F5 (void);
+extern void VideoPlayer_InvokeFrameDroppedCallback_Internal_m6E6B6353404AF76AB16D1433B8553659B0744DC0 (void);
 // 0x00000013 System.Void UnityEngine.Video.VideoPlayer::InvokeErrorReceivedCallback_Internal(UnityEngine.Video.VideoPlayer,System.String)
-extern void VideoPlayer_InvokeErrorReceivedCallback_Internal_m84709AD9F2838559178CAD52C7D12502C5F8A044 (void);
+extern void VideoPlayer_InvokeErrorReceivedCallback_Internal_m91E59ED70189824AB2C5D0AEB47742130EE98574 (void);
 // 0x00000014 System.Void UnityEngine.Video.VideoPlayer::InvokeSeekCompletedCallback_Internal(UnityEngine.Video.VideoPlayer)
-extern void VideoPlayer_InvokeSeekCompletedCallback_Internal_m4A761204DC77EB3210910D617A06BE5F506C63AE (void);
+extern void VideoPlayer_InvokeSeekCompletedCallback_Internal_m62AEB9826ACE95B88CC60220375C1C7EF5EEEE1F (void);
 // 0x00000015 System.Void UnityEngine.Video.VideoPlayer::InvokeClockResyncOccurredCallback_Internal(UnityEngine.Video.VideoPlayer,System.Double)
-extern void VideoPlayer_InvokeClockResyncOccurredCallback_Internal_m81C2010C7BA5CD6C9CA8096CE3D4D374511CDF76 (void);
+extern void VideoPlayer_InvokeClockResyncOccurredCallback_Internal_m743B8421E9538761141364EBDCEBC673BA58D8C6 (void);
 // 0x00000016 System.Void UnityEngine.Video.VideoPlayer/EventHandler::.ctor(System.Object,System.IntPtr)
 extern void EventHandler__ctor_mFCF62E0BB29DD3D2B2F1306BD8657E374CF60903 (void);
 // 0x00000017 System.Void UnityEngine.Video.VideoPlayer/EventHandler::Invoke(UnityEngine.Video.VideoPlayer)
@@ -85,14 +85,14 @@ static Il2CppMethodPointer s_methodPointers[29] =
 	VideoPlayer_remove_loopPointReached_mF8DD445E1CE55B1F4F1AB40ED11DBCA8892930C6,
 	VideoPlayer_add_errorReceived_mDB5EB3E78A571249C101BF6A7CB394A8AF7C0B6A,
 	VideoPlayer_remove_errorReceived_m419AC4C19034B872B7DB82B59B4E61302213FA2A,
-	VideoPlayer_InvokePrepareCompletedCallback_Internal_mC94FCD225C9CABC2AC72329FADF1D6955409D1B8,
-	VideoPlayer_InvokeFrameReadyCallback_Internal_m5183AE08C934A0B2F3DFC7DA0D6E19F6967D7E78,
-	VideoPlayer_InvokeLoopPointReachedCallback_Internal_m255A7C42DD95CA87E8F10AD275558785B245104E,
-	VideoPlayer_InvokeStartedCallback_Internal_mFE37D79FFF07321BD1FB1EF8265B474D314B4FB3,
-	VideoPlayer_InvokeFrameDroppedCallback_Internal_m18C4083C7AFB50DCF98E3054CA3BE7572D5331F5,
-	VideoPlayer_InvokeErrorReceivedCallback_Internal_m84709AD9F2838559178CAD52C7D12502C5F8A044,
-	VideoPlayer_InvokeSeekCompletedCallback_Internal_m4A761204DC77EB3210910D617A06BE5F506C63AE,
-	VideoPlayer_InvokeClockResyncOccurredCallback_Internal_m81C2010C7BA5CD6C9CA8096CE3D4D374511CDF76,
+	VideoPlayer_InvokePrepareCompletedCallback_Internal_mF483B141E9AF0B553FF87B32A0EE54E40BE21EFD,
+	VideoPlayer_InvokeFrameReadyCallback_Internal_mF5F02FE6BBEA70C62108F3FD836E1B378CB9F5E7,
+	VideoPlayer_InvokeLoopPointReachedCallback_Internal_m090FD00BB12721EB3CEB337E30687D5DE6B1EBD6,
+	VideoPlayer_InvokeStartedCallback_Internal_mBDD186C95E57DD264CD0957FA46D9F65728C67EF,
+	VideoPlayer_InvokeFrameDroppedCallback_Internal_m6E6B6353404AF76AB16D1433B8553659B0744DC0,
+	VideoPlayer_InvokeErrorReceivedCallback_Internal_m91E59ED70189824AB2C5D0AEB47742130EE98574,
+	VideoPlayer_InvokeSeekCompletedCallback_Internal_m62AEB9826ACE95B88CC60220375C1C7EF5EEEE1F,
+	VideoPlayer_InvokeClockResyncOccurredCallback_Internal_m743B8421E9538761141364EBDCEBC673BA58D8C6,
 	EventHandler__ctor_mFCF62E0BB29DD3D2B2F1306BD8657E374CF60903,
 	EventHandler_Invoke_m8A3288B6DF1FE2699A58EA22D0B830BB20E94E15,
 	ErrorEventHandler__ctor_m78073CD72C64AAFAF54A01702919A847185F4C58,
@@ -111,35 +111,35 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[2] =
 };
 static const int32_t s_InvokerIndices[29] = 
 {
-	8554,
-	5240,
-	8544,
-	6968,
-	8704,
-	8704,
-	8704,
-	6968,
-	6968,
-	6968,
-	6968,
-	6968,
-	6968,
-	14085,
-	12540,
-	14085,
-	14085,
-	14085,
-	12545,
-	14085,
-	12536,
-	4008,
-	6968,
-	4008,
-	4012,
-	4008,
-	4006,
-	4008,
-	4003,
+	8345,
+	5105,
+	8335,
+	6790,
+	8492,
+	8492,
+	8492,
+	6790,
+	6790,
+	6790,
+	6790,
+	6790,
+	6790,
+	13777,
+	12236,
+	13777,
+	13777,
+	13777,
+	12241,
+	13777,
+	12232,
+	3897,
+	6790,
+	3897,
+	3901,
+	3897,
+	3895,
+	3897,
+	3892,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_VideoModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_VideoModule_CodeGenModule = 

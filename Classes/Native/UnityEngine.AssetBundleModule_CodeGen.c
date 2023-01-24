@@ -15,13 +15,13 @@
 // 0x00000001 System.Void UnityEngine.AssetBundle::.ctor()
 extern void AssetBundle__ctor_m12989CA081324BB49ED893BDA5E3B4E758D61410 (void);
 // 0x00000002 UnityEngine.AssetBundleCreateRequest UnityEngine.AssetBundle::LoadFromFileAsync_Internal(System.String,System.UInt32,System.UInt64)
-extern void AssetBundle_LoadFromFileAsync_Internal_m58F065D851C126C1B5E6434965B2D0EAE99081E7 (void);
+extern void AssetBundle_LoadFromFileAsync_Internal_mB3D099E653D4AF91E5EA8CDCC49E8AB1BBAB764B (void);
 // 0x00000003 UnityEngine.AssetBundleCreateRequest UnityEngine.AssetBundle::LoadFromFileAsync(System.String)
-extern void AssetBundle_LoadFromFileAsync_mAB68BDA3F709F9A41BBC410F1B8819938CE90ECD (void);
+extern void AssetBundle_LoadFromFileAsync_m4C768290B7B6EE3CF7483BD4F0D338D496735F94 (void);
 // 0x00000004 UnityEngine.AssetBundleCreateRequest UnityEngine.AssetBundle::LoadFromMemoryAsync_Internal(System.Byte[],System.UInt32)
-extern void AssetBundle_LoadFromMemoryAsync_Internal_mA9B5DD6F392EA3D3505FF2D6632365214F5FB2EB (void);
+extern void AssetBundle_LoadFromMemoryAsync_Internal_m9D90D48F46D71E441B4A19659C9004EF40E9CD1B (void);
 // 0x00000005 UnityEngine.AssetBundleCreateRequest UnityEngine.AssetBundle::LoadFromMemoryAsync(System.Byte[])
-extern void AssetBundle_LoadFromMemoryAsync_mE4128A80D908905E31CF00B2CF573B6E955AE30F (void);
+extern void AssetBundle_LoadFromMemoryAsync_mDDA8EC114E4097156F40C337B45837872998348F (void);
 // 0x00000006 UnityEngine.Object UnityEngine.AssetBundle::LoadAsset(System.String)
 extern void AssetBundle_LoadAsset_m25926A405F3AB79A4DF2447F23A09957EC7F063E (void);
 // 0x00000007 UnityEngine.Object UnityEngine.AssetBundle::LoadAsset(System.String,System.Type)
@@ -49,10 +49,10 @@ extern void AssetBundleRequest__ctor_mD73743E1532E41D8AD2871C00A7FCDA5157171C0 (
 static Il2CppMethodPointer s_methodPointers[17] = 
 {
 	AssetBundle__ctor_m12989CA081324BB49ED893BDA5E3B4E758D61410,
-	AssetBundle_LoadFromFileAsync_Internal_m58F065D851C126C1B5E6434965B2D0EAE99081E7,
-	AssetBundle_LoadFromFileAsync_mAB68BDA3F709F9A41BBC410F1B8819938CE90ECD,
-	AssetBundle_LoadFromMemoryAsync_Internal_mA9B5DD6F392EA3D3505FF2D6632365214F5FB2EB,
-	AssetBundle_LoadFromMemoryAsync_mE4128A80D908905E31CF00B2CF573B6E955AE30F,
+	AssetBundle_LoadFromFileAsync_Internal_mB3D099E653D4AF91E5EA8CDCC49E8AB1BBAB764B,
+	AssetBundle_LoadFromFileAsync_m4C768290B7B6EE3CF7483BD4F0D338D496735F94,
+	AssetBundle_LoadFromMemoryAsync_Internal_m9D90D48F46D71E441B4A19659C9004EF40E9CD1B,
+	AssetBundle_LoadFromMemoryAsync_mDDA8EC114E4097156F40C337B45837872998348F,
 	AssetBundle_LoadAsset_m25926A405F3AB79A4DF2447F23A09957EC7F063E,
 	AssetBundle_LoadAsset_m021FE0B52DD660E54AE4C225D9AE66147902B8FE,
 	AssetBundle_LoadAsset_Internal_mD096392756815901FE982C1AF64DDF0846551433,
@@ -68,23 +68,23 @@ static Il2CppMethodPointer s_methodPointers[17] =
 };
 static const int32_t s_InvokerIndices[17] = 
 {
-	8704,
-	11116,
-	13718,
-	12159,
-	13718,
-	6257,
-	3207,
-	3207,
-	3207,
-	3207,
-	6849,
-	8544,
-	8544,
-	8704,
-	8544,
-	8544,
-	8704,
+	8492,
+	10834,
+	13414,
+	11861,
+	13414,
+	6101,
+	3110,
+	3110,
+	3110,
+	3110,
+	6676,
+	8335,
+	8335,
+	8492,
+	8335,
+	8335,
+	8492,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_AssetBundleModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_AssetBundleModule_CodeGenModule = 

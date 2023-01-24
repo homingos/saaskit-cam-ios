@@ -245,6 +245,7 @@ DeviceTableEntry DeviceTable[] =
     { iPhone, 14, 5, 5, deviceiPhone13 },
     { iPhone, 14, 2, 2, deviceiPhone13Pro },
     { iPhone, 14, 3, 3, deviceiPhone13ProMax },
+    { iPhone, 14, 6, 6, deviceiPhoneSE3Gen },
 
     { iPod, 4, 1, 1, deviceiPodTouch4Gen },
     { iPod, 5, 1, 1, deviceiPodTouch5Gen },
@@ -279,6 +280,7 @@ DeviceTableEntry DeviceTable[] =
     { iPad, 13, 10, 11, deviceiPadPro5Gen },
     { iPad, 11, 6, 7, deviceiPad8Gen },
     { iPad, 13, 1, 2, deviceiPadAir4Gen },
+    { iPad, 13, 16, 17, deviceiPadAir5Gen },
 
     { AppleTV, 5, 3, 3, deviceAppleTVHD },
     { AppleTV, 6, 2, 2, deviceAppleTV4K },
@@ -421,6 +423,7 @@ extern "C" float UnityDeviceDPI()
             case deviceiPhoneXR:
             case deviceiPhone11:
             case deviceiPhoneSE2Gen:
+            case deviceiPhoneSE3Gen:
                 _DeviceDPI = 326.0f; break;
             case deviceiPhone6Plus:
             case deviceiPhone6SPlus:
@@ -467,6 +470,7 @@ extern "C" float UnityDeviceDPI()
             case deviceiPad8Gen:
             case deviceiPadAir4Gen:
             case deviceiPad9Gen:
+            case deviceiPadAir5Gen:
                 _DeviceDPI = 264.0f; break;
             case deviceiPad7Gen:
                 _DeviceDPI = 326.0f; break;

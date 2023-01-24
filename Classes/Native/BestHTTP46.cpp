@@ -190,7 +190,7 @@ struct TreeNodeU5BU5D_tF420D68DF0D53EEDDBF91E906A83E1932724546B  : public Runtim
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void BestHTTP.Connections.HTTP2.HuffmanEncoder::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HuffmanEncoder__cctor_mD7E5F32BAEDA44C2067502CB70B45333982FE8D5 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HuffmanEncoder__cctor_m055E80D8802D066AFFD1B6734A60F81CAF827E15 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)

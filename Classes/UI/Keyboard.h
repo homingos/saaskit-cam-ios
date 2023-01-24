@@ -23,6 +23,7 @@ KeyboardShowParam;
 @interface KeyboardDelegate : NSObject<UITextFieldDelegate, UITextViewDelegate>
 {
 }
+- (void)setPendingSelectionRequest;
 - (BOOL)textFieldShouldReturn:(UITextField*)textField;
 - (void)textInputDone:(id)sender;
 - (void)textInputCancel:(id)sender;

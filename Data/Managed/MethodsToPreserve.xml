@@ -1,16 +1,4 @@
 <linker>
-	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
-		<type fullname="CustomUIController">
-			<method name="CancelButton"/>
-			<method name="HelpScreen"/>
-		</type>
-	</assembly>
-	<assembly fullname="Assembly-CSharp-firstpass" ignoreIfMissing="1">
-		<type fullname="NatSuite.Examples.ReplayCam">
-			<method name="StartRecording"/>
-			<method name="StopRecording"/>
-		</type>
-	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">
 		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerIntField">
 			<method name="OnDecrement"/>

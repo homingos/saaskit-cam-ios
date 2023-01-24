@@ -4,20 +4,6 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "APIController",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "ApiKeys",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "AssetBundleAPI",
             "moduleName": "",
             "usedInScenes": []
@@ -68,13 +54,6 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "CustomTrackableEventHandler",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "CustomUIController",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -136,13 +115,6 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "LoadingAnimation",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "MakeInstantTargets",
             "moduleName": "",
             "usedInScenes": []
@@ -162,13 +134,6 @@
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity"
             ]
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "NatSuite.Examples.ReplayCam",
-            "moduleName": "",
-            "usedInScenes": []
         },
         {
             "managedAssemblyName": "",
@@ -219,90 +184,6 @@
             "nativeClass": "RuntimeInitializeOnLoadManager",
             "fullManagedTypeName": "",
             "moduleName": "Core",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "RuntimeInspectorNamespace.BoundInputField",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "RuntimeInspectorNamespace.ColorPicker",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "RuntimeInspectorNamespace.ColorPickerAlphaSlider",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "RuntimeInspectorNamespace.ColorWheelControl",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "RuntimeInspectorNamespace.DraggedReferenceItem",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "RuntimeInspectorNamespace.ObjectReferencePicker",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "RuntimeInspectorNamespace.ObjectReferencePickerItem",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "RuntimeInspectorNamespace.PointerEventListener",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "RuntimeInspectorNamespace.RecycledListView",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "RuntimeInspectorNamespace.Tooltip",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "RuntimeInspectorNamespace.UISkin",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "RuntimeInspectorNamespace.WindowDragHandler",
-            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -460,17 +341,19 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "UnityConnectSettings",
-            "fullManagedTypeName": "UnityEditor.UnityConnectSettings",
-            "moduleName": "UnityConnect",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "VFXManager",
             "fullManagedTypeName": "UnityEditor.VFXManager",
             "moduleName": "VFX",
             "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Animation",
+            "fullManagedTypeName": "UnityEngine.Animation",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Flam/Scenes/FlamCamera.unity"
+            ]
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
@@ -639,15 +522,6 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Light",
-            "fullManagedTypeName": "UnityEngine.Light",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "LightmapSettings",
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
@@ -723,6 +597,24 @@
             "nativeClass": "Object",
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Flam/Scenes/FlamCamera.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "ParticleSystem",
+            "fullManagedTypeName": "UnityEngine.ParticleSystem",
+            "moduleName": "ParticleSystem",
+            "usedInScenes": [
+                "Assets/Flam/Scenes/FlamCamera.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "ParticleSystemRenderer",
+            "fullManagedTypeName": "UnityEngine.ParticleSystemRenderer",
+            "moduleName": "ParticleSystem",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity"
             ]
@@ -965,13 +857,6 @@
         {
             "managedAssemblyName": "Unity.RenderPipelines.Universal.Runtime.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.Rendering.Universal.UniversalAdditionalLightData",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.RenderPipelines.Universal.Runtime.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.Rendering.Universal.UniversalRendererData",
             "moduleName": "",
             "usedInScenes": []
@@ -1132,13 +1017,6 @@
         {
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.UI.InputField",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.UI.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.UI.LayoutElement",
             "moduleName": "",
             "usedInScenes": []
@@ -1153,20 +1031,6 @@
         {
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.UI.RawImage",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.UI.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.UI.RectMask2D",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.UI.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.UI.Scrollbar",
             "moduleName": "",
             "usedInScenes": []
@@ -1175,6 +1039,13 @@
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.UI.ScrollRect",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.Slider",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -1198,6 +1069,15 @@
             "fullManagedTypeName": "UnityEngine.UI.VerticalLayoutGroup",
             "moduleName": "",
             "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "VideoClip",
+            "fullManagedTypeName": "UnityEngine.Video.VideoClip",
+            "moduleName": "Video",
+            "usedInScenes": [
+                "Assets/Flam/Scenes/FlamCamera.unity"
+            ]
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
@@ -1254,69 +1134,6 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "VuforiaTrackableController",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Vuplex.WebView.CanvasKeyboard",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Vuplex.WebView.CanvasPointerInputDetector",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Vuplex.WebView.CanvasWebViewPrefab",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Vuplex.WebView.DefaultPointerInputDetector",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Vuplex.WebView.Internal.CanvasViewportMaterialView",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Vuplex.WebView.Internal.ViewportMaterialView",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Vuplex.WebView.Keyboard",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Vuplex.WebView.WebViewPrefab",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "VuplexController",
             "moduleName": "",
             "usedInScenes": []
         }
@@ -2587,6 +2404,22 @@
             "baseModule": "Editor"
         },
         {
+            "name": "RoslynAdditionalFileImporter",
+            "qualifiedName": "RoslynAdditionalFileImporter",
+            "nativeNamespace": "",
+            "module": "Core",
+            "baseName": "AssetImporter",
+            "baseModule": "Editor"
+        },
+        {
+            "name": "RoslynAnalyzerConfigImporter",
+            "qualifiedName": "RoslynAnalyzerConfigImporter",
+            "nativeNamespace": "",
+            "module": "Core",
+            "baseName": "AssetImporter",
+            "baseModule": "Editor"
+        },
+        {
             "name": "RuleSetFileImporter",
             "qualifiedName": "RuleSetFileImporter",
             "nativeNamespace": "",
@@ -3029,6 +2862,22 @@
         {
             "name": "RayTracingShader",
             "qualifiedName": "RayTracingShader",
+            "nativeNamespace": "",
+            "module": "Core",
+            "baseName": "NamedObject",
+            "baseModule": "Core"
+        },
+        {
+            "name": "RoslynAdditionalFileAsset",
+            "qualifiedName": "RoslynAdditionalFileAsset",
+            "nativeNamespace": "",
+            "module": "Core",
+            "baseName": "NamedObject",
+            "baseModule": "Core"
+        },
+        {
+            "name": "RoslynAnalyzerConfigAsset",
+            "qualifiedName": "RoslynAnalyzerConfigAsset",
             "nativeNamespace": "",
             "module": "Core",
             "baseName": "NamedObject",
