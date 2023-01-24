@@ -24,7 +24,7 @@ If you want to read the full API documentation of SaaS SDK, see [here].
 - Import the ```FlamCam.h``` and ```FlamCam.m``` file located in this [Sample App] to your Native iOS Project.
 - Use below mentioned methods to load Flam Cam.
     ```
-    [((FlamCam *)[[UIApplication sharedApplication] delegate]) initFlamCam:@"EnterSaaSKeyHere" privateKey:@"EnterPrivateKey" clientName: @"EnterSaaSNameHere" source:@"SAAS"];
+    [((FlamCam *)[[UIApplication sharedApplication] delegate]) initFlamCam:@"EnterSaaSKeyHere" privateKey:@"EnterPrivateKeyHere" clientName: @"EnterSaaSNameHere" source:@"SAAS"];
     [((FlamCam *)[[UIApplication sharedApplication] delegate]) loadFlamCamView];
     ```
     To load the Flam Cam use the below parameters, All parameters are required unless otherwise stated.
