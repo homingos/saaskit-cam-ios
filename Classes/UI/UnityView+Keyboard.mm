@@ -43,49 +43,40 @@ static double GetTimeInSeconds()
     size_t sizeOfKeyboardCommands = baseLayout.length + numpadLayout.length + upperCaseLetters.length + 11;
     NSMutableArray* commands = [NSMutableArray arrayWithCapacity: sizeOfKeyboardCommands];
 
-    void (^addKey)(NSString *keyName, UIKeyModifierFlags modifierFlags) = ^(NSString *keyName, UIKeyModifierFlags modifierFlags)
-    {
-        UIKeyCommand* command = [UIKeyCommand keyCommandWithInput: keyName modifierFlags: modifierFlags action: @selector(handleCommand:)];
-#if UNITY_HAS_IOSSDK_15_0
-        if (@available(iOS 15.0, *))
-            command.wantsPriorityOverSystemBehavior = YES;
-#endif
-        [commands addObject: command];
-    };
-
     for (NSInteger i = 0; i < baseLayout.length; ++i)
     {
         NSString* input = [baseLayout substringWithRange: NSMakeRange(i, 1)];
-        addKey(input, kNilOptions);
+        [commands addObject: [UIKeyCommand keyCommandWithInput: input modifierFlags: kNilOptions action: @selector(handleCommand:)]];
     }
     for (NSInteger i = 0; i < numpadLayout.length; ++i)
     {
         NSString* input = [numpadLayout substringWithRange: NSMakeRange(i, 1)];
-        addKey(input, UIKeyModifierNumericPad);
+        [commands addObject: [UIKeyCommand keyCommandWithInput: input modifierFlags: UIKeyModifierNumericPad action: @selector(handleCommand:)]];
     }
+
     for (NSInteger i = 0; i < upperCaseLetters.length; ++i)
     {
         NSString* input = [upperCaseLetters substringWithRange: NSMakeRange(i, 1)];
-        addKey(input, UIKeyModifierShift);
+        [commands addObject: [UIKeyCommand keyCommandWithInput: input modifierFlags: UIKeyModifierShift action: @selector(handleCommand:)]];
     }
 
     // pageUp, pageDown
-    addKey(@"UIKeyInputPageUp", kNilOptions);
-    addKey(@"UIKeyInputPageDown", kNilOptions);
+    [commands addObject: [UIKeyCommand keyCommandWithInput: @"UIKeyInputPageUp" modifierFlags: kNilOptions action: @selector(handleCommand:)]];
+    [commands addObject: [UIKeyCommand keyCommandWithInput: @"UIKeyInputPageDown" modifierFlags: kNilOptions action: @selector(handleCommand:)]];
 
     // up, down, left, right, esc
-    addKey(UIKeyInputUpArrow, kNilOptions);
-    addKey(UIKeyInputDownArrow, kNilOptions);
-    addKey(UIKeyInputLeftArrow, kNilOptions);
-    addKey(UIKeyInputRightArrow, kNilOptions);
-    addKey(UIKeyInputEscape, kNilOptions);
+    [commands addObject: [UIKeyCommand keyCommandWithInput: UIKeyInputUpArrow modifierFlags: kNilOptions action: @selector(handleCommand:)]];
+    [commands addObject: [UIKeyCommand keyCommandWithInput: UIKeyInputDownArrow modifierFlags: kNilOptions action: @selector(handleCommand:)]];
+    [commands addObject: [UIKeyCommand keyCommandWithInput: UIKeyInputLeftArrow modifierFlags: kNilOptions action: @selector(handleCommand:)]];
+    [commands addObject: [UIKeyCommand keyCommandWithInput: UIKeyInputRightArrow modifierFlags: kNilOptions action: @selector(handleCommand:)]];
+    [commands addObject: [UIKeyCommand keyCommandWithInput: UIKeyInputEscape modifierFlags: kNilOptions action: @selector(handleCommand:)]];
 
     // caps Lock, shift, control, option, command
-    addKey(@"", UIKeyModifierAlphaShift);
-    addKey(@"", UIKeyModifierShift);
-    addKey(@"", UIKeyModifierControl);
-    addKey(@"", UIKeyModifierAlternate);
-    addKey(@"", UIKeyModifierCommand);
+    [commands addObject: [UIKeyCommand keyCommandWithInput: @"" modifierFlags: UIKeyModifierAlphaShift action: @selector(handleCommand:)]];
+    [commands addObject: [UIKeyCommand keyCommandWithInput: @"" modifierFlags: UIKeyModifierShift action: @selector(handleCommand:)]];
+    [commands addObject: [UIKeyCommand keyCommandWithInput: @"" modifierFlags: UIKeyModifierControl action: @selector(handleCommand:)]];
+    [commands addObject: [UIKeyCommand keyCommandWithInput: @"" modifierFlags: UIKeyModifierAlternate action: @selector(handleCommand:)]];
+    [commands addObject: [UIKeyCommand keyCommandWithInput: @"" modifierFlags: UIKeyModifierCommand action: @selector(handleCommand:)]];
 
     keyboardCommands = commands.copy;
 }

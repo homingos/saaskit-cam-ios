@@ -11,7 +11,7 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDisplayName</key>
-    <string>flam-camera-sdk</string>
+    <string>ZingcamSDK</string>
     <key>CFBundleExecutable</key>
     <string>${EXECUTABLE_NAME}</string>
     <key>CFBundleIdentifier</key>
@@ -23,7 +23,7 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>1.0</string>
+    <string>1.1</string>
     <key>CFBundleVersion</key>
     <string>0</string>
     <key>LSRequiresIPhoneOS</key>
@@ -34,11 +34,15 @@
       <true />
     </dict>
     <key>NSCameraUsageDescription</key>
-    <string>$(PRODUCT_NAME) uses camera for augmented reality</string>
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string>$(PRODUCT_NAME) uses microphone for augmented reality</string>
+    <string>camera is using for augmented reality</string>
     <key>NSMicrophoneUsageDescription</key>
-    <string>$(PRODUCT_NAME) uses location for location based AR content</string>
+    <string>microphone is using for augmented reality</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>The app requires access to Photos to save media to it.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>The app requires access to Photos to save media to it.</string>
+    <key>PHPhotoLibraryPreventAutomaticLimitedAccessAlert</key>
+    <true />
     <key>UILaunchStoryboardName</key>
     <string>LaunchScreen-iPhone</string>
     <key>UILaunchStoryboardName~ipad</key>
@@ -71,8 +75,8 @@
     <key>Unity_LoadingActivityIndicatorStyle</key>
     <integer>-1</integer>
     <key>UnityCloudProjectID</key>
-    <string />
+    <string></string>
     <key>UnityCrashSubmissionURL</key>
-    <string />
+    <string></string>
   </dict>
 </plist>

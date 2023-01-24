@@ -63,7 +63,6 @@ extern "C" void UnityKeyboard_LayoutChanged(NSString* layout);
     // not pretty but seems like easiest way to keep "we are rotating" status
     BOOL            _rotating;
     NSRange         _hiddenSelection;
-    NSRange         _selectionRequest;
 
     // used for < iOS 14 external keyboard
     CGFloat         _heightOfKeyboard;
@@ -77,15 +76,6 @@ extern "C" void UnityKeyboard_LayoutChanged(NSString* layout);
 @synthesize hasUsedDictation;
 
 
-- (void)setPendingSelectionRequest
-{
-    if (_selectionRequest.location != NSNotFound)
-    {
-        _keyboard.selection = _selectionRequest;
-        _selectionRequest.location = NSNotFound;
-    }
-}
-
 - (BOOL)textFieldShouldReturn:(UITextField*)textFieldObj
 {
     [self textInputDone: nil];
@@ -95,7 +85,6 @@ extern "C" void UnityKeyboard_LayoutChanged(NSString* layout);
 #if PLATFORM_IOS
 - (void)textInputModeDidChange:(NSNotification*)notification
 {
-    [self setPendingSelectionRequest];
     // Apple reports back the primary language of the current keyboard text input mode using BCP 47 language code i.e "en-GB"
     // but this also (undocumented) will return "dictation" when using voice dictation and "emoji" when using the emoji keyboard.
     if ([_keyboard->inputView.textInputMode.primaryLanguage isEqualToString: @"dictation"])
@@ -166,7 +155,6 @@ extern "C" void UnityKeyboard_LayoutChanged(NSString* layout);
     if (notification.userInfo == nil || inputView == nil)
         return;
 
-    [self setPendingSelectionRequest];
     CGRect srcRect  = [[notification.userInfo objectForKey: UIKeyboardFrameEndUserInfoKey] CGRectValue];
     CGRect rect     = [UnityGetGLView() convertRect: srcRect fromView: nil];
     rect.origin.y = [UnityGetGLView() frame].size.height - rect.size.height; // iPhone X sometimes reports wrong y value for keyboard
@@ -428,7 +416,6 @@ extern "C" void UnityKeyboard_LayoutChanged(NSString* layout);
     _status     = Visible;
     UnityKeyboard_StatusChanged(_status);
     _active     = YES;
-    _selectionRequest.location = NSNotFound;
 }
 
 // we need to show/hide keyboard to react to orientation too, so extract we extract UI fiddling
@@ -596,7 +583,6 @@ extern "C" void UnityKeyboard_LayoutChanged(NSString* layout);
     [textInput setSelectedTextRange: textRange];
     if (_inputHidden)
         _hiddenSelection = range;
-    _selectionRequest = range;
 }
 
 + (void)StartReorientation
@@ -939,10 +925,12 @@ extern "C" int UnityKeyboard_CanSetSelection()
 
 extern "C" void UnityKeyboard_SetSelection(int location, int length)
 {
-    if (_keyboard)
-    {
-        _keyboard.selection = NSMakeRange(location, length);
-    }
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 0.1 * NSEC_PER_SEC), dispatch_get_main_queue(), ^(void) {
+        if (_keyboard)
+        {
+            _keyboard.selection = NSMakeRange(location, length);
+        }
+    });
 }
 
 //==============================================================================

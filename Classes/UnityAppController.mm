@@ -132,14 +132,20 @@ NSInteger _forceInterfaceOrientationMask = 0;
     UnitySetPlayerFocus(1);
 
     AVAudioSession* audioSession = [AVAudioSession sharedInstance];
-    // If Unity audio is disabled, we set the category to ambient to make sure we don't mute other app's audio. We set the audio session
-    // to active so we can get outputVolume callbacks. If Unity audio is enabled, FMOD should have already handled all of this AVAudioSession init.
-    if (!UnityIsAudioManagerAvailableAndEnabled())
+    [audioSession setCategory: AVAudioSessionCategoryAmbient error: nil];
+    if (UnityIsAudioManagerAvailableAndEnabled())
     {
-        [audioSession setCategory: AVAudioSessionCategoryAmbient error: nil];
-        [audioSession setActive: YES error: nil];
+        if (UnityShouldPrepareForIOSRecording())
+        {
+            [audioSession setCategory: AVAudioSessionCategoryPlayAndRecord error: nil];
+        }
+        else if (UnityShouldMuteOtherAudioSources())
+        {
+            [audioSession setCategory: AVAudioSessionCategorySoloAmbient error: nil];
+        }
     }
 
+    [audioSession setActive: YES error: nil];
     [audioSession addObserver: self forKeyPath: @"outputVolume" options: 0 context: nil];
     UnityUpdateMuteState([audioSession outputVolume] < 0.01f ? 1 : 0);
 
