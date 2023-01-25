@@ -9,7 +9,7 @@ on:
         default: 'PATCH'
       label:
         description: 'Add Labels. i.e final, alpha, rc'
-        required: true
+        required: false
         default: ''
 
 jobs:
