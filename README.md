@@ -16,10 +16,10 @@ If you want to read the full API documentation of SaaS SDK, see [here].
 - With this step we will add Unity player in the form of a framework to your app, it does not change the behavior of your app yet
     - Select NativeiOSApp target from your project 
     - in "General" tab / "Frameworks, Libraries, and Embedded Content" press + 
-    - Add UnityFramework.framework, UnityDriver.framework, VuforiaEngine.framework
+    - Add UnityFramework.framework, UnityDriver.framework, VuforiaEngine.framework, NatCorder.framework
     <br><img src="images/addToEmbeddedContent.png">
     - in "Build Phases" tab, expand "Link Binary With Libraries"
-    - remove UnityFramework.framework, UnityDriver.framework, VuforiaEngine.framework from the list (select it and press - )
+    - remove UnityFramework.framework, UnityDriver.framework, VuforiaEngine.framework, NatCorder.framework from the list (select it and press - )
     <br><img src="images/removeLink.png">
 - Import the ```FlamCam.h``` and ```FlamCam.m``` file located in this [Sample App] to your Native iOS Project.
 - Use below mentioned methods to load Flam Cam.
