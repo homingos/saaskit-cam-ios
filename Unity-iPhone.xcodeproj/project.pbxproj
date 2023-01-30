@@ -177,7 +177,7 @@
 		55F4417D9110E4ED114C97DD /* mscorlib12.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37EF4F148DB1CC8491F7AE59 /* mscorlib12.cpp */; };
 		5623C57617FDCB0800090B9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		5623C57717FDCB0800090B9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830B5C100E5ED4C100C7819F /* UIKit.framework */; };
-		5623C57D17FDCB0900090B9E = {isa = PBXBuildFile; fileRef = 5623C57B17FDCB0900090B9E /* InfoPlist.strings */; };
+		5623C57D17FDCB0900090B9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5623C57B17FDCB0900090B9E /* InfoPlist.strings */; };
 		5623C57F17FDCB0900090B9E /* Unity_iPhone_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5623C57E17FDCB0900090B9E /* Unity_iPhone_Tests.m */; };
 		56954B5D86E65CE56E90BDE6 /* System.Xml4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50994C9AA9F8DDCD39B9CC17 /* System.Xml4.cpp */; };
 		56C56C9817D6015200616839 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56C56C9717D6015100616839 /* Images.xcassets */; };
@@ -405,6 +405,7 @@
 		AC6E418398C68AB5092233E5 /* mscorlib16.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90FA4E41954B599E655D4F1B /* mscorlib16.cpp */; };
 		ACCE4EB7962FE1905381AE7A /* BestHTTP24.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D67548B6BA6C17BE755DB535 /* BestHTTP24.cpp */; };
 		AD0B4D2EB448315EBAE49EB4 /* BestHTTP36.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E3F404CA89D2F31A51E6B5E /* BestHTTP36.cpp */; };
+		AD9B503D2987B93E00D1DF88 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = AA31BF961B55660D0013FB1B /* Data */; };
 		ADE24A639D46D530261BBF90 /* Mono.Security.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5258468584EF2DADB3D84043 /* Mono.Security.cpp */; };
 		AE194016B095422D5444DA9C /* UnityEngine.TextCoreTextEngineModule1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 666C4F74B47E4DF26D61F1FD /* UnityEngine.TextCoreTextEngineModule1.cpp */; };
 		AE584561BEFCF29DD0656ADC /* BestHTTP2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C3F4A6C8B42786ED046CFB4 /* BestHTTP2.cpp */; };
@@ -674,7 +675,7 @@
 		1C174AC397F22FAD984C5F3A /* Assembly-CSharp-firstpass2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Assembly-CSharp-firstpass2.cpp"; path = "Classes/Native/Assembly-CSharp-firstpass2.cpp"; sourceTree = SOURCE_ROOT; };
 		1C7C49D89ACB1DA62C2F2FAA /* Generics39.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics39.cpp; path = Classes/Native/Generics39.cpp; sourceTree = SOURCE_ROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D6058910D05DD3D006BFB54 /* Unity-Target-New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unity-Target-New.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* Unity-Target-New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Unity-Target-New.app"; path = ZingcamSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E574DC8A008FB697D586F8A /* UnityEngine.IMGUIModule1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.IMGUIModule1.cpp; path = Classes/Native/UnityEngine.IMGUIModule1.cpp; sourceTree = SOURCE_ROOT; };
 		1F73448AAABCD8EAE8B5C4CF /* UnityEngine.TilemapModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.TilemapModule.cpp; path = Classes/Native/UnityEngine.TilemapModule.cpp; sourceTree = SOURCE_ROOT; };
 		1FE5472488BC92D7BDF19631 /* UnityEngine.AudioModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.AudioModule_CodeGen.c; path = Classes/Native/UnityEngine.AudioModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
@@ -2226,7 +2227,7 @@
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
 				9D25ABAB213FB47800354C27 /* Embed Frameworks */,
-				2FDB4F11BEC4961B888A286F /* ShellScript */,
+				2FDB4F11BEC4961B888A286F /* Unity Process symbols */,
 			);
 			buildRules = (
 			);
@@ -2264,7 +2265,7 @@
 				9D25AB99213FB47800354C27 /* Frameworks */,
 				9D25AB9A213FB47800354C27 /* Headers */,
 				9D25AB9B213FB47800354C27 /* Resources */,
-				274F4FC6A4CF0F4D49734721 /* ShellScript */,
+				274F4FC6A4CF0F4D49734721 /* Unity Process symbols */,
 			);
 			buildRules = (
 			);
@@ -2283,6 +2284,7 @@
 			attributes = {
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = Z5848HL9S4;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.GameControllers.appletvos = {
@@ -2291,6 +2293,7 @@
 						};
 					};
 					5623C57217FDCB0800090B9E = {
+						DevelopmentTeam = Z5848HL9S4;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1D6058900D05DD3D006BFB54;
 					};
@@ -2341,7 +2344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5623C57D17FDCB0900090B9E,
+				5623C57D17FDCB0900090B9E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2349,32 +2352,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD9B503D2987B93E00D1DF88 /* Data in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		274F4FC6A4CF0F4D49734721 /* ShellScript */ = {
+		274F4FC6A4CF0F4D49734721 /* Unity Process symbols */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"$DWARF_DSYM_FOLDER_PATH/$DWARF_DSYM_FILE_NAME/Contents/Resources/DWARF/$EXECUTABLE_NAME",
+				$DWARF_DSYM_FOLDER_PATH/$DWARF_DSYM_FILE_NAME/Contents/Resources/DWARF/$EXECUTABLE_NAME,
 			);
 			name = "Unity Process symbols";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"$PROJECT_DIR/process_symbols.sh\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"";
 		};
-		2FDB4F11BEC4961B888A286F /* ShellScript */ = {
+		2FDB4F11BEC4961B888A286F /* Unity Process symbols */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"$DWARF_DSYM_FOLDER_PATH/$DWARF_DSYM_FILE_NAME/Contents/Resources/DWARF/$EXECUTABLE_NAME",
+				$DWARF_DSYM_FOLDER_PATH/$DWARF_DSYM_FILE_NAME/Contents/Resources/DWARF/$EXECUTABLE_NAME,
 			);
 			name = "Unity Process symbols";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3499,10 +3503,14 @@
 					CoreMotion,
 					"-weak-lSystem",
 					"$(OTHER_LDFLAGS_FRAMEWORK)",
-					"-weak_framework PhotosUI",
-					"-framework Photos",
-					"-framework MobileCoreServices",
-					"-framework ImageIO",
+					"-weak_framework",
+					PhotosUI,
+					"-framework",
+					Photos,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					ImageIO,
 					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.unity3d.framework;
@@ -3593,10 +3601,14 @@
 					CoreMotion,
 					"-weak-lSystem",
 					"$(OTHER_LDFLAGS_FRAMEWORK)",
-					"-weak_framework PhotosUI",
-					"-framework Photos",
-					"-framework MobileCoreServices",
-					"-framework ImageIO",
+					"-weak_framework",
+					PhotosUI,
+					"-framework",
+					Photos,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					ImageIO,
 					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.unity3d.framework;
@@ -3687,10 +3699,14 @@
 					CoreMotion,
 					"-weak-lSystem",
 					"$(OTHER_LDFLAGS_FRAMEWORK)",
-					"-weak_framework PhotosUI",
-					"-framework Photos",
-					"-framework MobileCoreServices",
-					"-framework ImageIO",
+					"-weak_framework",
+					PhotosUI,
+					"-framework",
+					Photos,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					ImageIO,
 					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.unity3d.framework;
@@ -3783,10 +3799,14 @@
 					CoreMotion,
 					"-weak-lSystem",
 					"$(OTHER_LDFLAGS_FRAMEWORK)",
-					"-weak_framework PhotosUI",
-					"-framework Photos",
-					"-framework MobileCoreServices",
-					"-framework ImageIO",
+					"-weak_framework",
+					PhotosUI,
+					"-framework",
+					Photos,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					ImageIO,
 					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.unity3d.framework;
