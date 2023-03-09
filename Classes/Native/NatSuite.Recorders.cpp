@@ -403,34 +403,34 @@ IL2CPP_EXTERN_C String_t* _stringLiteralEBF5FE0CBF3EEA67902EEA700B7216E3DB0D8E84
 IL2CPP_EXTERN_C String_t* _stringLiteralEE690CB32125E5CF173F31F1580D50D6CB94A584;
 IL2CPP_EXTERN_C String_t* _stringLiteralF13FE9A5DB842114D70C053E3A1F4D1D3DBA8913;
 IL2CPP_EXTERN_C String_t* _stringLiteralFC5DFB2944837CD0B4AA7B57E5EA81E8B8FE6979;
-IL2CPP_EXTERN_C const RuntimeMethod* Array_Sort_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mC3829F48821660B3A8FA95D9C77391134C6BF019_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Array_Sort_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mA99DBF30A6BEEA75DCF632E13F0D4C64E51F8849_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncGPUReadbackRequest_GetData_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mC365851AEF03CCC25905B4A8808B40AB3969C136_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CFinishWritingU3Ed__7_tCF1C740DCA06F81A7E222E908BB9180A6E3A4C41_m4AD49CB19ED1F892CBF2B3BAB0A4827DDC36FE63_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_Create_m4CB15D06286C7AA0BA8318800D23A9D574CBE0E8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_Create_mDEA9352DE851695421F6488EC71FDD8FA221422D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_SetException_m897218C2DB8D7BA446EB263573085805B8F0638C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_SetResult_mB79121C0ACAC704500FAA7350ED0FE6604DDA05E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_SetStateMachine_mE4D48B78E50CA2A3650A856ACF86A3CFBA249C30_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_Start_TisU3CFinishWritingU3Ed__7_tCF1C740DCA06F81A7E222E908BB9180A6E3A4C41_m3B9874F29E2EA18E7AB7ABE57F3AD1BB9AAABD91_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_get_Task_m01EB243CF4396C9A2645F71572B47CF12151974E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AudioInput_OnSampleBuffer_m9C852C9333E34746C74F6434AD09D42C88487061_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* GIFRecorder_Create_m8F800CD2610879074FE764036557C54878614880_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GIFRecorder_Create_m6A86349FE73AF7858B9395EAA24A42EE0F28C7DA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisAudioInputAttachment_t3820CB977D17B35C265FDF8AECD34FAAA8BA29CC_m856DA540549B6374AFA00D863810FE75DA61DE75_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisCameraInputAttachment_t17BF4C0461502F1F1599A74377F5016D32421AF2_m14AB119591743F65098AAB5E2BD09F052BC819D1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* HEVCRecorder_Create_mCB8AC21D90C5B07BC2277B8B284279B7F32AA050_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ImageConversion_EncodeNativeArrayToJPG_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mDA433D0DE7FF15268FB8FC36554372068A2C7C7F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* HEVCRecorder_Create_m819A26A5D4E1F64C170A22FBDD4AC3542B1E4717_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ImageConversion_EncodeNativeArrayToJPG_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m4FF68A852F7F31B13058A6E431582BA98D437CAF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m0F464591A24D8751D7900E64ADEEAB1A08A42A13_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m0A28648201ABCDF216AD744C327E2ED8BDD80A22_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MP4Recorder_Create_m0BA2A64C8621196A89BD73507395BCACE62DFDFE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m43F0AE90A986A434C9B62B82562A021E0B5065C0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mD9261CD83E770034D4BDBB7D3907F4648D8ED4E6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MP4Recorder_Create_m4EA6995AD5D82351EE2C77688FF2B6950B1A71E9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m181D7F12EB826B7D6B73742BFD85A667D533BABA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m3DF14FFECC3CE4E179B56AB77F3BCC0FF90E92BF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1_ToArray_m2E1BCF853BB72AAB8C219A18582F0AB2FA05CF1F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* NativeRecorder_OnRecorderCompleted_mE307AABFEA179EC797CDE00FD5FADC0A99072676_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeRecorder_OnRecorderCompleted_m12AFE233F7FDE875FB6D51047EF4D5DF1796357C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Stopwatch_Start_m35906A38C7D336CF9DD35854C7E170D762A55915_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Stopwatch_Stop_m8F2A2EFD9D7D5B4180A5E5379E5443864618D7DC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1_SetResult_mA4FD1E75C7272079BE7032F18BCDC158463FE3E1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1__ctor_m1E0F0E41DAFB9401D33DE03A55F9BDC5565F0CF1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1_get_Task_m11D993ACE1C12B89F69CA41E3BAAE3698C3AE587_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Task_FromResult_TisString_t_mCE9554AC91EE79860B171D4EFD627B46F6688E0C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Task_FromResult_TisString_t_mD3675A87F3208922F8205BF9BF6AC78BF2DE22C3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Texture2D_GetRawTextureData_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m225198C8CEB0AB84CF9FE0B40337778AA4C75608_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CCommitFramesU3Ed__15_System_Collections_IEnumerator_Reset_m13F554D35E88163490C518DF060AC1DE04A1A695_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3C_ctorU3Eb__7_0_mEB2C1B3BFAD9501F86AD60C2BB57A829B96CB5CC_RuntimeMethod_var;
@@ -1937,15 +1937,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueTuple_2__ctor_mF5D8FB18DBF2C4B2F879
 // System.Void System.Collections.Generic.List`1<System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
 // Unity.Collections.NativeArray`1<T> Unity.Collections.LowLevel.Unsafe.NativeArrayUnsafeUtility::ConvertExistingDataToNativeArray<System.Byte>(System.Void*,System.Int32,Unity.Collections.Allocator)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m43F0AE90A986A434C9B62B82562A021E0B5065C0_gshared (void* ___dataPointer0, int32_t ___length1, int32_t ___allocator2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m181D7F12EB826B7D6B73742BFD85A667D533BABA_gshared (void* ___dataPointer0, int32_t ___length1, int32_t ___allocator2, const RuntimeMethod* method) ;
 // Unity.Collections.NativeArray`1<System.Byte> UnityEngine.ImageConversion::EncodeNativeArrayToJPG<System.Byte>(Unity.Collections.NativeArray`1<T>,UnityEngine.Experimental.Rendering.GraphicsFormat,System.UInt32,System.UInt32,System.UInt32,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ImageConversion_EncodeNativeArrayToJPG_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mDA433D0DE7FF15268FB8FC36554372068A2C7C7F_gshared (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___input0, int32_t ___format1, uint32_t ___width2, uint32_t ___height3, uint32_t ___rowBytes4, int32_t ___quality5, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ImageConversion_EncodeNativeArrayToJPG_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m4FF68A852F7F31B13058A6E431582BA98D437CAF_gshared (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___input0, int32_t ___format1, uint32_t ___width2, uint32_t ___height3, uint32_t ___rowBytes4, int32_t ___quality5, const RuntimeMethod* method) ;
 // T[] Unity.Collections.NativeArray`1<System.Byte>::ToArray()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* NativeArray_1_ToArray_m2E1BCF853BB72AAB8C219A18582F0AB2FA05CF1F_gshared (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Object>::Add(T)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___item0, const RuntimeMethod* method) ;
 // System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Object>::Create()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncTaskMethodBuilder_1_tE810F083929D7952F192036D298085BD4B048AD0 AsyncTaskMethodBuilder_1_Create_mAFCDBB3F3D94DC87243FAB2D72DD85D1EFB68441_gshared (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncTaskMethodBuilder_1_tE810F083929D7952F192036D298085BD4B048AD0 AsyncTaskMethodBuilder_1_Create_m6A59453D00C0143F178809ADFD98C90E8C291ABB_gshared (const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Object>::Start<NatSuite.Recorders.JPGRecorder/<FinishWriting>d__7>(TStateMachine&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_Start_TisU3CFinishWritingU3Ed__7_tCF1C740DCA06F81A7E222E908BB9180A6E3A4C41_m8136E055D62F627295C43E70DA64EAEA1CA44E17_gshared (AsyncTaskMethodBuilder_1_tE810F083929D7952F192036D298085BD4B048AD0* __this, U3CFinishWritingU3Ed__7_tCF1C740DCA06F81A7E222E908BB9180A6E3A4C41* ___stateMachine0, const RuntimeMethod* method) ;
 // System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Object>::get_Task()
@@ -1959,7 +1959,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_SetResult_m0D83
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Object>::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_SetStateMachine_m3BE54983634ABF5BE05200C7894AD0F9F20BDD65_gshared (AsyncTaskMethodBuilder_1_tE810F083929D7952F192036D298085BD4B048AD0* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method) ;
 // System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.Task::FromResult<System.Object>(TResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* Task_FromResult_TisRuntimeObject_mCF2DB27B9C76CBB36764EAAC15108BE463AC3A0A_gshared (RuntimeObject* ___result0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* Task_FromResult_TisRuntimeObject_m3CB407E4DC5135B06ECAFC88B9C4F06612E4B521_gshared (RuntimeObject* ___result0, const RuntimeMethod* method) ;
 // System.Void System.Threading.Tasks.TaskCompletionSource`1<System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskCompletionSource_1__ctor_mBF9A903AD14C4E9CF044B227776C532BA9C40D60_gshared (TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37* __this, const RuntimeMethod* method) ;
 // System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.TaskCompletionSource`1<System.Object>::get_Task()
@@ -1971,7 +1971,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m347338A163A1A0840FA150F7
 // Unity.Collections.NativeArray`1<T> UnityEngine.Rendering.AsyncGPUReadbackRequest::GetData<System.Byte>(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF AsyncGPUReadbackRequest_GetData_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mC365851AEF03CCC25905B4A8808B40AB3969C136_gshared (AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7* __this, int32_t ___layer0, const RuntimeMethod* method) ;
 // System.Void* Unity.Collections.LowLevel.Unsafe.NativeArrayUnsafeUtility::GetUnsafeReadOnlyPtr<System.Byte>(Unity.Collections.NativeArray`1<T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mD9261CD83E770034D4BDBB7D3907F4648D8ED4E6_gshared (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___nativeArray0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m3DF14FFECC3CE4E179B56AB77F3BCC0FF90E92BF_gshared (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___nativeArray0, const RuntimeMethod* method) ;
 // T UnityEngine.GameObject::AddComponent<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.Object>::.ctor(System.Object,System.IntPtr)
@@ -1981,14 +1981,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29
 // System.Void System.Comparison`1<System.Object>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Comparison_1__ctor_mC1E8799BBCE317B612875123C9C894BD470BFE6A_gshared (Comparison_1_t62E531E7B8260E2C6C2718C3BDB8CF8655139645* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // System.Void System.Array::Sort<System.Object>(T[],System.Comparison`1<T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Sort_TisRuntimeObject_mE0EF1BE62619EC75FDB798E19BF6961E7F623CB3_gshared (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___array0, Comparison_1_t62E531E7B8260E2C6C2718C3BDB8CF8655139645* ___comparison1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Sort_TisRuntimeObject_mFC83E20748A5276FAA7611C2DCFCAE00737CF389_gshared (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___array0, Comparison_1_t62E531E7B8260E2C6C2718C3BDB8CF8655139645* ___comparison1, const RuntimeMethod* method) ;
 // Unity.Collections.NativeArray`1<T> UnityEngine.Texture2D::GetRawTextureData<System.Byte>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF Texture2D_GetRawTextureData_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m225198C8CEB0AB84CF9FE0B40337778AA4C75608_gshared (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* __this, const RuntimeMethod* method) ;
 
 // System.Void System.Attribute::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2 (Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA* __this, const RuntimeMethod* method) ;
 // System.IntPtr NatSuite.Recorders.GIFRecorder::Create(System.Int32,System.Int32,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GIFRecorder_Create_m8F800CD2610879074FE764036557C54878614880 (int32_t ___width0, int32_t ___height1, float ___frameDuration2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GIFRecorder_Create_m6A86349FE73AF7858B9395EAA24A42EE0F28C7DA (int32_t ___width0, int32_t ___height1, float ___frameDuration2, const RuntimeMethod* method) ;
 // System.Void NatSuite.Recorders.Internal.NativeRecorder::.ctor(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeRecorder__ctor_m7FB0F5A570781DD826F2D9C83F6F27B74CA5F877 (NativeRecorder_tDA99002F4683A6CE1D49BA1791FCBFEA73D7CED2* __this, intptr_t ___recorder0, const RuntimeMethod* method) ;
 // System.Void NatSuite.Recorders.Internal.NativeRecorder::CommitFrame(System.Void*,System.Int64)
@@ -1998,21 +1998,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeRecorder_CommitSamples_mF73B0CB85E
 // System.Void NatSuite.Recorders.Internal.NativeRecorder::CommitSamples(System.Single*,System.Int32,System.Int64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeRecorder_CommitSamples_m2A7FA2C79D4B842C5AD1F76CE9B738E9E72D2326 (NativeRecorder_tDA99002F4683A6CE1D49BA1791FCBFEA73D7CED2* __this, float* ___nativeBuffer0, int32_t ___sampleCount1, int64_t ___timestamp2, const RuntimeMethod* method) ;
 // System.String NatSuite.Recorders.Internal.Utility::GetPath(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Utility_GetPath_m890864A644FBE33558777D65EDA3E35FBE54F1B5 (String_t* ___extension0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Utility_GetPath_m9C80E7421E4140FDE42E49435A8B003828EE15B2 (String_t* ___extension0, const RuntimeMethod* method) ;
 // System.Void NatSuite.Recorders.Internal.NatCorder::CreateGIFRecorder(System.String,System.Int32,System.Int32,System.Single,System.IntPtr&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_CreateGIFRecorder_mA916B8638821F82B766A8506064547D97577B5F6 (String_t* ___path0, int32_t ___width1, int32_t ___height2, float ___frameDuration3, intptr_t* ___recorder4, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_CreateGIFRecorder_mD4B0D49CF258D79F8C4F55D0C23C4A8DDF6C1260 (String_t* ___path0, int32_t ___width1, int32_t ___height2, float ___frameDuration3, intptr_t* ___recorder4, const RuntimeMethod* method) ;
 // System.Boolean System.IntPtr::op_Inequality(System.IntPtr,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m2F715312CBFCE7E1A81D0689F68B97218E37E5D1 (intptr_t ___value10, intptr_t ___value21, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B (intptr_t ___value10, intptr_t ___value21, const RuntimeMethod* method) ;
 // System.Void System.InvalidOperationException::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162 (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* __this, String_t* ___message0, const RuntimeMethod* method) ;
 // System.IntPtr NatSuite.Recorders.HEVCRecorder::Create(System.Int32,System.Int32,System.Single,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t HEVCRecorder_Create_mCB8AC21D90C5B07BC2277B8B284279B7F32AA050 (int32_t ___width0, int32_t ___height1, float ___frameRate2, int32_t ___sampleRate3, int32_t ___channelCount4, int32_t ___videoBitRate5, int32_t ___keyframeInterval6, int32_t ___audioBitRate7, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t HEVCRecorder_Create_m819A26A5D4E1F64C170A22FBDD4AC3542B1E4717 (int32_t ___width0, int32_t ___height1, float ___frameRate2, int32_t ___sampleRate3, int32_t ___channelCount4, int32_t ___videoBitRate5, int32_t ___keyframeInterval6, int32_t ___audioBitRate7, const RuntimeMethod* method) ;
 // System.Void System.ArgumentException::.ctor(System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentException__ctor_m8F9D40CE19D19B698A70F9A258640EB52DB39B62 (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* __this, String_t* ___message0, String_t* ___paramName1, const RuntimeMethod* method) ;
 // System.Void NatSuite.Recorders.Internal.NatCorder::CreateHEVCRecorder(System.String,System.Int32,System.Int32,System.Single,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.IntPtr&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_CreateHEVCRecorder_m4F0D52AF26E6123AEA2528E7602CCE9DC09B5766 (String_t* ___path0, int32_t ___width1, int32_t ___height2, float ___frameRate3, int32_t ___sampleRate4, int32_t ___channelCount5, int32_t ___videoBitRate6, int32_t ___keyframeInterval7, int32_t ___audioBitRate8, intptr_t* ___recorder9, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_CreateHEVCRecorder_mDF6E602A920E7A2CFEC3AEB0FB147400F43B68F4 (String_t* ___path0, int32_t ___width1, int32_t ___height2, float ___frameRate3, int32_t ___sampleRate4, int32_t ___channelCount5, int32_t ___videoBitRate6, int32_t ___keyframeInterval7, int32_t ___audioBitRate8, intptr_t* ___recorder9, const RuntimeMethod* method) ;
 // System.Boolean System.IntPtr::op_Equality(System.IntPtr,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_m73759B51FE326460AC87A0E386480226EF2FABED (intptr_t ___value10, intptr_t ___value21, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271 (intptr_t ___value10, intptr_t ___value21, const RuntimeMethod* method) ;
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Void System.ValueTuple`2<System.Int32,System.Int32>::.ctor(T1,T2)
@@ -2023,27 +2023,27 @@ inline void ValueTuple_2__ctor_mF5D8FB18DBF2C4B2F879F8E8E12D8FB8FCDB5477 (ValueT
 // System.Void NatSuite.Recorders.JPGRecorder::set_frameSize(System.ValueTuple`2<System.Int32,System.Int32>)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void JPGRecorder_set_frameSize_mDD904FDA5E3C73D13FB4AE8B86C27BD0A19BCF09_inline (JPGRecorder_t1A5EC7A08AC34EFAFCD04AA71EEB72419F430A45* __this, ValueTuple_2_t973F7AB0EF5DD3619E518A966941F10D8098F52D ___value0, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.Mathf::Clamp(System.Int32,System.Int32,System.Int32)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_mA48718D9A20D8972EDD41714CEF6BBF864F442EA_inline (int32_t ___value0, int32_t ___min1, int32_t ___max2, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline (int32_t ___value0, int32_t ___min1, int32_t ___max2, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Threading.Tasks.Task>::.ctor()
 inline void List_1__ctor_m0A28648201ABCDF216AD744C327E2ED8BDD80A22 (List_1_t84C257E858DDB8EA0B6269E08AAD9A2A2018A551* __this, const RuntimeMethod* method)
 {
 	((  void (*) (List_1_t84C257E858DDB8EA0B6269E08AAD9A2A2018A551*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
 }
 // System.IO.DirectoryInfo System.IO.Directory::CreateDirectory(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* Directory_CreateDirectory_mD89FECDFB25BC52F866DC0B1BB8552334FB249D2 (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* Directory_CreateDirectory_m16EC5CE8561A997C6635E06DC24C77590F29D94F (String_t* ___path0, const RuntimeMethod* method) ;
 // System.Void NatSuite.Recorders.JPGRecorder/<>c__DisplayClass6_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0__ctor_mEBC6D0C1A3753C8F736C6BB88D1FADAB6A424A72 (U3CU3Ec__DisplayClass6_0_t8D47B2C9522EE66235032697385E820B12EEC751* __this, const RuntimeMethod* method) ;
 // System.ValueTuple`2<System.Int32,System.Int32> NatSuite.Recorders.JPGRecorder::get_frameSize()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ValueTuple_2_t973F7AB0EF5DD3619E518A966941F10D8098F52D JPGRecorder_get_frameSize_m52A148E7CAD4C1E86FE8F649420A59C2B3A26D19_inline (JPGRecorder_t1A5EC7A08AC34EFAFCD04AA71EEB72419F430A45* __this, const RuntimeMethod* method) ;
 // Unity.Collections.NativeArray`1<T> Unity.Collections.LowLevel.Unsafe.NativeArrayUnsafeUtility::ConvertExistingDataToNativeArray<System.Byte>(System.Void*,System.Int32,Unity.Collections.Allocator)
-inline NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m43F0AE90A986A434C9B62B82562A021E0B5065C0 (void* ___dataPointer0, int32_t ___length1, int32_t ___allocator2, const RuntimeMethod* method)
+inline NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m181D7F12EB826B7D6B73742BFD85A667D533BABA (void* ___dataPointer0, int32_t ___length1, int32_t ___allocator2, const RuntimeMethod* method)
 {
-	return ((  NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF (*) (void*, int32_t, int32_t, const RuntimeMethod*))NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m43F0AE90A986A434C9B62B82562A021E0B5065C0_gshared)(___dataPointer0, ___length1, ___allocator2, method);
+	return ((  NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF (*) (void*, int32_t, int32_t, const RuntimeMethod*))NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m181D7F12EB826B7D6B73742BFD85A667D533BABA_gshared)(___dataPointer0, ___length1, ___allocator2, method);
 }
 // Unity.Collections.NativeArray`1<System.Byte> UnityEngine.ImageConversion::EncodeNativeArrayToJPG<System.Byte>(Unity.Collections.NativeArray`1<T>,UnityEngine.Experimental.Rendering.GraphicsFormat,System.UInt32,System.UInt32,System.UInt32,System.Int32)
-inline NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ImageConversion_EncodeNativeArrayToJPG_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mDA433D0DE7FF15268FB8FC36554372068A2C7C7F (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___input0, int32_t ___format1, uint32_t ___width2, uint32_t ___height3, uint32_t ___rowBytes4, int32_t ___quality5, const RuntimeMethod* method)
+inline NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ImageConversion_EncodeNativeArrayToJPG_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m4FF68A852F7F31B13058A6E431582BA98D437CAF (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___input0, int32_t ___format1, uint32_t ___width2, uint32_t ___height3, uint32_t ___rowBytes4, int32_t ___quality5, const RuntimeMethod* method)
 {
-	return ((  NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF (*) (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF, int32_t, uint32_t, uint32_t, uint32_t, int32_t, const RuntimeMethod*))ImageConversion_EncodeNativeArrayToJPG_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mDA433D0DE7FF15268FB8FC36554372068A2C7C7F_gshared)(___input0, ___format1, ___width2, ___height3, ___rowBytes4, ___quality5, method);
+	return ((  NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF (*) (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF, int32_t, uint32_t, uint32_t, uint32_t, int32_t, const RuntimeMethod*))ImageConversion_EncodeNativeArrayToJPG_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m4FF68A852F7F31B13058A6E431582BA98D437CAF_gshared)(___input0, ___format1, ___width2, ___height3, ___rowBytes4, ___quality5, method);
 }
 // T[] Unity.Collections.NativeArray`1<System.Byte>::ToArray()
 inline ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* NativeArray_1_ToArray_m2E1BCF853BB72AAB8C219A18582F0AB2FA05CF1F (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF* __this, const RuntimeMethod* method)
@@ -2053,16 +2053,16 @@ inline ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* NativeArray_1_ToArr
 // System.Void System.Action::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // System.Threading.Tasks.Task System.Threading.Tasks.Task::Run(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* Task_Run_mBD6EF33232D13F2183A43D0A526A220C4F0181B4 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___action0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* Task_Run_m03529F41B4EEF4AC57C3F110767A0E3AF599C853 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___action0, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Threading.Tasks.Task>::Add(T)
 inline void List_1_Add_m0F464591A24D8751D7900E64ADEEAB1A08A42A13_inline (List_1_t84C257E858DDB8EA0B6269E08AAD9A2A2018A551* __this, Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___item0, const RuntimeMethod* method)
 {
 	((  void (*) (List_1_t84C257E858DDB8EA0B6269E08AAD9A2A2018A551*, Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___item0, method);
 }
 // System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String>::Create()
-inline AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E AsyncTaskMethodBuilder_1_Create_m4CB15D06286C7AA0BA8318800D23A9D574CBE0E8 (const RuntimeMethod* method)
+inline AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E AsyncTaskMethodBuilder_1_Create_mDEA9352DE851695421F6488EC71FDD8FA221422D (const RuntimeMethod* method)
 {
-	return ((  AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E (*) (const RuntimeMethod*))AsyncTaskMethodBuilder_1_Create_mAFCDBB3F3D94DC87243FAB2D72DD85D1EFB68441_gshared)(method);
+	return ((  AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E (*) (const RuntimeMethod*))AsyncTaskMethodBuilder_1_Create_m6A59453D00C0143F178809ADFD98C90E8C291ABB_gshared)(method);
 }
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String>::Start<NatSuite.Recorders.JPGRecorder/<FinishWriting>d__7>(TStateMachine&)
 inline void AsyncTaskMethodBuilder_1_Start_TisU3CFinishWritingU3Ed__7_tCF1C740DCA06F81A7E222E908BB9180A6E3A4C41_m3B9874F29E2EA18E7AB7ABE57F3AD1BB9AAABD91 (AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E* __this, U3CFinishWritingU3Ed__7_tCF1C740DCA06F81A7E222E908BB9180A6E3A4C41* ___stateMachine0, const RuntimeMethod* method)
@@ -2075,15 +2075,15 @@ inline Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* AsyncTaskMethodBuilder_
 	return ((  Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* (*) (AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_get_Task_mEA092EC6F1324A9D694CF6056FA8583F2A2BDC89_gshared)(__this, method);
 }
 // System.Void UnityEngine.Debug::LogError(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___message0, const RuntimeMethod* method) ;
 // System.String System.String::Format(System.String,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m8C122B26BC5AA10E2550AECA16E57DAE10F07E30 (String_t* ___format0, RuntimeObject* ___arg01, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___format0, RuntimeObject* ___arg01, const RuntimeMethod* method) ;
 // System.String System.IO.Path::Combine(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_Combine_m64754D4E08990CE1EBC41CDF197807EE4B115474 (String_t* ___path10, String_t* ___path21, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE (String_t* ___path10, String_t* ___path21, const RuntimeMethod* method) ;
 // System.Void System.IO.File::WriteAllBytes(System.String,System.Byte[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void File_WriteAllBytes_m72C1A24339B30F84A655E6BF516AE1638B2C4668 (String_t* ___path0, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___bytes1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void File_WriteAllBytes_mC491031DA14AA9B591F62D6AD0181D090E081077 (String_t* ___path0, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___bytes1, const RuntimeMethod* method) ;
 // System.Threading.Tasks.Task System.Threading.Tasks.Task::WhenAll(System.Collections.Generic.IEnumerable`1<System.Threading.Tasks.Task>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* Task_WhenAll_m5F2F68F0C44E2A7750AD51DDB00787DDF41EDA7D (RuntimeObject* ___tasks0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* Task_WhenAll_m8145B2BA54AC61628600B12AEF8D7405C6BC7ACC (RuntimeObject* ___tasks0, const RuntimeMethod* method) ;
 // System.Runtime.CompilerServices.TaskAwaiter System.Threading.Tasks.Task::GetAwaiter()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29 (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* __this, const RuntimeMethod* method) ;
 // System.Boolean System.Runtime.CompilerServices.TaskAwaiter::get_IsCompleted()
@@ -2115,15 +2115,15 @@ inline void AsyncTaskMethodBuilder_1_SetStateMachine_mE4D48B78E50CA2A3650A856ACF
 // System.Void NatSuite.Recorders.JPGRecorder/<FinishWriting>d__7::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFinishWritingU3Ed__7_SetStateMachine_mE877E6B7F3CC15B769DBE35FDB3887208F38F3D7 (U3CFinishWritingU3Ed__7_tCF1C740DCA06F81A7E222E908BB9180A6E3A4C41* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method) ;
 // System.IntPtr NatSuite.Recorders.MP4Recorder::Create(System.Int32,System.Int32,System.Single,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t MP4Recorder_Create_m0BA2A64C8621196A89BD73507395BCACE62DFDFE (int32_t ___width0, int32_t ___height1, float ___frameRate2, int32_t ___sampleRate3, int32_t ___channelCount4, int32_t ___videoBitRate5, int32_t ___keyframeInterval6, int32_t ___audioBitRate7, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t MP4Recorder_Create_m4EA6995AD5D82351EE2C77688FF2B6950B1A71E9 (int32_t ___width0, int32_t ___height1, float ___frameRate2, int32_t ___sampleRate3, int32_t ___channelCount4, int32_t ___videoBitRate5, int32_t ___keyframeInterval6, int32_t ___audioBitRate7, const RuntimeMethod* method) ;
 // System.String System.Int32::ToString()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5 (int32_t* __this, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::Log(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219 (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___message0, const RuntimeMethod* method) ;
 // System.Void NatSuite.Recorders.Internal.NatCorder::CreateMP4Recorder(System.String,System.Int32,System.Int32,System.Single,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.IntPtr&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_CreateMP4Recorder_m06F15A519F09E09D65225C72E4A382E749DF4BFD (String_t* ___path0, int32_t ___width1, int32_t ___height2, float ___frameRate3, int32_t ___sampleRate4, int32_t ___channelCount5, int32_t ___videoBitrate6, int32_t ___keyframeInterval7, int32_t ___audioBitRate8, intptr_t* ___recorder9, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_CreateMP4Recorder_m076DAA8E8FD5B7CD13BE6A6622C249F2A434810D (String_t* ___path0, int32_t ___width1, int32_t ___height2, float ___frameRate3, int32_t ___sampleRate4, int32_t ___channelCount5, int32_t ___videoBitrate6, int32_t ___keyframeInterval7, int32_t ___audioBitRate8, intptr_t* ___recorder9, const RuntimeMethod* method) ;
 // System.Void System.IO.FileStream::.ctor(System.String,System.IO.FileMode)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileStream__ctor_m78499F9BE2BE31DA34F123B4399AA457716BD6E6 (FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* __this, String_t* ___path0, int32_t ___mode1, const RuntimeMethod* method) ;
 // System.Void NatSuite.Recorders.WAVRecorder::CommitSamples(System.Single*,System.Int32,System.Int64)
@@ -2133,95 +2133,95 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnmanagedMemoryStream__ctor_mBDBE61F9FD5
 // System.Void System.IO.Stream::CopyTo(System.IO.Stream)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Stream_CopyTo_m61DC54FF3708C2B8AB5C5D63D300AA57ADA01999 (Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* __this, Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___destination0, const RuntimeMethod* method) ;
 // System.Text.Encoding System.Text.Encoding::get_UTF8()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* Encoding_get_UTF8_m9700ADA8E0F244002B2A89B483F1B2133B8FE336 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9 (const RuntimeMethod* method) ;
 // System.Byte[] System.BitConverter::GetBytes(System.Int64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* BitConverter_GetBytes_m2C128EDCD9B369F1429E1A0B7F687C98526115BF (int64_t ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* BitConverter_GetBytes_m794066816CE7E3AF4A549BC3E41315061A98ADA9 (int64_t ___value0, const RuntimeMethod* method) ;
 // System.Byte[] System.BitConverter::GetBytes(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* BitConverter_GetBytes_m343FFC3DD8CF8D0139D0CAEB8ABB0A4D6DAA98F4 (int32_t ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* BitConverter_GetBytes_mCD74C79673617CEBF85F8A653520C860A9F014F9 (int32_t ___value0, const RuntimeMethod* method) ;
 // System.Byte[] System.BitConverter::GetBytes(System.UInt16)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* BitConverter_GetBytes_m1B3C2C0E976C781ACD76AFA80DDBCA844FC73D50 (uint16_t ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* BitConverter_GetBytes_m43CB66A3347C3482B6FB2B3FD327F5327C25E18B (uint16_t ___value0, const RuntimeMethod* method) ;
 // System.Void System.IO.Stream::Dispose()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Stream_Dispose_mCDB42F32A17541CCA6D3A5906827A401570B07A8 (Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* __this, const RuntimeMethod* method) ;
 // System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.Task::FromResult<System.String>(TResult)
-inline Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* Task_FromResult_TisString_t_mCE9554AC91EE79860B171D4EFD627B46F6688E0C (String_t* ___result0, const RuntimeMethod* method)
+inline Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* Task_FromResult_TisString_t_mD3675A87F3208922F8205BF9BF6AC78BF2DE22C3 (String_t* ___result0, const RuntimeMethod* method)
 {
-	return ((  Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* (*) (String_t*, const RuntimeMethod*))Task_FromResult_TisRuntimeObject_mCF2DB27B9C76CBB36764EAAC15108BE463AC3A0A_gshared)(___result0, method);
+	return ((  Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* (*) (String_t*, const RuntimeMethod*))Task_FromResult_TisRuntimeObject_m3CB407E4DC5135B06ECAFC88B9C4F06612E4B521_gshared)(___result0, method);
 }
 // System.Void NatSuite.Recorders.Internal.NativeRecorder::OnRecorderCompleted(System.IntPtr,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeRecorder_OnRecorderCompleted_mE307AABFEA179EC797CDE00FD5FADC0A99072676 (intptr_t ___context0, intptr_t ___path1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeRecorder_OnRecorderCompleted_m12AFE233F7FDE875FB6D51047EF4D5DF1796357C (intptr_t ___context0, intptr_t ___path1, const RuntimeMethod* method) ;
 // System.Void NatSuite.Recorders.Internal.NatCorder::FrameSize(System.IntPtr,System.Int32&,System.Int32&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_FrameSize_mDEB6D4B0B1974507130E91478F6802C7912C83DC (intptr_t ___recorder0, int32_t* ___width1, int32_t* ___height2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_FrameSize_mC9885591070FE44A8EB2EF7DE12CBABAA9976128 (intptr_t ___recorder0, int32_t* ___width1, int32_t* ___height2, const RuntimeMethod* method) ;
 // System.Void NatSuite.Recorders.Internal.NatCorder::CommitFrame(System.IntPtr,System.Void*,System.Int64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_CommitFrame_m29A388F563827D9EAB9396EFF1AC3CFE6CA0821A (intptr_t ___recorder0, void* ___pixelBuffer1, int64_t ___timestamp2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_CommitFrame_m8FB81FD2FD26DA50B111576A8405A8D56A7F401D (intptr_t ___recorder0, void* ___pixelBuffer1, int64_t ___timestamp2, const RuntimeMethod* method) ;
 // System.Void NatSuite.Recorders.Internal.NatCorder::CommitSamples(System.IntPtr,System.Single*,System.Int32,System.Int64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_CommitSamples_mB904D74E4EFCCF3149330AB6D459EC45E5B37874 (intptr_t ___recorder0, float* ___sampleBuffer1, int32_t ___sampleCount2, int64_t ___timestamp3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_CommitSamples_m32E4F6D46D2B9747DB1C864C5B2444A104A8A96D (intptr_t ___recorder0, float* ___sampleBuffer1, int32_t ___sampleCount2, int64_t ___timestamp3, const RuntimeMethod* method) ;
 // System.Void System.Threading.Tasks.TaskCompletionSource`1<System.String>::.ctor()
 inline void TaskCompletionSource_1__ctor_m1E0F0E41DAFB9401D33DE03A55F9BDC5565F0CF1 (TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372* __this, const RuntimeMethod* method)
 {
 	((  void (*) (TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372*, const RuntimeMethod*))TaskCompletionSource_1__ctor_mBF9A903AD14C4E9CF044B227776C532BA9C40D60_gshared)(__this, method);
 }
 // System.Runtime.InteropServices.GCHandle System.Runtime.InteropServices.GCHandle::Alloc(System.Object,System.Runtime.InteropServices.GCHandleType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC GCHandle_Alloc_m1FC35418B654D3F48B4F70D525EBD6A208A59075 (RuntimeObject* ___value0, int32_t ___type1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC GCHandle_Alloc_m3BFD398427352FC756FFE078F01A504B681352EC (RuntimeObject* ___value0, int32_t ___type1, const RuntimeMethod* method) ;
 // System.Void NatSuite.Recorders.Internal.NatCorder/RecordingHandler::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RecordingHandler__ctor_mF3856ADEE508C55616713C629C1DA977FF9A5EE9 (RecordingHandler_t4482042BE3E54FBB6B0F1147F83E39F637BE15CC* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // System.IntPtr System.Runtime.InteropServices.GCHandle::op_Explicit(System.Runtime.InteropServices.GCHandle)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t GCHandle_op_Explicit_m67A1C3E8BC6C8163C5775AE62A514000D00CD9B6_inline (GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t GCHandle_op_Explicit_m03DD8D9FB45D565431455A6EE5C30A87305EF73C_inline (GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC ___value0, const RuntimeMethod* method) ;
 // System.Void NatSuite.Recorders.Internal.NatCorder::FinishWriting(System.IntPtr,NatSuite.Recorders.Internal.NatCorder/RecordingHandler,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_FinishWriting_m175CA50EF9A9F55E45A8C4C3657AF6C9AB4FE731 (intptr_t ___recorder0, RecordingHandler_t4482042BE3E54FBB6B0F1147F83E39F637BE15CC* ___handler1, intptr_t ___context2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_FinishWriting_m03951858641EF4ED654D1335047E002457432C81 (intptr_t ___recorder0, RecordingHandler_t4482042BE3E54FBB6B0F1147F83E39F637BE15CC* ___handler1, intptr_t ___context2, const RuntimeMethod* method) ;
 // System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.TaskCompletionSource`1<System.String>::get_Task()
 inline Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* TaskCompletionSource_1_get_Task_m11D993ACE1C12B89F69CA41E3BAAE3698C3AE587_inline (TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372* __this, const RuntimeMethod* method)
 {
 	return ((  Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* (*) (TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372*, const RuntimeMethod*))TaskCompletionSource_1_get_Task_mF44990297C25C7DBE1E65241C03D0120CB551552_gshared_inline)(__this, method);
 }
 // System.Runtime.InteropServices.GCHandle System.Runtime.InteropServices.GCHandle::op_Explicit(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC GCHandle_op_Explicit_m500B99BF54D923E624C5235A4B370A37C8B7050C (intptr_t ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC GCHandle_op_Explicit_mA5F28206637454AD677BE13DF86C6152190B6F0F (intptr_t ___value0, const RuntimeMethod* method) ;
 // System.Object System.Runtime.InteropServices.GCHandle::get_Target()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GCHandle_get_Target_m481F9508DA5E384D33CD1F4450060DC56BBD4CD5 (GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC* __this, const RuntimeMethod* method) ;
 // System.Void System.Runtime.InteropServices.GCHandle::Free()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GCHandle_Free_m1320A260E487EB1EA6D95F9E54BFFCB5A4EF83A3 (GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC* __this, const RuntimeMethod* method) ;
 // System.String System.Runtime.InteropServices.Marshal::PtrToStringAnsi(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Marshal_PtrToStringAnsi_m86CDF46D9E4810BD7DB9BB52C1036E24A7DD46EE (intptr_t ___ptr0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Marshal_PtrToStringAnsi_m8DF88D9F22FCF791C538A36C9233B3882F579B4A (intptr_t ___ptr0, const RuntimeMethod* method) ;
 // System.Void System.Threading.Tasks.TaskCompletionSource`1<System.String>::SetResult(TResult)
 inline void TaskCompletionSource_1_SetResult_mA4FD1E75C7272079BE7032F18BCDC158463FE3E1 (TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372* __this, String_t* ___result0, const RuntimeMethod* method)
 {
 	((  void (*) (TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372*, String_t*, const RuntimeMethod*))TaskCompletionSource_1_SetResult_m948378015A7A0E42647452EB7003466406B831A4_gshared)(__this, ___result0, method);
 }
 // UnityEngine.RuntimePlatform UnityEngine.Application::get_platform()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Application_get_platform_m1AB34E71D9885B120F6021EB2B11DCB28CD6008D (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138 (const RuntimeMethod* method) ;
 // System.String UnityEngine.Application::get_persistentDataPath()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_persistentDataPath_m787EBC9B0862E7617DCD6CABD2147E61717EAC17 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399 (const RuntimeMethod* method) ;
 // System.String System.IO.Directory::GetCurrentDirectory()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Directory_GetCurrentDirectory_m7EA69F721BEEC05DC0FBF8E9189990BF9F856363 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Directory_GetCurrentDirectory_m576783BDF2FDF97303C15E51713790415BF57CC1 (const RuntimeMethod* method) ;
 // System.DateTime System.DateTime::get_Now()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D DateTime_get_Now_mC336498972C48439ADCD5C50D35FAE0F2A48B0F0 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D DateTime_get_Now_m636CB9651A9099D20BA1CF813A0C69637317325C (const RuntimeMethod* method) ;
 // System.String System.DateTime::ToString(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DateTime_ToString_m6963A84785C320DA776C9FCFFEDAF26C8F1A8D78 (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* __this, String_t* ___format0, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0 (String_t* ___str00, String_t* ___str11, String_t* ___str22, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___str00, String_t* ___str11, String_t* ___str22, const RuntimeMethod* method) ;
 // System.Void NatSuite.Recorders.Inputs.AsyncTextureInput/<>c__DisplayClass1_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0__ctor_m16B517147A3F078783AA1E2AB52FA065DDC19B30 (U3CU3Ec__DisplayClass1_0_t3ABA0E6ECB6BD52ED7476BB4902C1281B420F46D* __this, const RuntimeMethod* method) ;
 // UnityEngine.RenderTexture UnityEngine.RenderTexture::GetTemporary(System.Int32,System.Int32,System.Int32,UnityEngine.RenderTextureFormat)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* RenderTexture_GetTemporary_mEB21705B78CAF6B8F1F6617453A8EE8A94498DE2 (int32_t ___width0, int32_t ___height1, int32_t ___depthBuffer2, int32_t ___format3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* RenderTexture_GetTemporary_mDAD0D2A673F07BEC3B1A9555863E24A479E9BB11 (int32_t ___width0, int32_t ___height1, int32_t ___depthBuffer2, int32_t ___format3, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Graphics::Blit(UnityEngine.Texture,UnityEngine.RenderTexture)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Graphics_Blit_m066854D684B6042B266D306E8E012D2C6C1787BE (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___source0, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___dest1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Graphics_Blit_m8D99E16B74C7D3C8F79F4F142C59DB6B38114504 (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___source0, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___dest1, const RuntimeMethod* method) ;
 // System.Void System.Action`1<UnityEngine.Rendering.AsyncGPUReadbackRequest>::.ctor(System.Object,System.IntPtr)
 inline void Action_1__ctor_m347338A163A1A0840FA150F7ACCC029D46339777 (Action_1_t6AC29B34E68BC53AA807670D868CBB59CD5D995F* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
 	((  void (*) (Action_1_t6AC29B34E68BC53AA807670D868CBB59CD5D995F*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m347338A163A1A0840FA150F7ACCC029D46339777_gshared)(__this, ___object0, ___method1, method);
 }
 // UnityEngine.Rendering.AsyncGPUReadbackRequest UnityEngine.Rendering.AsyncGPUReadback::Request(UnityEngine.Texture,System.Int32,System.Action`1<UnityEngine.Rendering.AsyncGPUReadbackRequest>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7 AsyncGPUReadback_Request_mCEA6A5F99AAA3AE580396779B4AB70BFF9AECC63 (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___src0, int32_t ___mipIndex1, Action_1_t6AC29B34E68BC53AA807670D868CBB59CD5D995F* ___callback2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7 AsyncGPUReadback_Request_m22CAD6F69F987679CF91B84E5DB5933AC6BE2800 (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___src0, int32_t ___mipIndex1, Action_1_t6AC29B34E68BC53AA807670D868CBB59CD5D995F* ___callback2, const RuntimeMethod* method) ;
 // System.Void UnityEngine.RenderTexture::ReleaseTemporary(UnityEngine.RenderTexture)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderTexture_ReleaseTemporary_m7D9B385460ED0D0CF7BCC033605CEBD60A1A232F (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___temp0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderTexture_ReleaseTemporary_mEEF2C1990196FF06FDD0DC190928AD3A023EBDD2 (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___temp0, const RuntimeMethod* method) ;
 // Unity.Collections.NativeArray`1<T> UnityEngine.Rendering.AsyncGPUReadbackRequest::GetData<System.Byte>(System.Int32)
 inline NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF AsyncGPUReadbackRequest_GetData_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mC365851AEF03CCC25905B4A8808B40AB3969C136 (AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7* __this, int32_t ___layer0, const RuntimeMethod* method)
 {
 	return ((  NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF (*) (AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7*, int32_t, const RuntimeMethod*))AsyncGPUReadbackRequest_GetData_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mC365851AEF03CCC25905B4A8808B40AB3969C136_gshared)(__this, ___layer0, method);
 }
 // System.Void* Unity.Collections.LowLevel.Unsafe.NativeArrayUnsafeUtility::GetUnsafeReadOnlyPtr<System.Byte>(Unity.Collections.NativeArray`1<T>)
-inline void* NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mD9261CD83E770034D4BDBB7D3907F4648D8ED4E6 (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___nativeArray0, const RuntimeMethod* method)
+inline void* NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m3DF14FFECC3CE4E179B56AB77F3BCC0FF90E92BF (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___nativeArray0, const RuntimeMethod* method)
 {
-	return ((  void* (*) (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF, const RuntimeMethod*))NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mD9261CD83E770034D4BDBB7D3907F4648D8ED4E6_gshared)(___nativeArray0, method);
+	return ((  void* (*) (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF, const RuntimeMethod*))NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m3DF14FFECC3CE4E179B56AB77F3BCC0FF90E92BF_gshared)(___nativeArray0, method);
 }
 // System.Void NatSuite.Recorders.Inputs.AudioInput::.ctor(NatSuite.Recorders.IMediaRecorder,NatSuite.Recorders.Clocks.IClock,UnityEngine.AudioListener)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioInput__ctor_mF68444BB5FBABF11D20349BC4BD4BE4EBC96B740 (AudioInput_t85AE05EC859D050D3150EE0DE8F147CBC4A89AB3* __this, RuntimeObject* ___recorder0, RuntimeObject* ___clock1, AudioListener_t1D629CE9BC079C8ECDE8F822616E8A8E319EAE35* ___audioListener2, const RuntimeMethod* method) ;
@@ -2232,7 +2232,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioInput__ctor_m9E93E985572B38223F412E
 // System.Void NatSuite.Recorders.Inputs.AudioInput::.ctor(NatSuite.Recorders.IMediaRecorder,NatSuite.Recorders.Clocks.IClock,UnityEngine.AudioSource,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioInput__ctor_m758CC383DAB0F998BBA4463CBC4B3EA789157094 (AudioInput_t85AE05EC859D050D3150EE0DE8F147CBC4A89AB3* __this, RuntimeObject* ___recorder0, RuntimeObject* ___clock1, AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___audioSource2, bool ___mute3, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Object::Destroy(UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mFCDAE6333522488F60597AF019EA90BB1207A5AA (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___obj0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___obj0, const RuntimeMethod* method) ;
 // T UnityEngine.GameObject::AddComponent<NatSuite.Recorders.Inputs.AudioInput/AudioInputAttachment>()
 inline AudioInputAttachment_t3820CB977D17B35C265FDF8AECD34FAAA8BA29CC* GameObject_AddComponent_TisAudioInputAttachment_t3820CB977D17B35C265FDF8AECD34FAAA8BA29CC_m856DA540549B6374AFA00D863810FE75DA61DE75 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
 {
@@ -2244,9 +2244,9 @@ inline void Action_1__ctor_m7120346688C18407FB878E541FC58DC27377537F (Action_1_t
 	((  void (*) (Action_1_t178AACF05C0F15030E739209018FAB278C66C6F3*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___object0, ___method1, method);
 }
 // System.Int32 UnityEngine.AndroidJNI::AttachCurrentThread()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidJNI_AttachCurrentThread_mD5647083E547A77F9377BDB78106D426878A00E7 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidJNI_AttachCurrentThread_m412647220ED1F7D42F9D41F692D1D7DC4696B6D4 (const RuntimeMethod* method) ;
 // System.Void System.Array::Clear(System.Array,System.Int32,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m48B57EC27CADC3463CA98A33373D557DA587FF1B (RuntimeArray* ___array0, int32_t ___index1, int32_t ___length2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB (RuntimeArray* ___array0, int32_t ___index1, int32_t ___length2, const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.Single[]>::Invoke(T)
 inline void Action_1_Invoke_mBE0A0BDCAD5FEDE1C45EA97B02BFEB89E5AA3728_inline (Action_1_t178AACF05C0F15030E739209018FAB278C66C6F3* __this, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___obj0, const RuntimeMethod* method)
 {
@@ -2261,7 +2261,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderTextureDescriptor_set_colorFormat_
 // System.Void NatSuite.Recorders.Inputs.CameraInput::.ctor(NatSuite.Recorders.IMediaRecorder,NatSuite.Recorders.Clocks.IClock,UnityEngine.Camera[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraInput__ctor_mC7DB6707DAF54B0B929D00EAC9075E440A9FA945 (CameraInput_t2EC933CD283AC613F0C5586F86A23207AC4CB64B* __this, RuntimeObject* ___recorder0, RuntimeObject* ___clock1, CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* ___cameras2, const RuntimeMethod* method) ;
 // NatSuite.Recorders.Inputs.ITextureInput NatSuite.Recorders.Inputs.CameraInput::CreateInput(NatSuite.Recorders.IMediaRecorder)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CameraInput_CreateInput_mB507E1DA0726CDB8C021141EAC40391E5ADB5713 (RuntimeObject* ___recorder0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CameraInput_CreateInput_mB840AEC5AF94752C298A17F102E3006A4351EB0B (RuntimeObject* ___recorder0, const RuntimeMethod* method) ;
 // System.Void NatSuite.Recorders.Inputs.CameraInput::.ctor(NatSuite.Recorders.Inputs.ITextureInput,NatSuite.Recorders.Clocks.IClock,UnityEngine.Camera[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraInput__ctor_mFEA4077B99FE1A1BDA315A520355DFE3AD6A954A (CameraInput_t2EC933CD283AC613F0C5586F86A23207AC4CB64B* __this, RuntimeObject* ___input0, RuntimeObject* ___clock1, CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* ___cameras2, const RuntimeMethod* method) ;
 // System.Void System.Comparison`1<UnityEngine.Camera>::.ctor(System.Object,System.IntPtr)
@@ -2270,18 +2270,18 @@ inline void Comparison_1__ctor_mA05E36D38BB75F9EF78F876803A19445EDF81CD5 (Compar
 	((  void (*) (Comparison_1_t49BE56523BDD8BC22EF3396960546FE16DE7B11A*, RuntimeObject*, intptr_t, const RuntimeMethod*))Comparison_1__ctor_mC1E8799BBCE317B612875123C9C894BD470BFE6A_gshared)(__this, ___object0, ___method1, method);
 }
 // System.Void System.Array::Sort<UnityEngine.Camera>(T[],System.Comparison`1<T>)
-inline void Array_Sort_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mC3829F48821660B3A8FA95D9C77391134C6BF019 (CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* ___array0, Comparison_1_t49BE56523BDD8BC22EF3396960546FE16DE7B11A* ___comparison1, const RuntimeMethod* method)
+inline void Array_Sort_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mA99DBF30A6BEEA75DCF632E13F0D4C64E51F8849 (CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* ___array0, Comparison_1_t49BE56523BDD8BC22EF3396960546FE16DE7B11A* ___comparison1, const RuntimeMethod* method)
 {
-	((  void (*) (CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B*, Comparison_1_t49BE56523BDD8BC22EF3396960546FE16DE7B11A*, const RuntimeMethod*))Array_Sort_TisRuntimeObject_mE0EF1BE62619EC75FDB798E19BF6961E7F623CB3_gshared)(___array0, ___comparison1, method);
+	((  void (*) (CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B*, Comparison_1_t49BE56523BDD8BC22EF3396960546FE16DE7B11A*, const RuntimeMethod*))Array_Sort_TisRuntimeObject_mFC83E20748A5276FAA7611C2DCFCAE00737CF389_gshared)(___array0, ___comparison1, method);
 }
 // System.Void UnityEngine.RenderTextureDescriptor::.ctor(System.Int32,System.Int32,UnityEngine.RenderTextureFormat,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderTextureDescriptor__ctor_mE27A3C225736C1F806C12A7C31C0DC66A0AFE61B (RenderTextureDescriptor_t69845881CE6437E4E61F92074F2F84079F23FA46* __this, int32_t ___width0, int32_t ___height1, int32_t ___colorFormat2, int32_t ___depthBufferBits3, const RuntimeMethod* method) ;
 // System.Void UnityEngine.RenderTextureDescriptor::set_sRGB(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderTextureDescriptor_set_sRGB_mAB7A494EE8C496C22B3BBBCB90488312D46F3429 (RenderTextureDescriptor_t69845881CE6437E4E61F92074F2F84079F23FA46* __this, bool ___value0, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.QualitySettings::get_antiAliasing()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t QualitySettings_get_antiAliasing_m1E38110F0E9A028F8CA4D3889D32E6B873912EB0 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t QualitySettings_get_antiAliasing_m71FB82E1C9D9923D313430621C898008D967F516 (const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.Mathf::Max(System.Int32,System.Int32)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Max_m8A4C189A6749DFE3ED8B66D9D3CACD8DB333974F_inline (int32_t ___a0, int32_t ___b1, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline (int32_t ___a0, int32_t ___b1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.RenderTextureDescriptor::set_msaaSamples(System.Int32)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RenderTextureDescriptor_set_msaaSamples_m6910E09489372746391B14FBAF59A7237539D6C4_inline (RenderTextureDescriptor_t69845881CE6437E4E61F92074F2F84079F23FA46* __this, int32_t ___value0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.GameObject::.ctor(System.String)
@@ -2304,7 +2304,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Camera_set_targetTexture_mE6C740F21A72DA
 // System.Void UnityEngine.Camera::Render()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Camera_Render_m6089001EB6710DA9A21C87185D65922F13A24509 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.SystemInfo::get_supportsAsyncGPUReadback()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SystemInfo_get_supportsAsyncGPUReadback_mB4C08F57C9A314EF6DE70A1322486F9F9B06C1D1 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SystemInfo_get_supportsAsyncGPUReadback_m042FD6786738983BF2EDDD06FA633B2F436A7EA2 (const RuntimeMethod* method) ;
 // System.Void NatSuite.Recorders.Inputs.AsyncTextureInput::.ctor(NatSuite.Recorders.IMediaRecorder)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTextureInput__ctor_mC41BFCA2A58AE733A482504F20E9EBC0B6A74A34 (AsyncTextureInput_t96F659D0E82E8AF3081EE7471E12DFB5C5A4F0A5* __this, RuntimeObject* ___recorder0, const RuntimeMethod* method) ;
 // System.Void NatSuite.Recorders.Inputs.TextureInput::.ctor(NatSuite.Recorders.IMediaRecorder)
@@ -2316,15 +2316,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Camera_get_depth_mDF67FFF8ED61750467DFC
 // System.Void UnityEngine.WaitForEndOfFrame::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForEndOfFrame__ctor_m4AF7E576C01E6B04443BB898B1AE5D645F7D45AB (WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663* __this, const RuntimeMethod* method) ;
 // UnityEngine.RenderTexture UnityEngine.RenderTexture::GetTemporary(UnityEngine.RenderTextureDescriptor)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* RenderTexture_GetTemporary_m67446280ADE53A43FC26C671AFE7FE6912888CB5 (RenderTextureDescriptor_t69845881CE6437E4E61F92074F2F84079F23FA46 ___desc0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* RenderTexture_GetTemporary_mA8C827B80D3C07D0B8CDF7F5270FB5D3E53DD235 (RenderTextureDescriptor_t69845881CE6437E4E61F92074F2F84079F23FA46 ___desc0, const RuntimeMethod* method) ;
 // System.Void System.NotSupportedException::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Texture2D::.ctor(System.Int32,System.Int32,UnityEngine.TextureFormat,System.Boolean,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture2D__ctor_mC3F84195D1DCEFC0536B3FBD40A8F8E865A4F32A (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* __this, int32_t ___width0, int32_t ___height1, int32_t ___textureFormat2, bool ___mipChain3, bool ___linear4, const RuntimeMethod* method) ;
 // UnityEngine.RenderTexture UnityEngine.RenderTexture::get_active()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* RenderTexture_get_active_m2204DF860773F9A8CDFF92BDB35CEB72A0643345 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* RenderTexture_get_active_mA4434B3E79DEF2C01CAE0A53061598B16443C9E7 (const RuntimeMethod* method) ;
 // System.Void UnityEngine.RenderTexture::set_active(UnityEngine.RenderTexture)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderTexture_set_active_m045EA53D62FBF79693265E33D14D8E0E8151A37E (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderTexture_set_active_m5EE8E2327EF9B306C1425014CC34C41A8384E7AB (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___value0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Rect::.ctor(System.Single,System.Single,System.Single,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23 (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___x0, float ___y1, float ___width2, float ___height3, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Texture2D::ReadPixels(UnityEngine.Rect,System.Int32,System.Int32,System.Boolean)
@@ -2407,7 +2407,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GIFRecorder__ctor_m3E12C71A8C2E8D23FF76D
 		int32_t L_1 = ___height1;
 		float L_2 = ___frameDuration2;
 		intptr_t L_3;
-		L_3 = GIFRecorder_Create_m8F800CD2610879074FE764036557C54878614880(L_0, L_1, L_2, NULL);
+		L_3 = GIFRecorder_Create_m6A86349FE73AF7858B9395EAA24A42EE0F28C7DA(L_0, L_1, L_2, NULL);
 		NativeRecorder__ctor_m7FB0F5A570781DD826F2D9C83F6F27B74CA5F877(__this, L_3, NULL);
 		// ) : base(Create(width, height, frameDuration)) { }
 		return;
@@ -2451,7 +2451,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GIFRecorder_CommitSamples_m61662889743E8
 	}
 }
 // System.IntPtr NatSuite.Recorders.GIFRecorder::Create(System.Int32,System.Int32,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GIFRecorder_Create_m8F800CD2610879074FE764036557C54878614880 (int32_t ___width0, int32_t ___height1, float ___frameDuration2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GIFRecorder_Create_m6A86349FE73AF7858B9395EAA24A42EE0F28C7DA (int32_t ___width0, int32_t ___height1, float ___frameDuration2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2465,33 +2465,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GIFRecorder_Create_m8F800CD261087907
 	{
 		// NatCorder.CreateGIFRecorder(Utility.GetPath(@".gif"), width, height, frameDuration, out var recorder);
 		String_t* L_0;
-		L_0 = Utility_GetPath_m890864A644FBE33558777D65EDA3E35FBE54F1B5(_stringLiteral0CA4721FC9D82D780671DE2AB61257837402697D, NULL);
+		L_0 = Utility_GetPath_m9C80E7421E4140FDE42E49435A8B003828EE15B2(_stringLiteral0CA4721FC9D82D780671DE2AB61257837402697D, NULL);
 		int32_t L_1 = ___width0;
 		int32_t L_2 = ___height1;
 		float L_3 = ___frameDuration2;
-		NatCorder_CreateGIFRecorder_mA916B8638821F82B766A8506064547D97577B5F6(L_0, L_1, L_2, L_3, (&V_0), NULL);
+		NatCorder_CreateGIFRecorder_mD4B0D49CF258D79F8C4F55D0C23C4A8DDF6C1260(L_0, L_1, L_2, L_3, (&V_0), NULL);
 		// if (recorder != IntPtr.Zero)
 		intptr_t L_4 = V_0;
-		bool L_5;
-		L_5 = IntPtr_op_Inequality_m2F715312CBFCE7E1A81D0689F68B97218E37E5D1(L_4, (0), NULL);
-		if (!L_5)
+		intptr_t L_5 = ((IntPtr_t_StaticFields*)il2cpp_codegen_static_fields_for(IntPtr_t_il2cpp_TypeInfo_var))->___Zero_1;
+		bool L_6;
+		L_6 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B(L_4, L_5, NULL);
+		if (!L_6)
 		{
 			goto IL_0023;
 		}
 	}
 	{
 		// return recorder;
-		intptr_t L_6 = V_0;
-		return L_6;
+		intptr_t L_7 = V_0;
+		return L_7;
 	}
 
 IL_0023:
 	{
 		// throw new InvalidOperationException(@"Failed to create GIFRecorder");
-		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_7 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
-		NullCheck(L_7);
-		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_7, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral925E896F2A445121600A77B1267364A2FC2F74F8)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_7, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&GIFRecorder_Create_m8F800CD2610879074FE764036557C54878614880_RuntimeMethod_var)));
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_8 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
+		NullCheck(L_8);
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_8, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral925E896F2A445121600A77B1267364A2FC2F74F8)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_8, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&GIFRecorder_Create_m6A86349FE73AF7858B9395EAA24A42EE0F28C7DA_RuntimeMethod_var)));
 	}
 }
 #ifdef __clang__
@@ -2516,14 +2517,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HEVCRecorder__ctor_mC0628EB145EE0B989008
 		int32_t L_6 = ___keyframeInterval6;
 		int32_t L_7 = ___audioBitRate7;
 		intptr_t L_8;
-		L_8 = HEVCRecorder_Create_mCB8AC21D90C5B07BC2277B8B284279B7F32AA050(L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, NULL);
+		L_8 = HEVCRecorder_Create_m819A26A5D4E1F64C170A22FBDD4AC3542B1E4717(L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, NULL);
 		NativeRecorder__ctor_m7FB0F5A570781DD826F2D9C83F6F27B74CA5F877(__this, L_8, NULL);
 		// ) : base(Create(width, height, frameRate, sampleRate, channelCount, videoBitRate, keyframeInterval, audioBitRate)) { }
 		return;
 	}
 }
 // System.IntPtr NatSuite.Recorders.HEVCRecorder::Create(System.Int32,System.Int32,System.Single,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t HEVCRecorder_Create_mCB8AC21D90C5B07BC2277B8B284279B7F32AA050 (int32_t ___width0, int32_t ___height1, float ___frameRate2, int32_t ___sampleRate3, int32_t ___channelCount4, int32_t ___videoBitRate5, int32_t ___keyframeInterval6, int32_t ___audioBitRate7, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t HEVCRecorder_Create_m819A26A5D4E1F64C170A22FBDD4AC3542B1E4717 (int32_t ___width0, int32_t ___height1, float ___frameRate2, int32_t ___sampleRate3, int32_t ___channelCount4, int32_t ___videoBitRate5, int32_t ___keyframeInterval6, int32_t ___audioBitRate7, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2547,7 +2548,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t HEVCRecorder_Create_mCB8AC21D90C5B07
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_1 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 		NullCheck(L_1);
 		ArgumentException__ctor_m8F9D40CE19D19B698A70F9A258640EB52DB39B62(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral032439044D26AE70F7AABB9714F7C289E7FBEA63)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralEBF5FE0CBF3EEA67902EEA700B7216E3DB0D8E84)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&HEVCRecorder_Create_mCB8AC21D90C5B07BC2277B8B284279B7F32AA050_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&HEVCRecorder_Create_m819A26A5D4E1F64C170A22FBDD4AC3542B1E4717_RuntimeMethod_var)));
 	}
 
 IL_0015:
@@ -2564,7 +2565,7 @@ IL_0015:
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_3 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 		NullCheck(L_3);
 		ArgumentException__ctor_m8F9D40CE19D19B698A70F9A258640EB52DB39B62(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralEE690CB32125E5CF173F31F1580D50D6CB94A584)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral647E0FB2B5E859CC4BD7C73623B82C8EFABA2563)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&HEVCRecorder_Create_mCB8AC21D90C5B07BC2277B8B284279B7F32AA050_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&HEVCRecorder_Create_m819A26A5D4E1F64C170A22FBDD4AC3542B1E4717_RuntimeMethod_var)));
 	}
 
 IL_002a:
@@ -2582,7 +2583,7 @@ IL_002a:
 		//     out var recorder
 		// );
 		String_t* L_4;
-		L_4 = Utility_GetPath_m890864A644FBE33558777D65EDA3E35FBE54F1B5(_stringLiteral3CC467A802D81D30CFCC13435F3C9EF52A777208, NULL);
+		L_4 = Utility_GetPath_m9C80E7421E4140FDE42E49435A8B003828EE15B2(_stringLiteral3CC467A802D81D30CFCC13435F3C9EF52A777208, NULL);
 		int32_t L_5 = ___width0;
 		int32_t L_6 = ___height1;
 		float L_7 = ___frameRate2;
@@ -2591,29 +2592,30 @@ IL_002a:
 		int32_t L_10 = ___videoBitRate5;
 		int32_t L_11 = ___keyframeInterval6;
 		int32_t L_12 = ___audioBitRate7;
-		NatCorder_CreateHEVCRecorder_m4F0D52AF26E6123AEA2528E7602CCE9DC09B5766(L_4, L_5, L_6, L_7, L_8, L_9, L_10, L_11, L_12, (&V_0), NULL);
+		NatCorder_CreateHEVCRecorder_mDF6E602A920E7A2CFEC3AEB0FB147400F43B68F4(L_4, L_5, L_6, L_7, L_8, L_9, L_10, L_11, L_12, (&V_0), NULL);
 		// if (recorder == IntPtr.Zero)
 		intptr_t L_13 = V_0;
-		bool L_14;
-		L_14 = IntPtr_op_Equality_m73759B51FE326460AC87A0E386480226EF2FABED(L_13, (0), NULL);
-		if (!L_14)
+		intptr_t L_14 = ((IntPtr_t_StaticFields*)il2cpp_codegen_static_fields_for(IntPtr_t_il2cpp_TypeInfo_var))->___Zero_1;
+		bool L_15;
+		L_15 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271(L_13, L_14, NULL);
+		if (!L_15)
 		{
 			goto IL_005f;
 		}
 	}
 	{
 		// throw new InvalidOperationException(@"Failed to create HEVCRecorder");
-		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_15 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
-		NullCheck(L_15);
-		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_15, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralCCC60E81F0167838C6290E77F15D3061869FFBEF)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_15, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&HEVCRecorder_Create_mCB8AC21D90C5B07BC2277B8B284279B7F32AA050_RuntimeMethod_var)));
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_16 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
+		NullCheck(L_16);
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_16, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralCCC60E81F0167838C6290E77F15D3061869FFBEF)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_16, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&HEVCRecorder_Create_m819A26A5D4E1F64C170A22FBDD4AC3542B1E4717_RuntimeMethod_var)));
 	}
 
 IL_005f:
 	{
 		// return recorder;
-		intptr_t L_16 = V_0;
-		return L_16;
+		intptr_t L_17 = V_0;
+		return L_17;
 	}
 }
 #ifdef __clang__
@@ -2668,7 +2670,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JPGRecorder__ctor_m4F5FDAA16F2DFFD344181
 		// this.quality = Mathf.Clamp(quality, 1, 100);
 		int32_t L_3 = ___quality2;
 		int32_t L_4;
-		L_4 = Mathf_Clamp_mA48718D9A20D8972EDD41714CEF6BBF864F442EA_inline(L_3, 1, ((int32_t)100), NULL);
+		L_4 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_3, 1, ((int32_t)100), NULL);
 		__this->___quality_1 = L_4;
 		// this.writeTasks = new List<Task>();
 		List_1_t84C257E858DDB8EA0B6269E08AAD9A2A2018A551* L_5 = (List_1_t84C257E858DDB8EA0B6269E08AAD9A2A2018A551*)il2cpp_codegen_object_new(List_1_t84C257E858DDB8EA0B6269E08AAD9A2A2018A551_il2cpp_TypeInfo_var);
@@ -2679,13 +2681,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JPGRecorder__ctor_m4F5FDAA16F2DFFD344181
 		// this.recordingPath = Utility.GetPath(string.Empty);
 		String_t* L_6 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty_6;
 		String_t* L_7;
-		L_7 = Utility_GetPath_m890864A644FBE33558777D65EDA3E35FBE54F1B5(L_6, NULL);
+		L_7 = Utility_GetPath_m9C80E7421E4140FDE42E49435A8B003828EE15B2(L_6, NULL);
 		__this->___recordingPath_2 = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___recordingPath_2), (void*)L_7);
 		// Directory.CreateDirectory(recordingPath);
 		String_t* L_8 = __this->___recordingPath_2;
 		DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* L_9;
-		L_9 = Directory_CreateDirectory_mD89FECDFB25BC52F866DC0B1BB8552334FB249D2(L_8, NULL);
+		L_9 = Directory_CreateDirectory_m16EC5CE8561A997C6635E06DC24C77590F29D94F(L_8, NULL);
 		// }
 		return;
 	}
@@ -2697,9 +2699,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JPGRecorder_CommitFrame_m28C96E125F436BA
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ImageConversion_EncodeNativeArrayToJPG_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mDA433D0DE7FF15268FB8FC36554372068A2C7C7F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ImageConversion_EncodeNativeArrayToJPG_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m4FF68A852F7F31B13058A6E431582BA98D437CAF_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m0F464591A24D8751D7900E64ADEEAB1A08A42A13_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m43F0AE90A986A434C9B62B82562A021E0B5065C0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m181D7F12EB826B7D6B73742BFD85A667D533BABA_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_ToArray_m2E1BCF853BB72AAB8C219A18582F0AB2FA05CF1F_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass6_0_U3CCommitFrameU3Eb__0_m9DA335675E098F525B4242FA578EB20C42FA0613_RuntimeMethod_var);
@@ -2733,7 +2735,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JPGRecorder_CommitFrame_m28C96E125F436BA
 		L_5 = JPGRecorder_get_frameSize_m52A148E7CAD4C1E86FE8F649420A59C2B3A26D19_inline(__this, NULL);
 		int32_t L_6 = L_5.___Item2_1;
 		NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF L_7;
-		L_7 = NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m43F0AE90A986A434C9B62B82562A021E0B5065C0(L_2, ((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(L_4, L_6)), 4)), 1, NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m43F0AE90A986A434C9B62B82562A021E0B5065C0_RuntimeMethod_var);
+		L_7 = NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m181D7F12EB826B7D6B73742BFD85A667D533BABA(L_2, ((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(L_4, L_6)), 4)), 1, NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m181D7F12EB826B7D6B73742BFD85A667D533BABA_RuntimeMethod_var);
 		V_0 = L_7;
 		// var buffer = ImageConversion.EncodeNativeArrayToJPG(
 		//     nativeArray,
@@ -2752,7 +2754,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JPGRecorder_CommitFrame_m28C96E125F436BA
 		int32_t L_13 = L_12.___Item2_1;
 		int32_t L_14 = __this->___quality_1;
 		NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF L_15;
-		L_15 = ImageConversion_EncodeNativeArrayToJPG_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mDA433D0DE7FF15268FB8FC36554372068A2C7C7F(L_9, 8, L_11, L_13, 0, L_14, ImageConversion_EncodeNativeArrayToJPG_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mDA433D0DE7FF15268FB8FC36554372068A2C7C7F_RuntimeMethod_var);
+		L_15 = ImageConversion_EncodeNativeArrayToJPG_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m4FF68A852F7F31B13058A6E431582BA98D437CAF(L_9, 8, L_11, L_13, 0, L_14, ImageConversion_EncodeNativeArrayToJPG_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m4FF68A852F7F31B13058A6E431582BA98D437CAF_RuntimeMethod_var);
 		V_2 = L_15;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_16;
 		L_16 = NativeArray_1_ToArray_m2E1BCF853BB72AAB8C219A18582F0AB2FA05CF1F((&V_2), NativeArray_1_ToArray_m2E1BCF853BB72AAB8C219A18582F0AB2FA05CF1F_RuntimeMethod_var);
@@ -2774,7 +2776,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JPGRecorder_CommitFrame_m28C96E125F436BA
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_21, L_17, (intptr_t)((void*)U3CU3Ec__DisplayClass6_0_U3CCommitFrameU3Eb__0_m9DA335675E098F525B4242FA578EB20C42FA0613_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_22;
-		L_22 = Task_Run_mBD6EF33232D13F2183A43D0A526A220C4F0181B4(L_21, NULL);
+		L_22 = Task_Run_m03529F41B4EEF4AC57C3F110767A0E3AF599C853(L_21, NULL);
 		V_1 = L_22;
 		// writeTasks.Add(task);
 		List_1_t84C257E858DDB8EA0B6269E08AAD9A2A2018A551* L_23 = __this->___writeTasks_3;
@@ -2791,7 +2793,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_Create_m4CB15D06286C7AA0BA8318800D23A9D574CBE0E8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_Create_mDEA9352DE851695421F6488EC71FDD8FA221422D_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_Start_TisU3CFinishWritingU3Ed__7_tCF1C740DCA06F81A7E222E908BB9180A6E3A4C41_m3B9874F29E2EA18E7AB7ABE57F3AD1BB9AAABD91_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_get_Task_m01EB243CF4396C9A2645F71572B47CF12151974E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E_il2cpp_TypeInfo_var);
@@ -2802,7 +2804,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A
 	{
 		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E_il2cpp_TypeInfo_var);
 		AsyncTaskMethodBuilder_1_tA28B0962049DC249BEC0054E2394B1962E28E90E L_0;
-		L_0 = AsyncTaskMethodBuilder_1_Create_m4CB15D06286C7AA0BA8318800D23A9D574CBE0E8(AsyncTaskMethodBuilder_1_Create_m4CB15D06286C7AA0BA8318800D23A9D574CBE0E8_RuntimeMethod_var);
+		L_0 = AsyncTaskMethodBuilder_1_Create_mDEA9352DE851695421F6488EC71FDD8FA221422D(AsyncTaskMethodBuilder_1_Create_mDEA9352DE851695421F6488EC71FDD8FA221422D_RuntimeMethod_var);
 		(&V_0)->___U3CU3Et__builder_1 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&((&(((&(&V_0)->___U3CU3Et__builder_1))->___m_coreState_1))->___m_stateMachine_0), (void*)NULL);
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
@@ -2891,7 +2893,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JPGRecorder_NatSuite_Recorders_IMediaRec
 	{
 		// Debug.LogError("NatCorder Error: JPGRecorder does not support committing audio samples");
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E(_stringLiteralC5AFEDBA9A699B056BA293F7275384300FA0D71F, NULL);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralC5AFEDBA9A699B056BA293F7275384300FA0D71F, NULL);
 		// }
 		return;
 	}
@@ -2932,12 +2934,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0_U3CCommitFrameU
 		int32_t L_3 = L_2;
 		RuntimeObject* L_4 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_3);
 		String_t* L_5;
-		L_5 = String_Format_m8C122B26BC5AA10E2550AECA16E57DAE10F07E30(_stringLiteral589E32EA81914C1451BD9F2B02A23487D39F49E7, L_4, NULL);
+		L_5 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral589E32EA81914C1451BD9F2B02A23487D39F49E7, L_4, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 		String_t* L_6;
-		L_6 = Path_Combine_m64754D4E08990CE1EBC41CDF197807EE4B115474(L_1, L_5, NULL);
+		L_6 = Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE(L_1, L_5, NULL);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_7 = __this->___buffer_2;
-		File_WriteAllBytes_m72C1A24339B30F84A655E6BF516AE1638B2C4668(L_6, L_7, NULL);
+		File_WriteAllBytes_mC491031DA14AA9B591F62D6AD0181D090E081077(L_6, L_7, NULL);
 		return;
 	}
 }
@@ -2989,7 +2991,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFinishWritingU3Ed__7_MoveNext_m5CBC3A
 			List_1_t84C257E858DDB8EA0B6269E08AAD9A2A2018A551* L_4 = L_3->___writeTasks_3;
 			il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
 			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_5;
-			L_5 = Task_WhenAll_m5F2F68F0C44E2A7750AD51DDB00787DDF41EDA7D(L_4, NULL);
+			L_5 = Task_WhenAll_m8145B2BA54AC61628600B12AEF8D7405C6BC7ACC(L_4, NULL);
 			NullCheck(L_5);
 			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_6;
 			L_6 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_5, NULL);
@@ -3122,14 +3124,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MP4Recorder__ctor_mA902D5707599D71EC5130
 		int32_t L_6 = ___keyframeInterval6;
 		int32_t L_7 = ___audioBitRate7;
 		intptr_t L_8;
-		L_8 = MP4Recorder_Create_m0BA2A64C8621196A89BD73507395BCACE62DFDFE(L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, NULL);
+		L_8 = MP4Recorder_Create_m4EA6995AD5D82351EE2C77688FF2B6950B1A71E9(L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, NULL);
 		NativeRecorder__ctor_m7FB0F5A570781DD826F2D9C83F6F27B74CA5F877(__this, L_8, NULL);
 		// ) : base(Create(width, height, frameRate, sampleRate, channelCount, videoBitRate, keyframeInterval, audioBitRate)) { }
 		return;
 	}
 }
 // System.IntPtr NatSuite.Recorders.MP4Recorder::Create(System.Int32,System.Int32,System.Single,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t MP4Recorder_Create_m0BA2A64C8621196A89BD73507395BCACE62DFDFE (int32_t ___width0, int32_t ___height1, float ___frameRate2, int32_t ___sampleRate3, int32_t ___channelCount4, int32_t ___videoBitRate5, int32_t ___keyframeInterval6, int32_t ___audioBitRate7, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t MP4Recorder_Create_m4EA6995AD5D82351EE2C77688FF2B6950B1A71E9 (int32_t ___width0, int32_t ___height1, float ___frameRate2, int32_t ___sampleRate3, int32_t ___channelCount4, int32_t ___videoBitRate5, int32_t ___keyframeInterval6, int32_t ___audioBitRate7, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3148,15 +3150,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t MP4Recorder_Create_m0BA2A64C8621196A
 		String_t* L_0;
 		L_0 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&___width0), NULL);
 		String_t* L_1;
-		L_1 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteralFC5DFB2944837CD0B4AA7B57E5EA81E8B8FE6979, L_0, NULL);
+		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralFC5DFB2944837CD0B4AA7B57E5EA81E8B8FE6979, L_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(L_1, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_1, NULL);
 		// Debug.Log("PROBLEM HEIGHT:" + height);
 		String_t* L_2;
 		L_2 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&___height1), NULL);
 		String_t* L_3;
-		L_3 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteralB90EE4E2CEC79B95AF3E5100D28A65DEA2F6EEAE, L_2, NULL);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(L_3, NULL);
+		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralB90EE4E2CEC79B95AF3E5100D28A65DEA2F6EEAE, L_2, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_3, NULL);
 		// if (width % 2 != 0)
 		int32_t L_4 = ___width0;
 		if (!((int32_t)(L_4%2)))
@@ -3169,7 +3171,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t MP4Recorder_Create_m0BA2A64C8621196A
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_5 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 		NullCheck(L_5);
 		ArgumentException__ctor_m8F9D40CE19D19B698A70F9A258640EB52DB39B62(L_5, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE9268471E97C5632747DCCD1D08EE3791D238A8E)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralEBF5FE0CBF3EEA67902EEA700B7216E3DB0D8E84)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&MP4Recorder_Create_m0BA2A64C8621196A89BD73507395BCACE62DFDFE_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&MP4Recorder_Create_m4EA6995AD5D82351EE2C77688FF2B6950B1A71E9_RuntimeMethod_var)));
 	}
 
 IL_0041:
@@ -3186,7 +3188,7 @@ IL_0041:
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_7 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 		NullCheck(L_7);
 		ArgumentException__ctor_m8F9D40CE19D19B698A70F9A258640EB52DB39B62(L_7, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral3CD3D5F01224EC8D8396528954ADD021C5BB8DC4)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral647E0FB2B5E859CC4BD7C73623B82C8EFABA2563)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_7, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&MP4Recorder_Create_m0BA2A64C8621196A89BD73507395BCACE62DFDFE_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_7, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&MP4Recorder_Create_m4EA6995AD5D82351EE2C77688FF2B6950B1A71E9_RuntimeMethod_var)));
 	}
 
 IL_0056:
@@ -3204,7 +3206,7 @@ IL_0056:
 		//     out var recorder
 		// );
 		String_t* L_8;
-		L_8 = Utility_GetPath_m890864A644FBE33558777D65EDA3E35FBE54F1B5(_stringLiteral3CC467A802D81D30CFCC13435F3C9EF52A777208, NULL);
+		L_8 = Utility_GetPath_m9C80E7421E4140FDE42E49435A8B003828EE15B2(_stringLiteral3CC467A802D81D30CFCC13435F3C9EF52A777208, NULL);
 		int32_t L_9 = ___width0;
 		int32_t L_10 = ___height1;
 		float L_11 = ___frameRate2;
@@ -3213,29 +3215,30 @@ IL_0056:
 		int32_t L_14 = ___videoBitRate5;
 		int32_t L_15 = ___keyframeInterval6;
 		int32_t L_16 = ___audioBitRate7;
-		NatCorder_CreateMP4Recorder_m06F15A519F09E09D65225C72E4A382E749DF4BFD(L_8, L_9, L_10, L_11, L_12, L_13, L_14, L_15, L_16, (&V_0), NULL);
+		NatCorder_CreateMP4Recorder_m076DAA8E8FD5B7CD13BE6A6622C249F2A434810D(L_8, L_9, L_10, L_11, L_12, L_13, L_14, L_15, L_16, (&V_0), NULL);
 		// if (recorder == IntPtr.Zero)
 		intptr_t L_17 = V_0;
-		bool L_18;
-		L_18 = IntPtr_op_Equality_m73759B51FE326460AC87A0E386480226EF2FABED(L_17, (0), NULL);
-		if (!L_18)
+		intptr_t L_18 = ((IntPtr_t_StaticFields*)il2cpp_codegen_static_fields_for(IntPtr_t_il2cpp_TypeInfo_var))->___Zero_1;
+		bool L_19;
+		L_19 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271(L_17, L_18, NULL);
+		if (!L_19)
 		{
 			goto IL_008b;
 		}
 	}
 	{
 		// throw new InvalidOperationException(@"Failed to create MP4Recorder");
-		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_19 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
-		NullCheck(L_19);
-		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_19, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8BD2893CB841B67CA243CFCB6AE6DE947F69AA77)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_19, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&MP4Recorder_Create_m0BA2A64C8621196A89BD73507395BCACE62DFDFE_RuntimeMethod_var)));
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_20 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
+		NullCheck(L_20);
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_20, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8BD2893CB841B67CA243CFCB6AE6DE947F69AA77)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_20, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&MP4Recorder_Create_m4EA6995AD5D82351EE2C77688FF2B6950B1A71E9_RuntimeMethod_var)));
 	}
 
 IL_008b:
 	{
 		// return recorder;
-		intptr_t L_20 = V_0;
-		return L_20;
+		intptr_t L_21 = V_0;
+		return L_21;
 	}
 }
 #ifdef __clang__
@@ -3281,7 +3284,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WAVRecorder__ctor_mCA295415812C8C8D70033
 		__this->___channelCount_1 = L_1;
 		// this.stream = new FileStream(Utility.GetPath(@".wav"), FileMode.Create);
 		String_t* L_2;
-		L_2 = Utility_GetPath_m890864A644FBE33558777D65EDA3E35FBE54F1B5(_stringLiteralD36877C5F51DFCF27BD6E50EFE17F811114D9198, NULL);
+		L_2 = Utility_GetPath_m9C80E7421E4140FDE42E49435A8B003828EE15B2(_stringLiteralD36877C5F51DFCF27BD6E50EFE17F811114D9198, NULL);
 		FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_3 = (FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8*)il2cpp_codegen_object_new(FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8_il2cpp_TypeInfo_var);
 		NullCheck(L_3);
 		FileStream__ctor_m78499F9BE2BE31DA34F123B4399AA457716BD6E6(L_3, L_2, 2, NULL);
@@ -3456,7 +3459,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BitConverter_t6E99605185963BC12B3D369E13F2B88997E64A27_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_FromResult_TisString_t_mCE9554AC91EE79860B171D4EFD627B46F6688E0C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_FromResult_TisString_t_mD3675A87F3208922F8205BF9BF6AC78BF2DE22C3_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral54E6A56386072FAEC10025F380D0CC554BAC0758);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA44A39671D4B7FA8FBE50D795EAB52248D5C5469);
@@ -3473,7 +3476,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A
 		// stream.Write(Encoding.UTF8.GetBytes("RIFF"), 0, 4);
 		FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_2 = __this->___stream_2;
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_3;
-		L_3 = Encoding_get_UTF8_m9700ADA8E0F244002B2A89B483F1B2133B8FE336(NULL);
+		L_3 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
 		NullCheck(L_3);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4;
 		L_4 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(19 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_3, _stringLiteral54E6A56386072FAEC10025F380D0CC554BAC0758);
@@ -3487,13 +3490,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A
 		L_7 = VirtualFuncInvoker0< int64_t >::Invoke(11 /* System.Int64 System.IO.Stream::get_Length() */, L_6);
 		il2cpp_codegen_runtime_class_init_inline(BitConverter_t6E99605185963BC12B3D369E13F2B88997E64A27_il2cpp_TypeInfo_var);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8;
-		L_8 = BitConverter_GetBytes_m2C128EDCD9B369F1429E1A0B7F687C98526115BF(((int64_t)il2cpp_codegen_subtract(L_7, ((int64_t)8))), NULL);
+		L_8 = BitConverter_GetBytes_m794066816CE7E3AF4A549BC3E41315061A98ADA9(((int64_t)il2cpp_codegen_subtract(L_7, ((int64_t)8))), NULL);
 		NullCheck(L_5);
 		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(36 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_5, L_8, 0, 4);
 		// stream.Write(Encoding.UTF8.GetBytes("WAVE"), 0, 4);
 		FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_9 = __this->___stream_2;
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_10;
-		L_10 = Encoding_get_UTF8_m9700ADA8E0F244002B2A89B483F1B2133B8FE336(NULL);
+		L_10 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
 		NullCheck(L_10);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_11;
 		L_11 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(19 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_10, _stringLiteralA77FDC67CD3D8A6113B858540BA409191CDF979E);
@@ -3502,7 +3505,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A
 		// stream.Write(Encoding.UTF8.GetBytes("fmt "), 0, 4);
 		FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_12 = __this->___stream_2;
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_13;
-		L_13 = Encoding_get_UTF8_m9700ADA8E0F244002B2A89B483F1B2133B8FE336(NULL);
+		L_13 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
 		NullCheck(L_13);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_14;
 		L_14 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(19 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_13, _stringLiteralB6894A493D9B16556A8AF2157FE4DFA1C4747B3F);
@@ -3511,27 +3514,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A
 		// stream.Write(BitConverter.GetBytes(16), 0, 4);
 		FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_15 = __this->___stream_2;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_16;
-		L_16 = BitConverter_GetBytes_m343FFC3DD8CF8D0139D0CAEB8ABB0A4D6DAA98F4(((int32_t)16), NULL);
+		L_16 = BitConverter_GetBytes_mCD74C79673617CEBF85F8A653520C860A9F014F9(((int32_t)16), NULL);
 		NullCheck(L_15);
 		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(36 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_15, L_16, 0, 4);
 		// stream.Write(BitConverter.GetBytes((ushort)1), 0, 2);
 		FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_17 = __this->___stream_2;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_18;
-		L_18 = BitConverter_GetBytes_m1B3C2C0E976C781ACD76AFA80DDBCA844FC73D50((uint16_t)1, NULL);
+		L_18 = BitConverter_GetBytes_m43CB66A3347C3482B6FB2B3FD327F5327C25E18B((uint16_t)1, NULL);
 		NullCheck(L_17);
 		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(36 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_17, L_18, 0, 2);
 		// stream.Write(BitConverter.GetBytes(channelCount), 0, 2);                              // Channel count
 		FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_19 = __this->___stream_2;
 		int32_t L_20 = __this->___channelCount_1;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_21;
-		L_21 = BitConverter_GetBytes_m343FFC3DD8CF8D0139D0CAEB8ABB0A4D6DAA98F4(L_20, NULL);
+		L_21 = BitConverter_GetBytes_mCD74C79673617CEBF85F8A653520C860A9F014F9(L_20, NULL);
 		NullCheck(L_19);
 		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(36 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_19, L_21, 0, 2);
 		// stream.Write(BitConverter.GetBytes(sampleRate), 0, 4);                                // Sample rate
 		FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_22 = __this->___stream_2;
 		int32_t L_23 = __this->___sampleRate_0;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_24;
-		L_24 = BitConverter_GetBytes_m343FFC3DD8CF8D0139D0CAEB8ABB0A4D6DAA98F4(L_23, NULL);
+		L_24 = BitConverter_GetBytes_mCD74C79673617CEBF85F8A653520C860A9F014F9(L_23, NULL);
 		NullCheck(L_22);
 		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(36 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_22, L_24, 0, 4);
 		// stream.Write(BitConverter.GetBytes(sampleRate * channelCount * sizeof(short)), 0, 4); // Output rate in bytes
@@ -3539,26 +3542,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A
 		int32_t L_26 = __this->___sampleRate_0;
 		int32_t L_27 = __this->___channelCount_1;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_28;
-		L_28 = BitConverter_GetBytes_m343FFC3DD8CF8D0139D0CAEB8ABB0A4D6DAA98F4(((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(L_26, L_27)), 2)), NULL);
+		L_28 = BitConverter_GetBytes_mCD74C79673617CEBF85F8A653520C860A9F014F9(((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(L_26, L_27)), 2)), NULL);
 		NullCheck(L_25);
 		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(36 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_25, L_28, 0, 4);
 		// stream.Write(BitConverter.GetBytes((ushort)(channelCount * 2)), 0, 2);                // Block alignment
 		FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_29 = __this->___stream_2;
 		int32_t L_30 = __this->___channelCount_1;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_31;
-		L_31 = BitConverter_GetBytes_m1B3C2C0E976C781ACD76AFA80DDBCA844FC73D50((uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_multiply(L_30, 2))), NULL);
+		L_31 = BitConverter_GetBytes_m43CB66A3347C3482B6FB2B3FD327F5327C25E18B((uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_multiply(L_30, 2))), NULL);
 		NullCheck(L_29);
 		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(36 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_29, L_31, 0, 2);
 		// stream.Write(BitConverter.GetBytes((ushort)16), 0, 2);                                // Bits per sample
 		FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_32 = __this->___stream_2;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_33;
-		L_33 = BitConverter_GetBytes_m1B3C2C0E976C781ACD76AFA80DDBCA844FC73D50((uint16_t)((int32_t)16), NULL);
+		L_33 = BitConverter_GetBytes_m43CB66A3347C3482B6FB2B3FD327F5327C25E18B((uint16_t)((int32_t)16), NULL);
 		NullCheck(L_32);
 		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(36 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_32, L_33, 0, 2);
 		// stream.Write(Encoding.UTF8.GetBytes("data"), 0, 4);
 		FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_34 = __this->___stream_2;
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_35;
-		L_35 = Encoding_get_UTF8_m9700ADA8E0F244002B2A89B483F1B2133B8FE336(NULL);
+		L_35 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
 		NullCheck(L_35);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_36;
 		L_36 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(19 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_35, _stringLiteralA44A39671D4B7FA8FBE50D795EAB52248D5C5469);
@@ -3568,7 +3571,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A
 		FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_37 = __this->___stream_2;
 		int32_t L_38 = __this->___sampleCount_3;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_39;
-		L_39 = BitConverter_GetBytes_m343FFC3DD8CF8D0139D0CAEB8ABB0A4D6DAA98F4(((int32_t)il2cpp_codegen_multiply(L_38, 2)), NULL);
+		L_39 = BitConverter_GetBytes_mCD74C79673617CEBF85F8A653520C860A9F014F9(((int32_t)il2cpp_codegen_multiply(L_38, 2)), NULL);
 		NullCheck(L_37);
 		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(36 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_37, L_39, 0, 4);
 		// stream.Dispose();
@@ -3582,7 +3585,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A
 		L_42 = VirtualFuncInvoker0< String_t* >::Invoke(39 /* System.String System.IO.FileStream::get_Name() */, L_41);
 		il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
 		Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_43;
-		L_43 = Task_FromResult_TisString_t_mCE9554AC91EE79860B171D4EFD627B46F6688E0C(L_42, Task_FromResult_TisString_t_mCE9554AC91EE79860B171D4EFD627B46F6688E0C_RuntimeMethod_var);
+		L_43 = Task_FromResult_TisString_t_mD3675A87F3208922F8205BF9BF6AC78BF2DE22C3(L_42, Task_FromResult_TisString_t_mD3675A87F3208922F8205BF9BF6AC78BF2DE22C3_RuntimeMethod_var);
 		return L_43;
 	}
 }
@@ -3599,7 +3602,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WAVRecorder_NatSuite_Recorders_IMediaRec
 	{
 		// UnityEngine.Debug.LogError("NatCorder Error: WAVRecorder does not support committing video frames");
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E(_stringLiteral5B10C2D439EFA7BCD7BBF3A75423013529D71E14, NULL);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral5B10C2D439EFA7BCD7BBF3A75423013529D71E14, NULL);
 		// }
 		return;
 	}
@@ -3613,7 +3616,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WAVRecorder_NatSuite_Recorders_IMediaRec
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void NatSuite.Recorders.Internal.NatCorder::FrameSize(System.IntPtr,System.Int32&,System.Int32&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_FrameSize_mDEB6D4B0B1974507130E91478F6802C7912C83DC (intptr_t ___recorder0, int32_t* ___width1, int32_t* ___height2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_FrameSize_mC9885591070FE44A8EB2EF7DE12CBABAA9976128 (intptr_t ___recorder0, int32_t* ___width1, int32_t* ___height2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t*, int32_t*);
 
@@ -3622,7 +3625,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_FrameSize_mDEB6D4B0B1974507130
 
 }
 // System.Void NatSuite.Recorders.Internal.NatCorder::CommitFrame(System.IntPtr,System.Void*,System.Int64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_CommitFrame_m29A388F563827D9EAB9396EFF1AC3CFE6CA0821A (intptr_t ___recorder0, void* ___pixelBuffer1, int64_t ___timestamp2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_CommitFrame_m8FB81FD2FD26DA50B111576A8405A8D56A7F401D (intptr_t ___recorder0, void* ___pixelBuffer1, int64_t ___timestamp2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, void*, int64_t);
 
@@ -3631,7 +3634,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_CommitFrame_m29A388F563827D9EA
 
 }
 // System.Void NatSuite.Recorders.Internal.NatCorder::CommitSamples(System.IntPtr,System.Single*,System.Int32,System.Int64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_CommitSamples_mB904D74E4EFCCF3149330AB6D459EC45E5B37874 (intptr_t ___recorder0, float* ___sampleBuffer1, int32_t ___sampleCount2, int64_t ___timestamp3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_CommitSamples_m32E4F6D46D2B9747DB1C864C5B2444A104A8A96D (intptr_t ___recorder0, float* ___sampleBuffer1, int32_t ___sampleCount2, int64_t ___timestamp3, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, float*, int32_t, int64_t);
 
@@ -3640,7 +3643,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_CommitSamples_mB904D74E4EFCCF3
 
 }
 // System.Void NatSuite.Recorders.Internal.NatCorder::FinishWriting(System.IntPtr,NatSuite.Recorders.Internal.NatCorder/RecordingHandler,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_FinishWriting_m175CA50EF9A9F55E45A8C4C3657AF6C9AB4FE731 (intptr_t ___recorder0, RecordingHandler_t4482042BE3E54FBB6B0F1147F83E39F637BE15CC* ___handler1, intptr_t ___context2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_FinishWriting_m03951858641EF4ED654D1335047E002457432C81 (intptr_t ___recorder0, RecordingHandler_t4482042BE3E54FBB6B0F1147F83E39F637BE15CC* ___handler1, intptr_t ___context2, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, Il2CppMethodPointer, intptr_t);
 
@@ -3653,7 +3656,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_FinishWriting_m175CA50EF9A9F55
 
 }
 // System.Void NatSuite.Recorders.Internal.NatCorder::CreateMP4Recorder(System.String,System.Int32,System.Int32,System.Single,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.IntPtr&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_CreateMP4Recorder_m06F15A519F09E09D65225C72E4A382E749DF4BFD (String_t* ___path0, int32_t ___width1, int32_t ___height2, float ___frameRate3, int32_t ___sampleRate4, int32_t ___channelCount5, int32_t ___videoBitrate6, int32_t ___keyframeInterval7, int32_t ___audioBitRate8, intptr_t* ___recorder9, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_CreateMP4Recorder_m076DAA8E8FD5B7CD13BE6A6622C249F2A434810D (String_t* ___path0, int32_t ___width1, int32_t ___height2, float ___frameRate3, int32_t ___sampleRate4, int32_t ___channelCount5, int32_t ___videoBitrate6, int32_t ___keyframeInterval7, int32_t ___audioBitRate8, intptr_t* ___recorder9, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, int32_t, int32_t, float, int32_t, int32_t, int32_t, int32_t, int32_t, intptr_t*);
 
@@ -3670,7 +3673,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_CreateMP4Recorder_m06F15A519F0
 
 }
 // System.Void NatSuite.Recorders.Internal.NatCorder::CreateHEVCRecorder(System.String,System.Int32,System.Int32,System.Single,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.IntPtr&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_CreateHEVCRecorder_m4F0D52AF26E6123AEA2528E7602CCE9DC09B5766 (String_t* ___path0, int32_t ___width1, int32_t ___height2, float ___frameRate3, int32_t ___sampleRate4, int32_t ___channelCount5, int32_t ___videoBitRate6, int32_t ___keyframeInterval7, int32_t ___audioBitRate8, intptr_t* ___recorder9, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_CreateHEVCRecorder_mDF6E602A920E7A2CFEC3AEB0FB147400F43B68F4 (String_t* ___path0, int32_t ___width1, int32_t ___height2, float ___frameRate3, int32_t ___sampleRate4, int32_t ___channelCount5, int32_t ___videoBitRate6, int32_t ___keyframeInterval7, int32_t ___audioBitRate8, intptr_t* ___recorder9, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, int32_t, int32_t, float, int32_t, int32_t, int32_t, int32_t, int32_t, intptr_t*);
 
@@ -3687,7 +3690,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_CreateHEVCRecorder_m4F0D52AF26
 
 }
 // System.Void NatSuite.Recorders.Internal.NatCorder::CreateGIFRecorder(System.String,System.Int32,System.Int32,System.Single,System.IntPtr&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_CreateGIFRecorder_mA916B8638821F82B766A8506064547D97577B5F6 (String_t* ___path0, int32_t ___width1, int32_t ___height2, float ___frameDuration3, intptr_t* ___recorder4, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatCorder_CreateGIFRecorder_mD4B0D49CF258D79F8C4F55D0C23C4A8DDF6C1260 (String_t* ___path0, int32_t ___width1, int32_t ___height2, float ___frameDuration3, intptr_t* ___recorder4, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, int32_t, int32_t, float, intptr_t*);
 
@@ -3722,7 +3725,12 @@ void RecordingHandler_Invoke_m15CCCB50ECDB98812FF204106A1706AB476AAB4B_Multicast
 		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___context0, ___path1, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
 	}
 }
-void RecordingHandler_Invoke_m15CCCB50ECDB98812FF204106A1706AB476AAB4B_Open(RecordingHandler_t4482042BE3E54FBB6B0F1147F83E39F637BE15CC* __this, intptr_t ___context0, intptr_t ___path1, const RuntimeMethod* method)
+void RecordingHandler_Invoke_m15CCCB50ECDB98812FF204106A1706AB476AAB4B_OpenInst(RecordingHandler_t4482042BE3E54FBB6B0F1147F83E39F637BE15CC* __this, intptr_t ___context0, intptr_t ___path1, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (intptr_t, intptr_t, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___context0, ___path1, method);
+}
+void RecordingHandler_Invoke_m15CCCB50ECDB98812FF204106A1706AB476AAB4B_OpenStatic(RecordingHandler_t4482042BE3E54FBB6B0F1147F83E39F637BE15CC* __this, intptr_t ___context0, intptr_t ___path1, const RuntimeMethod* method)
 {
 	typedef void (*FunctionPointerType) (intptr_t, intptr_t, const RuntimeMethod*);
 	((FunctionPointerType)__this->___method_ptr_0)(___context0, ___path1, method);
@@ -3762,7 +3770,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RecordingHandler__ctor_mF3856ADEE508C556
 				__this->___invoke_impl_1 = (intptr_t)&RecordingHandler_Invoke_m15CCCB50ECDB98812FF204106A1706AB476AAB4B_ClosedStaticInvoker;
 		else
 			if (isOpen)
-				__this->___invoke_impl_1 = (intptr_t)&RecordingHandler_Invoke_m15CCCB50ECDB98812FF204106A1706AB476AAB4B_Open;
+				__this->___invoke_impl_1 = (intptr_t)&RecordingHandler_Invoke_m15CCCB50ECDB98812FF204106A1706AB476AAB4B_OpenStatic;
 			else
 				{
 					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
@@ -3771,6 +3779,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RecordingHandler__ctor_mF3856ADEE508C556
 	}
 	else
 	{
+		if (___object0 == NULL)
+			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
 		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
 		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
 	}
@@ -3809,12 +3819,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RecordingHandler_EndInvoke_mEC2EDB74573F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern "C" void DEFAULT_CALL ReversePInvokeWrapper_NativeRecorder_OnRecorderCompleted_mE307AABFEA179EC797CDE00FD5FADC0A99072676(intptr_t ___context0, intptr_t ___path1)
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_NativeRecorder_OnRecorderCompleted_m12AFE233F7FDE875FB6D51047EF4D5DF1796357C(intptr_t ___context0, intptr_t ___path1)
 {
 	il2cpp::vm::ScopedThreadAttacher _vmThreadHelper;
 
 	// Managed method invocation
-	NativeRecorder_OnRecorderCompleted_mE307AABFEA179EC797CDE00FD5FADC0A99072676(___context0, ___path1, NULL);
+	NativeRecorder_OnRecorderCompleted_m12AFE233F7FDE875FB6D51047EF4D5DF1796357C(___context0, ___path1, NULL);
 
 }
 // System.ValueTuple`2<System.Int32,System.Int32> NatSuite.Recorders.Internal.NativeRecorder::get_frameSize()
@@ -3831,7 +3841,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTuple_2_t973F7AB0EF5DD3619E518A966941F10
 	{
 		// recorder.FrameSize(out var width, out var height);
 		intptr_t L_0 = __this->___recorder_0;
-		NatCorder_FrameSize_mDEB6D4B0B1974507130E91478F6802C7912C83DC(L_0, (&V_0), (&V_1), NULL);
+		NatCorder_FrameSize_mC9885591070FE44A8EB2EF7DE12CBABAA9976128(L_0, (&V_0), (&V_1), NULL);
 		// return (width, height);
 		int32_t L_1 = V_0;
 		int32_t L_2 = V_1;
@@ -3849,7 +3859,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeRecorder_CommitFrame_m157913F3860A
 		intptr_t L_0 = __this->___recorder_0;
 		void* L_1 = ___nativeBuffer0;
 		int64_t L_2 = ___timestamp1;
-		NatCorder_CommitFrame_m29A388F563827D9EAB9396EFF1AC3CFE6CA0821A(L_0, L_1, L_2, NULL);
+		NatCorder_CommitFrame_m8FB81FD2FD26DA50B111576A8405A8D56A7F401D(L_0, L_1, L_2, NULL);
 		// }
 		return;
 	}
@@ -3913,7 +3923,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeRecorder_CommitSamples_m2A7FA2C79D
 		float* L_1 = ___nativeBuffer0;
 		int32_t L_2 = ___sampleCount1;
 		int64_t L_3 = ___timestamp2;
-		NatCorder_CommitSamples_mB904D74E4EFCCF3149330AB6D459EC45E5B37874(L_0, L_1, L_2, L_3, NULL);
+		NatCorder_CommitSamples_m32E4F6D46D2B9747DB1C864C5B2444A104A8A96D(L_0, L_1, L_2, L_3, NULL);
 		// }
 		return;
 	}
@@ -3924,7 +3934,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeRecorder_OnRecorderCompleted_mE307AABFEA179EC797CDE00FD5FADC0A99072676_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeRecorder_OnRecorderCompleted_m12AFE233F7FDE875FB6D51047EF4D5DF1796357C_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RecordingHandler_t4482042BE3E54FBB6B0F1147F83E39F637BE15CC_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1__ctor_m1E0F0E41DAFB9401D33DE03A55F9BDC5565F0CF1_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_get_Task_m11D993ACE1C12B89F69CA41E3BAAE3698C3AE587_RuntimeMethod_var);
@@ -3941,17 +3951,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A
 		// var handle = GCHandle.Alloc(recordingTask, GCHandleType.Normal);
 		TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372* L_1 = L_0;
 		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC L_2;
-		L_2 = GCHandle_Alloc_m1FC35418B654D3F48B4F70D525EBD6A208A59075(L_1, 2, NULL);
+		L_2 = GCHandle_Alloc_m3BFD398427352FC756FFE078F01A504B681352EC(L_1, 2, NULL);
 		V_0 = L_2;
 		// recorder.FinishWriting(OnRecorderCompleted, (IntPtr)handle);
 		intptr_t L_3 = __this->___recorder_0;
 		RecordingHandler_t4482042BE3E54FBB6B0F1147F83E39F637BE15CC* L_4 = (RecordingHandler_t4482042BE3E54FBB6B0F1147F83E39F637BE15CC*)il2cpp_codegen_object_new(RecordingHandler_t4482042BE3E54FBB6B0F1147F83E39F637BE15CC_il2cpp_TypeInfo_var);
 		NullCheck(L_4);
-		RecordingHandler__ctor_mF3856ADEE508C55616713C629C1DA977FF9A5EE9(L_4, NULL, (intptr_t)((void*)NativeRecorder_OnRecorderCompleted_mE307AABFEA179EC797CDE00FD5FADC0A99072676_RuntimeMethod_var), NULL);
+		RecordingHandler__ctor_mF3856ADEE508C55616713C629C1DA977FF9A5EE9(L_4, NULL, (intptr_t)((void*)NativeRecorder_OnRecorderCompleted_m12AFE233F7FDE875FB6D51047EF4D5DF1796357C_RuntimeMethod_var), NULL);
 		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC L_5 = V_0;
 		intptr_t L_6;
-		L_6 = GCHandle_op_Explicit_m67A1C3E8BC6C8163C5775AE62A514000D00CD9B6_inline(L_5, NULL);
-		NatCorder_FinishWriting_m175CA50EF9A9F55E45A8C4C3657AF6C9AB4FE731(L_3, L_4, L_6, NULL);
+		L_6 = GCHandle_op_Explicit_m03DD8D9FB45D565431455A6EE5C30A87305EF73C_inline(L_5, NULL);
+		NatCorder_FinishWriting_m03951858641EF4ED654D1335047E002457432C81(L_3, L_4, L_6, NULL);
 		// return recordingTask.Task;
 		NullCheck(L_1);
 		Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_7;
@@ -3972,7 +3982,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeRecorder__ctor_m7FB0F5A570781DD826
 	}
 }
 // System.Void NatSuite.Recorders.Internal.NativeRecorder::OnRecorderCompleted(System.IntPtr,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeRecorder_OnRecorderCompleted_mE307AABFEA179EC797CDE00FD5FADC0A99072676 (intptr_t ___context0, intptr_t ___path1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeRecorder_OnRecorderCompleted_m12AFE233F7FDE875FB6D51047EF4D5DF1796357C (intptr_t ___context0, intptr_t ___path1, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3989,7 +3999,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeRecorder_OnRecorderCompleted_mE307
 		// var handle = (GCHandle)context;
 		intptr_t L_0 = ___context0;
 		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC L_1;
-		L_1 = GCHandle_op_Explicit_m500B99BF54D923E624C5235A4B370A37C8B7050C(L_0, NULL);
+		L_1 = GCHandle_op_Explicit_mA5F28206637454AD677BE13DF86C6152190B6F0F(L_0, NULL);
 		V_0 = L_1;
 		// var recordingTask = handle.Target as TaskCompletionSource<string>;
 		RuntimeObject* L_2;
@@ -4002,7 +4012,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeRecorder_OnRecorderCompleted_mE307
 		intptr_t L_4 = ___path1;
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 		String_t* L_5;
-		L_5 = Marshal_PtrToStringAnsi_m86CDF46D9E4810BD7DB9BB52C1036E24A7DD46EE(L_4, NULL);
+		L_5 = Marshal_PtrToStringAnsi_m8DF88D9F22FCF791C538A36C9233B3882F579B4A(L_4, NULL);
 		NullCheck(L_3);
 		TaskCompletionSource_1_SetResult_mA4FD1E75C7272079BE7032F18BCDC158463FE3E1(L_3, L_5, TaskCompletionSource_1_SetResult_mA4FD1E75C7272079BE7032F18BCDC158463FE3E1_RuntimeMethod_var);
 		// }
@@ -4010,7 +4020,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeRecorder_OnRecorderCompleted_mE307
 	}
 }
 // System.IntPtr NatSuite.Recorders.Internal.NativeRecorder::op_Implicit(NatSuite.Recorders.Internal.NativeRecorder)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t NativeRecorder_op_Implicit_mDA092516DD981A17AA4D57308547BDE52694D34C (NativeRecorder_tDA99002F4683A6CE1D49BA1791FCBFEA73D7CED2* ___recorder0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t NativeRecorder_op_Implicit_m8E2F01F41219CA330A23E6ED8EC786AA1C008C53 (NativeRecorder_tDA99002F4683A6CE1D49BA1791FCBFEA73D7CED2* ___recorder0, const RuntimeMethod* method) 
 {
 	{
 		// public static implicit operator IntPtr (NativeRecorder recorder) => recorder.recorder;
@@ -4029,7 +4039,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t NativeRecorder_op_Implicit_mDA092516
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.String NatSuite.Recorders.Internal.Utility::GetPath(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Utility_GetPath_m890864A644FBE33558777D65EDA3E35FBE54F1B5 (String_t* ___extension0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Utility_GetPath_m9C80E7421E4140FDE42E49435A8B003828EE15B2 (String_t* ___extension0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4058,7 +4068,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Utility_GetPath_m890864A644FBE33558
 	{
 		// var editor = Application.platform == RuntimePlatform.OSXEditor || Application.platform == RuntimePlatform.WindowsEditor;
 		int32_t L_1;
-		L_1 = Application_get_platform_m1AB34E71D9885B120F6021EB2B11DCB28CD6008D(NULL);
+		L_1 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
 		if (!L_1)
 		{
 			goto IL_0018;
@@ -4066,7 +4076,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Utility_GetPath_m890864A644FBE33558
 	}
 	{
 		int32_t L_2;
-		L_2 = Application_get_platform_m1AB34E71D9885B120F6021EB2B11DCB28CD6008D(NULL);
+		L_2 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
 		G_B4_0 = ((((int32_t)L_2) == ((int32_t)7))? 1 : 0);
 		goto IL_0019;
 	}
@@ -4086,7 +4096,7 @@ IL_0019:
 	}
 	{
 		String_t* L_3;
-		L_3 = Application_get_persistentDataPath_m787EBC9B0862E7617DCD6CABD2147E61717EAC17(NULL);
+		L_3 = Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399(NULL);
 		G_B7_0 = L_3;
 		goto IL_0027;
 	}
@@ -4094,7 +4104,7 @@ IL_0019:
 IL_0022:
 	{
 		String_t* L_4;
-		L_4 = Directory_GetCurrentDirectory_m7EA69F721BEEC05DC0FBF8E9189990BF9F856363(NULL);
+		L_4 = Directory_GetCurrentDirectory_m576783BDF2FDF97303C15E51713790415BF57CC1(NULL);
 		G_B7_0 = L_4;
 	}
 
@@ -4109,7 +4119,7 @@ IL_002c:
 		// var timestamp = DateTime.Now.ToString("yyyy_MM_dd_HH_mm_ss_fff");
 		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_5;
-		L_5 = DateTime_get_Now_mC336498972C48439ADCD5C50D35FAE0F2A48B0F0(NULL);
+		L_5 = DateTime_get_Now_m636CB9651A9099D20BA1CF813A0C69637317325C(NULL);
 		V_2 = L_5;
 		String_t* L_6;
 		L_6 = DateTime_ToString_m6963A84785C320DA776C9FCFFEDAF26C8F1A8D78((&V_2), _stringLiteral1A393EADBE457522A253BEE7EB8728BC667E188E, NULL);
@@ -4118,14 +4128,14 @@ IL_002c:
 		String_t* L_7 = V_0;
 		String_t* L_8 = ___extension0;
 		String_t* L_9;
-		L_9 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(_stringLiteralF13FE9A5DB842114D70C053E3A1F4D1D3DBA8913, L_7, L_8, NULL);
+		L_9 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralF13FE9A5DB842114D70C053E3A1F4D1D3DBA8913, L_7, L_8, NULL);
 		V_1 = L_9;
 		// var path = Path.Combine(directory, name);
 		String_t* L_10 = ((Utility_t5A11DCFA089788AF7F9BC0913DC4F74BF6ADC8A8_StaticFields*)il2cpp_codegen_static_fields_for(Utility_t5A11DCFA089788AF7F9BC0913DC4F74BF6ADC8A8_il2cpp_TypeInfo_var))->___directory_0;
 		String_t* L_11 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 		String_t* L_12;
-		L_12 = Path_Combine_m64754D4E08990CE1EBC41CDF197807EE4B115474(L_10, L_11, NULL);
+		L_12 = Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE(L_10, L_11, NULL);
 		// return path;
 		return L_12;
 	}
@@ -4195,13 +4205,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTextureInput_CommitFrame_m9D2D6C825
 		int32_t L_9 = V_1;
 		int32_t L_10 = V_2;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_11;
-		L_11 = RenderTexture_GetTemporary_mEB21705B78CAF6B8F1F6617453A8EE8A94498DE2(L_9, L_10, ((int32_t)24), 0, NULL);
+		L_11 = RenderTexture_GetTemporary_mDAD0D2A673F07BEC3B1A9555863E24A479E9BB11(L_9, L_10, ((int32_t)24), 0, NULL);
 		V_3 = L_11;
 		// Graphics.Blit(texture, renderTexture);
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_12 = ___texture0;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_13 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
-		Graphics_Blit_m066854D684B6042B266D306E8E012D2C6C1787BE(L_12, L_13, NULL);
+		Graphics_Blit_m8D99E16B74C7D3C8F79F4F142C59DB6B38114504(L_12, L_13, NULL);
 		// AsyncGPUReadback.Request(
 		//     renderTexture,
 		//     0,
@@ -4213,10 +4223,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTextureInput_CommitFrame_m9D2D6C825
 		NullCheck(L_16);
 		Action_1__ctor_m347338A163A1A0840FA150F7ACCC029D46339777(L_16, L_15, (intptr_t)((void*)U3CU3Ec__DisplayClass1_0_U3CCommitFrameU3Eb__0_m7E4FE4972F3FEF18A3E58E5C8CE21B747674356D_RuntimeMethod_var), NULL);
 		AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7 L_17;
-		L_17 = AsyncGPUReadback_Request_mCEA6A5F99AAA3AE580396779B4AB70BFF9AECC63(L_14, 0, L_16, NULL);
+		L_17 = AsyncGPUReadback_Request_m22CAD6F69F987679CF91B84E5DB5933AC6BE2800(L_14, 0, L_16, NULL);
 		// RenderTexture.ReleaseTemporary(renderTexture);
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_18 = V_3;
-		RenderTexture_ReleaseTemporary_m7D9B385460ED0D0CF7BCC033605CEBD60A1A232F(L_18, NULL);
+		RenderTexture_ReleaseTemporary_mEEF2C1990196FF06FDD0DC190928AD3A023EBDD2(L_18, NULL);
 		// }
 		return;
 	}
@@ -4273,7 +4283,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0_U3CCommitFrameU
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncGPUReadbackRequest_GetData_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mC365851AEF03CCC25905B4A8808B40AB3969C136_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IMediaRecorder_t075A0EFCE0700DA3B7600BCC859EFCA50D6CB39A_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mD9261CD83E770034D4BDBB7D3907F4648D8ED4E6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m3DF14FFECC3CE4E179B56AB77F3BCC0FF90E92BF_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	RuntimeObject* G_B2_0 = NULL;
@@ -4300,7 +4310,7 @@ IL_0010:
 		NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF L_3;
 		L_3 = AsyncGPUReadbackRequest_GetData_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mC365851AEF03CCC25905B4A8808B40AB3969C136((&___request0), 0, AsyncGPUReadbackRequest_GetData_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mC365851AEF03CCC25905B4A8808B40AB3969C136_RuntimeMethod_var);
 		void* L_4;
-		L_4 = NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mD9261CD83E770034D4BDBB7D3907F4648D8ED4E6(L_3, NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mD9261CD83E770034D4BDBB7D3907F4648D8ED4E6_RuntimeMethod_var);
+		L_4 = NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m3DF14FFECC3CE4E179B56AB77F3BCC0FF90E92BF(L_3, NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m3DF14FFECC3CE4E179B56AB77F3BCC0FF90E92BF_RuntimeMethod_var);
 		int64_t L_5 = __this->___timestamp_1;
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker2< void*, int64_t >::Invoke(2 /* System.Void NatSuite.Recorders.IMediaRecorder::CommitFrame(System.Void*,System.Int64) */, IMediaRecorder_t075A0EFCE0700DA3B7600BCC859EFCA50D6CB39A_il2cpp_TypeInfo_var, G_B2_0, L_4, L_5);
@@ -4386,7 +4396,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioInput_Dispose_m616B7343F491D894B0E6
 		// public void Dispose () => AudioInputAttachment.Destroy(attachment);
 		AudioInputAttachment_t3820CB977D17B35C265FDF8AECD34FAAA8BA29CC* L_0 = __this->___attachment_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		Object_Destroy_mFCDAE6333522488F60597AF019EA90BB1207A5AA(L_0, NULL);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_0, NULL);
 		return;
 	}
 }
@@ -4456,7 +4466,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioInput_OnSampleBuffer_m9C852C9333E34
 	{
 		// AndroidJNI.AttachCurrentThread();
 		int32_t L_0;
-		L_0 = AndroidJNI_AttachCurrentThread_mD5647083E547A77F9377BDB78106D426878A00E7(NULL);
+		L_0 = AndroidJNI_AttachCurrentThread_m412647220ED1F7D42F9D41F692D1D7DC4696B6D4(NULL);
 		// recorder.CommitSamples(data, clock?.timestamp ?? 0L);
 		RuntimeObject* L_1 = __this->___recorder_0;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_2 = ___data0;
@@ -4506,7 +4516,7 @@ IL_0020:
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_7 = ___data0;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_8 = ___data0;
 		NullCheck(L_8);
-		Array_Clear_m48B57EC27CADC3463CA98A33373D557DA587FF1B((RuntimeArray*)L_7, 0, ((int32_t)(((RuntimeArray*)L_8)->max_length)), NULL);
+		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_7, 0, ((int32_t)(((RuntimeArray*)L_8)->max_length)), NULL);
 	}
 
 IL_0037:
@@ -4633,7 +4643,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraInput__ctor_mC7DB6707DAF54B0B929D0
 		// public CameraInput (IMediaRecorder recorder, IClock clock, params Camera[] cameras) : this(CreateInput(recorder), clock, cameras) { }
 		RuntimeObject* L_0 = ___recorder0;
 		RuntimeObject* L_1;
-		L_1 = CameraInput_CreateInput_mB507E1DA0726CDB8C021141EAC40391E5ADB5713(L_0, NULL);
+		L_1 = CameraInput_CreateInput_mB840AEC5AF94752C298A17F102E3006A4351EB0B(L_0, NULL);
 		RuntimeObject* L_2 = ___clock1;
 		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_3 = ___cameras2;
 		CameraInput__ctor_mFEA4077B99FE1A1BDA315A520355DFE3AD6A954A(__this, L_1, L_2, L_3, NULL);
@@ -4659,7 +4669,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraInput__ctor_mFEA4077B99FE1A1BDA315
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Sort_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mC3829F48821660B3A8FA95D9C77391134C6BF019_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Sort_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mA99DBF30A6BEEA75DCF632E13F0D4C64E51F8849_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Comparison_1_t49BE56523BDD8BC22EF3396960546FE16DE7B11A_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisCameraInputAttachment_t17BF4C0461502F1F1599A74377F5016D32421AF2_m14AB119591743F65098AAB5E2BD09F052BC819D1_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
@@ -4709,7 +4719,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraInput__ctor_mFEA4077B99FE1A1BDA315
 
 IL_0026:
 	{
-		Array_Sort_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mC3829F48821660B3A8FA95D9C77391134C6BF019(G_B2_1, G_B2_0, Array_Sort_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mC3829F48821660B3A8FA95D9C77391134C6BF019_RuntimeMethod_var);
+		Array_Sort_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mA99DBF30A6BEEA75DCF632E13F0D4C64E51F8849(G_B2_1, G_B2_0, Array_Sort_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mA99DBF30A6BEEA75DCF632E13F0D4C64E51F8849_RuntimeMethod_var);
 		// var (width, height) = input.frameSize;
 		RuntimeObject* L_6 = ___input0;
 		NullCheck(L_6);
@@ -4741,9 +4751,9 @@ IL_0026:
 		RenderTextureDescriptor__ctor_mE27A3C225736C1F806C12A7C31C0DC66A0AFE61B((&V_2), L_14, L_15, 0, ((int32_t)24), NULL);
 		RenderTextureDescriptor_set_sRGB_mAB7A494EE8C496C22B3BBBCB90488312D46F3429((&V_2), (bool)1, NULL);
 		int32_t L_16;
-		L_16 = QualitySettings_get_antiAliasing_m1E38110F0E9A028F8CA4D3889D32E6B873912EB0(NULL);
+		L_16 = QualitySettings_get_antiAliasing_m71FB82E1C9D9923D313430621C898008D967F516(NULL);
 		int32_t L_17;
-		L_17 = Mathf_Max_m8A4C189A6749DFE3ED8B66D9D3CACD8DB333974F_inline(L_16, 1, NULL);
+		L_17 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(L_16, 1, NULL);
 		RenderTextureDescriptor_set_msaaSamples_m6910E09489372746391B14FBAF59A7237539D6C4_inline((&V_2), L_17, NULL);
 		RenderTextureDescriptor_t69845881CE6437E4E61F92074F2F84079F23FA46 L_18 = V_2;
 		__this->___frameDescriptor_5 = L_18;
@@ -4784,7 +4794,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraInput_Dispose_mF7BFBEBD23444A5CED7
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		Object_Destroy_mFCDAE6333522488F60597AF019EA90BB1207A5AA(L_1, NULL);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_1, NULL);
 		// input.Dispose();
 		RuntimeObject* L_2 = __this->___input_1;
 		NullCheck(L_2);
@@ -4843,7 +4853,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraInput_CommitFrame_m3EEBBDE971817D4
 	}
 }
 // NatSuite.Recorders.Inputs.ITextureInput NatSuite.Recorders.Inputs.CameraInput::CreateInput(NatSuite.Recorders.IMediaRecorder)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CameraInput_CreateInput_mB507E1DA0726CDB8C021141EAC40391E5ADB5713 (RuntimeObject* ___recorder0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CameraInput_CreateInput_mB840AEC5AF94752C298A17F102E3006A4351EB0B (RuntimeObject* ___recorder0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4855,7 +4865,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CameraInput_CreateInput_mB507E
 	{
 		// if (SystemInfo.supportsAsyncGPUReadback)
 		bool L_0;
-		L_0 = SystemInfo_get_supportsAsyncGPUReadback_mB4C08F57C9A314EF6DE70A1322486F9F9B06C1D1(NULL);
+		L_0 = SystemInfo_get_supportsAsyncGPUReadback_m042FD6786738983BF2EDDD06FA633B2F436A7EA2(NULL);
 		if (!L_0)
 		{
 			goto IL_000e;
@@ -4905,7 +4915,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraInputAttachment__ctor_m4F4E740E287
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void NatSuite.Recorders.Inputs.CameraInput/<>c::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m20DB6A0D33C63A74EABCA29B3C5ADB749E8938EB (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m14D771D9782A61B3BD8829393525233AB2F3923D (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5066,7 +5076,7 @@ IL_003e:
 		NullCheck(L_13);
 		RenderTextureDescriptor_t69845881CE6437E4E61F92074F2F84079F23FA46 L_14 = L_13->___frameDescriptor_5;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_15;
-		L_15 = RenderTexture_GetTemporary_m67446280ADE53A43FC26C671AFE7FE6912888CB5(L_14, NULL);
+		L_15 = RenderTexture_GetTemporary_mA8C827B80D3C07D0B8CDF7F5270FB5D3E53DD235(L_14, NULL);
 		V_2 = L_15;
 		// for (var i = 0; i < cameras.Length; i++)
 		V_4 = 0;
@@ -5149,7 +5159,7 @@ IL_00ae:
 		InterfaceActionInvoker2< Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700*, int64_t >::Invoke(1 /* System.Void NatSuite.Recorders.Inputs.ITextureInput::CommitFrame(UnityEngine.Texture,System.Int64) */, ITextureInput_t50F07D47FAFA1FAD0B16D0EF9BFB53301889B0A7_il2cpp_TypeInfo_var, G_B12_2, G_B12_1, G_B12_0);
 		// RenderTexture.ReleaseTemporary(frameBuffer);
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_34 = V_2;
-		RenderTexture_ReleaseTemporary_m7D9B385460ED0D0CF7BCC033605CEBD60A1A232F(L_34, NULL);
+		RenderTexture_ReleaseTemporary_mEEF2C1990196FF06FDD0DC190928AD3A023EBDD2(L_34, NULL);
 		goto IL_0029;
 	}
 }
@@ -5238,7 +5248,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextureInput_CommitFrame_mA45DE6D4C8392C
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IMediaRecorder_t075A0EFCE0700DA3B7600BCC859EFCA50D6CB39A_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mD9261CD83E770034D4BDBB7D3907F4648D8ED4E6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m3DF14FFECC3CE4E179B56AB77F3BCC0FF90E92BF_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Texture2D_GetRawTextureData_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m225198C8CEB0AB84CF9FE0B40337778AA4C75608_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -5260,19 +5270,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextureInput_CommitFrame_mA45DE6D4C8392C
 		int32_t L_5 = V_0;
 		int32_t L_6 = V_1;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_7;
-		L_7 = RenderTexture_GetTemporary_mEB21705B78CAF6B8F1F6617453A8EE8A94498DE2(L_5, L_6, ((int32_t)24), 0, NULL);
+		L_7 = RenderTexture_GetTemporary_mDAD0D2A673F07BEC3B1A9555863E24A479E9BB11(L_5, L_6, ((int32_t)24), 0, NULL);
 		V_2 = L_7;
 		// Graphics.Blit(texture, renderTexture);
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_8 = ___texture0;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_9 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
-		Graphics_Blit_m066854D684B6042B266D306E8E012D2C6C1787BE(L_8, L_9, NULL);
+		Graphics_Blit_m8D99E16B74C7D3C8F79F4F142C59DB6B38114504(L_8, L_9, NULL);
 		// var prevActive = RenderTexture.active;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_10;
-		L_10 = RenderTexture_get_active_m2204DF860773F9A8CDFF92BDB35CEB72A0643345(NULL);
+		L_10 = RenderTexture_get_active_mA4434B3E79DEF2C01CAE0A53061598B16443C9E7(NULL);
 		// RenderTexture.active = renderTexture;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_11 = V_2;
-		RenderTexture_set_active_m045EA53D62FBF79693265E33D14D8E0E8151A37E(L_11, NULL);
+		RenderTexture_set_active_m5EE8E2327EF9B306C1425014CC34C41A8384E7AB(L_11, NULL);
 		// readbackBuffer.ReadPixels(new Rect(0, 0, width, height), 0, 0, false);
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_12 = __this->___readbackBuffer_1;
 		int32_t L_13 = V_0;
@@ -5283,10 +5293,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextureInput_CommitFrame_mA45DE6D4C8392C
 		NullCheck(L_12);
 		Texture2D_ReadPixels_m7483DB211233F02E46418E9A6077487925F0024C(L_12, L_15, 0, 0, (bool)0, NULL);
 		// RenderTexture.active = prevActive;
-		RenderTexture_set_active_m045EA53D62FBF79693265E33D14D8E0E8151A37E(L_10, NULL);
+		RenderTexture_set_active_m5EE8E2327EF9B306C1425014CC34C41A8384E7AB(L_10, NULL);
 		// RenderTexture.ReleaseTemporary(renderTexture);
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_16 = V_2;
-		RenderTexture_ReleaseTemporary_m7D9B385460ED0D0CF7BCC033605CEBD60A1A232F(L_16, NULL);
+		RenderTexture_ReleaseTemporary_mEEF2C1990196FF06FDD0DC190928AD3A023EBDD2(L_16, NULL);
 		// recorder.CommitFrame(
 		//     readbackBuffer.GetRawTextureData<byte>().GetUnsafeReadOnlyPtr(),
 		//     timestamp
@@ -5297,7 +5307,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextureInput_CommitFrame_mA45DE6D4C8392C
 		NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF L_19;
 		L_19 = Texture2D_GetRawTextureData_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m225198C8CEB0AB84CF9FE0B40337778AA4C75608(L_18, Texture2D_GetRawTextureData_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m225198C8CEB0AB84CF9FE0B40337778AA4C75608_RuntimeMethod_var);
 		void* L_20;
-		L_20 = NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mD9261CD83E770034D4BDBB7D3907F4648D8ED4E6(L_19, NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mD9261CD83E770034D4BDBB7D3907F4648D8ED4E6_RuntimeMethod_var);
+		L_20 = NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m3DF14FFECC3CE4E179B56AB77F3BCC0FF90E92BF(L_19, NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m3DF14FFECC3CE4E179B56AB77F3BCC0FF90E92BF_RuntimeMethod_var);
 		int64_t L_21 = ___timestamp1;
 		NullCheck(L_17);
 		InterfaceActionInvoker2< void*, int64_t >::Invoke(2 /* System.Void NatSuite.Recorders.IMediaRecorder::CommitFrame(System.Void*,System.Int64) */, IMediaRecorder_t075A0EFCE0700DA3B7600BCC859EFCA50D6CB39A_il2cpp_TypeInfo_var, L_17, L_20, L_21);
@@ -5318,7 +5328,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextureInput_Dispose_mF9582F1B2CAE0F6DFE
 		// public void Dispose () => Texture2D.Destroy(readbackBuffer);
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_0 = __this->___readbackBuffer_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		Object_Destroy_mFCDAE6333522488F60597AF019EA90BB1207A5AA(L_0, NULL);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_0, NULL);
 		return;
 	}
 }
@@ -5551,7 +5561,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void JPGRecorder_set_frameSize_mD
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_mA48718D9A20D8972EDD41714CEF6BBF864F442EA_inline (int32_t ___value0, int32_t ___min1, int32_t ___max2, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline (int32_t ___value0, int32_t ___min1, int32_t ___max2, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	bool V_1 = false;
@@ -5609,7 +5619,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ValueTuple_2_t973F7AB0EF5DD3619E5
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t GCHandle_op_Explicit_m67A1C3E8BC6C8163C5775AE62A514000D00CD9B6_inline (GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t GCHandle_op_Explicit_m03DD8D9FB45D565431455A6EE5C30A87305EF73C_inline (GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC ___value0, const RuntimeMethod* method) 
 {
 	{
 		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC L_0 = ___value0;
@@ -5617,7 +5627,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t GCHandle_op_Explicit_m67
 		return L_1;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Max_m8A4C189A6749DFE3ED8B66D9D3CACD8DB333974F_inline (int32_t ___a0, int32_t ___b1, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline (int32_t ___a0, int32_t ___b1, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	int32_t G_B3_0 = 0;

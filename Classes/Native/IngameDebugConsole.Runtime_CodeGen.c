@@ -39,27 +39,27 @@ extern void ConsoleMethodInfo__ctor_mD64937BD94F186B6418DEF8B8AF8D36AADD59175 (v
 // 0x00000014 System.Boolean IngameDebugConsole.ConsoleMethodInfo::IsValid()
 extern void ConsoleMethodInfo_IsValid_m9F0346F09F2E31E1F774FC741BD75AEE58BF18D7 (void);
 // 0x00000015 System.Void IngameDebugConsole.DebugLogConsole::.cctor()
-extern void DebugLogConsole__cctor_m95B4F215B5693C1BEA00437807F88E5875B191A6 (void);
+extern void DebugLogConsole__cctor_m75A152ACAB9CFE5C1E44304E03114D1B6DB0386A (void);
 // 0x00000016 System.Void IngameDebugConsole.DebugLogConsole::LogAllCommands()
-extern void DebugLogConsole_LogAllCommands_m7C377F0FA0E52BA0CCA5FD6C8279ACFDF88856A6 (void);
+extern void DebugLogConsole_LogAllCommands_m978E37DE77B64B1BFEBEAE76A009FC8B6869E1EC (void);
 // 0x00000017 System.Void IngameDebugConsole.DebugLogConsole::LogAllCommandsWithName(System.String)
-extern void DebugLogConsole_LogAllCommandsWithName_m2DE51BF4A473A639137278EF104AFBD669FDAE8B (void);
+extern void DebugLogConsole_LogAllCommandsWithName_mE66120EA06927650B2D14A4DC9291C9FD34F4B2D (void);
 // 0x00000018 System.Void IngameDebugConsole.DebugLogConsole::LogSystemInfo()
-extern void DebugLogConsole_LogSystemInfo_mA411E98F2A177C8DA5D4ACB6048C6336F600C2D8 (void);
+extern void DebugLogConsole_LogSystemInfo_mB8DFBFE050EC55468EDF6106D49D060C5E2AB622 (void);
 // 0x00000019 System.Text.StringBuilder IngameDebugConsole.DebugLogConsole::AppendSysInfoIfPresent(System.Text.StringBuilder,System.String,System.String)
-extern void DebugLogConsole_AppendSysInfoIfPresent_m1025430D90D604A57C272EA30208D91AD7C5D6CF (void);
+extern void DebugLogConsole_AppendSysInfoIfPresent_m8348C123A80619F01E787BC5F6DF69577A53B556 (void);
 // 0x0000001A System.Text.StringBuilder IngameDebugConsole.DebugLogConsole::AppendSysInfoIfPresent(System.Text.StringBuilder,System.Int32,System.String)
-extern void DebugLogConsole_AppendSysInfoIfPresent_m53AA83F76B006684E26F1216D6C63865B89CFD32 (void);
+extern void DebugLogConsole_AppendSysInfoIfPresent_mE33F854781092A2E4B3A1301DADA8A99C9FF1537 (void);
 // 0x0000001B System.Void IngameDebugConsole.DebugLogConsole::AddCustomParameterType(System.Type,IngameDebugConsole.DebugLogConsole/ParseFunction,System.String)
-extern void DebugLogConsole_AddCustomParameterType_mEE3BFC4768DD0DD6E64DBD9BF10AAE0239E91EBB (void);
+extern void DebugLogConsole_AddCustomParameterType_m7725AC531D2A3583F6BE80BB92A716ACD766F3FA (void);
 // 0x0000001C System.Void IngameDebugConsole.DebugLogConsole::RemoveCustomParameterType(System.Type)
-extern void DebugLogConsole_RemoveCustomParameterType_m920600282C8B84C42EDAA60C1260119CF26D3D7C (void);
+extern void DebugLogConsole_RemoveCustomParameterType_m2835B8990F7DD01009446DF14B4417E48579968B (void);
 // 0x0000001D System.Void IngameDebugConsole.DebugLogConsole::AddCommandInstance(System.String,System.String,System.String,System.Object,System.String[])
-extern void DebugLogConsole_AddCommandInstance_mBBC78786B7BBFC45409B2BE138B3C0BEAA1390FE (void);
+extern void DebugLogConsole_AddCommandInstance_m460403F17EA9E045FB3CCE3739A1A066E91FAC33 (void);
 // 0x0000001E System.Void IngameDebugConsole.DebugLogConsole::AddCommandStatic(System.String,System.String,System.String,System.Type,System.String[])
-extern void DebugLogConsole_AddCommandStatic_m956009F83D64171D70CCD1A3C3FB3AD7985D28C1 (void);
+extern void DebugLogConsole_AddCommandStatic_mA25C3DE5B2273715EAE7B7EA643F2B27E4E7EF80 (void);
 // 0x0000001F System.Void IngameDebugConsole.DebugLogConsole::AddCommand(System.String,System.String,System.Action)
-extern void DebugLogConsole_AddCommand_mF6C04B006501F0CF53F9C68C89C35C768FD2E376 (void);
+extern void DebugLogConsole_AddCommand_m44EA1C3BC10905406AAED2B25AC713C0E076A70F (void);
 // 0x00000020 System.Void IngameDebugConsole.DebugLogConsole::AddCommand(System.String,System.String,System.Action`1<T1>)
 // 0x00000021 System.Void IngameDebugConsole.DebugLogConsole::AddCommand(System.String,System.String,System.Func`1<T1>)
 // 0x00000022 System.Void IngameDebugConsole.DebugLogConsole::AddCommand(System.String,System.String,System.Action`2<T1,T2>)
@@ -70,7 +70,7 @@ extern void DebugLogConsole_AddCommand_mF6C04B006501F0CF53F9C68C89C35C768FD2E376
 // 0x00000027 System.Void IngameDebugConsole.DebugLogConsole::AddCommand(System.String,System.String,System.Func`4<T1,T2,T3,T4>)
 // 0x00000028 System.Void IngameDebugConsole.DebugLogConsole::AddCommand(System.String,System.String,System.Func`5<T1,T2,T3,T4,T5>)
 // 0x00000029 System.Void IngameDebugConsole.DebugLogConsole::AddCommand(System.String,System.String,System.Delegate)
-extern void DebugLogConsole_AddCommand_m9405B1A98EFB99B3A851DBD5DBE24A7A32997097 (void);
+extern void DebugLogConsole_AddCommand_m8DC230B10D47E9279F8E0581B3D450A68B03D3BC (void);
 // 0x0000002A System.Void IngameDebugConsole.DebugLogConsole::AddCommand(System.String,System.String,System.Action`1<T1>,System.String)
 // 0x0000002B System.Void IngameDebugConsole.DebugLogConsole::AddCommand(System.String,System.String,System.Action`2<T1,T2>,System.String,System.String)
 // 0x0000002C System.Void IngameDebugConsole.DebugLogConsole::AddCommand(System.String,System.String,System.Func`2<T1,T2>,System.String)
@@ -80,15 +80,15 @@ extern void DebugLogConsole_AddCommand_m9405B1A98EFB99B3A851DBD5DBE24A7A32997097
 // 0x00000030 System.Void IngameDebugConsole.DebugLogConsole::AddCommand(System.String,System.String,System.Func`4<T1,T2,T3,T4>,System.String,System.String,System.String)
 // 0x00000031 System.Void IngameDebugConsole.DebugLogConsole::AddCommand(System.String,System.String,System.Func`5<T1,T2,T3,T4,T5>,System.String,System.String,System.String,System.String)
 // 0x00000032 System.Void IngameDebugConsole.DebugLogConsole::AddCommand(System.String,System.String,System.Delegate,System.String[])
-extern void DebugLogConsole_AddCommand_mEA24490081305C8A2E0B69BCC058D3AA2CB78E7C (void);
+extern void DebugLogConsole_AddCommand_m68F24524C503875268CF3475FFDECC1D96D6DEC4 (void);
 // 0x00000033 System.Void IngameDebugConsole.DebugLogConsole::AddCommand(System.String,System.String,System.String,System.Type,System.Object,System.String[])
-extern void DebugLogConsole_AddCommand_m48B189A0FEA0E37399C973D04053D1332EFB3953 (void);
+extern void DebugLogConsole_AddCommand_m4BFF08D8BF1C63A4282EB1B5FFF95E695A0C4FD9 (void);
 // 0x00000034 System.Void IngameDebugConsole.DebugLogConsole::AddCommand(System.String,System.String,System.Reflection.MethodInfo,System.Object,System.String[])
-extern void DebugLogConsole_AddCommand_m1319538F466ECEA4D813BC4532CF4BE773A1CBB2 (void);
+extern void DebugLogConsole_AddCommand_m3D56A91D2615526245C2996E0D97AE636B6EDFAB (void);
 // 0x00000035 System.Void IngameDebugConsole.DebugLogConsole::RemoveCommand(System.String)
-extern void DebugLogConsole_RemoveCommand_m06E7B4FE6B52AA854F8C84E8FB6B7DEB6152428C (void);
+extern void DebugLogConsole_RemoveCommand_m7E9D585B16ADA53505185CF20D433A02EE9670E8 (void);
 // 0x00000036 System.Void IngameDebugConsole.DebugLogConsole::RemoveCommand(System.Action)
-extern void DebugLogConsole_RemoveCommand_mF264DB3B9BA5EF64C4BA19A07F8F6022BE89CFF9 (void);
+extern void DebugLogConsole_RemoveCommand_m8FC42072669FFB7EF73C84595FAE4EBB94C2058F (void);
 // 0x00000037 System.Void IngameDebugConsole.DebugLogConsole::RemoveCommand(System.Action`1<T1>)
 // 0x00000038 System.Void IngameDebugConsole.DebugLogConsole::RemoveCommand(System.Func`1<T1>)
 // 0x00000039 System.Void IngameDebugConsole.DebugLogConsole::RemoveCommand(System.Action`2<T1,T2>)
@@ -99,97 +99,97 @@ extern void DebugLogConsole_RemoveCommand_mF264DB3B9BA5EF64C4BA19A07F8F6022BE89C
 // 0x0000003E System.Void IngameDebugConsole.DebugLogConsole::RemoveCommand(System.Func`4<T1,T2,T3,T4>)
 // 0x0000003F System.Void IngameDebugConsole.DebugLogConsole::RemoveCommand(System.Func`5<T1,T2,T3,T4,T5>)
 // 0x00000040 System.Void IngameDebugConsole.DebugLogConsole::RemoveCommand(System.Delegate)
-extern void DebugLogConsole_RemoveCommand_mB0F9CF8B37AFE1895D0DE27498A4F5D3BD256B53 (void);
+extern void DebugLogConsole_RemoveCommand_mCB959C90BB894AC0413C56D67856B51D4B8FAC12 (void);
 // 0x00000041 System.Void IngameDebugConsole.DebugLogConsole::RemoveCommand(System.Reflection.MethodInfo)
-extern void DebugLogConsole_RemoveCommand_mC94216D492F67A3A8639683DAA058AD134B6B67F (void);
+extern void DebugLogConsole_RemoveCommand_m5B5D9DBA606BD7CF700A12DCDEED6F3CA7ABC90A (void);
 // 0x00000042 System.String IngameDebugConsole.DebugLogConsole::GetAutoCompleteCommand(System.String,System.String)
-extern void DebugLogConsole_GetAutoCompleteCommand_m5B75A8AA660F005094E55A5102D0DBA16D85EE3E (void);
+extern void DebugLogConsole_GetAutoCompleteCommand_m87F49D25747A4C04B48BDF3AC939863E27A0778E (void);
 // 0x00000043 System.Void IngameDebugConsole.DebugLogConsole::ExecuteCommand(System.String)
-extern void DebugLogConsole_ExecuteCommand_m806E9CA29A8E5985173569CE656C94FB165D9BFD (void);
+extern void DebugLogConsole_ExecuteCommand_m09EFF4CAD43DDF1822589BCA5466F2BF3B02CD21 (void);
 // 0x00000044 System.Void IngameDebugConsole.DebugLogConsole::FetchArgumentsFromCommand(System.String,System.Collections.Generic.List`1<System.String>)
-extern void DebugLogConsole_FetchArgumentsFromCommand_m2051CC5151D05840B27100A710B0F32E0AF95C7C (void);
+extern void DebugLogConsole_FetchArgumentsFromCommand_mC1BAA30A6C63276103CEE04B898336A8900FDCAF (void);
 // 0x00000045 System.Void IngameDebugConsole.DebugLogConsole::FindCommands(System.String,System.Boolean,System.Collections.Generic.List`1<IngameDebugConsole.ConsoleMethodInfo>)
-extern void DebugLogConsole_FindCommands_m4BB4BFF088CF2FB72316CFC287E98F5E7EC5908D (void);
+extern void DebugLogConsole_FindCommands_m33C4DDBF9B312C69EED77A268C8BBFB218F51146 (void);
 // 0x00000046 System.Void IngameDebugConsole.DebugLogConsole::GetCommandSuggestions(System.String,System.Collections.Generic.List`1<IngameDebugConsole.ConsoleMethodInfo>,System.Collections.Generic.List`1<System.Int32>,System.String&,System.Int32&)
-extern void DebugLogConsole_GetCommandSuggestions_mE1340CF2E937E267A5825FB11F67B285A5E20E89 (void);
+extern void DebugLogConsole_GetCommandSuggestions_mD9A1F9ECB81527BDD14183214F668B8C6AA0DCBF (void);
 // 0x00000047 System.Int32 IngameDebugConsole.DebugLogConsole::IndexOfDelimiterGroup(System.Char)
-extern void DebugLogConsole_IndexOfDelimiterGroup_m054DF43C7AFAC812F09FF2F3BDABA422F326E6C8 (void);
+extern void DebugLogConsole_IndexOfDelimiterGroup_m0CC9FFF8192FA903465847E9B51D5D7B6A826F29 (void);
 // 0x00000048 System.Int32 IngameDebugConsole.DebugLogConsole::IndexOfDelimiterGroupEnd(System.String,System.Int32,System.Int32)
-extern void DebugLogConsole_IndexOfDelimiterGroupEnd_m411DE7B37400937D4FEF77DD9C0B2AE179BDF70F (void);
+extern void DebugLogConsole_IndexOfDelimiterGroupEnd_mA3CF7EEF7D82521E9173011822619D159E404C72 (void);
 // 0x00000049 System.Int32 IngameDebugConsole.DebugLogConsole::IndexOfChar(System.String,System.Char,System.Int32)
-extern void DebugLogConsole_IndexOfChar_mC9C5A56E6D1D655CB346247D5929EA66CCCB2A58 (void);
+extern void DebugLogConsole_IndexOfChar_m4C1A446342AA125173F57AAED37E9445C8C9CD37 (void);
 // 0x0000004A System.Int32 IngameDebugConsole.DebugLogConsole::FindCommandIndex(System.String)
-extern void DebugLogConsole_FindCommandIndex_m549CEE3B7FACBBD1DAD860286B2E98CF1ED84170 (void);
+extern void DebugLogConsole_FindCommandIndex_m937912A34A602748887E50AE2A6965A125E420A7 (void);
 // 0x0000004B System.Boolean IngameDebugConsole.DebugLogConsole::IsSupportedArrayType(System.Type)
-extern void DebugLogConsole_IsSupportedArrayType_mA75946DF9555AACFDBC61D147A05DB6C17CC827D (void);
+extern void DebugLogConsole_IsSupportedArrayType_mCF63052024BD4D95564AD4E395C558E99092BB86 (void);
 // 0x0000004C System.String IngameDebugConsole.DebugLogConsole::GetTypeReadableName(System.Type)
-extern void DebugLogConsole_GetTypeReadableName_mD2DE64112F7127D8B159A62850E7FA4B760C4FE6 (void);
+extern void DebugLogConsole_GetTypeReadableName_mD536CA0D3C2534C91B7BA1096C1F09B8D4E83934 (void);
 // 0x0000004D System.Boolean IngameDebugConsole.DebugLogConsole::ParseArgument(System.String,System.Type,System.Object&)
-extern void DebugLogConsole_ParseArgument_m015E2E55449807A810526416B3B62C9F87676458 (void);
+extern void DebugLogConsole_ParseArgument_mD38752180CA3F7F281044CFAA47E4CD34597CC24 (void);
 // 0x0000004E System.Boolean IngameDebugConsole.DebugLogConsole::ParseString(System.String,System.Object&)
-extern void DebugLogConsole_ParseString_mA099E56B944EF1D4B77609B0FDB08F84669F3BFA (void);
+extern void DebugLogConsole_ParseString_mC6A889D46770639BE9916E34C01111BDA20B4195 (void);
 // 0x0000004F System.Boolean IngameDebugConsole.DebugLogConsole::ParseBool(System.String,System.Object&)
-extern void DebugLogConsole_ParseBool_mB1CB9EA2889AEE43BFA709D3C56B3FE2E96C4B66 (void);
+extern void DebugLogConsole_ParseBool_mEF25361C5A16EA42E637C9A5C4CAAA9B69FE6C93 (void);
 // 0x00000050 System.Boolean IngameDebugConsole.DebugLogConsole::ParseInt(System.String,System.Object&)
-extern void DebugLogConsole_ParseInt_m2331E65E2D22BF261FC9B0391D460B015589475F (void);
+extern void DebugLogConsole_ParseInt_m89E83041C6A5BBE5D15158F8463E7791967D99DA (void);
 // 0x00000051 System.Boolean IngameDebugConsole.DebugLogConsole::ParseUInt(System.String,System.Object&)
-extern void DebugLogConsole_ParseUInt_m8C903C907A6B794352D97E51DEE59DF2E0FBD67C (void);
+extern void DebugLogConsole_ParseUInt_m1DC3574D7B9A04530134BFFBDBAC11F4638F5C04 (void);
 // 0x00000052 System.Boolean IngameDebugConsole.DebugLogConsole::ParseLong(System.String,System.Object&)
-extern void DebugLogConsole_ParseLong_mF29D03927E2EB9CA7DB1BD7D3753C297FA1CF112 (void);
+extern void DebugLogConsole_ParseLong_m931B8028A8F8FA1FB4DC8BDFFCE46D640329BCBA (void);
 // 0x00000053 System.Boolean IngameDebugConsole.DebugLogConsole::ParseULong(System.String,System.Object&)
-extern void DebugLogConsole_ParseULong_m1A690642A067AECEAE5C4784485C574FD11CB8ED (void);
+extern void DebugLogConsole_ParseULong_mE10F56112556D7CA1DDEA4AA6419A4D81DE2E5C9 (void);
 // 0x00000054 System.Boolean IngameDebugConsole.DebugLogConsole::ParseByte(System.String,System.Object&)
-extern void DebugLogConsole_ParseByte_m769A778FC567DF9E24578B63B81050949282DB23 (void);
+extern void DebugLogConsole_ParseByte_mDCD41E40AF9A49B3000FB4F9CA3476AC28E4C172 (void);
 // 0x00000055 System.Boolean IngameDebugConsole.DebugLogConsole::ParseSByte(System.String,System.Object&)
-extern void DebugLogConsole_ParseSByte_m89037679DDD9049B77940BEE381A5C20A52343D0 (void);
+extern void DebugLogConsole_ParseSByte_mB24E4FD123682684CED79E98F16BEC0C72575B10 (void);
 // 0x00000056 System.Boolean IngameDebugConsole.DebugLogConsole::ParseShort(System.String,System.Object&)
-extern void DebugLogConsole_ParseShort_mBD89B980B10B7623AA91E02357BA1FD93BADC993 (void);
+extern void DebugLogConsole_ParseShort_m5F4567CA60623F25C9EB8470354C5C2844A715F1 (void);
 // 0x00000057 System.Boolean IngameDebugConsole.DebugLogConsole::ParseUShort(System.String,System.Object&)
-extern void DebugLogConsole_ParseUShort_m26131B4119EC5F4B5858616773BDAFCDEC46A800 (void);
+extern void DebugLogConsole_ParseUShort_m5063AAAD632520CCAE05D2183F8C6EC36F5789DC (void);
 // 0x00000058 System.Boolean IngameDebugConsole.DebugLogConsole::ParseChar(System.String,System.Object&)
-extern void DebugLogConsole_ParseChar_m8458B9BA3331F9775E612ED7FBBF9C8C6C705471 (void);
+extern void DebugLogConsole_ParseChar_mE26B50B4C917AC6EA436AE99B798EC443A3C61BC (void);
 // 0x00000059 System.Boolean IngameDebugConsole.DebugLogConsole::ParseFloat(System.String,System.Object&)
-extern void DebugLogConsole_ParseFloat_m0F17FBDC40C0F09BA140E1B41E3765639A0EF156 (void);
+extern void DebugLogConsole_ParseFloat_m1D8D2B2D33A52F4564830459382BA43F178EFDD8 (void);
 // 0x0000005A System.Boolean IngameDebugConsole.DebugLogConsole::ParseDouble(System.String,System.Object&)
-extern void DebugLogConsole_ParseDouble_mA3EC891173FDBB6E9C132751A69EB42B18241980 (void);
+extern void DebugLogConsole_ParseDouble_mE0E87D6FA7478B20157C50AB3CC6FA3B1D2AEA94 (void);
 // 0x0000005B System.Boolean IngameDebugConsole.DebugLogConsole::ParseDecimal(System.String,System.Object&)
-extern void DebugLogConsole_ParseDecimal_m1539FA98DE97CB2BDFC34DBDA5FC1E3F878A3E2E (void);
+extern void DebugLogConsole_ParseDecimal_m474453B063948DD000A23560EFFAC050937AF2AA (void);
 // 0x0000005C System.Boolean IngameDebugConsole.DebugLogConsole::ParseVector2(System.String,System.Object&)
-extern void DebugLogConsole_ParseVector2_m86D55A434741069F6A1937316EA5BCAE24386452 (void);
+extern void DebugLogConsole_ParseVector2_m7C7FA8F64A90CC149A78E4F53E23101F4320EF17 (void);
 // 0x0000005D System.Boolean IngameDebugConsole.DebugLogConsole::ParseVector3(System.String,System.Object&)
-extern void DebugLogConsole_ParseVector3_m68BB6C3AE7637854268227A9A80788190CB2BDE8 (void);
+extern void DebugLogConsole_ParseVector3_m1180FCC0F42A09E6A8436E2864EB376CE2317373 (void);
 // 0x0000005E System.Boolean IngameDebugConsole.DebugLogConsole::ParseVector4(System.String,System.Object&)
-extern void DebugLogConsole_ParseVector4_m437AC9310FA24DA9E22B08B36A594517755DFD54 (void);
+extern void DebugLogConsole_ParseVector4_mD631138EB5D4E11480D70BE1BC91E717E5E26CA6 (void);
 // 0x0000005F System.Boolean IngameDebugConsole.DebugLogConsole::ParseQuaternion(System.String,System.Object&)
-extern void DebugLogConsole_ParseQuaternion_mB8BBE58538BC7A24C5E00F96061AE50F35A2A6BF (void);
+extern void DebugLogConsole_ParseQuaternion_mD00B4033687BC4E5FB517201982EE7011CB5CED6 (void);
 // 0x00000060 System.Boolean IngameDebugConsole.DebugLogConsole::ParseColor(System.String,System.Object&)
-extern void DebugLogConsole_ParseColor_m6BE3F12F1C2305E7DF29FEE22AC49B9AC11478D4 (void);
+extern void DebugLogConsole_ParseColor_m143BF87018F4A2B5D6F6E788457C66114F6B12EC (void);
 // 0x00000061 System.Boolean IngameDebugConsole.DebugLogConsole::ParseColor32(System.String,System.Object&)
-extern void DebugLogConsole_ParseColor32_mA35E22FCF757D7321A87123E7A67D07C0175E7F2 (void);
+extern void DebugLogConsole_ParseColor32_mB7E40A40CF0B3BF6360DF08350938199400F71BF (void);
 // 0x00000062 System.Boolean IngameDebugConsole.DebugLogConsole::ParseRect(System.String,System.Object&)
-extern void DebugLogConsole_ParseRect_mC231AECF33F287F35F58766BAFFA8E676B53425A (void);
+extern void DebugLogConsole_ParseRect_m387D9CDCD3040CEB10B7C96FB7D5BE8EED3CA591 (void);
 // 0x00000063 System.Boolean IngameDebugConsole.DebugLogConsole::ParseRectOffset(System.String,System.Object&)
-extern void DebugLogConsole_ParseRectOffset_m0A87A8E8BE2EC3958506D22701A0C4793BDCF2EB (void);
+extern void DebugLogConsole_ParseRectOffset_m72AF3CF248A32FA772AB4D657C9A8A7A34E686CB (void);
 // 0x00000064 System.Boolean IngameDebugConsole.DebugLogConsole::ParseBounds(System.String,System.Object&)
-extern void DebugLogConsole_ParseBounds_mD499378ECF769469147A0B87B61843C66D165DB4 (void);
+extern void DebugLogConsole_ParseBounds_mDCA2A9708F851390931A57FF8E5FB40A2AA627B9 (void);
 // 0x00000065 System.Boolean IngameDebugConsole.DebugLogConsole::ParseVector2Int(System.String,System.Object&)
-extern void DebugLogConsole_ParseVector2Int_m8D3BFFA88661141E8D11300B184AF025E803028F (void);
+extern void DebugLogConsole_ParseVector2Int_m3649B9BC937B4664ACC7CA2F0200C63FBB25072E (void);
 // 0x00000066 System.Boolean IngameDebugConsole.DebugLogConsole::ParseVector3Int(System.String,System.Object&)
-extern void DebugLogConsole_ParseVector3Int_mEF6FC8780517AB7C5D89D2625F377A78B2EC876F (void);
+extern void DebugLogConsole_ParseVector3Int_mD25E0226F9D50907FA52B655D84A9BFE58F28304 (void);
 // 0x00000067 System.Boolean IngameDebugConsole.DebugLogConsole::ParseRectInt(System.String,System.Object&)
-extern void DebugLogConsole_ParseRectInt_mDEAFDB64D54E594A4CC7C365BBD687C2B0A96167 (void);
+extern void DebugLogConsole_ParseRectInt_m872D02399F3D0E1AB96EA4C5E7ECEC7A646AE975 (void);
 // 0x00000068 System.Boolean IngameDebugConsole.DebugLogConsole::ParseBoundsInt(System.String,System.Object&)
-extern void DebugLogConsole_ParseBoundsInt_mCD658AD28F3F33D3E4A127D6E2F7686A81FA5832 (void);
+extern void DebugLogConsole_ParseBoundsInt_m530D51F98125A1FBAA8A063D1A3085FDA6CF0F7C (void);
 // 0x00000069 System.Boolean IngameDebugConsole.DebugLogConsole::ParseGameObject(System.String,System.Object&)
-extern void DebugLogConsole_ParseGameObject_mDF3E757588C31293F0C4A0186158BA2EBF169487 (void);
+extern void DebugLogConsole_ParseGameObject_mF3CB80573688D1F357974DD9D979099F3FFF4466 (void);
 // 0x0000006A System.Boolean IngameDebugConsole.DebugLogConsole::ParseComponent(System.String,System.Type,System.Object&)
-extern void DebugLogConsole_ParseComponent_mE706E96EC9ACE58017325B409427F86DE53ECD41 (void);
+extern void DebugLogConsole_ParseComponent_m9D6051721A1FB1D1A1AAC2F28E029003B0807833 (void);
 // 0x0000006B System.Boolean IngameDebugConsole.DebugLogConsole::ParseEnum(System.String,System.Type,System.Object&)
-extern void DebugLogConsole_ParseEnum_m75222EFB675991AB5EE6BD0D871F7D6C46626BE6 (void);
+extern void DebugLogConsole_ParseEnum_m3E539F2030843B5E70454E1DE9EA3EFFDA570CAE (void);
 // 0x0000006C System.Boolean IngameDebugConsole.DebugLogConsole::ParseArray(System.String,System.Type,System.Object&)
-extern void DebugLogConsole_ParseArray_m092C8DF2175C227B250FB35FB0E30D7AFFC93479 (void);
+extern void DebugLogConsole_ParseArray_m447E48C65E5900282AC24CA15886EB383929E04F (void);
 // 0x0000006D System.Boolean IngameDebugConsole.DebugLogConsole::ParseVector(System.String,System.Type,System.Object&)
-extern void DebugLogConsole_ParseVector_m77A5AE2DE52DA84EE66B65DDE431B16A86C8EE6A (void);
+extern void DebugLogConsole_ParseVector_m02B35A42C6167A4F80F99869A134FAF667E90FFD (void);
 // 0x0000006E System.Void IngameDebugConsole.DebugLogConsole/ParseFunction::.ctor(System.Object,System.IntPtr)
 extern void ParseFunction__ctor_m6660320276B797D09EC7D69B6AB268429D3B4B25 (void);
 // 0x0000006F System.Boolean IngameDebugConsole.DebugLogConsole/ParseFunction::Invoke(System.String,System.Object&)
@@ -266,9 +266,9 @@ extern void DebugLogItem_ToString_m773631174F5017BF85AC22D6D85EFDA31A222377 (voi
 // 0x00000096 System.Void IngameDebugConsole.DebugLogItem::.ctor()
 extern void DebugLogItem__ctor_mAAB23E6C7401E8A16E9CC7AA12589B8106CD5F34 (void);
 // 0x00000097 IngameDebugConsole.DebugLogManager IngameDebugConsole.DebugLogManager::get_Instance()
-extern void DebugLogManager_get_Instance_mEC587036B4337978733EEA1165A19FEAC8B8ACD9 (void);
+extern void DebugLogManager_get_Instance_m1CD942C2BA8B924CC5882AD6C13DD970672E1E56 (void);
 // 0x00000098 System.Void IngameDebugConsole.DebugLogManager::set_Instance(IngameDebugConsole.DebugLogManager)
-extern void DebugLogManager_set_Instance_mDE6BDD0B442D66AC8FC050EFFB1F395695BC7D41 (void);
+extern void DebugLogManager_set_Instance_m8AAA1D33AF4369E3F6479AF6B0B6DF97015AE73A (void);
 // 0x00000099 System.Boolean IngameDebugConsole.DebugLogManager::get_IsLogWindowVisible()
 extern void DebugLogManager_get_IsLogWindowVisible_mA4654B1326D4234C4754F811A845C9C57E7F8F54 (void);
 // 0x0000009A System.Boolean IngameDebugConsole.DebugLogManager::get_PopupEnabled()
@@ -464,43 +464,43 @@ extern void EventSystemHandler_DeactivateEventSystem_m45036C26C5322BD6DF68716964
 // 0x000000F9 System.Void IngameDebugConsole.EventSystemHandler::.ctor()
 extern void EventSystemHandler__ctor_m2FD41F48C7ED26C15E12B40EDFBAAC64C9A40448 (void);
 // 0x000000FA System.String IngameDebugConsole.Commands.PlayerPrefsCommands::PlayerPrefsGetInt(System.String)
-extern void PlayerPrefsCommands_PlayerPrefsGetInt_m5986BD89FA3E5376E419F0A1D8B3152B6155A6B5 (void);
+extern void PlayerPrefsCommands_PlayerPrefsGetInt_m1AD5262F09DF794049854B79B4072FB73FB5AC0D (void);
 // 0x000000FB System.Void IngameDebugConsole.Commands.PlayerPrefsCommands::PlayerPrefsSetInt(System.String,System.Int32)
-extern void PlayerPrefsCommands_PlayerPrefsSetInt_m60C09413F4C1D8639C66CA964EDA07174F3572F1 (void);
+extern void PlayerPrefsCommands_PlayerPrefsSetInt_mEF0B86F030CFDDD28CC85611A1C6A9B0BAAA3878 (void);
 // 0x000000FC System.String IngameDebugConsole.Commands.PlayerPrefsCommands::PlayerPrefsGetFloat(System.String)
-extern void PlayerPrefsCommands_PlayerPrefsGetFloat_m03FD9E74B9718AF8B381CADD74F98A11A4DF6CF4 (void);
+extern void PlayerPrefsCommands_PlayerPrefsGetFloat_m1653BE431D3C516BB82CA035D00B165D2368CAB1 (void);
 // 0x000000FD System.Void IngameDebugConsole.Commands.PlayerPrefsCommands::PlayerPrefsSetFloat(System.String,System.Single)
-extern void PlayerPrefsCommands_PlayerPrefsSetFloat_m4CCAB371A26DD2C151A443021CA216E1206B6F75 (void);
+extern void PlayerPrefsCommands_PlayerPrefsSetFloat_mEBC950176A53EFFE565893C0E65B834DB356EC00 (void);
 // 0x000000FE System.String IngameDebugConsole.Commands.PlayerPrefsCommands::PlayerPrefsGetString(System.String)
-extern void PlayerPrefsCommands_PlayerPrefsGetString_m81C5C7FF202D37C0860A5392FF3C84BA3D71E9A6 (void);
+extern void PlayerPrefsCommands_PlayerPrefsGetString_mCE180222D82ECB89E8BF1A9E48C6389C22B77114 (void);
 // 0x000000FF System.Void IngameDebugConsole.Commands.PlayerPrefsCommands::PlayerPrefsSetString(System.String,System.String)
-extern void PlayerPrefsCommands_PlayerPrefsSetString_mB837805163D5E1E74B6A5D07F2FAD78B72D95281 (void);
+extern void PlayerPrefsCommands_PlayerPrefsSetString_m26219A3CC8842581EBD5F90C41A49904FD0D48CA (void);
 // 0x00000100 System.Void IngameDebugConsole.Commands.PlayerPrefsCommands::PlayerPrefsDelete(System.String)
-extern void PlayerPrefsCommands_PlayerPrefsDelete_mC226BE97C46B1E432C6D3EDCCA64D24D0AAAFC72 (void);
+extern void PlayerPrefsCommands_PlayerPrefsDelete_mB0EACD4B5284001E08974A49DE65CE248E1B5A3C (void);
 // 0x00000101 System.Void IngameDebugConsole.Commands.PlayerPrefsCommands::PlayerPrefsClear()
-extern void PlayerPrefsCommands_PlayerPrefsClear_mD8589156A7046A9B2E8B4BA8FF1CFADACC2C9C68 (void);
+extern void PlayerPrefsCommands_PlayerPrefsClear_m9B307B9BD68A4E9834B639F622109D5D6AAAE7F2 (void);
 // 0x00000102 System.Void IngameDebugConsole.Commands.PlayerPrefsCommands::.ctor()
 extern void PlayerPrefsCommands__ctor_m1E7AD59FC034F092024E8EFB0139E15053EFFF50 (void);
 // 0x00000103 System.Void IngameDebugConsole.Commands.SceneCommands::LoadScene(System.String)
-extern void SceneCommands_LoadScene_mDB909926F3AFC8A42A945D0446CD46E1C7A415EA (void);
+extern void SceneCommands_LoadScene_mBAA44F58BB3F283CE354911CB9A48CC0B5DAA181 (void);
 // 0x00000104 System.Void IngameDebugConsole.Commands.SceneCommands::LoadScene(System.String,UnityEngine.SceneManagement.LoadSceneMode)
-extern void SceneCommands_LoadScene_m496B98FBC3C435C1021166A8A68B3F7547EE3560 (void);
+extern void SceneCommands_LoadScene_m982EF65D399214FE381233249AE819994B2CAE0E (void);
 // 0x00000105 System.Void IngameDebugConsole.Commands.SceneCommands::LoadSceneAsync(System.String)
-extern void SceneCommands_LoadSceneAsync_m05CB0C14BFC799D35D0E073C7BC7ECEF6CFDB858 (void);
+extern void SceneCommands_LoadSceneAsync_m4117C64FD6C4645BFA744E942718E5B277602473 (void);
 // 0x00000106 System.Void IngameDebugConsole.Commands.SceneCommands::LoadSceneAsync(System.String,UnityEngine.SceneManagement.LoadSceneMode)
-extern void SceneCommands_LoadSceneAsync_m292FA99DDD1EEB371B289C5A0CB9ECEC0C2B4DD0 (void);
+extern void SceneCommands_LoadSceneAsync_mC5B1FC860523EA817017662F94663E7DEA31EF38 (void);
 // 0x00000107 System.Void IngameDebugConsole.Commands.SceneCommands::LoadSceneInternal(System.String,System.Boolean,UnityEngine.SceneManagement.LoadSceneMode)
-extern void SceneCommands_LoadSceneInternal_m53F21AA5C0C13436CCC7AC5C8B6AE81E9AECFD7A (void);
+extern void SceneCommands_LoadSceneInternal_m44750C6CBF099D1649D013DE26C8E6C838AA234B (void);
 // 0x00000108 System.Void IngameDebugConsole.Commands.SceneCommands::UnloadScene(System.String)
-extern void SceneCommands_UnloadScene_m680020F66A9E9E9AF4CDC27639C4409FBB2414A0 (void);
+extern void SceneCommands_UnloadScene_m9436ABF65783D1BF8594C211C75FDBD0865CF111 (void);
 // 0x00000109 System.Void IngameDebugConsole.Commands.SceneCommands::RestartScene()
-extern void SceneCommands_RestartScene_m56A4E508CBF5C69D756EFAE156D390162E4679A1 (void);
+extern void SceneCommands_RestartScene_m8B8CE9CE5F643ED7D517B7AD996328429C0ADBCF (void);
 // 0x0000010A System.Void IngameDebugConsole.Commands.SceneCommands::.ctor()
 extern void SceneCommands__ctor_m57CAC8925D540A6EA5DEE203881210F5C935906B (void);
 // 0x0000010B System.Void IngameDebugConsole.Commands.TimeCommands::SetTimeScale(System.Single)
-extern void TimeCommands_SetTimeScale_mCA04D49113F99290D8FC11EA9BEBE263CC5D5763 (void);
+extern void TimeCommands_SetTimeScale_m24F47A0EF5EF561DDBE978F16B3E787FF5FCBE1A (void);
 // 0x0000010C System.Single IngameDebugConsole.Commands.TimeCommands::GetTimeScale()
-extern void TimeCommands_GetTimeScale_m9C0EC6D9CCA7ED5F333D807D56FB9FBB42E15541 (void);
+extern void TimeCommands_GetTimeScale_mB93AE87BA0BCB1562443FCD021301FE0FCFC971B (void);
 // 0x0000010D System.Void IngameDebugConsole.Commands.TimeCommands::.ctor()
 extern void TimeCommands__ctor_m14FCEFDFEC4473F6F5DD7CBEE28B382E495F1534 (void);
 static Il2CppMethodPointer s_methodPointers[269] = 
@@ -525,17 +525,17 @@ static Il2CppMethodPointer s_methodPointers[269] =
 	ConsoleMethodAttribute__ctor_m14190D9D09BD98E2F46AA89C7B10EC8B75DA1A50,
 	ConsoleMethodInfo__ctor_mD64937BD94F186B6418DEF8B8AF8D36AADD59175,
 	ConsoleMethodInfo_IsValid_m9F0346F09F2E31E1F774FC741BD75AEE58BF18D7,
-	DebugLogConsole__cctor_m95B4F215B5693C1BEA00437807F88E5875B191A6,
-	DebugLogConsole_LogAllCommands_m7C377F0FA0E52BA0CCA5FD6C8279ACFDF88856A6,
-	DebugLogConsole_LogAllCommandsWithName_m2DE51BF4A473A639137278EF104AFBD669FDAE8B,
-	DebugLogConsole_LogSystemInfo_mA411E98F2A177C8DA5D4ACB6048C6336F600C2D8,
-	DebugLogConsole_AppendSysInfoIfPresent_m1025430D90D604A57C272EA30208D91AD7C5D6CF,
-	DebugLogConsole_AppendSysInfoIfPresent_m53AA83F76B006684E26F1216D6C63865B89CFD32,
-	DebugLogConsole_AddCustomParameterType_mEE3BFC4768DD0DD6E64DBD9BF10AAE0239E91EBB,
-	DebugLogConsole_RemoveCustomParameterType_m920600282C8B84C42EDAA60C1260119CF26D3D7C,
-	DebugLogConsole_AddCommandInstance_mBBC78786B7BBFC45409B2BE138B3C0BEAA1390FE,
-	DebugLogConsole_AddCommandStatic_m956009F83D64171D70CCD1A3C3FB3AD7985D28C1,
-	DebugLogConsole_AddCommand_mF6C04B006501F0CF53F9C68C89C35C768FD2E376,
+	DebugLogConsole__cctor_m75A152ACAB9CFE5C1E44304E03114D1B6DB0386A,
+	DebugLogConsole_LogAllCommands_m978E37DE77B64B1BFEBEAE76A009FC8B6869E1EC,
+	DebugLogConsole_LogAllCommandsWithName_mE66120EA06927650B2D14A4DC9291C9FD34F4B2D,
+	DebugLogConsole_LogSystemInfo_mB8DFBFE050EC55468EDF6106D49D060C5E2AB622,
+	DebugLogConsole_AppendSysInfoIfPresent_m8348C123A80619F01E787BC5F6DF69577A53B556,
+	DebugLogConsole_AppendSysInfoIfPresent_mE33F854781092A2E4B3A1301DADA8A99C9FF1537,
+	DebugLogConsole_AddCustomParameterType_m7725AC531D2A3583F6BE80BB92A716ACD766F3FA,
+	DebugLogConsole_RemoveCustomParameterType_m2835B8990F7DD01009446DF14B4417E48579968B,
+	DebugLogConsole_AddCommandInstance_m460403F17EA9E045FB3CCE3739A1A066E91FAC33,
+	DebugLogConsole_AddCommandStatic_mA25C3DE5B2273715EAE7B7EA643F2B27E4E7EF80,
+	DebugLogConsole_AddCommand_m44EA1C3BC10905406AAED2B25AC713C0E076A70F,
 	NULL,
 	NULL,
 	NULL,
@@ -545,7 +545,7 @@ static Il2CppMethodPointer s_methodPointers[269] =
 	NULL,
 	NULL,
 	NULL,
-	DebugLogConsole_AddCommand_m9405B1A98EFB99B3A851DBD5DBE24A7A32997097,
+	DebugLogConsole_AddCommand_m8DC230B10D47E9279F8E0581B3D450A68B03D3BC,
 	NULL,
 	NULL,
 	NULL,
@@ -554,11 +554,11 @@ static Il2CppMethodPointer s_methodPointers[269] =
 	NULL,
 	NULL,
 	NULL,
-	DebugLogConsole_AddCommand_mEA24490081305C8A2E0B69BCC058D3AA2CB78E7C,
-	DebugLogConsole_AddCommand_m48B189A0FEA0E37399C973D04053D1332EFB3953,
-	DebugLogConsole_AddCommand_m1319538F466ECEA4D813BC4532CF4BE773A1CBB2,
-	DebugLogConsole_RemoveCommand_m06E7B4FE6B52AA854F8C84E8FB6B7DEB6152428C,
-	DebugLogConsole_RemoveCommand_mF264DB3B9BA5EF64C4BA19A07F8F6022BE89CFF9,
+	DebugLogConsole_AddCommand_m68F24524C503875268CF3475FFDECC1D96D6DEC4,
+	DebugLogConsole_AddCommand_m4BFF08D8BF1C63A4282EB1B5FFF95E695A0C4FD9,
+	DebugLogConsole_AddCommand_m3D56A91D2615526245C2996E0D97AE636B6EDFAB,
+	DebugLogConsole_RemoveCommand_m7E9D585B16ADA53505185CF20D433A02EE9670E8,
+	DebugLogConsole_RemoveCommand_m8FC42072669FFB7EF73C84595FAE4EBB94C2058F,
 	NULL,
 	NULL,
 	NULL,
@@ -568,52 +568,52 @@ static Il2CppMethodPointer s_methodPointers[269] =
 	NULL,
 	NULL,
 	NULL,
-	DebugLogConsole_RemoveCommand_mB0F9CF8B37AFE1895D0DE27498A4F5D3BD256B53,
-	DebugLogConsole_RemoveCommand_mC94216D492F67A3A8639683DAA058AD134B6B67F,
-	DebugLogConsole_GetAutoCompleteCommand_m5B75A8AA660F005094E55A5102D0DBA16D85EE3E,
-	DebugLogConsole_ExecuteCommand_m806E9CA29A8E5985173569CE656C94FB165D9BFD,
-	DebugLogConsole_FetchArgumentsFromCommand_m2051CC5151D05840B27100A710B0F32E0AF95C7C,
-	DebugLogConsole_FindCommands_m4BB4BFF088CF2FB72316CFC287E98F5E7EC5908D,
-	DebugLogConsole_GetCommandSuggestions_mE1340CF2E937E267A5825FB11F67B285A5E20E89,
-	DebugLogConsole_IndexOfDelimiterGroup_m054DF43C7AFAC812F09FF2F3BDABA422F326E6C8,
-	DebugLogConsole_IndexOfDelimiterGroupEnd_m411DE7B37400937D4FEF77DD9C0B2AE179BDF70F,
-	DebugLogConsole_IndexOfChar_mC9C5A56E6D1D655CB346247D5929EA66CCCB2A58,
-	DebugLogConsole_FindCommandIndex_m549CEE3B7FACBBD1DAD860286B2E98CF1ED84170,
-	DebugLogConsole_IsSupportedArrayType_mA75946DF9555AACFDBC61D147A05DB6C17CC827D,
-	DebugLogConsole_GetTypeReadableName_mD2DE64112F7127D8B159A62850E7FA4B760C4FE6,
-	DebugLogConsole_ParseArgument_m015E2E55449807A810526416B3B62C9F87676458,
-	DebugLogConsole_ParseString_mA099E56B944EF1D4B77609B0FDB08F84669F3BFA,
-	DebugLogConsole_ParseBool_mB1CB9EA2889AEE43BFA709D3C56B3FE2E96C4B66,
-	DebugLogConsole_ParseInt_m2331E65E2D22BF261FC9B0391D460B015589475F,
-	DebugLogConsole_ParseUInt_m8C903C907A6B794352D97E51DEE59DF2E0FBD67C,
-	DebugLogConsole_ParseLong_mF29D03927E2EB9CA7DB1BD7D3753C297FA1CF112,
-	DebugLogConsole_ParseULong_m1A690642A067AECEAE5C4784485C574FD11CB8ED,
-	DebugLogConsole_ParseByte_m769A778FC567DF9E24578B63B81050949282DB23,
-	DebugLogConsole_ParseSByte_m89037679DDD9049B77940BEE381A5C20A52343D0,
-	DebugLogConsole_ParseShort_mBD89B980B10B7623AA91E02357BA1FD93BADC993,
-	DebugLogConsole_ParseUShort_m26131B4119EC5F4B5858616773BDAFCDEC46A800,
-	DebugLogConsole_ParseChar_m8458B9BA3331F9775E612ED7FBBF9C8C6C705471,
-	DebugLogConsole_ParseFloat_m0F17FBDC40C0F09BA140E1B41E3765639A0EF156,
-	DebugLogConsole_ParseDouble_mA3EC891173FDBB6E9C132751A69EB42B18241980,
-	DebugLogConsole_ParseDecimal_m1539FA98DE97CB2BDFC34DBDA5FC1E3F878A3E2E,
-	DebugLogConsole_ParseVector2_m86D55A434741069F6A1937316EA5BCAE24386452,
-	DebugLogConsole_ParseVector3_m68BB6C3AE7637854268227A9A80788190CB2BDE8,
-	DebugLogConsole_ParseVector4_m437AC9310FA24DA9E22B08B36A594517755DFD54,
-	DebugLogConsole_ParseQuaternion_mB8BBE58538BC7A24C5E00F96061AE50F35A2A6BF,
-	DebugLogConsole_ParseColor_m6BE3F12F1C2305E7DF29FEE22AC49B9AC11478D4,
-	DebugLogConsole_ParseColor32_mA35E22FCF757D7321A87123E7A67D07C0175E7F2,
-	DebugLogConsole_ParseRect_mC231AECF33F287F35F58766BAFFA8E676B53425A,
-	DebugLogConsole_ParseRectOffset_m0A87A8E8BE2EC3958506D22701A0C4793BDCF2EB,
-	DebugLogConsole_ParseBounds_mD499378ECF769469147A0B87B61843C66D165DB4,
-	DebugLogConsole_ParseVector2Int_m8D3BFFA88661141E8D11300B184AF025E803028F,
-	DebugLogConsole_ParseVector3Int_mEF6FC8780517AB7C5D89D2625F377A78B2EC876F,
-	DebugLogConsole_ParseRectInt_mDEAFDB64D54E594A4CC7C365BBD687C2B0A96167,
-	DebugLogConsole_ParseBoundsInt_mCD658AD28F3F33D3E4A127D6E2F7686A81FA5832,
-	DebugLogConsole_ParseGameObject_mDF3E757588C31293F0C4A0186158BA2EBF169487,
-	DebugLogConsole_ParseComponent_mE706E96EC9ACE58017325B409427F86DE53ECD41,
-	DebugLogConsole_ParseEnum_m75222EFB675991AB5EE6BD0D871F7D6C46626BE6,
-	DebugLogConsole_ParseArray_m092C8DF2175C227B250FB35FB0E30D7AFFC93479,
-	DebugLogConsole_ParseVector_m77A5AE2DE52DA84EE66B65DDE431B16A86C8EE6A,
+	DebugLogConsole_RemoveCommand_mCB959C90BB894AC0413C56D67856B51D4B8FAC12,
+	DebugLogConsole_RemoveCommand_m5B5D9DBA606BD7CF700A12DCDEED6F3CA7ABC90A,
+	DebugLogConsole_GetAutoCompleteCommand_m87F49D25747A4C04B48BDF3AC939863E27A0778E,
+	DebugLogConsole_ExecuteCommand_m09EFF4CAD43DDF1822589BCA5466F2BF3B02CD21,
+	DebugLogConsole_FetchArgumentsFromCommand_mC1BAA30A6C63276103CEE04B898336A8900FDCAF,
+	DebugLogConsole_FindCommands_m33C4DDBF9B312C69EED77A268C8BBFB218F51146,
+	DebugLogConsole_GetCommandSuggestions_mD9A1F9ECB81527BDD14183214F668B8C6AA0DCBF,
+	DebugLogConsole_IndexOfDelimiterGroup_m0CC9FFF8192FA903465847E9B51D5D7B6A826F29,
+	DebugLogConsole_IndexOfDelimiterGroupEnd_mA3CF7EEF7D82521E9173011822619D159E404C72,
+	DebugLogConsole_IndexOfChar_m4C1A446342AA125173F57AAED37E9445C8C9CD37,
+	DebugLogConsole_FindCommandIndex_m937912A34A602748887E50AE2A6965A125E420A7,
+	DebugLogConsole_IsSupportedArrayType_mCF63052024BD4D95564AD4E395C558E99092BB86,
+	DebugLogConsole_GetTypeReadableName_mD536CA0D3C2534C91B7BA1096C1F09B8D4E83934,
+	DebugLogConsole_ParseArgument_mD38752180CA3F7F281044CFAA47E4CD34597CC24,
+	DebugLogConsole_ParseString_mC6A889D46770639BE9916E34C01111BDA20B4195,
+	DebugLogConsole_ParseBool_mEF25361C5A16EA42E637C9A5C4CAAA9B69FE6C93,
+	DebugLogConsole_ParseInt_m89E83041C6A5BBE5D15158F8463E7791967D99DA,
+	DebugLogConsole_ParseUInt_m1DC3574D7B9A04530134BFFBDBAC11F4638F5C04,
+	DebugLogConsole_ParseLong_m931B8028A8F8FA1FB4DC8BDFFCE46D640329BCBA,
+	DebugLogConsole_ParseULong_mE10F56112556D7CA1DDEA4AA6419A4D81DE2E5C9,
+	DebugLogConsole_ParseByte_mDCD41E40AF9A49B3000FB4F9CA3476AC28E4C172,
+	DebugLogConsole_ParseSByte_mB24E4FD123682684CED79E98F16BEC0C72575B10,
+	DebugLogConsole_ParseShort_m5F4567CA60623F25C9EB8470354C5C2844A715F1,
+	DebugLogConsole_ParseUShort_m5063AAAD632520CCAE05D2183F8C6EC36F5789DC,
+	DebugLogConsole_ParseChar_mE26B50B4C917AC6EA436AE99B798EC443A3C61BC,
+	DebugLogConsole_ParseFloat_m1D8D2B2D33A52F4564830459382BA43F178EFDD8,
+	DebugLogConsole_ParseDouble_mE0E87D6FA7478B20157C50AB3CC6FA3B1D2AEA94,
+	DebugLogConsole_ParseDecimal_m474453B063948DD000A23560EFFAC050937AF2AA,
+	DebugLogConsole_ParseVector2_m7C7FA8F64A90CC149A78E4F53E23101F4320EF17,
+	DebugLogConsole_ParseVector3_m1180FCC0F42A09E6A8436E2864EB376CE2317373,
+	DebugLogConsole_ParseVector4_mD631138EB5D4E11480D70BE1BC91E717E5E26CA6,
+	DebugLogConsole_ParseQuaternion_mD00B4033687BC4E5FB517201982EE7011CB5CED6,
+	DebugLogConsole_ParseColor_m143BF87018F4A2B5D6F6E788457C66114F6B12EC,
+	DebugLogConsole_ParseColor32_mB7E40A40CF0B3BF6360DF08350938199400F71BF,
+	DebugLogConsole_ParseRect_m387D9CDCD3040CEB10B7C96FB7D5BE8EED3CA591,
+	DebugLogConsole_ParseRectOffset_m72AF3CF248A32FA772AB4D657C9A8A7A34E686CB,
+	DebugLogConsole_ParseBounds_mDCA2A9708F851390931A57FF8E5FB40A2AA627B9,
+	DebugLogConsole_ParseVector2Int_m3649B9BC937B4664ACC7CA2F0200C63FBB25072E,
+	DebugLogConsole_ParseVector3Int_mD25E0226F9D50907FA52B655D84A9BFE58F28304,
+	DebugLogConsole_ParseRectInt_m872D02399F3D0E1AB96EA4C5E7ECEC7A646AE975,
+	DebugLogConsole_ParseBoundsInt_m530D51F98125A1FBAA8A063D1A3085FDA6CF0F7C,
+	DebugLogConsole_ParseGameObject_mF3CB80573688D1F357974DD9D979099F3FFF4466,
+	DebugLogConsole_ParseComponent_m9D6051721A1FB1D1A1AAC2F28E029003B0807833,
+	DebugLogConsole_ParseEnum_m3E539F2030843B5E70454E1DE9EA3EFFDA570CAE,
+	DebugLogConsole_ParseArray_m447E48C65E5900282AC24CA15886EB383929E04F,
+	DebugLogConsole_ParseVector_m02B35A42C6167A4F80F99869A134FAF667E90FFD,
 	ParseFunction__ctor_m6660320276B797D09EC7D69B6AB268429D3B4B25,
 	ParseFunction_Invoke_m6559BD38F8E131515CE959A7FC6D7EDE407794C1,
 	ParseFunction_BeginInvoke_m39B29B3F54DD95ABB11FC726B6A4794D40D9252F,
@@ -655,8 +655,8 @@ static Il2CppMethodPointer s_methodPointers[269] =
 	DebugLogItem_CalculateExpandedHeight_m55309AF097A86F270D520E266A7C3ACA00BA0EFC,
 	DebugLogItem_ToString_m773631174F5017BF85AC22D6D85EFDA31A222377,
 	DebugLogItem__ctor_mAAB23E6C7401E8A16E9CC7AA12589B8106CD5F34,
-	DebugLogManager_get_Instance_mEC587036B4337978733EEA1165A19FEAC8B8ACD9,
-	DebugLogManager_set_Instance_mDE6BDD0B442D66AC8FC050EFFB1F395695BC7D41,
+	DebugLogManager_get_Instance_m1CD942C2BA8B924CC5882AD6C13DD970672E1E56,
+	DebugLogManager_set_Instance_m8AAA1D33AF4369E3F6479AF6B0B6DF97015AE73A,
 	DebugLogManager_get_IsLogWindowVisible_mA4654B1326D4234C4754F811A845C9C57E7F8F54,
 	DebugLogManager_get_PopupEnabled_m69350E4F2AC441FA05665C843745388941CE82A0,
 	DebugLogManager_set_PopupEnabled_m73DC638F652F0B01DA24D13D4FA9470A3B2C3B49,
@@ -754,25 +754,25 @@ static Il2CppMethodPointer s_methodPointers[269] =
 	EventSystemHandler_ActivateEventSystemIfNeeded_m162A2AECC9C9CB151849DD89B25485FAFC30313B,
 	EventSystemHandler_DeactivateEventSystem_m45036C26C5322BD6DF68716964C1C53BB19C90F8,
 	EventSystemHandler__ctor_m2FD41F48C7ED26C15E12B40EDFBAAC64C9A40448,
-	PlayerPrefsCommands_PlayerPrefsGetInt_m5986BD89FA3E5376E419F0A1D8B3152B6155A6B5,
-	PlayerPrefsCommands_PlayerPrefsSetInt_m60C09413F4C1D8639C66CA964EDA07174F3572F1,
-	PlayerPrefsCommands_PlayerPrefsGetFloat_m03FD9E74B9718AF8B381CADD74F98A11A4DF6CF4,
-	PlayerPrefsCommands_PlayerPrefsSetFloat_m4CCAB371A26DD2C151A443021CA216E1206B6F75,
-	PlayerPrefsCommands_PlayerPrefsGetString_m81C5C7FF202D37C0860A5392FF3C84BA3D71E9A6,
-	PlayerPrefsCommands_PlayerPrefsSetString_mB837805163D5E1E74B6A5D07F2FAD78B72D95281,
-	PlayerPrefsCommands_PlayerPrefsDelete_mC226BE97C46B1E432C6D3EDCCA64D24D0AAAFC72,
-	PlayerPrefsCommands_PlayerPrefsClear_mD8589156A7046A9B2E8B4BA8FF1CFADACC2C9C68,
+	PlayerPrefsCommands_PlayerPrefsGetInt_m1AD5262F09DF794049854B79B4072FB73FB5AC0D,
+	PlayerPrefsCommands_PlayerPrefsSetInt_mEF0B86F030CFDDD28CC85611A1C6A9B0BAAA3878,
+	PlayerPrefsCommands_PlayerPrefsGetFloat_m1653BE431D3C516BB82CA035D00B165D2368CAB1,
+	PlayerPrefsCommands_PlayerPrefsSetFloat_mEBC950176A53EFFE565893C0E65B834DB356EC00,
+	PlayerPrefsCommands_PlayerPrefsGetString_mCE180222D82ECB89E8BF1A9E48C6389C22B77114,
+	PlayerPrefsCommands_PlayerPrefsSetString_m26219A3CC8842581EBD5F90C41A49904FD0D48CA,
+	PlayerPrefsCommands_PlayerPrefsDelete_mB0EACD4B5284001E08974A49DE65CE248E1B5A3C,
+	PlayerPrefsCommands_PlayerPrefsClear_m9B307B9BD68A4E9834B639F622109D5D6AAAE7F2,
 	PlayerPrefsCommands__ctor_m1E7AD59FC034F092024E8EFB0139E15053EFFF50,
-	SceneCommands_LoadScene_mDB909926F3AFC8A42A945D0446CD46E1C7A415EA,
-	SceneCommands_LoadScene_m496B98FBC3C435C1021166A8A68B3F7547EE3560,
-	SceneCommands_LoadSceneAsync_m05CB0C14BFC799D35D0E073C7BC7ECEF6CFDB858,
-	SceneCommands_LoadSceneAsync_m292FA99DDD1EEB371B289C5A0CB9ECEC0C2B4DD0,
-	SceneCommands_LoadSceneInternal_m53F21AA5C0C13436CCC7AC5C8B6AE81E9AECFD7A,
-	SceneCommands_UnloadScene_m680020F66A9E9E9AF4CDC27639C4409FBB2414A0,
-	SceneCommands_RestartScene_m56A4E508CBF5C69D756EFAE156D390162E4679A1,
+	SceneCommands_LoadScene_mBAA44F58BB3F283CE354911CB9A48CC0B5DAA181,
+	SceneCommands_LoadScene_m982EF65D399214FE381233249AE819994B2CAE0E,
+	SceneCommands_LoadSceneAsync_m4117C64FD6C4645BFA744E942718E5B277602473,
+	SceneCommands_LoadSceneAsync_mC5B1FC860523EA817017662F94663E7DEA31EF38,
+	SceneCommands_LoadSceneInternal_m44750C6CBF099D1649D013DE26C8E6C838AA234B,
+	SceneCommands_UnloadScene_m9436ABF65783D1BF8594C211C75FDBD0865CF111,
+	SceneCommands_RestartScene_m8B8CE9CE5F643ED7D517B7AD996328429C0ADBCF,
 	SceneCommands__ctor_m57CAC8925D540A6EA5DEE203881210F5C935906B,
-	TimeCommands_SetTimeScale_mCA04D49113F99290D8FC11EA9BEBE263CC5D5763,
-	TimeCommands_GetTimeScale_m9C0EC6D9CCA7ED5F333D807D56FB9FBB42E15541,
+	TimeCommands_SetTimeScale_m24F47A0EF5EF561DDBE978F16B3E787FF5FCBE1A,
+	TimeCommands_GetTimeScale_mB93AE87BA0BCB1562443FCD021301FE0FCFC971B,
 	TimeCommands__ctor_m14FCEFDFEC4473F6F5DD7CBEE28B382E495F1534,
 };
 extern void QueuedDebugLogEntry__ctor_m4C3374C16FCD4D5BB8A4224E360B018ACBBA4ACE_AdjustorThunk (void);
@@ -804,23 +804,23 @@ static const int32_t s_InvokerIndices[269] =
 	0,
 	0,
 	0,
-	8544,
-	8544,
-	8544,
-	2222,
+	8537,
+	8537,
+	8537,
+	2221,
 	445,
-	8428,
-	14975,
-	14975,
-	14085,
-	14975,
-	11102,
-	11093,
-	11475,
-	14085,
-	9962,
-	9962,
-	11475,
+	8422,
+	14985,
+	14985,
+	14093,
+	14985,
+	11100,
+	11091,
+	11474,
+	14093,
+	9957,
+	9957,
+	11474,
 	0,
 	0,
 	0,
@@ -830,7 +830,7 @@ static const int32_t s_InvokerIndices[269] =
 	0,
 	0,
 	0,
-	11475,
+	11474,
 	0,
 	0,
 	0,
@@ -839,11 +839,11 @@ static const int32_t s_InvokerIndices[269] =
 	0,
 	0,
 	0,
-	10628,
-	9364,
-	9962,
-	14085,
-	14085,
+	10624,
+	9359,
+	9957,
+	14093,
+	14093,
 	0,
 	0,
 	0,
@@ -853,212 +853,212 @@ static const int32_t s_InvokerIndices[269] =
 	0,
 	0,
 	0,
-	14085,
-	14085,
-	12153,
-	14085,
-	12545,
-	11448,
-	9953,
-	13572,
-	10977,
-	10990,
-	13565,
-	13408,
-	13718,
-	10855,
-	11813,
-	11813,
-	11813,
-	11813,
-	11813,
-	11813,
-	11813,
-	11813,
-	11813,
-	11813,
-	11813,
-	11813,
-	11813,
-	11813,
-	11813,
-	11813,
-	11813,
-	11813,
-	11813,
-	11813,
-	11813,
-	11813,
-	11813,
-	11813,
-	11813,
-	11813,
-	11813,
-	11813,
-	10855,
-	10855,
-	10855,
-	10855,
-	4008,
-	2550,
-	1293,
-	2457,
-	4012,
-	5091,
-	5091,
-	8544,
-	8510,
-	8704,
-	2217,
-	5091,
-	2078,
-	6968,
-	6968,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	8544,
-	8544,
-	8544,
-	8544,
-	8287,
-	8510,
-	8428,
-	6968,
-	1456,
-	8704,
-	8704,
-	6878,
-	2163,
-	6968,
-	8704,
-	8544,
-	3263,
-	8544,
-	8704,
-	14933,
-	14085,
-	8428,
-	8428,
-	6849,
-	8704,
-	8704,
-	8704,
-	8704,
-	8704,
-	8704,
-	8704,
-	8704,
-	8704,
-	8704,
-	2004,
-	2217,
-	6935,
-	4056,
-	6849,
-	8704,
-	3352,
-	8704,
-	8704,
-	8704,
-	8704,
-	8704,
-	6968,
-	6968,
-	6968,
-	6968,
-	6968,
-	8704,
-	8544,
-	8704,
-	6968,
-	8704,
-	6968,
-	8544,
-	8704,
-	8704,
-	8704,
-	2124,
-	8704,
-	6277,
-	6968,
-	8704,
-	8704,
-	6968,
-	6968,
-	6968,
-	6849,
-	8704,
-	6935,
-	8704,
-	8428,
-	8544,
-	8704,
-	8544,
-	8617,
-	8617,
-	8704,
-	822,
-	6849,
-	6968,
-	6935,
-	3714,
-	8704,
-	6849,
-	6935,
-	8704,
-	8704,
-	8704,
-	8704,
-	6849,
-	3684,
-	6935,
-	3684,
-	3684,
-	4005,
-	8704,
-	7106,
-	6968,
-	6968,
-	8704,
-	6968,
-	6968,
-	6968,
-	6968,
-	6968,
-	8428,
-	8704,
-	8704,
-	8704,
-	4069,
-	7028,
-	8704,
-	8704,
-	8704,
-	13718,
-	12539,
-	13718,
-	12550,
-	13718,
-	12545,
-	14085,
-	14975,
-	8704,
-	14085,
-	12539,
-	14085,
-	12539,
+	14093,
+	14093,
+	12155,
+	14093,
+	12551,
 	11447,
-	14085,
-	14975,
-	8704,
-	14095,
-	14954,
-	8704,
+	9948,
+	13579,
+	10973,
+	10986,
+	13572,
+	13415,
+	13726,
+	10851,
+	11812,
+	11812,
+	11812,
+	11812,
+	11812,
+	11812,
+	11812,
+	11812,
+	11812,
+	11812,
+	11812,
+	11812,
+	11812,
+	11812,
+	11812,
+	11812,
+	11812,
+	11812,
+	11812,
+	11812,
+	11812,
+	11812,
+	11812,
+	11812,
+	11812,
+	11812,
+	11812,
+	11812,
+	10851,
+	10851,
+	10851,
+	10851,
+	4005,
+	2549,
+	1292,
+	2457,
+	4009,
+	5089,
+	5089,
+	8537,
+	8503,
+	8697,
+	2216,
+	5089,
+	2077,
+	6963,
+	6963,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	8537,
+	8537,
+	8537,
+	8537,
+	8281,
+	8503,
+	8422,
+	6963,
+	1455,
+	8697,
+	8697,
+	6874,
+	2162,
+	6963,
+	8697,
+	8537,
+	3261,
+	8537,
+	8697,
+	14943,
+	14093,
+	8422,
+	8422,
+	6845,
+	8697,
+	8697,
+	8697,
+	8697,
+	8697,
+	8697,
+	8697,
+	8697,
+	8697,
+	8697,
+	2003,
+	2216,
+	6930,
+	4053,
+	6845,
+	8697,
+	3350,
+	8697,
+	8697,
+	8697,
+	8697,
+	8697,
+	6963,
+	6963,
+	6963,
+	6963,
+	6963,
+	8697,
+	8537,
+	8697,
+	6963,
+	8697,
+	6963,
+	8537,
+	8697,
+	8697,
+	8697,
+	2123,
+	8697,
+	6272,
+	6963,
+	8697,
+	8697,
+	6963,
+	6963,
+	6963,
+	6845,
+	8697,
+	6930,
+	8697,
+	8422,
+	8537,
+	8697,
+	8537,
+	8610,
+	8610,
+	8697,
+	820,
+	6845,
+	6963,
+	6930,
+	3711,
+	8697,
+	6845,
+	6930,
+	8697,
+	8697,
+	8697,
+	8697,
+	6845,
+	3681,
+	6930,
+	3681,
+	3681,
+	4002,
+	8697,
+	7101,
+	6963,
+	6963,
+	8697,
+	6963,
+	6963,
+	6963,
+	6963,
+	6963,
+	8422,
+	8697,
+	8697,
+	8697,
+	4067,
+	7023,
+	8697,
+	8697,
+	8697,
+	13726,
+	12545,
+	13726,
+	12556,
+	13726,
+	12551,
+	14093,
+	14985,
+	8697,
+	14093,
+	12545,
+	14093,
+	12545,
+	11446,
+	14093,
+	14985,
+	8697,
+	14103,
+	14964,
+	8697,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[3] = 
 {
@@ -1071,12 +1071,12 @@ extern const uint32_t g_rgctx_CircularBuffer_1_get_Count_m54877B3269781F998B4A08
 extern const uint32_t g_rgctx_CircularBuffer_1_set_Count_mBEAE70AC8DE0C0BAB275C3BA1D6B089C83AE4D33;
 extern const uint32_t g_rgctx_TU5BU5D_t4CF7A0220C7AEE390A3CC6D7690A28AAD7CE36A9;
 extern const uint32_t g_rgctx_DynamicCircularBuffer_1_get_Count_mC6DC5EB553A04244F2EBCC8B4B6288B32B6DD7C8;
-extern const uint32_t g_rgctx_Array_Resize_TisT_t1F7F904395BD0301CD48B948B26B7BAFEE436301_mA59094CBF07104A55A1CF31B4911BD3519BDB4F0;
+extern const uint32_t g_rgctx_Array_Resize_TisT_t1F7F904395BD0301CD48B948B26B7BAFEE436301_mAC79C6659C7312F2C434E0510BC4B4BE32803492;
 extern const uint32_t g_rgctx_DynamicCircularBuffer_1_set_Count_mAF5EDDAC4680B182D010548F22EE5A7FB7D422B5;
 extern const uint32_t g_rgctx_DynamicCircularBuffer_1_set_Item_mCCB0D9D739065CE337F1D14FDA7BCE316BAEAA15;
 extern const uint32_t g_rgctx_TU5BU5D_t3D2FF42767DE53FBF572360531A2492DA3B1CEDA;
-extern const uint32_t g_rgctx_Array_Resize_TisT_tF046A068325657602BBE27D83BDE5E10F5F190B3_m70E4A25865476E707BCDB910E59FB131C4C27D3D;
-extern const uint32_t g_rgctx_Array_IndexOf_TisT_tF046A068325657602BBE27D83BDE5E10F5F190B3_m58CD16F3964CDAB96D79D38414C4A18EDD9C33D6;
+extern const uint32_t g_rgctx_Array_Resize_TisT_tF046A068325657602BBE27D83BDE5E10F5F190B3_m0752D5DF43B3C3FB174DB2C95BF4B739FADDA5FC;
+extern const uint32_t g_rgctx_Array_IndexOf_TisT_tF046A068325657602BBE27D83BDE5E10F5F190B3_m489873EB280CDA87175547A31890E3CF318B0667;
 static const Il2CppRGCTXDefinition s_rgctxValues[11] = 
 {
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TU5BU5D_tED49EDF8D2C4E3AFD9FFFDF819CBEB910D353AB1 },
@@ -1084,12 +1084,12 @@ static const Il2CppRGCTXDefinition s_rgctxValues[11] =
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CircularBuffer_1_set_Count_mBEAE70AC8DE0C0BAB275C3BA1D6B089C83AE4D33 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TU5BU5D_t4CF7A0220C7AEE390A3CC6D7690A28AAD7CE36A9 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_DynamicCircularBuffer_1_get_Count_mC6DC5EB553A04244F2EBCC8B4B6288B32B6DD7C8 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Array_Resize_TisT_t1F7F904395BD0301CD48B948B26B7BAFEE436301_mA59094CBF07104A55A1CF31B4911BD3519BDB4F0 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Array_Resize_TisT_t1F7F904395BD0301CD48B948B26B7BAFEE436301_mAC79C6659C7312F2C434E0510BC4B4BE32803492 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_DynamicCircularBuffer_1_set_Count_mAF5EDDAC4680B182D010548F22EE5A7FB7D422B5 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_DynamicCircularBuffer_1_set_Item_mCCB0D9D739065CE337F1D14FDA7BCE316BAEAA15 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TU5BU5D_t3D2FF42767DE53FBF572360531A2492DA3B1CEDA },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Array_Resize_TisT_tF046A068325657602BBE27D83BDE5E10F5F190B3_m70E4A25865476E707BCDB910E59FB131C4C27D3D },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Array_IndexOf_TisT_tF046A068325657602BBE27D83BDE5E10F5F190B3_m58CD16F3964CDAB96D79D38414C4A18EDD9C33D6 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Array_Resize_TisT_tF046A068325657602BBE27D83BDE5E10F5F190B3_m0752D5DF43B3C3FB174DB2C95BF4B739FADDA5FC },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Array_IndexOf_TisT_tF046A068325657602BBE27D83BDE5E10F5F190B3_m489873EB280CDA87175547A31890E3CF318B0667 },
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_IngameDebugConsole_Runtime_CodeGenModule;
 const Il2CppCodeGenModule g_IngameDebugConsole_Runtime_CodeGenModule = 

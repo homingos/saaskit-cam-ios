@@ -9,7 +9,7 @@
 #include "codegen/il2cpp-codegen-metadata.h"
 
 
-extern const RuntimeMethod* NativeRecorder_OnRecorderCompleted_mE307AABFEA179EC797CDE00FD5FADC0A99072676_RuntimeMethod_var;
+extern const RuntimeMethod* NativeRecorder_OnRecorderCompleted_m12AFE233F7FDE875FB6D51047EF4D5DF1796357C_RuntimeMethod_var;
 
 
 
@@ -27,11 +27,11 @@ extern void GIFRecorder_CommitSamples_mB22266FD63A982866511F19E1A28DA95884E1BFB 
 // 0x00000007 System.Void NatSuite.Recorders.GIFRecorder::CommitSamples(System.Single*,System.Int32,System.Int64)
 extern void GIFRecorder_CommitSamples_m61662889743E87B2E187054F11B51241C730573F (void);
 // 0x00000008 System.IntPtr NatSuite.Recorders.GIFRecorder::Create(System.Int32,System.Int32,System.Single)
-extern void GIFRecorder_Create_m8F800CD2610879074FE764036557C54878614880 (void);
+extern void GIFRecorder_Create_m6A86349FE73AF7858B9395EAA24A42EE0F28C7DA (void);
 // 0x00000009 System.Void NatSuite.Recorders.HEVCRecorder::.ctor(System.Int32,System.Int32,System.Single,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void HEVCRecorder__ctor_mC0628EB145EE0B989008CD6AE52F51C4D15BC83D (void);
 // 0x0000000A System.IntPtr NatSuite.Recorders.HEVCRecorder::Create(System.Int32,System.Int32,System.Single,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
-extern void HEVCRecorder_Create_mCB8AC21D90C5B07BC2277B8B284279B7F32AA050 (void);
+extern void HEVCRecorder_Create_m819A26A5D4E1F64C170A22FBDD4AC3542B1E4717 (void);
 // 0x0000000B System.ValueTuple`2<System.Int32,System.Int32> NatSuite.Recorders.IMediaRecorder::get_frameSize()
 // 0x0000000C System.Void NatSuite.Recorders.IMediaRecorder::CommitFrame(T[],System.Int64)
 // 0x0000000D System.Void NatSuite.Recorders.IMediaRecorder::CommitFrame(System.Void*,System.Int64)
@@ -64,7 +64,7 @@ extern void U3CFinishWritingU3Ed__7_SetStateMachine_mE877E6B7F3CC15B769DBE35FDB3
 // 0x0000001D System.Void NatSuite.Recorders.MP4Recorder::.ctor(System.Int32,System.Int32,System.Single,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void MP4Recorder__ctor_mA902D5707599D71EC5130AB022ED362E47B91913 (void);
 // 0x0000001E System.IntPtr NatSuite.Recorders.MP4Recorder::Create(System.Int32,System.Int32,System.Single,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
-extern void MP4Recorder_Create_m0BA2A64C8621196A89BD73507395BCACE62DFDFE (void);
+extern void MP4Recorder_Create_m4EA6995AD5D82351EE2C77688FF2B6950B1A71E9 (void);
 // 0x0000001F System.ValueTuple`2<System.Int32,System.Int32> NatSuite.Recorders.WAVRecorder::get_frameSize()
 extern void WAVRecorder_get_frameSize_m9082B80BB9F8626CD2E1BC27B616349EB3DF5C49 (void);
 // 0x00000020 System.Void NatSuite.Recorders.WAVRecorder::.ctor(System.Int32,System.Int32)
@@ -79,19 +79,19 @@ extern void WAVRecorder_FinishWriting_m6E21C0B53C3F0273C7407CD6C30FB8B7C08D81C2 
 // 0x00000025 System.Void NatSuite.Recorders.WAVRecorder::NatSuite.Recorders.IMediaRecorder.CommitFrame(System.Void*,System.Int64)
 extern void WAVRecorder_NatSuite_Recorders_IMediaRecorder_CommitFrame_m42CD5455A2A46AABF9571150D5AE7526ED0E3C96 (void);
 // 0x00000026 System.Void NatSuite.Recorders.Internal.NatCorder::FrameSize(System.IntPtr,System.Int32&,System.Int32&)
-extern void NatCorder_FrameSize_mDEB6D4B0B1974507130E91478F6802C7912C83DC (void);
+extern void NatCorder_FrameSize_mC9885591070FE44A8EB2EF7DE12CBABAA9976128 (void);
 // 0x00000027 System.Void NatSuite.Recorders.Internal.NatCorder::CommitFrame(System.IntPtr,System.Void*,System.Int64)
-extern void NatCorder_CommitFrame_m29A388F563827D9EAB9396EFF1AC3CFE6CA0821A (void);
+extern void NatCorder_CommitFrame_m8FB81FD2FD26DA50B111576A8405A8D56A7F401D (void);
 // 0x00000028 System.Void NatSuite.Recorders.Internal.NatCorder::CommitSamples(System.IntPtr,System.Single*,System.Int32,System.Int64)
-extern void NatCorder_CommitSamples_mB904D74E4EFCCF3149330AB6D459EC45E5B37874 (void);
+extern void NatCorder_CommitSamples_m32E4F6D46D2B9747DB1C864C5B2444A104A8A96D (void);
 // 0x00000029 System.Void NatSuite.Recorders.Internal.NatCorder::FinishWriting(System.IntPtr,NatSuite.Recorders.Internal.NatCorder/RecordingHandler,System.IntPtr)
-extern void NatCorder_FinishWriting_m175CA50EF9A9F55E45A8C4C3657AF6C9AB4FE731 (void);
+extern void NatCorder_FinishWriting_m03951858641EF4ED654D1335047E002457432C81 (void);
 // 0x0000002A System.Void NatSuite.Recorders.Internal.NatCorder::CreateMP4Recorder(System.String,System.Int32,System.Int32,System.Single,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.IntPtr&)
-extern void NatCorder_CreateMP4Recorder_m06F15A519F09E09D65225C72E4A382E749DF4BFD (void);
+extern void NatCorder_CreateMP4Recorder_m076DAA8E8FD5B7CD13BE6A6622C249F2A434810D (void);
 // 0x0000002B System.Void NatSuite.Recorders.Internal.NatCorder::CreateHEVCRecorder(System.String,System.Int32,System.Int32,System.Single,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.IntPtr&)
-extern void NatCorder_CreateHEVCRecorder_m4F0D52AF26E6123AEA2528E7602CCE9DC09B5766 (void);
+extern void NatCorder_CreateHEVCRecorder_mDF6E602A920E7A2CFEC3AEB0FB147400F43B68F4 (void);
 // 0x0000002C System.Void NatSuite.Recorders.Internal.NatCorder::CreateGIFRecorder(System.String,System.Int32,System.Int32,System.Single,System.IntPtr&)
-extern void NatCorder_CreateGIFRecorder_mA916B8638821F82B766A8506064547D97577B5F6 (void);
+extern void NatCorder_CreateGIFRecorder_mD4B0D49CF258D79F8C4F55D0C23C4A8DDF6C1260 (void);
 // 0x0000002D System.Void NatSuite.Recorders.Internal.NatCorder/RecordingHandler::.ctor(System.Object,System.IntPtr)
 extern void RecordingHandler__ctor_mF3856ADEE508C55616713C629C1DA977FF9A5EE9 (void);
 // 0x0000002E System.Void NatSuite.Recorders.Internal.NatCorder/RecordingHandler::Invoke(System.IntPtr,System.IntPtr)
@@ -114,11 +114,11 @@ extern void NativeRecorder_FinishWriting_m18F64471435CE2D2B787CBA7AAF465A8B99E80
 // 0x00000037 System.Void NatSuite.Recorders.Internal.NativeRecorder::.ctor(System.IntPtr)
 extern void NativeRecorder__ctor_m7FB0F5A570781DD826F2D9C83F6F27B74CA5F877 (void);
 // 0x00000038 System.Void NatSuite.Recorders.Internal.NativeRecorder::OnRecorderCompleted(System.IntPtr,System.IntPtr)
-extern void NativeRecorder_OnRecorderCompleted_mE307AABFEA179EC797CDE00FD5FADC0A99072676 (void);
+extern void NativeRecorder_OnRecorderCompleted_m12AFE233F7FDE875FB6D51047EF4D5DF1796357C (void);
 // 0x00000039 System.IntPtr NatSuite.Recorders.Internal.NativeRecorder::op_Implicit(NatSuite.Recorders.Internal.NativeRecorder)
-extern void NativeRecorder_op_Implicit_mDA092516DD981A17AA4D57308547BDE52694D34C (void);
+extern void NativeRecorder_op_Implicit_m8E2F01F41219CA330A23E6ED8EC786AA1C008C53 (void);
 // 0x0000003A System.String NatSuite.Recorders.Internal.Utility::GetPath(System.String)
-extern void Utility_GetPath_m890864A644FBE33558777D65EDA3E35FBE54F1B5 (void);
+extern void Utility_GetPath_m9C80E7421E4140FDE42E49435A8B003828EE15B2 (void);
 // 0x0000003B System.Void NatSuite.Recorders.Inputs.AsyncTextureInput::.ctor(NatSuite.Recorders.IMediaRecorder)
 extern void AsyncTextureInput__ctor_mC41BFCA2A58AE733A482504F20E9EBC0B6A74A34 (void);
 // 0x0000003C System.Void NatSuite.Recorders.Inputs.AsyncTextureInput::CommitFrame(UnityEngine.Texture,System.Int64)
@@ -168,11 +168,11 @@ extern void CameraInput_CommitFrames_mB6390CE2057EC94403FF0CA0FCDC612958A4306E (
 // 0x00000052 System.Void NatSuite.Recorders.Inputs.CameraInput::CommitFrame(UnityEngine.Camera,UnityEngine.RenderTexture)
 extern void CameraInput_CommitFrame_m3EEBBDE971817D454E5E5391D81E4AC429899B77 (void);
 // 0x00000053 NatSuite.Recorders.Inputs.ITextureInput NatSuite.Recorders.Inputs.CameraInput::CreateInput(NatSuite.Recorders.IMediaRecorder)
-extern void CameraInput_CreateInput_mB507E1DA0726CDB8C021141EAC40391E5ADB5713 (void);
+extern void CameraInput_CreateInput_mB840AEC5AF94752C298A17F102E3006A4351EB0B (void);
 // 0x00000054 System.Void NatSuite.Recorders.Inputs.CameraInput/CameraInputAttachment::.ctor()
 extern void CameraInputAttachment__ctor_m4F4E740E28759DF13BECD49A96E4ABD0074D23D0 (void);
 // 0x00000055 System.Void NatSuite.Recorders.Inputs.CameraInput/<>c::.cctor()
-extern void U3CU3Ec__cctor_m20DB6A0D33C63A74EABCA29B3C5ADB749E8938EB (void);
+extern void U3CU3Ec__cctor_m14D771D9782A61B3BD8829393525233AB2F3923D (void);
 // 0x00000056 System.Void NatSuite.Recorders.Inputs.CameraInput/<>c::.ctor()
 extern void U3CU3Ec__ctor_m81FFDC0AEEC28DF5A13E034A972F53FC9AA30590 (void);
 // 0x00000057 System.Int32 NatSuite.Recorders.Inputs.CameraInput/<>c::<.ctor>b__7_0(UnityEngine.Camera,UnityEngine.Camera)
@@ -223,9 +223,9 @@ static Il2CppMethodPointer s_methodPointers[107] =
 	GIFRecorder_CommitFrame_mB8F68000EBDF41EA5808EB71828EB25F5A30A116,
 	GIFRecorder_CommitSamples_mB22266FD63A982866511F19E1A28DA95884E1BFB,
 	GIFRecorder_CommitSamples_m61662889743E87B2E187054F11B51241C730573F,
-	GIFRecorder_Create_m8F800CD2610879074FE764036557C54878614880,
+	GIFRecorder_Create_m6A86349FE73AF7858B9395EAA24A42EE0F28C7DA,
 	HEVCRecorder__ctor_mC0628EB145EE0B989008CD6AE52F51C4D15BC83D,
-	HEVCRecorder_Create_mCB8AC21D90C5B07BC2277B8B284279B7F32AA050,
+	HEVCRecorder_Create_m819A26A5D4E1F64C170A22FBDD4AC3542B1E4717,
 	NULL,
 	NULL,
 	NULL,
@@ -245,7 +245,7 @@ static Il2CppMethodPointer s_methodPointers[107] =
 	U3CFinishWritingU3Ed__7_MoveNext_m5CBC3AF74C258FE56638F1A303E74F5B40214FBD,
 	U3CFinishWritingU3Ed__7_SetStateMachine_mE877E6B7F3CC15B769DBE35FDB3887208F38F3D7,
 	MP4Recorder__ctor_mA902D5707599D71EC5130AB022ED362E47B91913,
-	MP4Recorder_Create_m0BA2A64C8621196A89BD73507395BCACE62DFDFE,
+	MP4Recorder_Create_m4EA6995AD5D82351EE2C77688FF2B6950B1A71E9,
 	WAVRecorder_get_frameSize_m9082B80BB9F8626CD2E1BC27B616349EB3DF5C49,
 	WAVRecorder__ctor_mCA295415812C8C8D7003334C1AC5EFA4C28E08C8,
 	WAVRecorder_CommitSamples_m3E229040EDCBF5D38E0285DEC3C823DDA14504FB,
@@ -253,13 +253,13 @@ static Il2CppMethodPointer s_methodPointers[107] =
 	WAVRecorder_FinishWriting_m6E21C0B53C3F0273C7407CD6C30FB8B7C08D81C2,
 	NULL,
 	WAVRecorder_NatSuite_Recorders_IMediaRecorder_CommitFrame_m42CD5455A2A46AABF9571150D5AE7526ED0E3C96,
-	NatCorder_FrameSize_mDEB6D4B0B1974507130E91478F6802C7912C83DC,
-	NatCorder_CommitFrame_m29A388F563827D9EAB9396EFF1AC3CFE6CA0821A,
-	NatCorder_CommitSamples_mB904D74E4EFCCF3149330AB6D459EC45E5B37874,
-	NatCorder_FinishWriting_m175CA50EF9A9F55E45A8C4C3657AF6C9AB4FE731,
-	NatCorder_CreateMP4Recorder_m06F15A519F09E09D65225C72E4A382E749DF4BFD,
-	NatCorder_CreateHEVCRecorder_m4F0D52AF26E6123AEA2528E7602CCE9DC09B5766,
-	NatCorder_CreateGIFRecorder_mA916B8638821F82B766A8506064547D97577B5F6,
+	NatCorder_FrameSize_mC9885591070FE44A8EB2EF7DE12CBABAA9976128,
+	NatCorder_CommitFrame_m8FB81FD2FD26DA50B111576A8405A8D56A7F401D,
+	NatCorder_CommitSamples_m32E4F6D46D2B9747DB1C864C5B2444A104A8A96D,
+	NatCorder_FinishWriting_m03951858641EF4ED654D1335047E002457432C81,
+	NatCorder_CreateMP4Recorder_m076DAA8E8FD5B7CD13BE6A6622C249F2A434810D,
+	NatCorder_CreateHEVCRecorder_mDF6E602A920E7A2CFEC3AEB0FB147400F43B68F4,
+	NatCorder_CreateGIFRecorder_mD4B0D49CF258D79F8C4F55D0C23C4A8DDF6C1260,
 	RecordingHandler__ctor_mF3856ADEE508C55616713C629C1DA977FF9A5EE9,
 	RecordingHandler_Invoke_m15CCCB50ECDB98812FF204106A1706AB476AAB4B,
 	RecordingHandler_BeginInvoke_mF323B9C15B0C2C67565ACC0B9BFE440E2689097B,
@@ -271,9 +271,9 @@ static Il2CppMethodPointer s_methodPointers[107] =
 	NativeRecorder_CommitSamples_m2A7FA2C79D4B842C5AD1F76CE9B738E9E72D2326,
 	NativeRecorder_FinishWriting_m18F64471435CE2D2B787CBA7AAF465A8B99E807D,
 	NativeRecorder__ctor_m7FB0F5A570781DD826F2D9C83F6F27B74CA5F877,
-	NativeRecorder_OnRecorderCompleted_mE307AABFEA179EC797CDE00FD5FADC0A99072676,
-	NativeRecorder_op_Implicit_mDA092516DD981A17AA4D57308547BDE52694D34C,
-	Utility_GetPath_m890864A644FBE33558777D65EDA3E35FBE54F1B5,
+	NativeRecorder_OnRecorderCompleted_m12AFE233F7FDE875FB6D51047EF4D5DF1796357C,
+	NativeRecorder_op_Implicit_m8E2F01F41219CA330A23E6ED8EC786AA1C008C53,
+	Utility_GetPath_m9C80E7421E4140FDE42E49435A8B003828EE15B2,
 	AsyncTextureInput__ctor_mC41BFCA2A58AE733A482504F20E9EBC0B6A74A34,
 	AsyncTextureInput_CommitFrame_m9D2D6C82548DDE0AC58C10CF60DDE648B10555F8,
 	AsyncTextureInput_Dispose_m45AEC63D8E4CB7D3A802C7CF1BD770491EF3726C,
@@ -298,9 +298,9 @@ static Il2CppMethodPointer s_methodPointers[107] =
 	CameraInput_Dispose_mF7BFBEBD23444A5CED7985274E9D9AC6EE78A226,
 	CameraInput_CommitFrames_mB6390CE2057EC94403FF0CA0FCDC612958A4306E,
 	CameraInput_CommitFrame_m3EEBBDE971817D454E5E5391D81E4AC429899B77,
-	CameraInput_CreateInput_mB507E1DA0726CDB8C021141EAC40391E5ADB5713,
+	CameraInput_CreateInput_mB840AEC5AF94752C298A17F102E3006A4351EB0B,
 	CameraInputAttachment__ctor_m4F4E740E28759DF13BECD49A96E4ABD0074D23D0,
-	U3CU3Ec__cctor_m20DB6A0D33C63A74EABCA29B3C5ADB749E8938EB,
+	U3CU3Ec__cctor_m14D771D9782A61B3BD8829393525233AB2F3923D,
 	U3CU3Ec__ctor_m81FFDC0AEEC28DF5A13E034A972F53FC9AA30590,
 	U3CU3Ec_U3C_ctorU3Eb__7_0_mEB2C1B3BFAD9501F86AD60C2BB57A829B96CB5CC,
 	U3CCommitFramesU3Ed__15__ctor_m470FB10276A830AA393387977EA42BDB4BAC34DD,
@@ -333,117 +333,117 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[2] =
 };
 static const int32_t s_InvokerIndices[107] = 
 {
-	8704,
-	8704,
-	2126,
+	8697,
+	8697,
+	2125,
 	0,
-	3339,
-	4006,
-	2047,
-	11026,
+	3337,
+	4003,
+	2046,
+	11022,
 	167,
-	9030,
+	9024,
 	0,
 	0,
 	0,
 	0,
 	0,
 	0,
-	8403,
-	6820,
-	2124,
+	8397,
+	6816,
+	2123,
 	0,
-	3339,
-	8544,
-	4006,
-	2047,
-	8704,
-	8704,
-	8704,
-	6968,
+	3337,
+	8537,
+	4003,
+	2046,
+	8697,
+	8697,
+	8697,
+	6963,
 	167,
-	9030,
-	8403,
-	3684,
-	4006,
-	2047,
-	8544,
+	9024,
+	8397,
+	3681,
+	4003,
+	2046,
+	8537,
 	0,
-	3339,
+	3337,
+	11417,
 	11418,
-	11419,
-	10582,
-	11433,
-	8970,
-	8970,
-	9940,
-	4008,
-	3977,
-	1292,
-	6968,
-	8403,
-	0,
-	3339,
-	4006,
-	2047,
-	8544,
-	6938,
-	12480,
-	13611,
-	13718,
-	6968,
-	4006,
-	8704,
-	8403,
-	8704,
-	6836,
-	4012,
-	2222,
-	2212,
-	1546,
-	8704,
-	1546,
-	6968,
+	10578,
+	11432,
+	8963,
+	8963,
+	9935,
 	4005,
-	8704,
-	8428,
-	6849,
-	4012,
-	2222,
-	4012,
-	2222,
-	8704,
-	8544,
-	4012,
-	13718,
-	8704,
-	14975,
-	8704,
-	2915,
-	6935,
-	8704,
-	8428,
-	8544,
-	8704,
-	8544,
+	3974,
+	1291,
+	6963,
+	8397,
+	0,
+	3337,
+	4003,
+	2046,
+	8537,
+	6933,
+	12486,
+	13618,
+	13726,
+	6963,
+	4003,
+	8697,
+	8397,
+	8697,
+	6832,
+	4009,
+	2221,
+	2211,
+	1545,
+	8697,
+	1545,
+	6963,
+	4002,
+	8697,
+	8422,
+	6845,
+	4009,
+	2221,
+	4009,
+	2221,
+	8697,
+	8537,
+	4009,
+	13726,
+	8697,
+	14985,
+	8697,
+	2913,
+	6930,
+	8697,
+	8422,
+	8537,
+	8697,
+	8537,
 	0,
 	0,
-	6968,
-	4006,
-	8704,
-	8403,
-	8511,
-	4076,
-	8704,
+	6963,
+	4003,
+	8697,
+	8397,
+	8504,
+	4074,
+	8697,
 	0,
-	8511,
-	8428,
-	6849,
-	8704,
+	8504,
+	8422,
+	6845,
+	8697,
 };
 static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[1] = 
 {
-	{ 0x06000038, 13,  (void**)&NativeRecorder_OnRecorderCompleted_mE307AABFEA179EC797CDE00FD5FADC0A99072676_RuntimeMethod_var, 0 },
+	{ 0x06000038, 13,  (void**)&NativeRecorder_OnRecorderCompleted_m12AFE233F7FDE875FB6D51047EF4D5DF1796357C_RuntimeMethod_var, 0 },
 };
 static const Il2CppTokenRangePair s_rgctxIndices[1] = 
 {

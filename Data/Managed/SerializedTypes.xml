@@ -1,9 +1,11 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
+		<type fullname="AssetDataResponse" preserve="nothing" serialized="true"/>
 		<type fullname="Effects" preserve="nothing" serialized="true"/>
 		<type fullname="InstantCardsServerData" preserve="nothing" serialized="true"/>
 		<type fullname="LocalEffectsClass" preserve="nothing" serialized="true"/>
 		<type fullname="LocalTargetData" preserve="nothing" serialized="true"/>
+		<type fullname="SDKAuthCredentials" preserve="nothing" serialized="true"/>
 		<type fullname="ThemeData" preserve="nothing" serialized="true"/>
 		<type fullname="VideoData" preserve="nothing" serialized="true"/>
 		<type fullname="VuplexRoutes" preserve="nothing" serialized="true"/>
@@ -12,12 +14,16 @@
 		<type fullname="DG.Tweening.Core.DOTweenSettings/ModulesSetup" preserve="nothing" serialized="true"/>
 		<type fullname="DG.Tweening.Core.DOTweenSettings/SafeModeOptions" preserve="nothing" serialized="true"/>
 	</assembly>
+	<assembly fullname="RuntimeInspector.Runtime">
+		<type fullname="RuntimeInspectorNamespace.VariableSet" preserve="nothing" serialized="true"/>
+	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Core.Runtime">
 		<type fullname="UnityEngine.Rendering.UI.DebugUIPrefabBundle" preserve="nothing" serialized="true"/>
 	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Universal.Runtime">
 		<type fullname="UnityEngine.Rendering.Universal.PostProcessData/ShaderResources" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.Universal.PostProcessData/TextureResources" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusionSettings" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.Universal.ScriptableRendererData/DebugShaderResources" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.Universal.StencilStateData" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.Universal.UniversalRendererData/ShaderResources" preserve="nothing" serialized="true"/>
@@ -58,6 +64,9 @@
 		<type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Dropdown/DropdownEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Dropdown/OptionData" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Dropdown/OptionDataList" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.UI.InputField/EndEditEvent" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.UI.InputField/OnChangeEvent" preserve="nothing" serialized="true"/>
@@ -66,6 +75,7 @@
 		<type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.UI.Toggle/ToggleEvent" preserve="nothing" serialized="true"/>
 	</assembly>

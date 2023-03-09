@@ -13,7 +13,7 @@
 
 
 // 0x00000001 System.Void NativeShare::_NativeShare_Share(System.String[],System.Int32,System.String,System.String,System.String)
-extern void NativeShare__NativeShare_Share_m4F20170C3E3ABB1357A66916606EF916AB307E58 (void);
+extern void NativeShare__NativeShare_Share_m338576D82E461725B4E2CE7262FA34C005B886DC (void);
 // 0x00000002 NativeShare NativeShare::SetSubject(System.String)
 extern void NativeShare_SetSubject_mB0E01F5228D5C868274067653497BFD0F1EF1D8A (void);
 // 0x00000003 NativeShare NativeShare::SetText(System.String)
@@ -35,9 +35,9 @@ extern void NativeShare_AddEmailRecipient_m4BAC97D4BD7EDF171B1C3BED1DD4E690E74EB
 // 0x0000000B System.Void NativeShare::Share()
 extern void NativeShare_Share_m3DB5879D819C16FC4325D124E296F6C6CD9C13DD (void);
 // 0x0000000C System.Boolean NativeShare::TargetExists(System.String,System.String)
-extern void NativeShare_TargetExists_m7FC9B90DDD8AA970BC30E7E829AFF267CDE6AC31 (void);
+extern void NativeShare_TargetExists_mD182ABC83C00CF5FBCC07E80ED2AC9128C84B285 (void);
 // 0x0000000D System.Boolean NativeShare::FindTarget(System.String&,System.String&,System.String,System.String)
-extern void NativeShare_FindTarget_m8E4A4710877C9F97956F32C36CD94400552DE2DE (void);
+extern void NativeShare_FindTarget_m848E039C88ACA928EE1440B0F788D011426402ED (void);
 // 0x0000000E System.String NativeShare::GetURLWithScheme()
 extern void NativeShare_GetURLWithScheme_mFB311627815D47656BEB6DBC2C131D8E64668CD4 (void);
 // 0x0000000F System.String NativeShare::CombineURLWithText()
@@ -57,14 +57,14 @@ extern void ShareResultCallback_BeginInvoke_m0B2F88E15A556434DF44FE85B2FD5B41280
 // 0x00000016 System.Void NativeShare/ShareResultCallback::EndInvoke(System.IAsyncResult)
 extern void ShareResultCallback_EndInvoke_m71774DE46FB1BA955B2A07A024B787E90FEB02B4 (void);
 // 0x00000017 System.Void NativeShareNamespace.NSShareResultCallbackiOS::Initialize(NativeShare/ShareResultCallback)
-extern void NSShareResultCallbackiOS_Initialize_m37597F9ED31C147F25F2C30A170CE99C68A487F8 (void);
+extern void NSShareResultCallbackiOS_Initialize_m3FA021ED002961E3B26B716515B5A77CF9B8BA06 (void);
 // 0x00000018 System.Void NativeShareNamespace.NSShareResultCallbackiOS::OnShareCompleted(System.String)
 extern void NSShareResultCallbackiOS_OnShareCompleted_m2F94527C2800D06A8CF9D73E6FFD0150689481BD (void);
 // 0x00000019 System.Void NativeShareNamespace.NSShareResultCallbackiOS::.ctor()
 extern void NSShareResultCallbackiOS__ctor_m5BA05DBF1AFDBB02C258043E254A723988B36250 (void);
 static Il2CppMethodPointer s_methodPointers[25] = 
 {
-	NativeShare__NativeShare_Share_m4F20170C3E3ABB1357A66916606EF916AB307E58,
+	NativeShare__NativeShare_Share_m338576D82E461725B4E2CE7262FA34C005B886DC,
 	NativeShare_SetSubject_mB0E01F5228D5C868274067653497BFD0F1EF1D8A,
 	NativeShare_SetText_mEB89C82F62181F7754C20F3516754B81559DBA13,
 	NativeShare_SetUrl_m5A85D24E53BA393226DD13089A85DC9044B294A6,
@@ -75,8 +75,8 @@ static Il2CppMethodPointer s_methodPointers[25] =
 	NativeShare_AddFile_mC5ACFA1C5FF14D4662ED40BC85658C004D303CC5,
 	NativeShare_AddEmailRecipient_m4BAC97D4BD7EDF171B1C3BED1DD4E690E74EB205,
 	NativeShare_Share_m3DB5879D819C16FC4325D124E296F6C6CD9C13DD,
-	NativeShare_TargetExists_m7FC9B90DDD8AA970BC30E7E829AFF267CDE6AC31,
-	NativeShare_FindTarget_m8E4A4710877C9F97956F32C36CD94400552DE2DE,
+	NativeShare_TargetExists_mD182ABC83C00CF5FBCC07E80ED2AC9128C84B285,
+	NativeShare_FindTarget_m848E039C88ACA928EE1440B0F788D011426402ED,
 	NativeShare_GetURLWithScheme_mFB311627815D47656BEB6DBC2C131D8E64668CD4,
 	NativeShare_CombineURLWithText_mBD3218FD4796ACD1E82A56023ACFD1D50E0B3E6D,
 	NativeShare_GetTextureBytes_m5E2AE3535B50014A6BC5C326F6202FC7E2BEFB9C,
@@ -86,37 +86,37 @@ static Il2CppMethodPointer s_methodPointers[25] =
 	ShareResultCallback_Invoke_mD1BF5CCE67D2D8A0C4930E3344896606BF4E9F6A,
 	ShareResultCallback_BeginInvoke_m0B2F88E15A556434DF44FE85B2FD5B41280C8809,
 	ShareResultCallback_EndInvoke_m71774DE46FB1BA955B2A07A024B787E90FEB02B4,
-	NSShareResultCallbackiOS_Initialize_m37597F9ED31C147F25F2C30A170CE99C68A487F8,
+	NSShareResultCallbackiOS_Initialize_m3FA021ED002961E3B26B716515B5A77CF9B8BA06,
 	NSShareResultCallbackiOS_OnShareCompleted_m2F94527C2800D06A8CF9D73E6FFD0150689481BD,
 	NSShareResultCallbackiOS__ctor_m5BA05DBF1AFDBB02C258043E254A723988B36250,
 };
 static const int32_t s_InvokerIndices[25] = 
 {
-	9945,
-	6257,
-	6257,
-	6257,
-	6257,
-	6257,
-	3207,
-	3207,
-	3207,
-	6257,
-	8704,
-	11821,
-	10033,
-	8544,
-	8544,
-	3199,
-	3199,
-	8704,
-	4008,
-	3714,
-	1289,
-	6968,
-	14085,
-	6968,
-	8704,
+	9940,
+	6252,
+	6252,
+	6252,
+	6252,
+	6252,
+	3205,
+	3205,
+	3205,
+	6252,
+	8697,
+	11820,
+	10027,
+	8537,
+	8537,
+	3197,
+	3197,
+	8697,
+	4005,
+	3711,
+	1288,
+	6963,
+	14093,
+	6963,
+	8697,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_NativeShare_Runtime_CodeGenModule;
 const Il2CppCodeGenModule g_NativeShare_Runtime_CodeGenModule = 

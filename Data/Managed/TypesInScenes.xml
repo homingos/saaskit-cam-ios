@@ -1,29 +1,35 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
+		<type fullname="AkazeController" preserve="nothing"/>
 		<type fullname="APIController" preserve="nothing"/>
 		<type fullname="ApiKeys" preserve="nothing"/>
 		<type fullname="AssetBundleAPI" preserve="nothing"/>
 		<type fullname="AssetBundleManager" preserve="nothing"/>
 		<type fullname="BuildDatasetFromServer" preserve="nothing"/>
 		<type fullname="CameraFocusController" preserve="nothing"/>
+		<type fullname="CameraImageAccess" preserve="nothing"/>
 		<type fullname="CanvasScalerHelper" preserve="nothing"/>
+		<type fullname="CheckInternet" preserve="nothing"/>
+		<type fullname="configAssetBundle" preserve="nothing"/>
 		<type fullname="CustomInitializationErrorHandler" preserve="nothing"/>
 		<type fullname="CustomTrackableEventHandler" preserve="nothing"/>
 		<type fullname="CustomUIController" preserve="nothing"/>
+		<type fullname="DownloadIT" preserve="nothing"/>
+		<type fullname="FilterButton" preserve="nothing"/>
 		<type fullname="FlamCamera" preserve="nothing"/>
+		<type fullname="FSCController" preserve="nothing"/>
 		<type fullname="LoadingAnimation" preserve="nothing"/>
 		<type fullname="MakeInstantTargets" preserve="nothing"/>
 		<type fullname="OrigamiManager" preserve="nothing"/>
 		<type fullname="ParticleParent" preserve="nothing"/>
+		<type fullname="PermissionManager" preserve="nothing"/>
 		<type fullname="RoboManager" preserve="nothing"/>
 		<type fullname="ScanBarAnim" preserve="nothing"/>
+		<type fullname="ScrollHandler" preserve="nothing"/>
+		<type fullname="StartCamera" preserve="nothing"/>
 		<type fullname="UIManager" preserve="nothing"/>
 		<type fullname="VuforiaCloudDataHandler" preserve="nothing"/>
 		<type fullname="VuforiaTrackableController" preserve="nothing"/>
-		<type fullname="VuplexController" preserve="nothing"/>
-	</assembly>
-	<assembly fullname="Assembly-CSharp-firstpass">
-		<type fullname="NatSuite.Examples.ReplayCam" preserve="nothing"/>
 		<type fullname="Vuplex.WebView.CanvasKeyboard" preserve="nothing"/>
 		<type fullname="Vuplex.WebView.CanvasPointerInputDetector" preserve="nothing"/>
 		<type fullname="Vuplex.WebView.CanvasWebViewPrefab" preserve="nothing"/>
@@ -32,6 +38,14 @@
 		<type fullname="Vuplex.WebView.Internal.ViewportMaterialView" preserve="nothing"/>
 		<type fullname="Vuplex.WebView.Keyboard" preserve="nothing"/>
 		<type fullname="Vuplex.WebView.WebViewPrefab" preserve="nothing"/>
+		<type fullname="VuplexController" preserve="nothing"/>
+		<type fullname="vuplexReference" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Assembly-CSharp-firstpass">
+		<type fullname="NatSuite.Examples.ReplayCam" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="BestHTTP">
+		<type fullname="BestHTTP.HTTPUpdateDelegator" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="CommonScripts">
 		<type fullname="MessageBox" preserve="nothing"/>
@@ -40,18 +54,53 @@
 	<assembly fullname="DOTween">
 		<type fullname="DG.Tweening.Core.DOTweenSettings" preserve="nothing"/>
 	</assembly>
+	<assembly fullname="IngameDebugConsole.Runtime">
+		<type fullname="IngameDebugConsole.DebugLogItem" preserve="nothing"/>
+		<type fullname="IngameDebugConsole.DebugLogManager" preserve="nothing"/>
+		<type fullname="IngameDebugConsole.DebugLogPopup" preserve="nothing"/>
+		<type fullname="IngameDebugConsole.DebugLogRecycledListView" preserve="nothing"/>
+		<type fullname="IngameDebugConsole.DebugLogResizeListener" preserve="nothing"/>
+		<type fullname="IngameDebugConsole.DebugsOnScrollListener" preserve="nothing"/>
+		<type fullname="IngameDebugConsole.EventSystemHandler" preserve="nothing"/>
+	</assembly>
 	<assembly fullname="RuntimeInspector.Runtime">
+		<type fullname="RuntimeInspectorNamespace.ArrayField" preserve="nothing"/>
+		<type fullname="RuntimeInspectorNamespace.BoolField" preserve="nothing"/>
 		<type fullname="RuntimeInspectorNamespace.BoundInputField" preserve="nothing"/>
+		<type fullname="RuntimeInspectorNamespace.BoundsField" preserve="nothing"/>
+		<type fullname="RuntimeInspectorNamespace.BoundSlider" preserve="nothing"/>
+		<type fullname="RuntimeInspectorNamespace.ColorField" preserve="nothing"/>
 		<type fullname="RuntimeInspectorNamespace.ColorPicker" preserve="nothing"/>
 		<type fullname="RuntimeInspectorNamespace.ColorPickerAlphaSlider" preserve="nothing"/>
 		<type fullname="RuntimeInspectorNamespace.ColorWheelControl" preserve="nothing"/>
 		<type fullname="RuntimeInspectorNamespace.DraggedReferenceItem" preserve="nothing"/>
+		<type fullname="RuntimeInspectorNamespace.EnumField" preserve="nothing"/>
+		<type fullname="RuntimeInspectorNamespace.ExposedMethodField" preserve="nothing"/>
+		<type fullname="RuntimeInspectorNamespace.GameObjectField" preserve="nothing"/>
+		<type fullname="RuntimeInspectorNamespace.HierarchyDragDropListener" preserve="nothing"/>
+		<type fullname="RuntimeInspectorNamespace.HierarchyField" preserve="nothing"/>
+		<type fullname="RuntimeInspectorNamespace.NonDrawingGraphic" preserve="nothing"/>
+		<type fullname="RuntimeInspectorNamespace.NonDrawingMaskableGraphic" preserve="nothing"/>
+		<type fullname="RuntimeInspectorNamespace.NumberField" preserve="nothing"/>
+		<type fullname="RuntimeInspectorNamespace.NumberRangeField" preserve="nothing"/>
+		<type fullname="RuntimeInspectorNamespace.ObjectField" preserve="nothing"/>
+		<type fullname="RuntimeInspectorNamespace.ObjectReferenceField" preserve="nothing"/>
 		<type fullname="RuntimeInspectorNamespace.ObjectReferencePicker" preserve="nothing"/>
 		<type fullname="RuntimeInspectorNamespace.ObjectReferencePickerItem" preserve="nothing"/>
 		<type fullname="RuntimeInspectorNamespace.PointerEventListener" preserve="nothing"/>
+		<type fullname="RuntimeInspectorNamespace.RectField" preserve="nothing"/>
 		<type fullname="RuntimeInspectorNamespace.RecycledListView" preserve="nothing"/>
+		<type fullname="RuntimeInspectorNamespace.RuntimeHierarchy" preserve="nothing"/>
+		<type fullname="RuntimeInspectorNamespace.RuntimeInspector" preserve="nothing"/>
+		<type fullname="RuntimeInspectorNamespace.RuntimeInspectorSettings" preserve="nothing"/>
+		<type fullname="RuntimeInspectorNamespace.StringField" preserve="nothing"/>
+		<type fullname="RuntimeInspectorNamespace.TextureReferenceField" preserve="nothing"/>
 		<type fullname="RuntimeInspectorNamespace.Tooltip" preserve="nothing"/>
+		<type fullname="RuntimeInspectorNamespace.TransformField" preserve="nothing"/>
 		<type fullname="RuntimeInspectorNamespace.UISkin" preserve="nothing"/>
+		<type fullname="RuntimeInspectorNamespace.Vector2Field" preserve="nothing"/>
+		<type fullname="RuntimeInspectorNamespace.Vector3Field" preserve="nothing"/>
+		<type fullname="RuntimeInspectorNamespace.Vector4Field" preserve="nothing"/>
 		<type fullname="RuntimeInspectorNamespace.WindowDragHandler" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Core.Runtime">
@@ -85,6 +134,7 @@
 	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Universal.Runtime">
 		<type fullname="UnityEngine.Rendering.Universal.PostProcessData" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusion" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.Universal.UniversalRendererData" preserve="nothing"/>
@@ -110,7 +160,6 @@
 		<type fullname="UnityEditor.PlayerSettings" preserve="nothing"/>
 		<type fullname="UnityEditor.TagManager" preserve="nothing"/>
 		<type fullname="UnityEditor.TimeManager" preserve="nothing"/>
-		<type fullname="UnityEditor.UnityConnectSettings" preserve="nothing"/>
 		<type fullname="UnityEditor.VFXManager" preserve="nothing"/>
 		<type fullname="UnityEngine.AnimationClip" preserve="nothing"/>
 		<type fullname="UnityEngine.Animator" preserve="nothing"/>
@@ -143,6 +192,7 @@
 		<type fullname="UnityEngine.Renderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.GraphicsSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
+		<type fullname="UnityEngine.RenderTexture" preserve="nothing"/>
 		<type fullname="UnityEngine.RuntimeAnimatorController" preserve="nothing"/>
 		<type fullname="UnityEngine.Shader" preserve="nothing"/>
 		<type fullname="UnityEngine.SkinnedMeshRenderer" preserve="nothing"/>
@@ -155,12 +205,15 @@
 		<type fullname="UnityEngine.Video.VideoPlayer" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEngine.UI">
+		<type fullname="UnityEngine.EventSystems.BaseInput" preserve="nothing"/>
 		<type fullname="UnityEngine.EventSystems.EventSystem" preserve="nothing"/>
 		<type fullname="UnityEngine.EventSystems.EventTrigger" preserve="nothing"/>
 		<type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.AspectRatioFitter" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Button" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.CanvasScaler" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.ContentSizeFitter" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.Dropdown" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.GraphicRaycaster" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Image" preserve="nothing"/>
@@ -171,6 +224,7 @@
 		<type fullname="UnityEngine.UI.RectMask2D" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Scrollbar" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.ScrollRect" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.Slider" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Text" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Toggle" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="nothing"/>

@@ -1,0 +1,6 @@
+framework module FlamCodeScanObj {
+  umbrella header "FlamCodeScanObj.h"
+
+  export *
+  module * { export * }
+}

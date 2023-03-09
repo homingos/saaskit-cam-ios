@@ -1,8 +1,23 @@
 <linker>
 	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="CheckInternet">
+			<method name="ReloadScene"/>
+		</type>
+		<type fullname="configAssetBundle">
+			<method name="OnClickDefaultFilter"/>
+		</type>
 		<type fullname="CustomUIController">
 			<method name="CancelButton"/>
 			<method name="HelpScreen"/>
+		</type>
+		<type fullname="PermissionManager">
+			<method name="OpenSettings"/>
+			<method name="OpenSettings"/>
+			<method name="OpenSettings"/>
+			<method name="OpenSettings"/>
+		</type>
+		<type fullname="vuplexReference">
+			<method name="openCreation"/>
 		</type>
 	</assembly>
 	<assembly fullname="Assembly-CSharp-firstpass" ignoreIfMissing="1">

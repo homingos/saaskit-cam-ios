@@ -4,6 +4,13 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "AkazeController",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "APIController",
             "moduleName": "",
             "usedInScenes": []
@@ -26,6 +33,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "AssetBundleManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "BestHTTP.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "BestHTTP.HTTPUpdateDelegator",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -53,7 +67,28 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "CameraImageAccess",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "CanvasScalerHelper",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "CheckInternet",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "configAssetBundle",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -93,13 +128,28 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "DownloadIT",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "EditorExtension",
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "FilterButton",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
@@ -109,12 +159,20 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "FSCController",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "GameManager",
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -125,12 +183,62 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "IngameDebugConsole.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "IngameDebugConsole.DebugLogItem",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "IngameDebugConsole.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "IngameDebugConsole.DebugLogManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "IngameDebugConsole.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "IngameDebugConsole.DebugLogPopup",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "IngameDebugConsole.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "IngameDebugConsole.DebugLogRecycledListView",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "IngameDebugConsole.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "IngameDebugConsole.DebugLogResizeListener",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "IngameDebugConsole.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "IngameDebugConsole.DebugsOnScrollListener",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "IngameDebugConsole.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "IngameDebugConsole.EventSystemHandler",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "LevelGameManager",
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -160,7 +268,8 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -183,7 +292,8 @@
             "fullManagedTypeName": "",
             "moduleName": "AI",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -197,6 +307,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "ParticleParent",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "PermissionManager",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -224,7 +341,42 @@
         {
             "managedAssemblyName": "RuntimeInspector.Runtime.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "RuntimeInspectorNamespace.ArrayField",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RuntimeInspectorNamespace.BoolField",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "RuntimeInspectorNamespace.BoundInputField",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RuntimeInspectorNamespace.BoundsField",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RuntimeInspectorNamespace.BoundSlider",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RuntimeInspectorNamespace.ColorField",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -259,6 +411,83 @@
         {
             "managedAssemblyName": "RuntimeInspector.Runtime.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "RuntimeInspectorNamespace.EnumField",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RuntimeInspectorNamespace.ExposedMethodField",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RuntimeInspectorNamespace.GameObjectField",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RuntimeInspectorNamespace.HierarchyDragDropListener",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RuntimeInspectorNamespace.HierarchyField",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RuntimeInspectorNamespace.NonDrawingGraphic",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RuntimeInspectorNamespace.NonDrawingMaskableGraphic",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RuntimeInspectorNamespace.NumberField",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RuntimeInspectorNamespace.NumberRangeField",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RuntimeInspectorNamespace.ObjectField",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RuntimeInspectorNamespace.ObjectReferenceField",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "RuntimeInspectorNamespace.ObjectReferencePicker",
             "moduleName": "",
             "usedInScenes": []
@@ -280,7 +509,49 @@
         {
             "managedAssemblyName": "RuntimeInspector.Runtime.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "RuntimeInspectorNamespace.RectField",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "RuntimeInspectorNamespace.RecycledListView",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RuntimeInspectorNamespace.RuntimeHierarchy",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RuntimeInspectorNamespace.RuntimeInspector",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RuntimeInspectorNamespace.RuntimeInspectorSettings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RuntimeInspectorNamespace.StringField",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RuntimeInspectorNamespace.TextureReferenceField",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -294,7 +565,35 @@
         {
             "managedAssemblyName": "RuntimeInspector.Runtime.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "RuntimeInspectorNamespace.TransformField",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "RuntimeInspectorNamespace.UISkin",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RuntimeInspectorNamespace.Vector2Field",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RuntimeInspectorNamespace.Vector3Field",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "RuntimeInspector.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RuntimeInspectorNamespace.Vector4Field",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -322,10 +621,24 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "ScrollHandler",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "ShaderNameRegistry",
             "fullManagedTypeName": "",
             "moduleName": "Core",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "StartCamera",
+            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -420,7 +733,8 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -460,13 +774,6 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "UnityConnectSettings",
-            "fullManagedTypeName": "UnityEditor.UnityConnectSettings",
-            "moduleName": "UnityConnect",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "VFXManager",
             "fullManagedTypeName": "UnityEditor.VFXManager",
             "moduleName": "VFX",
@@ -496,7 +803,8 @@
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -514,7 +822,8 @@
             "fullManagedTypeName": "UnityEngine.AudioListener",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -541,7 +850,8 @@
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -550,7 +860,8 @@
             "fullManagedTypeName": "UnityEngine.Camera",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -559,7 +870,8 @@
             "fullManagedTypeName": "UnityEngine.Canvas",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -568,7 +880,8 @@
             "fullManagedTypeName": "UnityEngine.CanvasGroup",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -577,7 +890,8 @@
             "fullManagedTypeName": "UnityEngine.CanvasRenderer",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -586,7 +900,8 @@
             "fullManagedTypeName": "UnityEngine.Collider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -595,8 +910,16 @@
             "fullManagedTypeName": "UnityEngine.Component",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.EventSystems.BaseInput",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "UnityEngine.UI.dll",
@@ -625,7 +948,8 @@
             "fullManagedTypeName": "UnityEngine.Font",
             "moduleName": "TextRendering",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -634,7 +958,8 @@
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -652,7 +977,8 @@
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -661,7 +987,8 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -670,7 +997,8 @@
             "fullManagedTypeName": "UnityEngine.Mesh",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -679,7 +1007,8 @@
             "fullManagedTypeName": "UnityEngine.MeshCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -688,7 +1017,8 @@
             "fullManagedTypeName": "UnityEngine.MeshFilter",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -697,7 +1027,8 @@
             "fullManagedTypeName": "UnityEngine.MeshRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -706,7 +1037,8 @@
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -724,7 +1056,8 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -740,7 +1073,8 @@
             "fullManagedTypeName": "UnityEngine.RectTransform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -749,7 +1083,8 @@
             "fullManagedTypeName": "UnityEngine.Renderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -958,6 +1293,13 @@
         {
             "managedAssemblyName": "Unity.RenderPipelines.Universal.Runtime.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusion",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.RenderPipelines.Universal.Runtime.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.Rendering.Universal.UniversalAdditionalCameraData",
             "moduleName": "",
             "usedInScenes": []
@@ -1003,6 +1345,16 @@
             "fullManagedTypeName": "UnityEngine.RenderSettings",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "RenderTexture",
+            "fullManagedTypeName": "UnityEngine.RenderTexture",
+            "moduleName": "Core",
+            "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity"
             ]
         },
@@ -1021,7 +1373,8 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -1039,7 +1392,8 @@
             "fullManagedTypeName": "UnityEngine.Sprite",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -1057,7 +1411,8 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -1066,7 +1421,8 @@
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -1075,7 +1431,8 @@
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
         },
         {
@@ -1084,8 +1441,16 @@
             "fullManagedTypeName": "UnityEngine.Transform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/PermissionScene.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.AspectRatioFitter",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "UnityEngine.UI.dll",
@@ -1105,6 +1470,13 @@
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.UI.ContentSizeFitter",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.Dropdown",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -1175,6 +1547,13 @@
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.UI.ScrollRect",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.Slider",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -1258,56 +1637,56 @@
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
+            "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Vuplex.WebView.CanvasKeyboard",
             "moduleName": "",
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
+            "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Vuplex.WebView.CanvasPointerInputDetector",
             "moduleName": "",
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
+            "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Vuplex.WebView.CanvasWebViewPrefab",
             "moduleName": "",
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
+            "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Vuplex.WebView.DefaultPointerInputDetector",
             "moduleName": "",
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
+            "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Vuplex.WebView.Internal.CanvasViewportMaterialView",
             "moduleName": "",
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
+            "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Vuplex.WebView.Internal.ViewportMaterialView",
             "moduleName": "",
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
+            "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Vuplex.WebView.Keyboard",
             "moduleName": "",
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
+            "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Vuplex.WebView.WebViewPrefab",
             "moduleName": "",
@@ -1317,6 +1696,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "VuplexController",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "vuplexReference",
             "moduleName": "",
             "usedInScenes": []
         }
@@ -2587,6 +2973,22 @@
             "baseModule": "Editor"
         },
         {
+            "name": "RoslynAdditionalFileImporter",
+            "qualifiedName": "RoslynAdditionalFileImporter",
+            "nativeNamespace": "",
+            "module": "Core",
+            "baseName": "AssetImporter",
+            "baseModule": "Editor"
+        },
+        {
+            "name": "RoslynAnalyzerConfigImporter",
+            "qualifiedName": "RoslynAnalyzerConfigImporter",
+            "nativeNamespace": "",
+            "module": "Core",
+            "baseName": "AssetImporter",
+            "baseModule": "Editor"
+        },
+        {
             "name": "RuleSetFileImporter",
             "qualifiedName": "RuleSetFileImporter",
             "nativeNamespace": "",
@@ -3029,6 +3431,22 @@
         {
             "name": "RayTracingShader",
             "qualifiedName": "RayTracingShader",
+            "nativeNamespace": "",
+            "module": "Core",
+            "baseName": "NamedObject",
+            "baseModule": "Core"
+        },
+        {
+            "name": "RoslynAdditionalFileAsset",
+            "qualifiedName": "RoslynAdditionalFileAsset",
+            "nativeNamespace": "",
+            "module": "Core",
+            "baseName": "NamedObject",
+            "baseModule": "Core"
+        },
+        {
+            "name": "RoslynAnalyzerConfigAsset",
+            "qualifiedName": "RoslynAnalyzerConfigAsset",
             "nativeNamespace": "",
             "module": "Core",
             "baseName": "NamedObject",

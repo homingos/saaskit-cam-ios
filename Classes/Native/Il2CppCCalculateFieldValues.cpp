@@ -10588,15 +10588,15 @@ struct LocalDataStoreHolder_t789DD474AE5141213C2105CE57830ECFC2D3C03F  : public 
 struct LocalDataStoreMgr_t205F1783D5CC2B148E829B5882E5406FF9A3AC1E  : public RuntimeObject
 {
 	// System.Boolean[] System.LocalDataStoreMgr::m_SlotInfoTable
-	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___m_SlotInfoTable_0;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___m_SlotInfoTable_3;
 	// System.Int32 System.LocalDataStoreMgr::m_FirstAvailableSlot
-	int32_t ___m_FirstAvailableSlot_1;
+	int32_t ___m_FirstAvailableSlot_4;
 	// System.Collections.Generic.List`1<System.LocalDataStore> System.LocalDataStoreMgr::m_ManagedLocalDataStores
-	List_1_tBAB383F68383D40FD2B4F585744EFFB6C52B21A1* ___m_ManagedLocalDataStores_2;
+	List_1_tBAB383F68383D40FD2B4F585744EFFB6C52B21A1* ___m_ManagedLocalDataStores_5;
 	// System.Collections.Generic.Dictionary`2<System.String,System.LocalDataStoreSlot> System.LocalDataStoreMgr::m_KeyToSlotMap
-	Dictionary_2_t8CE98F372F16BA0B96FEC3C5AC31FA06153DE2C3* ___m_KeyToSlotMap_3;
+	Dictionary_2_t8CE98F372F16BA0B96FEC3C5AC31FA06153DE2C3* ___m_KeyToSlotMap_6;
 	// System.Int64 System.LocalDataStoreMgr::m_CookieGenerator
-	int64_t ___m_CookieGenerator_4;
+	int64_t ___m_CookieGenerator_7;
 };
 
 // System.LocalDataStoreSlot
@@ -41889,9 +41889,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2904[2] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2905[3] = 
 {
 	static_cast<int32_t>(offsetof(LocalDataStoreSlot_tEE8D2C2A87B7336B3C04BFCF3963F1307EAA2499, ___m_mgr_0)),static_cast<int32_t>(offsetof(LocalDataStoreSlot_tEE8D2C2A87B7336B3C04BFCF3963F1307EAA2499, ___m_slot_1)),static_cast<int32_t>(offsetof(LocalDataStoreSlot_tEE8D2C2A87B7336B3C04BFCF3963F1307EAA2499, ___m_cookie_2)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2906[5] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2906[8] = 
 {
-	static_cast<int32_t>(offsetof(LocalDataStoreMgr_t205F1783D5CC2B148E829B5882E5406FF9A3AC1E, ___m_SlotInfoTable_0)),static_cast<int32_t>(offsetof(LocalDataStoreMgr_t205F1783D5CC2B148E829B5882E5406FF9A3AC1E, ___m_FirstAvailableSlot_1)),static_cast<int32_t>(offsetof(LocalDataStoreMgr_t205F1783D5CC2B148E829B5882E5406FF9A3AC1E, ___m_ManagedLocalDataStores_2)),static_cast<int32_t>(offsetof(LocalDataStoreMgr_t205F1783D5CC2B148E829B5882E5406FF9A3AC1E, ___m_KeyToSlotMap_3)),static_cast<int32_t>(offsetof(LocalDataStoreMgr_t205F1783D5CC2B148E829B5882E5406FF9A3AC1E, ___m_CookieGenerator_4)),};
+	0,0,0,static_cast<int32_t>(offsetof(LocalDataStoreMgr_t205F1783D5CC2B148E829B5882E5406FF9A3AC1E, ___m_SlotInfoTable_3)),static_cast<int32_t>(offsetof(LocalDataStoreMgr_t205F1783D5CC2B148E829B5882E5406FF9A3AC1E, ___m_FirstAvailableSlot_4)),static_cast<int32_t>(offsetof(LocalDataStoreMgr_t205F1783D5CC2B148E829B5882E5406FF9A3AC1E, ___m_ManagedLocalDataStores_5)),static_cast<int32_t>(offsetof(LocalDataStoreMgr_t205F1783D5CC2B148E829B5882E5406FF9A3AC1E, ___m_KeyToSlotMap_6)),static_cast<int32_t>(offsetof(LocalDataStoreMgr_t205F1783D5CC2B148E829B5882E5406FF9A3AC1E, ___m_CookieGenerator_7)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2912[3] = 
 {
 	static_cast<int32_t>(offsetof(BinderState_t1B39D564E8BCCF5B8A7A875BE2DE0E93EE81D808, ___m_argsMap_0)),static_cast<int32_t>(offsetof(BinderState_t1B39D564E8BCCF5B8A7A875BE2DE0E93EE81D808, ___m_originalSize_1)),static_cast<int32_t>(offsetof(BinderState_t1B39D564E8BCCF5B8A7A875BE2DE0E93EE81D808, ___m_isParamArray_2)),};
