@@ -141,7 +141,7 @@ struct Action_4_t96741D80194863C1CE64B3F3D799EF6F3401E33F;
 // System.Threading.AsyncLocal`1<System.Globalization.CultureInfo>
 struct AsyncLocal_1_t1D3339EA4C8650D2DEDDF9553E5C932B3DC2CCFD;
 // Vuplex.WebView.Internal.CachingGetter`1<UnityEngine.Canvas>
-struct CachingGetter_1_tDA4715BFC8AFF5E6F6C10462BA2CD201896109E0;
+struct CachingGetter_1_t1F54F1795E76F68AA11984B39F6CB9EC040356A1;
 // System.Comparison`1<UnityEngine.EventSystems.RaycastResult>
 struct Comparison_1_t9FCAC8C8CE160A96C5AAD2DE1D353DCE8A2FEEFC;
 // DG.Tweening.Core.DOGetter`1<UnityEngine.Vector3>
@@ -167,9 +167,9 @@ struct Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83;
 // System.Collections.Generic.Dictionary`2<System.Type,System.Runtime.Serialization.Formatters.Binary.TypeInformation>
 struct Dictionary_2_t8B428D684ADA214F1A90B42123A1536ED34C1FF8;
 // System.EventHandler`1<Vuplex.WebView.ClickedEventArgs>
-struct EventHandler_1_t1D6F55BFF7A13B3661EE09DC582CC1297A2A51B5;
+struct EventHandler_1_t4E3670976F4D2C61D9243ECB0904D6174E55D733;
 // System.EventHandler`1<Vuplex.WebView.ScrolledEventArgs>
-struct EventHandler_1_t87A9E4470048144EB3C42CFC4EE73F3F2C16783C;
+struct EventHandler_1_tCD592DCDE347255E33BAFAD04D7CF4D8632ABAA3;
 // System.Func`2<System.Single,System.Single>
 struct Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2;
 // System.Func`3<System.Int32,System.String,TMPro.TMP_FontAsset>
@@ -371,7 +371,7 @@ struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
 // UnityEngine.Video.VideoPlayer[]
 struct VideoPlayerU5BU5D_t82A7EFB216CBB0B6349FEC490A3A2E6B080C61E6;
 // Vuplex.WebView.WebPluginType[]
-struct WebPluginTypeU5BU5D_t4E73CDC305B8216B3543CB6688E13FC0933E008D;
+struct WebPluginTypeU5BU5D_tF4C66961F7F8C4372409C09CBBDEC629522BFA8C;
 // TMPro.WordWrapState[]
 struct WordWrapStateU5BU5D_t473D59C9DBCC949CE72EF1EB471CBA152A6CEAC9;
 // TMPro.TMP_Text/UnicodeChar[]
@@ -459,7 +459,7 @@ struct CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B;
 // CanvasScalerHelper
 struct CanvasScalerHelper_tEC82830FE718B020ED9D4323866CBE54BE10FE83;
 // Vuplex.WebView.CanvasWebViewPrefab
-struct CanvasWebViewPrefab_t621E38DED690A6F4D846324B542B1DFF5325CE24;
+struct CanvasWebViewPrefab_t924474B1363A01758559508CB2485B8BA3BB6945;
 // UnityEngine.Networking.CertificateHandler
 struct CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804;
 // CheckInternet
@@ -605,7 +605,7 @@ struct ISurrogateSelector_t35CC72FCAD57FCB71968799C400627F09E81FB01;
 // TMPro.ITextPreprocessor
 struct ITextPreprocessor_tDBB49C8B68D7B80E8D233B9D9666C43981EFAAB9;
 // Vuplex.WebView.IWebView
-struct IWebView_t61CE59CF1FEEB7B5F8F4CFE7A517B6BFB524CD0E;
+struct IWebView_t22C135640FF9B201FBBE6086C94FA7687CAA3422;
 // UnityEngine.UI.Image
 struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E;
 // ImageData
@@ -865,7 +865,7 @@ struct VideoData_t1ABA939D66926A68A4CB10EE8CF844B93615C807;
 // UnityEngine.Video.VideoPlayer
 struct VideoPlayer_t48EA4A8117B822BC59590150DED9AD46C62F65D3;
 // Vuplex.WebView.Internal.ViewportMaterialView
-struct ViewportMaterialView_tB55CBDB3B87184BDCAEDCE1F3C1D94E9E1EFAB4F;
+struct ViewportMaterialView_tC3B452F30C2F11F05CBE728329A3B7A9E7B914BC;
 // System.Void
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 // Vuforia.VuforiaApplication
@@ -4535,24 +4535,24 @@ struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_com : 
 };
 
 // Vuplex.WebView.WebViewOptions
-struct WebViewOptions_t6AF223CB628CF816A538DC820E190AE108845E20 
+struct WebViewOptions_t16E72A6424B439ACD647A15F93E3EEEA67C26DE3 
 {
 	// System.Boolean Vuplex.WebView.WebViewOptions::clickWithoutStealingFocus
 	bool ___clickWithoutStealingFocus_0;
 	// System.Boolean Vuplex.WebView.WebViewOptions::disableVideo
 	bool ___disableVideo_1;
 	// Vuplex.WebView.WebPluginType[] Vuplex.WebView.WebViewOptions::preferredPlugins
-	WebPluginTypeU5BU5D_t4E73CDC305B8216B3543CB6688E13FC0933E008D* ___preferredPlugins_2;
+	WebPluginTypeU5BU5D_tF4C66961F7F8C4372409C09CBBDEC629522BFA8C* ___preferredPlugins_2;
 };
 // Native definition for P/Invoke marshalling of Vuplex.WebView.WebViewOptions
-struct WebViewOptions_t6AF223CB628CF816A538DC820E190AE108845E20_marshaled_pinvoke
+struct WebViewOptions_t16E72A6424B439ACD647A15F93E3EEEA67C26DE3_marshaled_pinvoke
 {
 	int32_t ___clickWithoutStealingFocus_0;
 	int32_t ___disableVideo_1;
 	int32_t* ___preferredPlugins_2;
 };
 // Native definition for COM marshalling of Vuplex.WebView.WebViewOptions
-struct WebViewOptions_t6AF223CB628CF816A538DC820E190AE108845E20_marshaled_com
+struct WebViewOptions_t16E72A6424B439ACD647A15F93E3EEEA67C26DE3_marshaled_com
 {
 	int32_t ___clickWithoutStealingFocus_0;
 	int32_t ___disableVideo_1;
@@ -6689,10 +6689,10 @@ struct AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299  : public AudioBeha
 };
 
 // Vuplex.WebView.BaseWebViewPrefab
-struct BaseWebViewPrefab_t9956951F2C38C7C18BE8AF8631B91014F4D1C532  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+struct BaseWebViewPrefab_t7AB09BDDF6BFE36D6A309E72648120AD42D90B51  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	// System.EventHandler`1<Vuplex.WebView.ClickedEventArgs> Vuplex.WebView.BaseWebViewPrefab::Clicked
-	EventHandler_1_t1D6F55BFF7A13B3661EE09DC582CC1297A2A51B5* ___Clicked_4;
+	EventHandler_1_t4E3670976F4D2C61D9243ECB0904D6174E55D733* ___Clicked_4;
 	// System.EventHandler Vuplex.WebView.BaseWebViewPrefab::Initialized
 	EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* ___Initialized_5;
 	// System.EventHandler Vuplex.WebView.BaseWebViewPrefab::PointerEntered
@@ -6700,7 +6700,7 @@ struct BaseWebViewPrefab_t9956951F2C38C7C18BE8AF8631B91014F4D1C532  : public Mon
 	// System.EventHandler Vuplex.WebView.BaseWebViewPrefab::PointerExited
 	EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* ___PointerExited_7;
 	// System.EventHandler`1<Vuplex.WebView.ScrolledEventArgs> Vuplex.WebView.BaseWebViewPrefab::Scrolled
-	EventHandler_1_t87A9E4470048144EB3C42CFC4EE73F3F2C16783C* ___Scrolled_8;
+	EventHandler_1_tCD592DCDE347255E33BAFAD04D7CF4D8632ABAA3* ___Scrolled_8;
 	// System.Boolean Vuplex.WebView.BaseWebViewPrefab::ClickingEnabled
 	bool ___ClickingEnabled_9;
 	// System.Boolean Vuplex.WebView.BaseWebViewPrefab::CursorIconsEnabled
@@ -6726,9 +6726,9 @@ struct BaseWebViewPrefab_t9956951F2C38C7C18BE8AF8631B91014F4D1C532  : public Mon
 	// System.Single Vuplex.WebView.BaseWebViewPrefab::_appliedResolution
 	float ____appliedResolution_20;
 	// Vuplex.WebView.Internal.ViewportMaterialView Vuplex.WebView.BaseWebViewPrefab::_cachedVideoLayer
-	ViewportMaterialView_tB55CBDB3B87184BDCAEDCE1F3C1D94E9E1EFAB4F* ____cachedVideoLayer_21;
+	ViewportMaterialView_tC3B452F30C2F11F05CBE728329A3B7A9E7B914BC* ____cachedVideoLayer_21;
 	// Vuplex.WebView.Internal.ViewportMaterialView Vuplex.WebView.BaseWebViewPrefab::_cachedView
-	ViewportMaterialView_tB55CBDB3B87184BDCAEDCE1F3C1D94E9E1EFAB4F* ____cachedView_22;
+	ViewportMaterialView_tC3B452F30C2F11F05CBE728329A3B7A9E7B914BC* ____cachedView_22;
 	// Vuplex.WebView.IWebView Vuplex.WebView.BaseWebViewPrefab::_cachedWebView
 	RuntimeObject* ____cachedWebView_23;
 	// System.Boolean Vuplex.WebView.BaseWebViewPrefab::_consoleMessageLoggedHandlerAttached
@@ -6744,7 +6744,7 @@ struct BaseWebViewPrefab_t9956951F2C38C7C18BE8AF8631B91014F4D1C532  : public Mon
 	// System.Boolean Vuplex.WebView.BaseWebViewPrefab::_loggedDragWarning
 	bool ____loggedDragWarning_29;
 	// Vuplex.WebView.WebViewOptions Vuplex.WebView.BaseWebViewPrefab::_options
-	WebViewOptions_t6AF223CB628CF816A538DC820E190AE108845E20 ____options_31;
+	WebViewOptions_t16E72A6424B439ACD647A15F93E3EEEA67C26DE3 ____options_31;
 	// UnityEngine.MonoBehaviour Vuplex.WebView.BaseWebViewPrefab::_pointerInputDetectorMonoBehaviour
 	MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* ____pointerInputDetectorMonoBehaviour_32;
 	// System.Boolean Vuplex.WebView.BaseWebViewPrefab::_pointerIsDown
@@ -6769,7 +6769,7 @@ struct BaseWebViewPrefab_t9956951F2C38C7C18BE8AF8631B91014F4D1C532  : public Mon
 	float ___U3CDragToScrollThresholdU3Ek__BackingField_43;
 };
 
-struct BaseWebViewPrefab_t9956951F2C38C7C18BE8AF8631B91014F4D1C532_StaticFields
+struct BaseWebViewPrefab_t7AB09BDDF6BFE36D6A309E72648120AD42D90B51_StaticFields
 {
 	// System.Boolean Vuplex.WebView.BaseWebViewPrefab::_loggedHoverWarning
 	bool ____loggedHoverWarning_30;
@@ -7614,7 +7614,7 @@ struct VuplexController_t2204E57F5A8EA66624872FBFC6FF4D27D9F83502  : public Mono
 	// System.String VuplexController::CountryCode
 	String_t* ___CountryCode_10;
 	// Vuplex.WebView.CanvasWebViewPrefab VuplexController::_canvasWebViewPrefab
-	CanvasWebViewPrefab_t621E38DED690A6F4D846324B542B1DFF5325CE24* ____canvasWebViewPrefab_12;
+	CanvasWebViewPrefab_t924474B1363A01758559508CB2485B8BA3BB6945* ____canvasWebViewPrefab_12;
 	// UnityEngine.GameObject VuplexController::_canvasWebViewPrefabView
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____canvasWebViewPrefabView_13;
 	// System.String VuplexController::filePath
@@ -7806,7 +7806,7 @@ struct CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B  : public UIBehavi
 };
 
 // Vuplex.WebView.CanvasWebViewPrefab
-struct CanvasWebViewPrefab_t621E38DED690A6F4D846324B542B1DFF5325CE24  : public BaseWebViewPrefab_t9956951F2C38C7C18BE8AF8631B91014F4D1C532
+struct CanvasWebViewPrefab_t924474B1363A01758559508CB2485B8BA3BB6945  : public BaseWebViewPrefab_t7AB09BDDF6BFE36D6A309E72648120AD42D90B51
 {
 	// System.Boolean Vuplex.WebView.CanvasWebViewPrefab::Native2DModeEnabled
 	bool ___Native2DModeEnabled_44;
@@ -7819,7 +7819,7 @@ struct CanvasWebViewPrefab_t621E38DED690A6F4D846324B542B1DFF5325CE24  : public B
 	// UnityEngine.RectTransform Vuplex.WebView.CanvasWebViewPrefab::_cachedRectTransform
 	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ____cachedRectTransform_48;
 	// Vuplex.WebView.Internal.CachingGetter`1<UnityEngine.Canvas> Vuplex.WebView.CanvasWebViewPrefab::_canvasGetter
-	CachingGetter_1_tDA4715BFC8AFF5E6F6C10462BA2CD201896109E0* ____canvasGetter_49;
+	CachingGetter_1_t1F54F1795E76F68AA11984B39F6CB9EC040356A1* ____canvasGetter_49;
 };
 
 // CustomInitializationErrorHandler
@@ -13509,6 +13509,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FSCUnity_InitiateFSC_m50400DB051B617A34C
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CameraImageAccess_t57DEFBCE790B5BB36FA653DD5A23463B4CF007DD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FSCController_tD3D102B4325DB010E30403F648BEED712980C5BA_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FSCUnity_FSC_mE1A1B4214CC5D5115F5EA6345CDEDB036A47CB3E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F_il2cpp_TypeInfo_var);
@@ -13517,32 +13518,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FSCUnity_InitiateFSC_m50400DB051B617A34C
 	RuntimeObject* V_0 = NULL;
 	bool V_1 = false;
 	{
-		// lock (CameraImageAccess.Instance.obj)
-		CameraImageAccess_t57DEFBCE790B5BB36FA653DD5A23463B4CF007DD* L_0 = ((CameraImageAccess_t57DEFBCE790B5BB36FA653DD5A23463B4CF007DD_StaticFields*)il2cpp_codegen_static_fields_for(CameraImageAccess_t57DEFBCE790B5BB36FA653DD5A23463B4CF007DD_il2cpp_TypeInfo_var))->___Instance_10;
+		// if (FSCController.Instance.FScFlag == true)
+		FSCController_tD3D102B4325DB010E30403F648BEED712980C5BA* L_0 = ((FSCController_tD3D102B4325DB010E30403F648BEED712980C5BA_StaticFields*)il2cpp_codegen_static_fields_for(FSCController_tD3D102B4325DB010E30403F648BEED712980C5BA_il2cpp_TypeInfo_var))->___Instance_38;
 		NullCheck(L_0);
-		RuntimeObject* L_1 = L_0->___obj_12;
-		V_0 = L_1;
+		bool L_1 = L_0->___FScFlag_35;
+		if (!L_1)
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		// lock (CameraImageAccess.Instance.obj)
+		CameraImageAccess_t57DEFBCE790B5BB36FA653DD5A23463B4CF007DD* L_2 = ((CameraImageAccess_t57DEFBCE790B5BB36FA653DD5A23463B4CF007DD_StaticFields*)il2cpp_codegen_static_fields_for(CameraImageAccess_t57DEFBCE790B5BB36FA653DD5A23463B4CF007DD_il2cpp_TypeInfo_var))->___Instance_10;
+		NullCheck(L_2);
+		RuntimeObject* L_3 = L_2->___obj_12;
+		V_0 = L_3;
 		V_1 = (bool)0;
 	}
 	{
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_002d:
+FINALLY_0039:
 			{// begin finally (depth: 1)
 				{
-					bool L_2 = V_1;
-					if (!L_2)
+					bool L_4 = V_1;
+					if (!L_4)
 					{
-						goto IL_0036;
+						goto IL_0042;
 					}
 				}
 				{
-					RuntimeObject* L_3 = V_0;
-					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_3, NULL);
+					RuntimeObject* L_5 = V_0;
+					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_5, NULL);
 				}
 
-IL_0036:
+IL_0042:
 				{
 					return;
 				}
@@ -13550,20 +13561,20 @@ IL_0036:
 		});
 		try
 		{// begin try (depth: 1)
-			RuntimeObject* L_4 = V_0;
-			Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_4, (&V_1), NULL);
+			RuntimeObject* L_6 = V_0;
+			Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_6, (&V_1), NULL);
 			// Thread thread = new Thread(FSC);
-			ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2* L_5 = (ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2*)il2cpp_codegen_object_new(ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2_il2cpp_TypeInfo_var);
-			NullCheck(L_5);
-			ThreadStart__ctor_m35CE51F76358F20E4A0C8F2963C3AE14E5FF7E71(L_5, NULL, (intptr_t)((void*)FSCUnity_FSC_mE1A1B4214CC5D5115F5EA6345CDEDB036A47CB3E_RuntimeMethod_var), NULL);
-			Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_6 = (Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F*)il2cpp_codegen_object_new(Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F_il2cpp_TypeInfo_var);
-			NullCheck(L_6);
-			Thread__ctor_m1FA23A179DF4F5B659689D6FA40DE903086212E2(L_6, L_5, NULL);
+			ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2* L_7 = (ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2*)il2cpp_codegen_object_new(ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2_il2cpp_TypeInfo_var);
+			NullCheck(L_7);
+			ThreadStart__ctor_m35CE51F76358F20E4A0C8F2963C3AE14E5FF7E71(L_7, NULL, (intptr_t)((void*)FSCUnity_FSC_mE1A1B4214CC5D5115F5EA6345CDEDB036A47CB3E_RuntimeMethod_var), NULL);
+			Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_8 = (Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F*)il2cpp_codegen_object_new(Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F_il2cpp_TypeInfo_var);
+			NullCheck(L_8);
+			Thread__ctor_m1FA23A179DF4F5B659689D6FA40DE903086212E2(L_8, L_7, NULL);
 			// thread.Start();
-			NullCheck(L_6);
-			Thread_Start_m2230799AA331CA9ACEF49D5500281D0C1A9F72FA(L_6, NULL);
+			NullCheck(L_8);
+			Thread_Start_m2230799AA331CA9ACEF49D5500281D0C1A9F72FA(L_8, NULL);
 			// }
-			goto IL_0037;
+			goto IL_0043;
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
 		{
@@ -13571,7 +13582,7 @@ IL_0036:
 		}
 	}
 
-IL_0037:
+IL_0043:
 	{
 		// }
 		return;
@@ -13603,11 +13614,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FSCUnity_FSC_mE1A1B4214CC5D5115F5EA6345C
 		String_t* L_5;
 		L_5 = FSCUnity_getCodeFromImage_m0FCD6BBF6FB481874FD6E4181BD35CF44DF955B4(L_2, L_4, NULL);
 		V_0 = L_5;
-		// FSCController.Instance.message(Code);
+		// if (FSCController.Instance.FScFlag == true)
 		FSCController_tD3D102B4325DB010E30403F648BEED712980C5BA* L_6 = ((FSCController_tD3D102B4325DB010E30403F648BEED712980C5BA_StaticFields*)il2cpp_codegen_static_fields_for(FSCController_tD3D102B4325DB010E30403F648BEED712980C5BA_il2cpp_TypeInfo_var))->___Instance_38;
-		String_t* L_7 = V_0;
 		NullCheck(L_6);
-		FSCController_message_m12F7E078A6CD18BC93A62E7B5F8C7DCA486D483E(L_6, L_7, NULL);
+		bool L_7 = L_6->___FScFlag_35;
+		if (!L_7)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		// FSCController.Instance.message(Code);
+		FSCController_tD3D102B4325DB010E30403F648BEED712980C5BA* L_8 = ((FSCController_tD3D102B4325DB010E30403F648BEED712980C5BA_StaticFields*)il2cpp_codegen_static_fields_for(FSCController_tD3D102B4325DB010E30403F648BEED712980C5BA_il2cpp_TypeInfo_var))->___Instance_38;
+		String_t* L_9 = V_0;
+		NullCheck(L_8);
+		FSCController_message_m12F7E078A6CD18BC93A62E7B5F8C7DCA486D483E(L_8, L_9, NULL);
+	}
+
+IL_003c:
+	{
 		// }
 		return;
 	}
@@ -36600,7 +36625,7 @@ IL_0018_1:
 			// VuplexController.Instance._canvasWebViewPrefab.GetComponent<RectTransform>().Translate(0, -10000, 0);
 			VuplexController_t2204E57F5A8EA66624872FBFC6FF4D27D9F83502* L_19 = ((VuplexController_t2204E57F5A8EA66624872FBFC6FF4D27D9F83502_StaticFields*)il2cpp_codegen_static_fields_for(VuplexController_t2204E57F5A8EA66624872FBFC6FF4D27D9F83502_il2cpp_TypeInfo_var))->___Instance_11;
 			NullCheck(L_19);
-			CanvasWebViewPrefab_t621E38DED690A6F4D846324B542B1DFF5325CE24* L_20 = L_19->____canvasWebViewPrefab_12;
+			CanvasWebViewPrefab_t924474B1363A01758559508CB2485B8BA3BB6945* L_20 = L_19->____canvasWebViewPrefab_12;
 			NullCheck(L_20);
 			RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_21;
 			L_21 = Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4(L_20, Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);
@@ -36628,7 +36653,7 @@ IL_00b3_1:
 			// VuplexController.Instance._canvasWebViewPrefab.GetComponent<RectTransform>().Translate(0, 10000, 0);
 			VuplexController_t2204E57F5A8EA66624872FBFC6FF4D27D9F83502* L_25 = ((VuplexController_t2204E57F5A8EA66624872FBFC6FF4D27D9F83502_StaticFields*)il2cpp_codegen_static_fields_for(VuplexController_t2204E57F5A8EA66624872FBFC6FF4D27D9F83502_il2cpp_TypeInfo_var))->___Instance_11;
 			NullCheck(L_25);
-			CanvasWebViewPrefab_t621E38DED690A6F4D846324B542B1DFF5325CE24* L_26 = L_25->____canvasWebViewPrefab_12;
+			CanvasWebViewPrefab_t924474B1363A01758559508CB2485B8BA3BB6945* L_26 = L_25->____canvasWebViewPrefab_12;
 			NullCheck(L_26);
 			RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_27;
 			L_27 = Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4(L_26, Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);
@@ -36718,7 +36743,7 @@ IL_013a_1:
 			// VuplexController.Instance._canvasWebViewPrefab.GetComponent<RectTransform>().Translate(0, -10000, 0);
 			VuplexController_t2204E57F5A8EA66624872FBFC6FF4D27D9F83502* L_48 = ((VuplexController_t2204E57F5A8EA66624872FBFC6FF4D27D9F83502_StaticFields*)il2cpp_codegen_static_fields_for(VuplexController_t2204E57F5A8EA66624872FBFC6FF4D27D9F83502_il2cpp_TypeInfo_var))->___Instance_11;
 			NullCheck(L_48);
-			CanvasWebViewPrefab_t621E38DED690A6F4D846324B542B1DFF5325CE24* L_49 = L_48->____canvasWebViewPrefab_12;
+			CanvasWebViewPrefab_t924474B1363A01758559508CB2485B8BA3BB6945* L_49 = L_48->____canvasWebViewPrefab_12;
 			NullCheck(L_49);
 			RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_50;
 			L_50 = Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4(L_49, Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);
@@ -36746,7 +36771,7 @@ IL_01c0_1:
 			// VuplexController.Instance._canvasWebViewPrefab.GetComponent<RectTransform>().Translate(0, 10000, 0);
 			VuplexController_t2204E57F5A8EA66624872FBFC6FF4D27D9F83502* L_54 = ((VuplexController_t2204E57F5A8EA66624872FBFC6FF4D27D9F83502_StaticFields*)il2cpp_codegen_static_fields_for(VuplexController_t2204E57F5A8EA66624872FBFC6FF4D27D9F83502_il2cpp_TypeInfo_var))->___Instance_11;
 			NullCheck(L_54);
-			CanvasWebViewPrefab_t621E38DED690A6F4D846324B542B1DFF5325CE24* L_55 = L_54->____canvasWebViewPrefab_12;
+			CanvasWebViewPrefab_t924474B1363A01758559508CB2485B8BA3BB6945* L_55 = L_54->____canvasWebViewPrefab_12;
 			NullCheck(L_55);
 			RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_56;
 			L_56 = Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4(L_55, Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);

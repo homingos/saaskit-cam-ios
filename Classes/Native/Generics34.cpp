@@ -644,11 +644,11 @@ struct EqualityComparer_1_t38EE53B7A75D77D5D194E0E1032C58C190258FAC;
 // System.Collections.Generic.EqualityComparer`1<System.Linq.Expressions.Interpreter.InstructionList/DebugView/InstructionView>
 struct EqualityComparer_1_tDC3F4280426A7B3395542AB1005D0ECCB96145F2;
 // Vuplex.WebView.EventArgs`1<System.Object>
-struct EventArgs_1_tD982FC9B09AA118D24A64188683DA3E00B106497;
+struct EventArgs_1_t45FFF9C1B102DD9EB94B4BAED9DA996BED1AB849;
 // Vuplex.WebView.EventArgs`1<UnityEngine.Rect>
-struct EventArgs_1_t2781CE828E7F45BE8E658481961DF6316E817D19;
+struct EventArgs_1_t1F0D6B33C10448426BEFDAC60B3A279124374189;
 // Vuplex.WebView.EventArgs`1<UnityEngine.Vector2>
-struct EventArgs_1_tE61754C04BF92C1D22EF3121BD4A4283CDB65601;
+struct EventArgs_1_t5CF42DE309A83760267A0E82650615E306576631;
 // UnityEngine.UIElements.EventBase`1<System.Object>
 struct EventBase_1_t2B9B970022841F58172C0C783B7E1040BEF85AC1;
 // UnityEngine.UIElements.EventCallbackFunctor`1<System.Object>
@@ -784,7 +784,7 @@ struct Func_1_tE206E9F9B41CFFF0572F2C4B0387B4E70C161ACC;
 // System.Func`1<UnityEngine.Color>
 struct Func_1_t6810F34C7AB650D465D2B9B6A1F0B277DAA46A3C;
 // System.Func`1<Vuplex.WebView.FindResult>
-struct Func_1_t9041D993F7714E846EE41B1E8AE84700748CBF74;
+struct Func_1_t5B6FC4F95E7069AB94BDAAA1A4C7850718660A8A;
 // System.Func`1<System.Int32>
 struct Func_1_tC288CCB64EFD1F5FD49C3F8DE91FE62905E44BCD;
 // System.Func`1<System.Int32Enum>
@@ -2522,7 +2522,7 @@ struct CustomStyleProperty_1_t8315EF5D1C5F5FB5F920B77E40695C07DAAB349A_marshaled
 #endif
 
 // Vuplex.WebView.EventArgs`1<System.Object>
-struct EventArgs_1_tD982FC9B09AA118D24A64188683DA3E00B106497  : public EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377
+struct EventArgs_1_t45FFF9C1B102DD9EB94B4BAED9DA996BED1AB849  : public EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377
 {
 	// T Vuplex.WebView.EventArgs`1::<Value>k__BackingField
 	RuntimeObject* ___U3CValueU3Ek__BackingField_1;
@@ -3401,7 +3401,7 @@ struct EventDebuggerLogCall_t59182CB55F45044F5A90A22E3F1C4CF7019306D7
 };
 
 // Vuplex.WebView.FindResult
-struct FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 
+struct FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 
 {
 	// System.Int32 Vuplex.WebView.FindResult::CurrentMatchIndex
 	int32_t ___CurrentMatchIndex_0;
@@ -4385,14 +4385,14 @@ struct ByReference_1_t7BA5A6CA164F770BC688F21C5978D368716465F5
 };
 
 // Vuplex.WebView.EventArgs`1<UnityEngine.Rect>
-struct EventArgs_1_t2781CE828E7F45BE8E658481961DF6316E817D19  : public EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377
+struct EventArgs_1_t1F0D6B33C10448426BEFDAC60B3A279124374189  : public EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377
 {
 	// T Vuplex.WebView.EventArgs`1::<Value>k__BackingField
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___U3CValueU3Ek__BackingField_1;
 };
 
 // Vuplex.WebView.EventArgs`1<UnityEngine.Vector2>
-struct EventArgs_1_tE61754C04BF92C1D22EF3121BD4A4283CDB65601  : public EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377
+struct EventArgs_1_t5CF42DE309A83760267A0E82650615E306576631  : public EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377
 {
 	// T Vuplex.WebView.EventArgs`1::<Value>k__BackingField
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CValueU3Ek__BackingField_1;
@@ -6326,7 +6326,7 @@ struct Func_1_t6810F34C7AB650D465D2B9B6A1F0B277DAA46A3C  : public MulticastDeleg
 };
 
 // System.Func`1<Vuplex.WebView.FindResult>
-struct Func_1_t9041D993F7714E846EE41B1E8AE84700748CBF74  : public MulticastDelegate_t
+struct Func_1_t5B6FC4F95E7069AB94BDAAA1A4C7850718660A8A  : public MulticastDelegate_t
 {
 };
 
@@ -21359,7 +21359,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EqualityComparer_1__ctor_m0E0A04700ED6B2
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // T Vuplex.WebView.EventArgs`1<System.Object>::get_Value()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EventArgs_1_get_Value_m53D98AC632BA6AEB963816B6B144457CB773B602_gshared (EventArgs_1_tD982FC9B09AA118D24A64188683DA3E00B106497* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EventArgs_1_get_Value_mECCCE479AFC20C4C8DB1A3F0698138C3BA54B156_gshared (EventArgs_1_t45FFF9C1B102DD9EB94B4BAED9DA996BED1AB849* __this, const RuntimeMethod* method) 
 {
 	{
 		// public T Value { get; private set; }
@@ -21368,7 +21368,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EventArgs_1_get_Value_m53D98AC
 	}
 }
 // System.Void Vuplex.WebView.EventArgs`1<System.Object>::set_Value(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventArgs_1_set_Value_m845A5F04F87AA811BF3AA689089C683791D53A13_gshared (EventArgs_1_tD982FC9B09AA118D24A64188683DA3E00B106497* __this, RuntimeObject* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventArgs_1_set_Value_m748DA709FFFDA795853A4D9223366813D9AEF4D2_gshared (EventArgs_1_t45FFF9C1B102DD9EB94B4BAED9DA996BED1AB849* __this, RuntimeObject* ___value0, const RuntimeMethod* method) 
 {
 	{
 		// public T Value { get; private set; }
@@ -21379,7 +21379,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventArgs_1_set_Value_m845A5F04F87AA811B
 	}
 }
 // System.Void Vuplex.WebView.EventArgs`1<System.Object>::.ctor(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventArgs_1__ctor_mA9D25A4846C875FA76E67CE54812BC5AC336C805_gshared (EventArgs_1_tD982FC9B09AA118D24A64188683DA3E00B106497* __this, RuntimeObject* ___val0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventArgs_1__ctor_m6002F0F11CE86F83F26A5AEE65A77D8C6D6710BE_gshared (EventArgs_1_t45FFF9C1B102DD9EB94B4BAED9DA996BED1AB849* __this, RuntimeObject* ___val0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -21393,7 +21393,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventArgs_1__ctor_mA9D25A4846C875FA76E67
 		EventArgs__ctor_mC6F9412D03203ADEF854117542C8EBF61624C8C3((EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377*)__this, NULL);
 		// public EventArgs(T val) => Value = val;
 		RuntimeObject* L_0 = ___val0;
-		((  void (*) (EventArgs_1_tD982FC9B09AA118D24A64188683DA3E00B106497*, RuntimeObject*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
+		((  void (*) (EventArgs_1_t45FFF9C1B102DD9EB94B4BAED9DA996BED1AB849*, RuntimeObject*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
 		return;
 	}
 }
@@ -21406,7 +21406,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventArgs_1__ctor_mA9D25A4846C875FA76E67
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // T Vuplex.WebView.EventArgs`1<UnityEngine.Rect>::get_Value()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D EventArgs_1_get_Value_m6EE0D064BB904E2FAE55CB67496F2DF773F3A594_gshared (EventArgs_1_t2781CE828E7F45BE8E658481961DF6316E817D19* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D EventArgs_1_get_Value_m6A5310981765C4F07C0FE33C83A9D170C7153275_gshared (EventArgs_1_t1F0D6B33C10448426BEFDAC60B3A279124374189* __this, const RuntimeMethod* method) 
 {
 	{
 		// public T Value { get; private set; }
@@ -21415,7 +21415,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0
 	}
 }
 // System.Void Vuplex.WebView.EventArgs`1<UnityEngine.Rect>::set_Value(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventArgs_1_set_Value_mA49573679651FC77CE623C26F689060FDDD81C4E_gshared (EventArgs_1_t2781CE828E7F45BE8E658481961DF6316E817D19* __this, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventArgs_1_set_Value_mB6DDAEDA0AC152728AC9E7C5145A9CD00DEF8DE4_gshared (EventArgs_1_t1F0D6B33C10448426BEFDAC60B3A279124374189* __this, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___value0, const RuntimeMethod* method) 
 {
 	{
 		// public T Value { get; private set; }
@@ -21425,7 +21425,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventArgs_1_set_Value_mA49573679651FC77C
 	}
 }
 // System.Void Vuplex.WebView.EventArgs`1<UnityEngine.Rect>::.ctor(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventArgs_1__ctor_m0A9D521DACAF79B99E2578E10F0EED1994345D80_gshared (EventArgs_1_t2781CE828E7F45BE8E658481961DF6316E817D19* __this, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___val0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventArgs_1__ctor_m2238EAB9E70EFB572E87840C25DF65EA60C5913A_gshared (EventArgs_1_t1F0D6B33C10448426BEFDAC60B3A279124374189* __this, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___val0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -21439,7 +21439,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventArgs_1__ctor_m0A9D521DACAF79B99E257
 		EventArgs__ctor_mC6F9412D03203ADEF854117542C8EBF61624C8C3((EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377*)__this, NULL);
 		// public EventArgs(T val) => Value = val;
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_0 = ___val0;
-		((  void (*) (EventArgs_1_t2781CE828E7F45BE8E658481961DF6316E817D19*, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
+		((  void (*) (EventArgs_1_t1F0D6B33C10448426BEFDAC60B3A279124374189*, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
 		return;
 	}
 }
@@ -21452,7 +21452,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventArgs_1__ctor_m0A9D521DACAF79B99E257
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // T Vuplex.WebView.EventArgs`1<UnityEngine.Vector2>::get_Value()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 EventArgs_1_get_Value_m305D362455089655F8F2650906E96FF4D87E74F7_gshared (EventArgs_1_tE61754C04BF92C1D22EF3121BD4A4283CDB65601* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 EventArgs_1_get_Value_mF2506FA3515633A2C58D49B77F1B451FF3809C83_gshared (EventArgs_1_t5CF42DE309A83760267A0E82650615E306576631* __this, const RuntimeMethod* method) 
 {
 	{
 		// public T Value { get; private set; }
@@ -21461,7 +21461,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 	}
 }
 // System.Void Vuplex.WebView.EventArgs`1<UnityEngine.Vector2>::set_Value(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventArgs_1_set_Value_mB369F2564ADFD3379DA95BDABE72DFB781E25FC3_gshared (EventArgs_1_tE61754C04BF92C1D22EF3121BD4A4283CDB65601* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventArgs_1_set_Value_mC38B47F74A7D53FC962ED9C22F178E421D48247E_gshared (EventArgs_1_t5CF42DE309A83760267A0E82650615E306576631* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___value0, const RuntimeMethod* method) 
 {
 	{
 		// public T Value { get; private set; }
@@ -21471,7 +21471,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventArgs_1_set_Value_mB369F2564ADFD3379
 	}
 }
 // System.Void Vuplex.WebView.EventArgs`1<UnityEngine.Vector2>::.ctor(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventArgs_1__ctor_m11E1B7CFF0BE1E5FE5F781513D68A3A34FBCEB3A_gshared (EventArgs_1_tE61754C04BF92C1D22EF3121BD4A4283CDB65601* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___val0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventArgs_1__ctor_m6ECC6D6E94144A489C9EB556CD128ACF564EB395_gshared (EventArgs_1_t5CF42DE309A83760267A0E82650615E306576631* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___val0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -21485,7 +21485,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventArgs_1__ctor_m11E1B7CFF0BE1E5FE5F78
 		EventArgs__ctor_mC6F9412D03203ADEF854117542C8EBF61624C8C3((EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377*)__this, NULL);
 		// public EventArgs(T val) => Value = val;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___val0;
-		((  void (*) (EventArgs_1_tE61754C04BF92C1D22EF3121BD4A4283CDB65601*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
+		((  void (*) (EventArgs_1_t5CF42DE309A83760267A0E82650615E306576631*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
 		return;
 	}
 }
@@ -32149,40 +32149,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 Func_1_Invoke_m581487FD1926D441890DA013F17C92EC3A1E6C90_Multicast(Func_1_t9041D993F7714E846EE41B1E8AE84700748CBF74* __this, const RuntimeMethod* method)
+FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 Func_1_Invoke_mCB675B863925520260AF3ABC8B878663C1FEAD6A_Multicast(Func_1_t5B6FC4F95E7069AB94BDAAA1A4C7850718660A8A* __this, const RuntimeMethod* method)
 {
 	il2cpp_array_size_t length = __this->___delegates_13->max_length;
 	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
-	FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 retVal;
+	FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 retVal;
 	memset((&retVal), 0, sizeof(retVal));
 	for (il2cpp_array_size_t i = 0; i < length; i++)
 	{
-		Func_1_t9041D993F7714E846EE41B1E8AE84700748CBF74* currentDelegate = reinterpret_cast<Func_1_t9041D993F7714E846EE41B1E8AE84700748CBF74*>(delegatesToInvoke[i]);
-		typedef FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
+		Func_1_t5B6FC4F95E7069AB94BDAAA1A4C7850718660A8A* currentDelegate = reinterpret_cast<Func_1_t5B6FC4F95E7069AB94BDAAA1A4C7850718660A8A*>(delegatesToInvoke[i]);
+		typedef FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 		retVal = ((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
 	}
 	return retVal;
 }
-FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 Func_1_Invoke_m581487FD1926D441890DA013F17C92EC3A1E6C90_OpenInst(Func_1_t9041D993F7714E846EE41B1E8AE84700748CBF74* __this, const RuntimeMethod* method)
+FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 Func_1_Invoke_mCB675B863925520260AF3ABC8B878663C1FEAD6A_OpenInst(Func_1_t5B6FC4F95E7069AB94BDAAA1A4C7850718660A8A* __this, const RuntimeMethod* method)
 {
-	typedef FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 (*FunctionPointerType) (const RuntimeMethod*);
+	typedef FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 (*FunctionPointerType) (const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr_0)(method);
 }
-FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 Func_1_Invoke_m581487FD1926D441890DA013F17C92EC3A1E6C90_OpenStatic(Func_1_t9041D993F7714E846EE41B1E8AE84700748CBF74* __this, const RuntimeMethod* method)
+FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 Func_1_Invoke_mCB675B863925520260AF3ABC8B878663C1FEAD6A_OpenStatic(Func_1_t5B6FC4F95E7069AB94BDAAA1A4C7850718660A8A* __this, const RuntimeMethod* method)
 {
-	typedef FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 (*FunctionPointerType) (const RuntimeMethod*);
+	typedef FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 (*FunctionPointerType) (const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr_0)(method);
 }
-FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 Func_1_Invoke_m581487FD1926D441890DA013F17C92EC3A1E6C90_OpenStaticInvoker(Func_1_t9041D993F7714E846EE41B1E8AE84700748CBF74* __this, const RuntimeMethod* method)
+FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 Func_1_Invoke_mCB675B863925520260AF3ABC8B878663C1FEAD6A_OpenStaticInvoker(Func_1_t5B6FC4F95E7069AB94BDAAA1A4C7850718660A8A* __this, const RuntimeMethod* method)
 {
-	return InvokerFuncInvoker0< FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 >::Invoke(__this->___method_ptr_0, method, NULL);
+	return InvokerFuncInvoker0< FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 >::Invoke(__this->___method_ptr_0, method, NULL);
 }
-FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 Func_1_Invoke_m581487FD1926D441890DA013F17C92EC3A1E6C90_ClosedStaticInvoker(Func_1_t9041D993F7714E846EE41B1E8AE84700748CBF74* __this, const RuntimeMethod* method)
+FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 Func_1_Invoke_mCB675B863925520260AF3ABC8B878663C1FEAD6A_ClosedStaticInvoker(Func_1_t5B6FC4F95E7069AB94BDAAA1A4C7850718660A8A* __this, const RuntimeMethod* method)
 {
-	return InvokerFuncInvoker1< FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9, RuntimeObject* >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2);
+	return InvokerFuncInvoker1< FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56, RuntimeObject* >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2);
 }
 // System.Void System.Func`1<Vuplex.WebView.FindResult>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_1__ctor_m9AC6A11CD23F00E2A7AB12FF9701F087EA0ADAE8_gshared (Func_1_t9041D993F7714E846EE41B1E8AE84700748CBF74* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_1__ctor_m2721F64FC7AFDDA7D6DF3FC64E556328345DC2F8_gshared (Func_1_t5B6FC4F95E7069AB94BDAAA1A4C7850718660A8A* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
 {
 	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
 	__this->___method_3 = ___method1;
@@ -32195,12 +32195,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_1__ctor_m9AC6A11CD23F00E2A7AB12FF97
 		bool isOpen = parameterCount == 0;
 		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
 			if (isOpen)
-				__this->___invoke_impl_1 = (intptr_t)&Func_1_Invoke_m581487FD1926D441890DA013F17C92EC3A1E6C90_OpenStaticInvoker;
+				__this->___invoke_impl_1 = (intptr_t)&Func_1_Invoke_mCB675B863925520260AF3ABC8B878663C1FEAD6A_OpenStaticInvoker;
 			else
-				__this->___invoke_impl_1 = (intptr_t)&Func_1_Invoke_m581487FD1926D441890DA013F17C92EC3A1E6C90_ClosedStaticInvoker;
+				__this->___invoke_impl_1 = (intptr_t)&Func_1_Invoke_mCB675B863925520260AF3ABC8B878663C1FEAD6A_ClosedStaticInvoker;
 		else
 			if (isOpen)
-				__this->___invoke_impl_1 = (intptr_t)&Func_1_Invoke_m581487FD1926D441890DA013F17C92EC3A1E6C90_OpenStatic;
+				__this->___invoke_impl_1 = (intptr_t)&Func_1_Invoke_mCB675B863925520260AF3ABC8B878663C1FEAD6A_OpenStatic;
 			else
 				{
 					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
@@ -32214,12 +32214,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_1__ctor_m9AC6A11CD23F00E2A7AB12FF97
 		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
 		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
 	}
-	__this->___extra_arg_5 = (intptr_t)&Func_1_Invoke_m581487FD1926D441890DA013F17C92EC3A1E6C90_Multicast;
+	__this->___extra_arg_5 = (intptr_t)&Func_1_Invoke_mCB675B863925520260AF3ABC8B878663C1FEAD6A_Multicast;
 }
 // TResult System.Func`1<Vuplex.WebView.FindResult>::Invoke()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 Func_1_Invoke_m581487FD1926D441890DA013F17C92EC3A1E6C90_gshared (Func_1_t9041D993F7714E846EE41B1E8AE84700748CBF74* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 Func_1_Invoke_mCB675B863925520260AF3ABC8B878663C1FEAD6A_gshared (Func_1_t5B6FC4F95E7069AB94BDAAA1A4C7850718660A8A* __this, const RuntimeMethod* method) 
 {
-	typedef FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
+	typedef FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
 #ifdef __clang__

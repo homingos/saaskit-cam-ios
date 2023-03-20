@@ -328,7 +328,7 @@ struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26;
 // UnityEngine.CanvasRenderer
 struct CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860;
 // Vuplex.WebView.CanvasWebViewPrefab
-struct CanvasWebViewPrefab_t621E38DED690A6F4D846324B542B1DFF5325CE24;
+struct CanvasWebViewPrefab_t924474B1363A01758559508CB2485B8BA3BB6945;
 // UnityEngine.Networking.CertificateHandler
 struct CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804;
 // Vuforia.Internal.Observers.CloudImageTargetObserver
@@ -5448,7 +5448,7 @@ struct VuplexController_t2204E57F5A8EA66624872FBFC6FF4D27D9F83502  : public Mono
 	// System.String VuplexController::CountryCode
 	String_t* ___CountryCode_10;
 	// Vuplex.WebView.CanvasWebViewPrefab VuplexController::_canvasWebViewPrefab
-	CanvasWebViewPrefab_t621E38DED690A6F4D846324B542B1DFF5325CE24* ____canvasWebViewPrefab_12;
+	CanvasWebViewPrefab_t924474B1363A01758559508CB2485B8BA3BB6945* ____canvasWebViewPrefab_12;
 	// UnityEngine.GameObject VuplexController::_canvasWebViewPrefabView
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____canvasWebViewPrefabView_13;
 	// System.String VuplexController::filePath

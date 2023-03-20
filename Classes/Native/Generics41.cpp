@@ -304,7 +304,7 @@ struct Iterator_1_t9A4945F6FFA0F2DC31A759BFF992128F450E7072;
 // System.Linq.Enumerable/Iterator`1<UnityEngine.Experimental.Rendering.ProbeVolumeSceneData/SerializablePVProfile>
 struct Iterator_1_t7114483788C8CD43FA65553AB424452F3C39294E;
 // Vuplex.WebView.Internal.JsonArrayWrapper`1<System.Object>
-struct JsonArrayWrapper_1_t3BE0F13CAD321F78082C49BFD0B4544BA96543DD;
+struct JsonArrayWrapper_1_tF60D452AB2B7F1358FD30F349D8396B89A057396;
 // Newtonsoft.Json.JsonConverter`1<System.Object>
 struct JsonConverter_1_t452C90AD6A15526CD218C72899E572B0393B5F31;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Object>
@@ -2217,7 +2217,7 @@ struct Iterator_1_t99A1802EE86A3D5BF71B2DDB37F159C4AFA448EA  : public RuntimeObj
 };
 
 // Vuplex.WebView.Internal.JsonArrayWrapper`1<System.Object>
-struct JsonArrayWrapper_1_t3BE0F13CAD321F78082C49BFD0B4544BA96543DD  : public RuntimeObject
+struct JsonArrayWrapper_1_tF60D452AB2B7F1358FD30F349D8396B89A057396  : public RuntimeObject
 {
 	// T[] Vuplex.WebView.Internal.JsonArrayWrapper`1::Items
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___Items_0;
@@ -11405,7 +11405,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobStruct_1__cctor_mF539BFF4A826EE4BCC74
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void Vuplex.WebView.Internal.JsonArrayWrapper`1<System.Object>::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonArrayWrapper_1__ctor_mDE078B6C9BF4FD2E07E9CD66D397F1E0A021738F_gshared (JsonArrayWrapper_1_t3BE0F13CAD321F78082C49BFD0B4544BA96543DD* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonArrayWrapper_1__ctor_m2AA1F0FEC36B426675787D180B7B046EDDA8EE0B_gshared (JsonArrayWrapper_1_tF60D452AB2B7F1358FD30F349D8396B89A057396* __this, const RuntimeMethod* method) 
 {
 	{
 		// public JsonArrayWrapper() {}
@@ -11415,7 +11415,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonArrayWrapper_1__ctor_mDE078B6C9BF4FD
 	}
 }
 // System.Void Vuplex.WebView.Internal.JsonArrayWrapper`1<System.Object>::.ctor(T[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonArrayWrapper_1__ctor_m022BFE083533866552B137C8C3B41A84DE253902_gshared (JsonArrayWrapper_1_t3BE0F13CAD321F78082C49BFD0B4544BA96543DD* __this, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___items0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonArrayWrapper_1__ctor_m2BD5C2157317C9C3091D9079A328D011BA1D1F23_gshared (JsonArrayWrapper_1_tF60D452AB2B7F1358FD30F349D8396B89A057396* __this, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___items0, const RuntimeMethod* method) 
 {
 	{
 		// public JsonArrayWrapper(T[] items) => Items = items;

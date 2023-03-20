@@ -150,7 +150,7 @@ struct Dictionary_2_tF4CB0FB5DF80F436652EC8BDB03A82C708969A88;
 // System.Collections.Generic.Dictionary`2<System.Type,UnityEngine.UIElements.VisualElement/TypeData>
 struct Dictionary_2_t4055F6540F36F21F9FEDAFB92D8E0089B38EBBC8;
 // System.EventHandler`1<Vuplex.WebView.Internal.KeyboardEventArgs>
-struct EventHandler_1_tF4ADDF7E9C1671D49A74100CF8DD1B1872727AA4;
+struct EventHandler_1_tFC4393609B7CAD1C994AC8F1BCD7E283A201E474;
 // System.Func`1<System.Object>
 struct Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4;
 // System.Func`1<System.Threading.Tasks.Task/ContingentProperties>
@@ -512,7 +512,7 @@ struct X509CertificateImplBtls_t331F26AABEB820C27BB5247053DF91DCAB277E62;
 // UnityEngine.Yoga.YogaNode
 struct YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA;
 // Vuplex.WebView.Internal.NativeKeyboardListener/KeyRepeatState
-struct KeyRepeatState_t9082B8282E000A01BF36C3671C48C051649AC0AB;
+struct KeyRepeatState_tAE31DA20D67D0E8606CE941D55DBE5E769ECC629;
 // UnityEngine.UI.ScrollRect/ScrollRectEvent
 struct ScrollRectEvent_t812C011901E6101F2A0FFC34C66AC5F65C0DEC26;
 // System.IO.Stream/ReadWriteTask
@@ -663,7 +663,7 @@ IL2CPP_EXTERN_C_END
 #endif
 
 // Vuplex.WebView.Internal.NativeKeyboardListener/<>c__DisplayClass20_0`2<System.Object,System.Boolean>
-struct U3CU3Ec__DisplayClass20_0_2_t711454894F15638BCAA4330A0A3CC80846B13BF2  : public RuntimeObject
+struct U3CU3Ec__DisplayClass20_0_2_tF009235867E7A6EE5D729173332A432C927EC15F  : public RuntimeObject
 {
 	// System.Collections.Generic.Dictionary`2<TArg,TReturn> Vuplex.WebView.Internal.NativeKeyboardListener/<>c__DisplayClass20_0`2::cache
 	Dictionary_2_tDBC7BB75C617E4886F85171F2758C7996F98EC36* ___cache_0;
@@ -672,7 +672,7 @@ struct U3CU3Ec__DisplayClass20_0_2_t711454894F15638BCAA4330A0A3CC80846B13BF2  : 
 };
 
 // Vuplex.WebView.Internal.NativeKeyboardListener/<>c__DisplayClass20_0`2<System.Object,System.Object>
-struct U3CU3Ec__DisplayClass20_0_2_t5E7AD99D07ABDF22255F1C71DDBDD7BC26CEF24D  : public RuntimeObject
+struct U3CU3Ec__DisplayClass20_0_2_t3F31FA70A1202404E9B5FAA9F6C650241CE37E09  : public RuntimeObject
 {
 	// System.Collections.Generic.Dictionary`2<TArg,TReturn> Vuplex.WebView.Internal.NativeKeyboardListener/<>c__DisplayClass20_0`2::cache
 	Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* ___cache_0;
@@ -4603,25 +4603,25 @@ struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behavio
 };
 
 // Vuplex.WebView.Internal.NativeKeyboardListener
-struct NativeKeyboardListener_t7367865ACA82EE8FB010AAE3E15AFA25381B586D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+struct NativeKeyboardListener_t5CDB95F8092638B290035A29EFDC62715787C89F  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	// System.EventHandler`1<Vuplex.WebView.Internal.KeyboardEventArgs> Vuplex.WebView.Internal.NativeKeyboardListener::KeyDownReceived
-	EventHandler_1_tF4ADDF7E9C1671D49A74100CF8DD1B1872727AA4* ___KeyDownReceived_4;
+	EventHandler_1_tFC4393609B7CAD1C994AC8F1BCD7E283A201E474* ___KeyDownReceived_4;
 	// System.EventHandler`1<Vuplex.WebView.Internal.KeyboardEventArgs> Vuplex.WebView.Internal.NativeKeyboardListener::KeyUpReceived
-	EventHandler_1_tF4ADDF7E9C1671D49A74100CF8DD1B1872727AA4* ___KeyUpReceived_5;
+	EventHandler_1_tFC4393609B7CAD1C994AC8F1BCD7E283A201E474* ___KeyUpReceived_5;
 	// System.Text.RegularExpressions.Regex Vuplex.WebView.Internal.NativeKeyboardListener::_alphanumericRegex
 	Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* ____alphanumericRegex_6;
 	// System.Collections.Generic.List`1<System.String> Vuplex.WebView.Internal.NativeKeyboardListener::_keysDown
 	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____keysDown_8;
 	// Vuplex.WebView.Internal.NativeKeyboardListener/KeyRepeatState Vuplex.WebView.Internal.NativeKeyboardListener::_keyRepeatState
-	KeyRepeatState_t9082B8282E000A01BF36C3671C48C051649AC0AB* ____keyRepeatState_10;
+	KeyRepeatState_tAE31DA20D67D0E8606CE941D55DBE5E769ECC629* ____keyRepeatState_10;
 	// System.Boolean Vuplex.WebView.Internal.NativeKeyboardListener::_legacyInputManagerDisabled
 	bool ____legacyInputManagerDisabled_12;
 	// Vuplex.WebView.KeyModifier Vuplex.WebView.Internal.NativeKeyboardListener::_modifiersDown
 	int32_t ____modifiersDown_13;
 };
 
-struct NativeKeyboardListener_t7367865ACA82EE8FB010AAE3E15AFA25381B586D_StaticFields
+struct NativeKeyboardListener_t5CDB95F8092638B290035A29EFDC62715787C89F_StaticFields
 {
 	// System.Func`2<System.String,System.Boolean> Vuplex.WebView.Internal.NativeKeyboardListener::_hasValidUnityKeyName
 	Func_2_tAB9727E0C937894E19032D575D98A8A9AB5EE47D* ____hasValidUnityKeyName_7;
@@ -14459,19 +14459,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA
 	}
 }
 // System.Func`2<TArg,TReturn> Vuplex.WebView.Internal.NativeKeyboardListener::_memoize<System.Object,System.Boolean>(System.Func`2<TArg,TReturn>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Func_2_tE1F0D41563EE092E5E5540B061449FDE88F1DC00* NativeKeyboardListener__memoize_TisRuntimeObject_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mEAAFA2408C7AE0528D35DA5686AB33A6E349314E_gshared (Func_2_tE1F0D41563EE092E5E5540B061449FDE88F1DC00* ___function0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Func_2_tE1F0D41563EE092E5E5540B061449FDE88F1DC00* NativeKeyboardListener__memoize_TisRuntimeObject_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m6DACACFBDED8BB137EBF1D8F4E9EA5F266335098_gshared (Func_2_tE1F0D41563EE092E5E5540B061449FDE88F1DC00* ___function0, const RuntimeMethod* method) 
 {
 	{
-		U3CU3Ec__DisplayClass20_0_2_t711454894F15638BCAA4330A0A3CC80846B13BF2* L_0 = (U3CU3Ec__DisplayClass20_0_2_t711454894F15638BCAA4330A0A3CC80846B13BF2*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->rgctx_data, 0));
+		U3CU3Ec__DisplayClass20_0_2_tF009235867E7A6EE5D729173332A432C927EC15F* L_0 = (U3CU3Ec__DisplayClass20_0_2_tF009235867E7A6EE5D729173332A432C927EC15F*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->rgctx_data, 0));
 		NullCheck(L_0);
-		((  void (*) (U3CU3Ec__DisplayClass20_0_2_t711454894F15638BCAA4330A0A3CC80846B13BF2*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(L_0, il2cpp_rgctx_method(method->rgctx_data, 1));
-		U3CU3Ec__DisplayClass20_0_2_t711454894F15638BCAA4330A0A3CC80846B13BF2* L_1 = L_0;
+		((  void (*) (U3CU3Ec__DisplayClass20_0_2_tF009235867E7A6EE5D729173332A432C927EC15F*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(L_0, il2cpp_rgctx_method(method->rgctx_data, 1));
+		U3CU3Ec__DisplayClass20_0_2_tF009235867E7A6EE5D729173332A432C927EC15F* L_1 = L_0;
 		Func_2_tE1F0D41563EE092E5E5540B061449FDE88F1DC00* L_2 = ___function0;
 		NullCheck(L_1);
 		L_1->___function_1 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___function_1), (void*)L_2);
 		// var cache = new Dictionary<TArg, TReturn>();
-		U3CU3Ec__DisplayClass20_0_2_t711454894F15638BCAA4330A0A3CC80846B13BF2* L_3 = L_1;
+		U3CU3Ec__DisplayClass20_0_2_tF009235867E7A6EE5D729173332A432C927EC15F* L_3 = L_1;
 		Dictionary_2_tDBC7BB75C617E4886F85171F2758C7996F98EC36* L_4 = (Dictionary_2_tDBC7BB75C617E4886F85171F2758C7996F98EC36*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->rgctx_data, 2));
 		NullCheck(L_4);
 		((  void (*) (Dictionary_2_tDBC7BB75C617E4886F85171F2758C7996F98EC36*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -14494,19 +14494,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Func_2_tE1F0D41563EE092E5E5540B061449FDE88F1D
 	}
 }
 // System.Func`2<TArg,TReturn> Vuplex.WebView.Internal.NativeKeyboardListener::_memoize<System.Object,System.Object>(System.Func`2<TArg,TReturn>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Func_2_tACBF5A1656250800CE861707354491F0611F6624* NativeKeyboardListener__memoize_TisRuntimeObject_TisRuntimeObject_m3426D118E2E7773158ED2591FE0FEEBB44B59F3B_gshared (Func_2_tACBF5A1656250800CE861707354491F0611F6624* ___function0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Func_2_tACBF5A1656250800CE861707354491F0611F6624* NativeKeyboardListener__memoize_TisRuntimeObject_TisRuntimeObject_mAE0E39C93D7322E32447F65F02815881FD3AC842_gshared (Func_2_tACBF5A1656250800CE861707354491F0611F6624* ___function0, const RuntimeMethod* method) 
 {
 	{
-		U3CU3Ec__DisplayClass20_0_2_t5E7AD99D07ABDF22255F1C71DDBDD7BC26CEF24D* L_0 = (U3CU3Ec__DisplayClass20_0_2_t5E7AD99D07ABDF22255F1C71DDBDD7BC26CEF24D*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->rgctx_data, 0));
+		U3CU3Ec__DisplayClass20_0_2_t3F31FA70A1202404E9B5FAA9F6C650241CE37E09* L_0 = (U3CU3Ec__DisplayClass20_0_2_t3F31FA70A1202404E9B5FAA9F6C650241CE37E09*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->rgctx_data, 0));
 		NullCheck(L_0);
-		((  void (*) (U3CU3Ec__DisplayClass20_0_2_t5E7AD99D07ABDF22255F1C71DDBDD7BC26CEF24D*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(L_0, il2cpp_rgctx_method(method->rgctx_data, 1));
-		U3CU3Ec__DisplayClass20_0_2_t5E7AD99D07ABDF22255F1C71DDBDD7BC26CEF24D* L_1 = L_0;
+		((  void (*) (U3CU3Ec__DisplayClass20_0_2_t3F31FA70A1202404E9B5FAA9F6C650241CE37E09*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(L_0, il2cpp_rgctx_method(method->rgctx_data, 1));
+		U3CU3Ec__DisplayClass20_0_2_t3F31FA70A1202404E9B5FAA9F6C650241CE37E09* L_1 = L_0;
 		Func_2_tACBF5A1656250800CE861707354491F0611F6624* L_2 = ___function0;
 		NullCheck(L_1);
 		L_1->___function_1 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___function_1), (void*)L_2);
 		// var cache = new Dictionary<TArg, TReturn>();
-		U3CU3Ec__DisplayClass20_0_2_t5E7AD99D07ABDF22255F1C71DDBDD7BC26CEF24D* L_3 = L_1;
+		U3CU3Ec__DisplayClass20_0_2_t3F31FA70A1202404E9B5FAA9F6C650241CE37E09* L_3 = L_1;
 		Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* L_4 = (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->rgctx_data, 2));
 		NullCheck(L_4);
 		((  void (*) (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(L_4, il2cpp_rgctx_method(method->rgctx_data, 3));
