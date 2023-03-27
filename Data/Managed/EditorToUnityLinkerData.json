@@ -1630,56 +1630,56 @@
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
+            "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Vuplex.WebView.CanvasKeyboard",
             "moduleName": "",
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
+            "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Vuplex.WebView.CanvasPointerInputDetector",
             "moduleName": "",
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
+            "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Vuplex.WebView.CanvasWebViewPrefab",
             "moduleName": "",
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
+            "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Vuplex.WebView.DefaultPointerInputDetector",
             "moduleName": "",
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
+            "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Vuplex.WebView.Internal.CanvasViewportMaterialView",
             "moduleName": "",
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
+            "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Vuplex.WebView.Internal.ViewportMaterialView",
             "moduleName": "",
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
+            "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Vuplex.WebView.Keyboard",
             "moduleName": "",
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
+            "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Vuplex.WebView.WebViewPrefab",
             "moduleName": "",

@@ -2385,7 +2385,7 @@ struct ExposedMethod_t7E378D738A90FF28A9FC33B917FE9E3F58331A2B_marshaled_com
 };
 
 // Vuplex.WebView.FindResult
-struct FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 
+struct FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 
 {
 	// System.Int32 Vuplex.WebView.FindResult::CurrentMatchIndex
 	int32_t ___CurrentMatchIndex_0;
@@ -11796,16 +11796,16 @@ static  ExposedMethod_t7E378D738A90FF28A9FC33B917FE9E3F58331A2B UnresolvedVirtua
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, args, &il2cppRetVal);
 	return il2cppRetVal;
 }
-static  FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 UnresolvedVirtualCall_246 (RuntimeObject* __this, const RuntimeMethod* method)
+static  FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 UnresolvedVirtualCall_246 (RuntimeObject* __this, const RuntimeMethod* method)
 {
-	FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 il2cppRetVal;
+	FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 il2cppRetVal;
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, NULL, &il2cppRetVal);
 	return il2cppRetVal;
 }
-static  FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 UnresolvedVirtualCall_247 (RuntimeObject* __this, RuntimeObject* p1, const RuntimeMethod* method)
+static  FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 UnresolvedVirtualCall_247 (RuntimeObject* __this, RuntimeObject* p1, const RuntimeMethod* method)
 {
 	void* args[] = {p1};
-	FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 il2cppRetVal;
+	FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 il2cppRetVal;
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, args, &il2cppRetVal);
 	return il2cppRetVal;
 }

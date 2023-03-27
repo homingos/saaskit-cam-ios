@@ -30,11 +30,6 @@
 		<type fullname="UIManager" preserve="nothing"/>
 		<type fullname="VuforiaCloudDataHandler" preserve="nothing"/>
 		<type fullname="VuforiaTrackableController" preserve="nothing"/>
-		<type fullname="VuplexController" preserve="nothing"/>
-		<type fullname="vuplexReference" preserve="nothing"/>
-	</assembly>
-	<assembly fullname="Assembly-CSharp-firstpass">
-		<type fullname="NatSuite.Examples.ReplayCam" preserve="nothing"/>
 		<type fullname="Vuplex.WebView.CanvasKeyboard" preserve="nothing"/>
 		<type fullname="Vuplex.WebView.CanvasPointerInputDetector" preserve="nothing"/>
 		<type fullname="Vuplex.WebView.CanvasWebViewPrefab" preserve="nothing"/>
@@ -43,6 +38,11 @@
 		<type fullname="Vuplex.WebView.Internal.ViewportMaterialView" preserve="nothing"/>
 		<type fullname="Vuplex.WebView.Keyboard" preserve="nothing"/>
 		<type fullname="Vuplex.WebView.WebViewPrefab" preserve="nothing"/>
+		<type fullname="VuplexController" preserve="nothing"/>
+		<type fullname="vuplexReference" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Assembly-CSharp-firstpass">
+		<type fullname="NatSuite.Examples.ReplayCam" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="CommonScripts">
 		<type fullname="MessageBox" preserve="nothing"/>

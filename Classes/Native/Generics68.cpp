@@ -318,7 +318,7 @@ struct Result_t420EC3DB7CBFF98E377E8BC8AEC581F7FCD7A141;
 // System.Runtime.CompilerServices.RuleCache`1<System.Object>
 struct RuleCache_1_t32D9301EB5D4B88BD475030E2B01EC50589735CC;
 // Vuplex.WebView.ScriptDialogEventArgs`1<System.Object>
-struct ScriptDialogEventArgs_1_t4EA73C373FF25D82AC0D9AFA137C0BFE1E3C6F27;
+struct ScriptDialogEventArgs_1_tC23C843C718DEDABE881946CA69F580DD999B3EA;
 // System.Collections.Concurrent.ConcurrentQueue`1/Segment<BestHTTP.PlatformSupport.Memory.BufferSegment>
 struct Segment_tCFE6D2681514518071DF7BF794C21055D115BA09;
 // System.Collections.Concurrent.ConcurrentQueue`1/Segment<BestHTTP.Core.ConnectionEventInfo>
@@ -1733,7 +1733,7 @@ struct ResourceLogInfo_tD44FBA10E9FF961EF9ADD4E98C987231C2CC2C1B_marshaled_com
 #endif
 
 // Vuplex.WebView.ScriptDialogEventArgs`1<System.Object>
-struct ScriptDialogEventArgs_1_t4EA73C373FF25D82AC0D9AFA137C0BFE1E3C6F27  : public EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377
+struct ScriptDialogEventArgs_1_tC23C843C718DEDABE881946CA69F580DD999B3EA  : public EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377
 {
 	// System.String Vuplex.WebView.ScriptDialogEventArgs`1::Message
 	String_t* ___Message_1;
@@ -16471,7 +16471,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SafeHandleCache_1_IsCachedInvalidHandle_
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void Vuplex.WebView.ScriptDialogEventArgs`1<System.Object>::.ctor(System.String,System.Action`1<T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptDialogEventArgs_1__ctor_m0F1B73AB6E39AABBF61F359CAB99793365991A0C_gshared (ScriptDialogEventArgs_1_t4EA73C373FF25D82AC0D9AFA137C0BFE1E3C6F27* __this, String_t* ___message0, Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___continueCallback1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptDialogEventArgs_1__ctor_m02AAB1A8D3EC92448FA96A6E66946844058FF3E0_gshared (ScriptDialogEventArgs_1_tC23C843C718DEDABE881946CA69F580DD999B3EA* __this, String_t* ___message0, Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___continueCallback1, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)

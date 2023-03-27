@@ -141,7 +141,7 @@ struct Action_4_t96741D80194863C1CE64B3F3D799EF6F3401E33F;
 // System.Threading.AsyncLocal`1<System.Globalization.CultureInfo>
 struct AsyncLocal_1_t1D3339EA4C8650D2DEDDF9553E5C932B3DC2CCFD;
 // Vuplex.WebView.Internal.CachingGetter`1<UnityEngine.Canvas>
-struct CachingGetter_1_t1F54F1795E76F68AA11984B39F6CB9EC040356A1;
+struct CachingGetter_1_tDA4715BFC8AFF5E6F6C10462BA2CD201896109E0;
 // System.Comparison`1<UnityEngine.EventSystems.RaycastResult>
 struct Comparison_1_t9FCAC8C8CE160A96C5AAD2DE1D353DCE8A2FEEFC;
 // DG.Tweening.Core.DOGetter`1<UnityEngine.Vector3>
@@ -167,9 +167,9 @@ struct Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83;
 // System.Collections.Generic.Dictionary`2<System.Type,System.Runtime.Serialization.Formatters.Binary.TypeInformation>
 struct Dictionary_2_t8B428D684ADA214F1A90B42123A1536ED34C1FF8;
 // System.EventHandler`1<Vuplex.WebView.ClickedEventArgs>
-struct EventHandler_1_t4E3670976F4D2C61D9243ECB0904D6174E55D733;
+struct EventHandler_1_t1D6F55BFF7A13B3661EE09DC582CC1297A2A51B5;
 // System.EventHandler`1<Vuplex.WebView.ScrolledEventArgs>
-struct EventHandler_1_tCD592DCDE347255E33BAFAD04D7CF4D8632ABAA3;
+struct EventHandler_1_t87A9E4470048144EB3C42CFC4EE73F3F2C16783C;
 // System.Func`2<System.Single,System.Single>
 struct Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2;
 // System.Func`3<System.Int32,System.String,TMPro.TMP_FontAsset>
@@ -371,7 +371,7 @@ struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
 // UnityEngine.Video.VideoPlayer[]
 struct VideoPlayerU5BU5D_t82A7EFB216CBB0B6349FEC490A3A2E6B080C61E6;
 // Vuplex.WebView.WebPluginType[]
-struct WebPluginTypeU5BU5D_tF4C66961F7F8C4372409C09CBBDEC629522BFA8C;
+struct WebPluginTypeU5BU5D_t4E73CDC305B8216B3543CB6688E13FC0933E008D;
 // TMPro.WordWrapState[]
 struct WordWrapStateU5BU5D_t473D59C9DBCC949CE72EF1EB471CBA152A6CEAC9;
 // TMPro.TMP_Text/UnicodeChar[]
@@ -459,7 +459,7 @@ struct CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B;
 // CanvasScalerHelper
 struct CanvasScalerHelper_tEC82830FE718B020ED9D4323866CBE54BE10FE83;
 // Vuplex.WebView.CanvasWebViewPrefab
-struct CanvasWebViewPrefab_t924474B1363A01758559508CB2485B8BA3BB6945;
+struct CanvasWebViewPrefab_t621E38DED690A6F4D846324B542B1DFF5325CE24;
 // UnityEngine.Networking.CertificateHandler
 struct CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804;
 // CheckInternet
@@ -605,7 +605,7 @@ struct ISurrogateSelector_t35CC72FCAD57FCB71968799C400627F09E81FB01;
 // TMPro.ITextPreprocessor
 struct ITextPreprocessor_tDBB49C8B68D7B80E8D233B9D9666C43981EFAAB9;
 // Vuplex.WebView.IWebView
-struct IWebView_t22C135640FF9B201FBBE6086C94FA7687CAA3422;
+struct IWebView_t61CE59CF1FEEB7B5F8F4CFE7A517B6BFB524CD0E;
 // UnityEngine.UI.Image
 struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E;
 // ImageData
@@ -742,6 +742,8 @@ struct SafeFileHandle_t033FA6AAAC65F4BB25F4CBA9A242A58C95CD406E;
 struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
 // ScanBarAnim
 struct ScanBarAnim_t6363391E375851D5424CE02F4E3C2120391048C7;
+// SceneReload
+struct SceneReload_tE81F0DFE59AD4299DF620455D16D2B358EE1C94D;
 // ScrollHandler
 struct ScrollHandler_t85F9F37D702843D03B5D2C9F514EDE95F52A8ED5;
 // UnityEngine.UI.ScrollRect
@@ -865,7 +867,7 @@ struct VideoData_t1ABA939D66926A68A4CB10EE8CF844B93615C807;
 // UnityEngine.Video.VideoPlayer
 struct VideoPlayer_t48EA4A8117B822BC59590150DED9AD46C62F65D3;
 // Vuplex.WebView.Internal.ViewportMaterialView
-struct ViewportMaterialView_tC3B452F30C2F11F05CBE728329A3B7A9E7B914BC;
+struct ViewportMaterialView_tB55CBDB3B87184BDCAEDCE1F3C1D94E9E1EFAB4F;
 // System.Void
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 // Vuforia.VuforiaApplication
@@ -960,6 +962,8 @@ struct U3CGetTextureU3Ed__4_t82D729A292D9F8A03CE786E3DAC68638BB002CA4;
 struct U3CGetTextureU3Ed__5_t4A72D7B116BCAC9D222902D1FC70CD4ACADE37FD;
 // RoboManager/<DownloadImage>d__6
 struct U3CDownloadImageU3Ed__6_tCCBE482D8985BD3ADACC338EF1FB3A07A20E2BA9;
+// SceneReload/<scenRload>d__2
+struct U3CscenRloadU3Ed__2_tF671763EF43E9CFC77312F12BD38CF6D7769B9E2;
 // UnityEngine.UI.ScrollRect/ScrollRectEvent
 struct ScrollRectEvent_t812C011901E6101F2A0FFC34C66AC5F65C0DEC26;
 // UnityEngine.UI.Scrollbar/ScrollEvent
@@ -1117,6 +1121,7 @@ IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass11_0_t050C61E94231D34221968BA
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass1_0_t136B2C22BF0397748C1D3FCD871F0F2E5FE5B390_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_tE6979F5B8D654059B77CD2510A0FBD6129CADDCC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CVuplexHomeU3Ed__58_tB48C77AE0388951F86BE25EFB30E59B6728A58D8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CscenRloadU3Ed__2_tF671763EF43E9CFC77312F12BD38CF6D7769B9E2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CwaitAndPlayU3Ed__6_t5E0C819259EDE785502073552672EBA57AC78B6E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B_il2cpp_TypeInfo_var;
@@ -1572,6 +1577,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass0_0_U3CDownloadTexture
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass11_0_U3CFetchImagesU3Eb__0_m0E7DFC7115928E403946FB48AC3CD1FBF7B96147_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass11_0_U3CFetchImagesU3Eb__1_m61D846E55A0736349F3EABB4AB96C76EEA3522D1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass1_0_U3CDownloadTextureU3Eb__0_m11812EC9D5595E8EEE46C0A2B2C0E8191EA12706_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CscenRloadU3Ed__2_System_Collections_IEnumerator_Reset_m9766D7A2A199CD8B1B5F125A42388EBC413CF3E9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CwaitAndPlayU3Ed__6_System_Collections_IEnumerator_Reset_mDB53AAE7035756956CE06892471733F03C19D97F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UIManager_TurnCloudRecoOff_mBBC3B25C9C429D604DE1BE6018E22BF34B3FFACE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UIManager_TurnCloudRecoOn_mD08DAAEE3F21520DB10AFD7EA30BC9FFBACA084C_RuntimeMethod_var;
@@ -3331,6 +3337,15 @@ struct U3CDownloadImageU3Ed__6_tCCBE482D8985BD3ADACC338EF1FB3A07A20E2BA9  : publ
 	UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___U3CrequestU3E5__2_4;
 };
 
+// SceneReload/<scenRload>d__2
+struct U3CscenRloadU3Ed__2_tF671763EF43E9CFC77312F12BD38CF6D7769B9E2  : public RuntimeObject
+{
+	// System.Int32 SceneReload/<scenRload>d__2::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Object SceneReload/<scenRload>d__2::<>2__current
+	RuntimeObject* ___U3CU3E2__current_1;
+};
+
 // Splash/<StartVuplex>d__3
 struct U3CStartVuplexU3Ed__3_tD321C9896CBBE9EF29058536E22B0E92194D72EB  : public RuntimeObject
 {
@@ -4535,24 +4550,24 @@ struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_com : 
 };
 
 // Vuplex.WebView.WebViewOptions
-struct WebViewOptions_t16E72A6424B439ACD647A15F93E3EEEA67C26DE3 
+struct WebViewOptions_t6AF223CB628CF816A538DC820E190AE108845E20 
 {
 	// System.Boolean Vuplex.WebView.WebViewOptions::clickWithoutStealingFocus
 	bool ___clickWithoutStealingFocus_0;
 	// System.Boolean Vuplex.WebView.WebViewOptions::disableVideo
 	bool ___disableVideo_1;
 	// Vuplex.WebView.WebPluginType[] Vuplex.WebView.WebViewOptions::preferredPlugins
-	WebPluginTypeU5BU5D_tF4C66961F7F8C4372409C09CBBDEC629522BFA8C* ___preferredPlugins_2;
+	WebPluginTypeU5BU5D_t4E73CDC305B8216B3543CB6688E13FC0933E008D* ___preferredPlugins_2;
 };
 // Native definition for P/Invoke marshalling of Vuplex.WebView.WebViewOptions
-struct WebViewOptions_t16E72A6424B439ACD647A15F93E3EEEA67C26DE3_marshaled_pinvoke
+struct WebViewOptions_t6AF223CB628CF816A538DC820E190AE108845E20_marshaled_pinvoke
 {
 	int32_t ___clickWithoutStealingFocus_0;
 	int32_t ___disableVideo_1;
 	int32_t* ___preferredPlugins_2;
 };
 // Native definition for COM marshalling of Vuplex.WebView.WebViewOptions
-struct WebViewOptions_t16E72A6424B439ACD647A15F93E3EEEA67C26DE3_marshaled_com
+struct WebViewOptions_t6AF223CB628CF816A538DC820E190AE108845E20_marshaled_com
 {
 	int32_t ___clickWithoutStealingFocus_0;
 	int32_t ___disableVideo_1;
@@ -6689,10 +6704,10 @@ struct AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299  : public AudioBeha
 };
 
 // Vuplex.WebView.BaseWebViewPrefab
-struct BaseWebViewPrefab_t7AB09BDDF6BFE36D6A309E72648120AD42D90B51  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+struct BaseWebViewPrefab_t9956951F2C38C7C18BE8AF8631B91014F4D1C532  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	// System.EventHandler`1<Vuplex.WebView.ClickedEventArgs> Vuplex.WebView.BaseWebViewPrefab::Clicked
-	EventHandler_1_t4E3670976F4D2C61D9243ECB0904D6174E55D733* ___Clicked_4;
+	EventHandler_1_t1D6F55BFF7A13B3661EE09DC582CC1297A2A51B5* ___Clicked_4;
 	// System.EventHandler Vuplex.WebView.BaseWebViewPrefab::Initialized
 	EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* ___Initialized_5;
 	// System.EventHandler Vuplex.WebView.BaseWebViewPrefab::PointerEntered
@@ -6700,7 +6715,7 @@ struct BaseWebViewPrefab_t7AB09BDDF6BFE36D6A309E72648120AD42D90B51  : public Mon
 	// System.EventHandler Vuplex.WebView.BaseWebViewPrefab::PointerExited
 	EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* ___PointerExited_7;
 	// System.EventHandler`1<Vuplex.WebView.ScrolledEventArgs> Vuplex.WebView.BaseWebViewPrefab::Scrolled
-	EventHandler_1_tCD592DCDE347255E33BAFAD04D7CF4D8632ABAA3* ___Scrolled_8;
+	EventHandler_1_t87A9E4470048144EB3C42CFC4EE73F3F2C16783C* ___Scrolled_8;
 	// System.Boolean Vuplex.WebView.BaseWebViewPrefab::ClickingEnabled
 	bool ___ClickingEnabled_9;
 	// System.Boolean Vuplex.WebView.BaseWebViewPrefab::CursorIconsEnabled
@@ -6726,9 +6741,9 @@ struct BaseWebViewPrefab_t7AB09BDDF6BFE36D6A309E72648120AD42D90B51  : public Mon
 	// System.Single Vuplex.WebView.BaseWebViewPrefab::_appliedResolution
 	float ____appliedResolution_20;
 	// Vuplex.WebView.Internal.ViewportMaterialView Vuplex.WebView.BaseWebViewPrefab::_cachedVideoLayer
-	ViewportMaterialView_tC3B452F30C2F11F05CBE728329A3B7A9E7B914BC* ____cachedVideoLayer_21;
+	ViewportMaterialView_tB55CBDB3B87184BDCAEDCE1F3C1D94E9E1EFAB4F* ____cachedVideoLayer_21;
 	// Vuplex.WebView.Internal.ViewportMaterialView Vuplex.WebView.BaseWebViewPrefab::_cachedView
-	ViewportMaterialView_tC3B452F30C2F11F05CBE728329A3B7A9E7B914BC* ____cachedView_22;
+	ViewportMaterialView_tB55CBDB3B87184BDCAEDCE1F3C1D94E9E1EFAB4F* ____cachedView_22;
 	// Vuplex.WebView.IWebView Vuplex.WebView.BaseWebViewPrefab::_cachedWebView
 	RuntimeObject* ____cachedWebView_23;
 	// System.Boolean Vuplex.WebView.BaseWebViewPrefab::_consoleMessageLoggedHandlerAttached
@@ -6744,7 +6759,7 @@ struct BaseWebViewPrefab_t7AB09BDDF6BFE36D6A309E72648120AD42D90B51  : public Mon
 	// System.Boolean Vuplex.WebView.BaseWebViewPrefab::_loggedDragWarning
 	bool ____loggedDragWarning_29;
 	// Vuplex.WebView.WebViewOptions Vuplex.WebView.BaseWebViewPrefab::_options
-	WebViewOptions_t16E72A6424B439ACD647A15F93E3EEEA67C26DE3 ____options_31;
+	WebViewOptions_t6AF223CB628CF816A538DC820E190AE108845E20 ____options_31;
 	// UnityEngine.MonoBehaviour Vuplex.WebView.BaseWebViewPrefab::_pointerInputDetectorMonoBehaviour
 	MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* ____pointerInputDetectorMonoBehaviour_32;
 	// System.Boolean Vuplex.WebView.BaseWebViewPrefab::_pointerIsDown
@@ -6769,7 +6784,7 @@ struct BaseWebViewPrefab_t7AB09BDDF6BFE36D6A309E72648120AD42D90B51  : public Mon
 	float ___U3CDragToScrollThresholdU3Ek__BackingField_43;
 };
 
-struct BaseWebViewPrefab_t7AB09BDDF6BFE36D6A309E72648120AD42D90B51_StaticFields
+struct BaseWebViewPrefab_t9956951F2C38C7C18BE8AF8631B91014F4D1C532_StaticFields
 {
 	// System.Boolean Vuplex.WebView.BaseWebViewPrefab::_loggedHoverWarning
 	bool ____loggedHoverWarning_30;
@@ -6956,8 +6971,16 @@ struct CustomUIController_tB313197716B9B4AD415A8A6B488FAD900CFEE62C  : public Mo
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___fscQuad_14;
 	// UnityEngine.GameObject CustomUIController::burgerMenu
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___burgerMenu_15;
+	// UnityEngine.GameObject CustomUIController::recordingMessage
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___recordingMessage_16;
+	// UnityEngine.Animator CustomUIController::videoUpdationToast
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___videoUpdationToast_17;
+	// TMPro.TMP_Text CustomUIController::videoFailedText
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___videoFailedText_18;
+	// TMPro.TMP_Text CustomUIController::videoSuccessText
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___videoSuccessText_19;
 	// System.Boolean CustomUIController::openMenu
-	bool ___openMenu_16;
+	bool ___openMenu_20;
 };
 
 struct CustomUIController_tB313197716B9B4AD415A8A6B488FAD900CFEE62C_StaticFields
@@ -7388,6 +7411,11 @@ struct ScanBarAnim_t6363391E375851D5424CE02F4E3C2120391048C7  : public MonoBehav
 	Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* ___tween_7;
 };
 
+// SceneReload
+struct SceneReload_tE81F0DFE59AD4299DF620455D16D2B358EE1C94D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+
 // ScrollHandler
 struct ScrollHandler_t85F9F37D702843D03B5D2C9F514EDE95F52A8ED5  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -7614,7 +7642,7 @@ struct VuplexController_t2204E57F5A8EA66624872FBFC6FF4D27D9F83502  : public Mono
 	// System.String VuplexController::CountryCode
 	String_t* ___CountryCode_10;
 	// Vuplex.WebView.CanvasWebViewPrefab VuplexController::_canvasWebViewPrefab
-	CanvasWebViewPrefab_t924474B1363A01758559508CB2485B8BA3BB6945* ____canvasWebViewPrefab_12;
+	CanvasWebViewPrefab_t621E38DED690A6F4D846324B542B1DFF5325CE24* ____canvasWebViewPrefab_12;
 	// UnityEngine.GameObject VuplexController::_canvasWebViewPrefabView
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____canvasWebViewPrefabView_13;
 	// System.String VuplexController::filePath
@@ -7806,7 +7834,7 @@ struct CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B  : public UIBehavi
 };
 
 // Vuplex.WebView.CanvasWebViewPrefab
-struct CanvasWebViewPrefab_t924474B1363A01758559508CB2485B8BA3BB6945  : public BaseWebViewPrefab_t7AB09BDDF6BFE36D6A309E72648120AD42D90B51
+struct CanvasWebViewPrefab_t621E38DED690A6F4D846324B542B1DFF5325CE24  : public BaseWebViewPrefab_t9956951F2C38C7C18BE8AF8631B91014F4D1C532
 {
 	// System.Boolean Vuplex.WebView.CanvasWebViewPrefab::Native2DModeEnabled
 	bool ___Native2DModeEnabled_44;
@@ -7819,7 +7847,7 @@ struct CanvasWebViewPrefab_t924474B1363A01758559508CB2485B8BA3BB6945  : public B
 	// UnityEngine.RectTransform Vuplex.WebView.CanvasWebViewPrefab::_cachedRectTransform
 	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ____cachedRectTransform_48;
 	// Vuplex.WebView.Internal.CachingGetter`1<UnityEngine.Canvas> Vuplex.WebView.CanvasWebViewPrefab::_canvasGetter
-	CachingGetter_1_t1F54F1795E76F68AA11984B39F6CB9EC040356A1* ____canvasGetter_49;
+	CachingGetter_1_tDA4715BFC8AFF5E6F6C10462BA2CD201896109E0* ____canvasGetter_49;
 };
 
 // CustomInitializationErrorHandler
@@ -10215,6 +10243,14 @@ inline void Dictionary_2__ctor_m85AB837A51705B9DF96923F388345B9461B9882B (Dictio
 {
 	((  void (*) (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE*, const RuntimeMethod*))Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared)(__this, method);
 }
+// System.Collections.IEnumerator SceneReload::scenRload()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SceneReload_scenRload_mAE1549A84D84BEF6609FF5D0F47D998DA118EAD8 (SceneReload_tE81F0DFE59AD4299DF620455D16D2B358EE1C94D* __this, const RuntimeMethod* method) ;
+// System.Void SceneReload/<scenRload>d__2::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CscenRloadU3Ed__2__ctor_m4C033284BD0CFC7475839C82628544918BA357F4 (U3CscenRloadU3Ed__2_tF671763EF43E9CFC77312F12BD38CF6D7769B9E2* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.WaitForEndOfFrame::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForEndOfFrame__ctor_m4AF7E576C01E6B04443BB898B1AE5D645F7D45AB (WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_m0957E62F2A0A0243C79394E5B74E8EFA86BE5ED1 (int32_t ___sceneBuildIndex0, const RuntimeMethod* method) ;
 // System.Single UnityEngine.UI.ScrollRect::get_horizontalNormalizedPosition()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ScrollRect_get_horizontalNormalizedPosition_mC2C3A7F67E27AA7470A81042AD2B0AD0B5F1AF93 (ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* __this, const RuntimeMethod* method) ;
 // UnityEngine.EventSystems.EventSystem UnityEngine.EventSystems.EventSystem::get_current()
@@ -10688,8 +10724,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncOperation_tD2789250E4B098DEDA92B366A577E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PermissionManager_AskForCameraPermission_m16EBF3477D46E7E8858E0A4336E72E714AE45C30 (PermissionManager_t60320907AB44D190E345396515BF752367AC3DD2* __this, const RuntimeMethod* method) ;
 // System.Void SaveSystem::SaveUserData()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SaveSystem_SaveUserData_m39A4C6C6D6BABBBC500B151471F51551FA922CA7 (const RuntimeMethod* method) ;
-// System.Void UnityEngine.WaitForEndOfFrame::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForEndOfFrame__ctor_m4AF7E576C01E6B04443BB898B1AE5D645F7D45AB (WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663* __this, const RuntimeMethod* method) ;
 // System.Void PermissionManager::NextScene()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PermissionManager_NextScene_mF29514B6088F8233BE6934031332418A260C12FB (PermissionManager_t60320907AB44D190E345396515BF752367AC3DD2* __this, const RuntimeMethod* method) ;
 // System.Void ResizeAlgo/<>c__DisplayClass0_0::.ctor()
@@ -18902,6 +18936,164 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartRoutineU3Ed__9_System_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void SceneReload::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneReload_Start_m8B34928D6F02BBF3ED7ADEFCC642D8131D3A13A0 (SceneReload_tE81F0DFE59AD4299DF620455D16D2B358EE1C94D* __this, const RuntimeMethod* method) 
+{
+	{
+		// StartCoroutine(scenRload());
+		RuntimeObject* L_0;
+		L_0 = SceneReload_scenRload_mAE1549A84D84BEF6609FF5D0F47D998DA118EAD8(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1;
+		L_1 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void SceneReload::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneReload_Update_m397CA92BD85EF1CE023C2638A612A3D76BC4FBB2 (SceneReload_tE81F0DFE59AD4299DF620455D16D2B358EE1C94D* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Collections.IEnumerator SceneReload::scenRload()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SceneReload_scenRload_mAE1549A84D84BEF6609FF5D0F47D998DA118EAD8 (SceneReload_tE81F0DFE59AD4299DF620455D16D2B358EE1C94D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CscenRloadU3Ed__2_tF671763EF43E9CFC77312F12BD38CF6D7769B9E2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CscenRloadU3Ed__2_tF671763EF43E9CFC77312F12BD38CF6D7769B9E2* L_0 = (U3CscenRloadU3Ed__2_tF671763EF43E9CFC77312F12BD38CF6D7769B9E2*)il2cpp_codegen_object_new(U3CscenRloadU3Ed__2_tF671763EF43E9CFC77312F12BD38CF6D7769B9E2_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CscenRloadU3Ed__2__ctor_m4C033284BD0CFC7475839C82628544918BA357F4(L_0, 0, NULL);
+		return L_0;
+	}
+}
+// System.Void SceneReload::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneReload__ctor_m65D6E0AE30F2842391AE4ECEBB520D437AE11DF3 (SceneReload_tE81F0DFE59AD4299DF620455D16D2B358EE1C94D* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void SceneReload/<scenRload>d__2::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CscenRloadU3Ed__2__ctor_m4C033284BD0CFC7475839C82628544918BA357F4 (U3CscenRloadU3Ed__2_tF671763EF43E9CFC77312F12BD38CF6D7769B9E2* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___U3CU3E1__state0;
+		__this->___U3CU3E1__state_0 = L_0;
+		return;
+	}
+}
+// System.Void SceneReload/<scenRload>d__2::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CscenRloadU3Ed__2_System_IDisposable_Dispose_m0D421851CD07B8B4FD385D2D25901B053B32E4BE (U3CscenRloadU3Ed__2_tF671763EF43E9CFC77312F12BD38CF6D7769B9E2* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// System.Boolean SceneReload/<scenRload>d__2::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CscenRloadU3Ed__2_MoveNext_m5212043574CC27D4BC99519E1D189F207C2D1084 (U3CscenRloadU3Ed__2_tF671763EF43E9CFC77312F12BD38CF6D7769B9E2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) == ((int32_t)1)))
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0010:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		// yield return new WaitForEndOfFrame();
+		WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663* L_3 = (WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663*)il2cpp_codegen_object_new(WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663_il2cpp_TypeInfo_var);
+		NullCheck(L_3);
+		WaitForEndOfFrame__ctor_m4AF7E576C01E6B04443BB898B1AE5D645F7D45AB(L_3, NULL);
+		__this->___U3CU3E2__current_1 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_3);
+		__this->___U3CU3E1__state_0 = 1;
+		return (bool)1;
+	}
+
+IL_002b:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		// SceneManager.LoadScene(0);
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_m0957E62F2A0A0243C79394E5B74E8EFA86BE5ED1(0, NULL);
+		// }
+		return (bool)0;
+	}
+}
+// System.Object SceneReload/<scenRload>d__2::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CscenRloadU3Ed__2_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3027D8808BBD67E16BA037198702AA6847B3E34D (U3CscenRloadU3Ed__2_tF671763EF43E9CFC77312F12BD38CF6D7769B9E2* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+// System.Void SceneReload/<scenRload>d__2::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CscenRloadU3Ed__2_System_Collections_IEnumerator_Reset_m9766D7A2A199CD8B1B5F125A42388EBC413CF3E9 (U3CscenRloadU3Ed__2_tF671763EF43E9CFC77312F12BD38CF6D7769B9E2* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NullCheck(L_0);
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CscenRloadU3Ed__2_System_Collections_IEnumerator_Reset_m9766D7A2A199CD8B1B5F125A42388EBC413CF3E9_RuntimeMethod_var)));
+	}
+}
+// System.Object SceneReload/<scenRload>d__2::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CscenRloadU3Ed__2_System_Collections_IEnumerator_get_Current_mDD61ABA0F06C33001ADF68951700C9E61436B5A3 (U3CscenRloadU3Ed__2_tF671763EF43E9CFC77312F12BD38CF6D7769B9E2* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void ScrollHandler::Awake()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScrollHandler_Awake_mC216E0FC101195218497ACD8CDD53AEC384D2ABE (ScrollHandler_t85F9F37D702843D03B5D2C9F514EDE95F52A8ED5* __this, const RuntimeMethod* method) 
 {
@@ -22994,7 +23186,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomUIController_Start_m99809C4762082E
 	}
 	{
 		// openMenu = false;
-		__this->___openMenu_16 = (bool)0;
+		__this->___openMenu_20 = (bool)0;
 		// infoBox.SetActive(false);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___infoBox_5;
 		NullCheck(L_0);
@@ -36625,7 +36817,7 @@ IL_0018_1:
 			// VuplexController.Instance._canvasWebViewPrefab.GetComponent<RectTransform>().Translate(0, -10000, 0);
 			VuplexController_t2204E57F5A8EA66624872FBFC6FF4D27D9F83502* L_19 = ((VuplexController_t2204E57F5A8EA66624872FBFC6FF4D27D9F83502_StaticFields*)il2cpp_codegen_static_fields_for(VuplexController_t2204E57F5A8EA66624872FBFC6FF4D27D9F83502_il2cpp_TypeInfo_var))->___Instance_11;
 			NullCheck(L_19);
-			CanvasWebViewPrefab_t924474B1363A01758559508CB2485B8BA3BB6945* L_20 = L_19->____canvasWebViewPrefab_12;
+			CanvasWebViewPrefab_t621E38DED690A6F4D846324B542B1DFF5325CE24* L_20 = L_19->____canvasWebViewPrefab_12;
 			NullCheck(L_20);
 			RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_21;
 			L_21 = Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4(L_20, Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);
@@ -36653,7 +36845,7 @@ IL_00b3_1:
 			// VuplexController.Instance._canvasWebViewPrefab.GetComponent<RectTransform>().Translate(0, 10000, 0);
 			VuplexController_t2204E57F5A8EA66624872FBFC6FF4D27D9F83502* L_25 = ((VuplexController_t2204E57F5A8EA66624872FBFC6FF4D27D9F83502_StaticFields*)il2cpp_codegen_static_fields_for(VuplexController_t2204E57F5A8EA66624872FBFC6FF4D27D9F83502_il2cpp_TypeInfo_var))->___Instance_11;
 			NullCheck(L_25);
-			CanvasWebViewPrefab_t924474B1363A01758559508CB2485B8BA3BB6945* L_26 = L_25->____canvasWebViewPrefab_12;
+			CanvasWebViewPrefab_t621E38DED690A6F4D846324B542B1DFF5325CE24* L_26 = L_25->____canvasWebViewPrefab_12;
 			NullCheck(L_26);
 			RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_27;
 			L_27 = Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4(L_26, Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);
@@ -36743,7 +36935,7 @@ IL_013a_1:
 			// VuplexController.Instance._canvasWebViewPrefab.GetComponent<RectTransform>().Translate(0, -10000, 0);
 			VuplexController_t2204E57F5A8EA66624872FBFC6FF4D27D9F83502* L_48 = ((VuplexController_t2204E57F5A8EA66624872FBFC6FF4D27D9F83502_StaticFields*)il2cpp_codegen_static_fields_for(VuplexController_t2204E57F5A8EA66624872FBFC6FF4D27D9F83502_il2cpp_TypeInfo_var))->___Instance_11;
 			NullCheck(L_48);
-			CanvasWebViewPrefab_t924474B1363A01758559508CB2485B8BA3BB6945* L_49 = L_48->____canvasWebViewPrefab_12;
+			CanvasWebViewPrefab_t621E38DED690A6F4D846324B542B1DFF5325CE24* L_49 = L_48->____canvasWebViewPrefab_12;
 			NullCheck(L_49);
 			RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_50;
 			L_50 = Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4(L_49, Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);
@@ -36771,7 +36963,7 @@ IL_01c0_1:
 			// VuplexController.Instance._canvasWebViewPrefab.GetComponent<RectTransform>().Translate(0, 10000, 0);
 			VuplexController_t2204E57F5A8EA66624872FBFC6FF4D27D9F83502* L_54 = ((VuplexController_t2204E57F5A8EA66624872FBFC6FF4D27D9F83502_StaticFields*)il2cpp_codegen_static_fields_for(VuplexController_t2204E57F5A8EA66624872FBFC6FF4D27D9F83502_il2cpp_TypeInfo_var))->___Instance_11;
 			NullCheck(L_54);
-			CanvasWebViewPrefab_t924474B1363A01758559508CB2485B8BA3BB6945* L_55 = L_54->____canvasWebViewPrefab_12;
+			CanvasWebViewPrefab_t621E38DED690A6F4D846324B542B1DFF5325CE24* L_55 = L_54->____canvasWebViewPrefab_12;
 			NullCheck(L_55);
 			RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_56;
 			L_56 = Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4(L_55, Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);

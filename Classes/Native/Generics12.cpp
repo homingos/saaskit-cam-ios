@@ -282,7 +282,7 @@ struct ContinuationTaskFromResultTask_1_tAE0D398C6A55EAAA6B98F6A654178EB8C7FAEC3
 // System.Threading.Tasks.ContinuationTaskFromResultTask`1<System.Char>
 struct ContinuationTaskFromResultTask_1_t14E00841AA7A60FA040D9E0787E7CB630E71EAE5;
 // System.Threading.Tasks.ContinuationTaskFromResultTask`1<Vuplex.WebView.FindResult>
-struct ContinuationTaskFromResultTask_1_t76ECFA358DE08BFF92A2E1B8D91F08A7A8347AA0;
+struct ContinuationTaskFromResultTask_1_t5DB7C783B70531650F37B5FCE14E94C864435537;
 // System.Threading.Tasks.ContinuationTaskFromResultTask`1<System.Int32>
 struct ContinuationTaskFromResultTask_1_t3ED26B5DC64622CAD8CCE4544E6F7CE63023AA96;
 // System.Threading.Tasks.ContinuationTaskFromResultTask`1<System.Object>
@@ -508,7 +508,7 @@ struct TaskFactory_1_tFAEAC22A1E986463E6956C344A78A7C7197288E0;
 // System.Threading.Tasks.TaskFactory`1<System.Char>
 struct TaskFactory_1_tAE55B2107FC11B3C6C510A21445CAC987671E7FD;
 // System.Threading.Tasks.TaskFactory`1<Vuplex.WebView.FindResult>
-struct TaskFactory_1_tFDFBDF20BD9AA396AAE90044E3A7DEA1D9D6D3F2;
+struct TaskFactory_1_tC50D36A65928E5278DB93B80884C4BCCA6E68722;
 // System.Threading.Tasks.TaskFactory`1<System.Int32>
 struct TaskFactory_1_t0BEF06D58E44525B9135AB0B22D016856EE69FF3;
 // System.Threading.Tasks.TaskFactory`1<System.Object>
@@ -538,7 +538,7 @@ struct Task_1_t824317F4B958F7512E8F7300511752937A6C6043;
 // System.Threading.Tasks.Task`1<System.Char>
 struct Task_1_tF70626CA48A1BC439512EBC23E365CCCE98C92F9;
 // System.Threading.Tasks.Task`1<Vuplex.WebView.FindResult>
-struct Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23;
+struct Task_1_tFDA470395214E04F9B25F683581646238192AEF0;
 // System.Threading.Tasks.Task`1<System.Int32>
 struct Task_1_t4C228DE57804012969575431CFF12D57C875552D;
 // System.Threading.Tasks.Task`1<System.Object>
@@ -1268,10 +1268,10 @@ struct ConfiguredTaskAwaiter_tFE1F3E8785A34499A7F552C538E2FAAA5AFEFCED
 };
 
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<Vuplex.WebView.FindResult>
-struct ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237 
+struct ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B 
 {
 	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter::m_task
-	Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23* ___m_task_0;
+	Task_1_tFDA470395214E04F9B25F683581646238192AEF0* ___m_task_0;
 	// System.Boolean System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter::m_continueOnCapturedContext
 	bool ___m_continueOnCapturedContext_1;
 };
@@ -1392,10 +1392,10 @@ struct ContinuationTaskFromResultTask_1_t14E00841AA7A60FA040D9E0787E7CB630E71EAE
 };
 
 // System.Threading.Tasks.ContinuationTaskFromResultTask`1<Vuplex.WebView.FindResult>
-struct ContinuationTaskFromResultTask_1_t76ECFA358DE08BFF92A2E1B8D91F08A7A8347AA0  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
+struct ContinuationTaskFromResultTask_1_t5DB7C783B70531650F37B5FCE14E94C864435537  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
 {
 	// System.Threading.Tasks.Task`1<TAntecedentResult> System.Threading.Tasks.ContinuationTaskFromResultTask`1::m_antecedent
-	Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23* ___m_antecedent_38;
+	Task_1_tFDA470395214E04F9B25F683581646238192AEF0* ___m_antecedent_38;
 };
 
 // System.Threading.Tasks.ContinuationTaskFromResultTask`1<System.Int32>
@@ -2128,7 +2128,7 @@ struct Ephemeron_t74F279F5E7CF4A0CFC21C822431DD840572C6DA2_marshaled_com
 };
 
 // Vuplex.WebView.FindResult
-struct FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 
+struct FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 
 {
 	// System.Int32 Vuplex.WebView.FindResult::CurrentMatchIndex
 	int32_t ___CurrentMatchIndex_0;
@@ -3093,10 +3093,10 @@ struct ConfiguredTaskAwaitable_1_t8E326A49F91EC141BCFFAD3D26DD24BBFD96339B
 };
 
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<Vuplex.WebView.FindResult>
-struct ConfiguredTaskAwaitable_1_tC87A11B468B02016B8A1DB047C1A83D2B9EF0419 
+struct ConfiguredTaskAwaitable_1_t319DF7B5C492D1AC531D960DF8ADFE670E007BD7 
 {
 	// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<TResult> System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::m_configuredTaskAwaiter
-	ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237 ___m_configuredTaskAwaiter_0;
+	ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B ___m_configuredTaskAwaiter_0;
 };
 
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<System.Int32>
@@ -3535,16 +3535,16 @@ struct Task_1_t92877BA87ADE0900BD5EBC3E66E94C5598602A9A_StaticFields
 };
 
 // System.Threading.Tasks.Task`1<Vuplex.WebView.FindResult>
-struct Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
+struct Task_1_tFDA470395214E04F9B25F683581646238192AEF0  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
 {
 	// TResult System.Threading.Tasks.Task`1::m_result
-	FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 ___m_result_38;
+	FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 ___m_result_38;
 };
 
-struct Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23_StaticFields
+struct Task_1_tFDA470395214E04F9B25F683581646238192AEF0_StaticFields
 {
 	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
-	TaskFactory_1_tFDFBDF20BD9AA396AAE90044E3A7DEA1D9D6D3F2* ___s_defaultFactory_39;
+	TaskFactory_1_tC50D36A65928E5278DB93B80884C4BCCA6E68722* ___s_defaultFactory_39;
 };
 
 // System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>
@@ -4808,7 +4808,7 @@ struct Action_1_t043964AC15B71F24503DEEB8913A85F6164F8C73  : public MulticastDel
 };
 
 // System.Action`1<System.Threading.Tasks.Task`1<Vuplex.WebView.FindResult>>
-struct Action_1_t5558AF6B3D149F72EE3665A91F29E3470E626306  : public MulticastDelegate_t
+struct Action_1_t57510690D75FCE5C323ECF55FB5797E21EBD28CC  : public MulticastDelegate_t
 {
 };
 
@@ -4888,7 +4888,7 @@ struct Action_2_t876354A366D38FA5B1A2964B2C60EAE80F6A61DD  : public MulticastDel
 };
 
 // System.Action`2<System.Threading.Tasks.Task`1<Vuplex.WebView.FindResult>,System.Object>
-struct Action_2_tE04B03A7880E48417142CCC47442790DF577089F  : public MulticastDelegate_t
+struct Action_2_t92EADDBBA43820AE7C598C14E72C98B1EC7E2A5F  : public MulticastDelegate_t
 {
 };
 
@@ -6208,11 +6208,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfiguredTaskAwaitable_1__ctor_mDC04073
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<TResult> System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<System.Char>::GetAwaiter()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ConfiguredTaskAwaiter_tFE1F3E8785A34499A7F552C538E2FAAA5AFEFCED ConfiguredTaskAwaitable_1_GetAwaiter_m809E36C2B6A80525F2AF9C0AAAC3D5564A34A9A6_gshared_inline (ConfiguredTaskAwaitable_1_t8E326A49F91EC141BCFFAD3D26DD24BBFD96339B* __this, const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<Vuplex.WebView.FindResult>::.ctor(System.Threading.Tasks.Task`1<TResult>,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfiguredTaskAwaiter__ctor_mAD3C900CB103AEDDD0D5195742AA9788ECC86C88_gshared (ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237* __this, Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23* ___task0, bool ___continueOnCapturedContext1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfiguredTaskAwaiter__ctor_m3E1FAD78C96B154ED0DBB2499511DEF78AC71CC9_gshared (ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B* __this, Task_1_tFDA470395214E04F9B25F683581646238192AEF0* ___task0, bool ___continueOnCapturedContext1, const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<Vuplex.WebView.FindResult>::.ctor(System.Threading.Tasks.Task`1<TResult>,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfiguredTaskAwaitable_1__ctor_m3EAFEB1457C196FFA4B6E2FD607F5B835E6568F9_gshared (ConfiguredTaskAwaitable_1_tC87A11B468B02016B8A1DB047C1A83D2B9EF0419* __this, Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23* ___task0, bool ___continueOnCapturedContext1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfiguredTaskAwaitable_1__ctor_m4B7846C851648811ACD9AE08CF66CBD1E770DDB7_gshared (ConfiguredTaskAwaitable_1_t319DF7B5C492D1AC531D960DF8ADFE670E007BD7* __this, Task_1_tFDA470395214E04F9B25F683581646238192AEF0* ___task0, bool ___continueOnCapturedContext1, const RuntimeMethod* method) ;
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<TResult> System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<Vuplex.WebView.FindResult>::GetAwaiter()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237 ConfiguredTaskAwaitable_1_GetAwaiter_mE1F32A1C6FE47278A365FDF2B9568CA32946CB7A_gshared_inline (ConfiguredTaskAwaitable_1_tC87A11B468B02016B8A1DB047C1A83D2B9EF0419* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B ConfiguredTaskAwaitable_1_GetAwaiter_m8BADE678898DDEDA3A989ADAEC3688879A861DC8_gshared_inline (ConfiguredTaskAwaitable_1_t319DF7B5C492D1AC531D960DF8ADFE670E007BD7* __this, const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Int32>::.ctor(System.Threading.Tasks.Task`1<TResult>,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfiguredTaskAwaiter__ctor_m81EA182AFEBA13DB3FBEBD681D641477D6CDD7E5_gshared (ConfiguredTaskAwaiter_t8FC486401D1951F2426478F2050EE290197B6E80* __this, Task_1_t4C228DE57804012969575431CFF12D57C875552D* ___task0, bool ___continueOnCapturedContext1, const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<System.Int32>::.ctor(System.Threading.Tasks.Task`1<TResult>,System.Boolean)
@@ -6298,11 +6298,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfiguredTaskAwaiter_UnsafeOnCompleted_
 // TResult System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Char>::GetResult()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar ConfiguredTaskAwaiter_GetResult_mFC0E402D034CC9E205ED6EA94B9C89DAE9ACBF43_gshared (ConfiguredTaskAwaiter_tFE1F3E8785A34499A7F552C538E2FAAA5AFEFCED* __this, const RuntimeMethod* method) ;
 // System.Boolean System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<Vuplex.WebView.FindResult>::get_IsCompleted()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConfiguredTaskAwaiter_get_IsCompleted_m0EBB868E749523E521A16A54170E68778A838A4C_gshared (ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConfiguredTaskAwaiter_get_IsCompleted_m421682E3F39FB68B2266A2B5FFBCE21C5C58C129_gshared (ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B* __this, const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<Vuplex.WebView.FindResult>::UnsafeOnCompleted(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfiguredTaskAwaiter_UnsafeOnCompleted_mA5693DA417FFF5254A1FA64D796130399BFFBD7B_gshared (ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___continuation0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfiguredTaskAwaiter_UnsafeOnCompleted_m7A6A2A8DFF84A9F4137EF7DB962906169AAF0202_gshared (ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___continuation0, const RuntimeMethod* method) ;
 // TResult System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<Vuplex.WebView.FindResult>::GetResult()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 ConfiguredTaskAwaiter_GetResult_m6795FF4ECE7009676A4C4EC84714F61945C8B2F1_gshared (ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 ConfiguredTaskAwaiter_GetResult_m4986D59380099CACEF7A8C4F6D66DD6FE26064CF_gshared (ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B* __this, const RuntimeMethod* method) ;
 // System.Boolean System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Int32>::get_IsCompleted()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConfiguredTaskAwaiter_get_IsCompleted_mD70263ED42C8E379EE20DBC2F218C3E629B4B4D3_gshared (ConfiguredTaskAwaiter_t8FC486401D1951F2426478F2050EE290197B6E80* __this, const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Int32>::UnsafeOnCompleted(System.Action)
@@ -6628,19 +6628,19 @@ inline ConfiguredTaskAwaiter_tFE1F3E8785A34499A7F552C538E2FAAA5AFEFCED Configure
 	return ((  ConfiguredTaskAwaiter_tFE1F3E8785A34499A7F552C538E2FAAA5AFEFCED (*) (ConfiguredTaskAwaitable_1_t8E326A49F91EC141BCFFAD3D26DD24BBFD96339B*, const RuntimeMethod*))ConfiguredTaskAwaitable_1_GetAwaiter_m809E36C2B6A80525F2AF9C0AAAC3D5564A34A9A6_gshared_inline)(__this, method);
 }
 // System.Void System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<Vuplex.WebView.FindResult>::.ctor(System.Threading.Tasks.Task`1<TResult>,System.Boolean)
-inline void ConfiguredTaskAwaiter__ctor_mAD3C900CB103AEDDD0D5195742AA9788ECC86C88 (ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237* __this, Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23* ___task0, bool ___continueOnCapturedContext1, const RuntimeMethod* method)
+inline void ConfiguredTaskAwaiter__ctor_m3E1FAD78C96B154ED0DBB2499511DEF78AC71CC9 (ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B* __this, Task_1_tFDA470395214E04F9B25F683581646238192AEF0* ___task0, bool ___continueOnCapturedContext1, const RuntimeMethod* method)
 {
-	((  void (*) (ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237*, Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23*, bool, const RuntimeMethod*))ConfiguredTaskAwaiter__ctor_mAD3C900CB103AEDDD0D5195742AA9788ECC86C88_gshared)(__this, ___task0, ___continueOnCapturedContext1, method);
+	((  void (*) (ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B*, Task_1_tFDA470395214E04F9B25F683581646238192AEF0*, bool, const RuntimeMethod*))ConfiguredTaskAwaiter__ctor_m3E1FAD78C96B154ED0DBB2499511DEF78AC71CC9_gshared)(__this, ___task0, ___continueOnCapturedContext1, method);
 }
 // System.Void System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<Vuplex.WebView.FindResult>::.ctor(System.Threading.Tasks.Task`1<TResult>,System.Boolean)
-inline void ConfiguredTaskAwaitable_1__ctor_m3EAFEB1457C196FFA4B6E2FD607F5B835E6568F9 (ConfiguredTaskAwaitable_1_tC87A11B468B02016B8A1DB047C1A83D2B9EF0419* __this, Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23* ___task0, bool ___continueOnCapturedContext1, const RuntimeMethod* method)
+inline void ConfiguredTaskAwaitable_1__ctor_m4B7846C851648811ACD9AE08CF66CBD1E770DDB7 (ConfiguredTaskAwaitable_1_t319DF7B5C492D1AC531D960DF8ADFE670E007BD7* __this, Task_1_tFDA470395214E04F9B25F683581646238192AEF0* ___task0, bool ___continueOnCapturedContext1, const RuntimeMethod* method)
 {
-	((  void (*) (ConfiguredTaskAwaitable_1_tC87A11B468B02016B8A1DB047C1A83D2B9EF0419*, Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23*, bool, const RuntimeMethod*))ConfiguredTaskAwaitable_1__ctor_m3EAFEB1457C196FFA4B6E2FD607F5B835E6568F9_gshared)(__this, ___task0, ___continueOnCapturedContext1, method);
+	((  void (*) (ConfiguredTaskAwaitable_1_t319DF7B5C492D1AC531D960DF8ADFE670E007BD7*, Task_1_tFDA470395214E04F9B25F683581646238192AEF0*, bool, const RuntimeMethod*))ConfiguredTaskAwaitable_1__ctor_m4B7846C851648811ACD9AE08CF66CBD1E770DDB7_gshared)(__this, ___task0, ___continueOnCapturedContext1, method);
 }
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<TResult> System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<Vuplex.WebView.FindResult>::GetAwaiter()
-inline ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237 ConfiguredTaskAwaitable_1_GetAwaiter_mE1F32A1C6FE47278A365FDF2B9568CA32946CB7A_inline (ConfiguredTaskAwaitable_1_tC87A11B468B02016B8A1DB047C1A83D2B9EF0419* __this, const RuntimeMethod* method)
+inline ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B ConfiguredTaskAwaitable_1_GetAwaiter_m8BADE678898DDEDA3A989ADAEC3688879A861DC8_inline (ConfiguredTaskAwaitable_1_t319DF7B5C492D1AC531D960DF8ADFE670E007BD7* __this, const RuntimeMethod* method)
 {
-	return ((  ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237 (*) (ConfiguredTaskAwaitable_1_tC87A11B468B02016B8A1DB047C1A83D2B9EF0419*, const RuntimeMethod*))ConfiguredTaskAwaitable_1_GetAwaiter_mE1F32A1C6FE47278A365FDF2B9568CA32946CB7A_gshared_inline)(__this, method);
+	return ((  ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B (*) (ConfiguredTaskAwaitable_1_t319DF7B5C492D1AC531D960DF8ADFE670E007BD7*, const RuntimeMethod*))ConfiguredTaskAwaitable_1_GetAwaiter_m8BADE678898DDEDA3A989ADAEC3688879A861DC8_gshared_inline)(__this, method);
 }
 // System.Void System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Int32>::.ctor(System.Threading.Tasks.Task`1<TResult>,System.Boolean)
 inline void ConfiguredTaskAwaiter__ctor_m81EA182AFEBA13DB3FBEBD681D641477D6CDD7E5 (ConfiguredTaskAwaiter_t8FC486401D1951F2426478F2050EE290197B6E80* __this, Task_1_t4C228DE57804012969575431CFF12D57C875552D* ___task0, bool ___continueOnCapturedContext1, const RuntimeMethod* method)
@@ -6859,19 +6859,19 @@ inline Il2CppChar ConfiguredTaskAwaiter_GetResult_mFC0E402D034CC9E205ED6EA94B9C8
 	return ((  Il2CppChar (*) (ConfiguredTaskAwaiter_tFE1F3E8785A34499A7F552C538E2FAAA5AFEFCED*, const RuntimeMethod*))ConfiguredTaskAwaiter_GetResult_mFC0E402D034CC9E205ED6EA94B9C89DAE9ACBF43_gshared)(__this, method);
 }
 // System.Boolean System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<Vuplex.WebView.FindResult>::get_IsCompleted()
-inline bool ConfiguredTaskAwaiter_get_IsCompleted_m0EBB868E749523E521A16A54170E68778A838A4C (ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237* __this, const RuntimeMethod* method)
+inline bool ConfiguredTaskAwaiter_get_IsCompleted_m421682E3F39FB68B2266A2B5FFBCE21C5C58C129 (ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B* __this, const RuntimeMethod* method)
 {
-	return ((  bool (*) (ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237*, const RuntimeMethod*))ConfiguredTaskAwaiter_get_IsCompleted_m0EBB868E749523E521A16A54170E68778A838A4C_gshared)(__this, method);
+	return ((  bool (*) (ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B*, const RuntimeMethod*))ConfiguredTaskAwaiter_get_IsCompleted_m421682E3F39FB68B2266A2B5FFBCE21C5C58C129_gshared)(__this, method);
 }
 // System.Void System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<Vuplex.WebView.FindResult>::UnsafeOnCompleted(System.Action)
-inline void ConfiguredTaskAwaiter_UnsafeOnCompleted_mA5693DA417FFF5254A1FA64D796130399BFFBD7B (ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___continuation0, const RuntimeMethod* method)
+inline void ConfiguredTaskAwaiter_UnsafeOnCompleted_m7A6A2A8DFF84A9F4137EF7DB962906169AAF0202 (ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___continuation0, const RuntimeMethod* method)
 {
-	((  void (*) (ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237*, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*, const RuntimeMethod*))ConfiguredTaskAwaiter_UnsafeOnCompleted_mA5693DA417FFF5254A1FA64D796130399BFFBD7B_gshared)(__this, ___continuation0, method);
+	((  void (*) (ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B*, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*, const RuntimeMethod*))ConfiguredTaskAwaiter_UnsafeOnCompleted_m7A6A2A8DFF84A9F4137EF7DB962906169AAF0202_gshared)(__this, ___continuation0, method);
 }
 // TResult System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<Vuplex.WebView.FindResult>::GetResult()
-inline FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 ConfiguredTaskAwaiter_GetResult_m6795FF4ECE7009676A4C4EC84714F61945C8B2F1 (ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237* __this, const RuntimeMethod* method)
+inline FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 ConfiguredTaskAwaiter_GetResult_m4986D59380099CACEF7A8C4F6D66DD6FE26064CF (ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B* __this, const RuntimeMethod* method)
 {
-	return ((  FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 (*) (ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237*, const RuntimeMethod*))ConfiguredTaskAwaiter_GetResult_m6795FF4ECE7009676A4C4EC84714F61945C8B2F1_gshared)(__this, method);
+	return ((  FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 (*) (ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B*, const RuntimeMethod*))ConfiguredTaskAwaiter_GetResult_m4986D59380099CACEF7A8C4F6D66DD6FE26064CF_gshared)(__this, method);
 }
 // System.Boolean System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Int32>::get_IsCompleted()
 inline bool ConfiguredTaskAwaiter_get_IsCompleted_mD70263ED42C8E379EE20DBC2F218C3E629B4B4D3 (ConfiguredTaskAwaiter_t8FC486401D1951F2426478F2050EE290197B6E80* __this, const RuntimeMethod* method)
@@ -20424,41 +20424,41 @@ IL2CPP_EXTERN_C  ConfiguredTaskAwaiter_tFE1F3E8785A34499A7F552C538E2FAAA5AFEFCED
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<Vuplex.WebView.FindResult>::.ctor(System.Threading.Tasks.Task`1<TResult>,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfiguredTaskAwaitable_1__ctor_m3EAFEB1457C196FFA4B6E2FD607F5B835E6568F9_gshared (ConfiguredTaskAwaitable_1_tC87A11B468B02016B8A1DB047C1A83D2B9EF0419* __this, Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23* ___task0, bool ___continueOnCapturedContext1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfiguredTaskAwaitable_1__ctor_m4B7846C851648811ACD9AE08CF66CBD1E770DDB7_gshared (ConfiguredTaskAwaitable_1_t319DF7B5C492D1AC531D960DF8ADFE670E007BD7* __this, Task_1_tFDA470395214E04F9B25F683581646238192AEF0* ___task0, bool ___continueOnCapturedContext1, const RuntimeMethod* method) 
 {
 	{
-		Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23* L_0 = ___task0;
+		Task_1_tFDA470395214E04F9B25F683581646238192AEF0* L_0 = ___task0;
 		bool L_1 = ___continueOnCapturedContext1;
-		ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237 L_2;
+		ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B L_2;
 		memset((&L_2), 0, sizeof(L_2));
-		ConfiguredTaskAwaiter__ctor_mAD3C900CB103AEDDD0D5195742AA9788ECC86C88((&L_2), L_0, L_1, /*hidden argument*/il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		ConfiguredTaskAwaiter__ctor_m3E1FAD78C96B154ED0DBB2499511DEF78AC71CC9((&L_2), L_0, L_1, /*hidden argument*/il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		__this->___m_configuredTaskAwaiter_0 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___m_configuredTaskAwaiter_0))->___m_task_0), (void*)NULL);
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void ConfiguredTaskAwaitable_1__ctor_m3EAFEB1457C196FFA4B6E2FD607F5B835E6568F9_AdjustorThunk (RuntimeObject* __this, Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23* ___task0, bool ___continueOnCapturedContext1, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void ConfiguredTaskAwaitable_1__ctor_m4B7846C851648811ACD9AE08CF66CBD1E770DDB7_AdjustorThunk (RuntimeObject* __this, Task_1_tFDA470395214E04F9B25F683581646238192AEF0* ___task0, bool ___continueOnCapturedContext1, const RuntimeMethod* method)
 {
-	ConfiguredTaskAwaitable_1_tC87A11B468B02016B8A1DB047C1A83D2B9EF0419* _thisAdjusted;
+	ConfiguredTaskAwaitable_1_t319DF7B5C492D1AC531D960DF8ADFE670E007BD7* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<ConfiguredTaskAwaitable_1_tC87A11B468B02016B8A1DB047C1A83D2B9EF0419*>(__this + _offset);
-	ConfiguredTaskAwaitable_1__ctor_m3EAFEB1457C196FFA4B6E2FD607F5B835E6568F9(_thisAdjusted, ___task0, ___continueOnCapturedContext1, method);
+	_thisAdjusted = reinterpret_cast<ConfiguredTaskAwaitable_1_t319DF7B5C492D1AC531D960DF8ADFE670E007BD7*>(__this + _offset);
+	ConfiguredTaskAwaitable_1__ctor_m4B7846C851648811ACD9AE08CF66CBD1E770DDB7(_thisAdjusted, ___task0, ___continueOnCapturedContext1, method);
 }
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<TResult> System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<Vuplex.WebView.FindResult>::GetAwaiter()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237 ConfiguredTaskAwaitable_1_GetAwaiter_mE1F32A1C6FE47278A365FDF2B9568CA32946CB7A_gshared (ConfiguredTaskAwaitable_1_tC87A11B468B02016B8A1DB047C1A83D2B9EF0419* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B ConfiguredTaskAwaitable_1_GetAwaiter_m8BADE678898DDEDA3A989ADAEC3688879A861DC8_gshared (ConfiguredTaskAwaitable_1_t319DF7B5C492D1AC531D960DF8ADFE670E007BD7* __this, const RuntimeMethod* method) 
 {
 	{
-		ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237 L_0 = (ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237)__this->___m_configuredTaskAwaiter_0;
+		ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B L_0 = (ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B)__this->___m_configuredTaskAwaiter_0;
 		return L_0;
 	}
 }
-IL2CPP_EXTERN_C  ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237 ConfiguredTaskAwaitable_1_GetAwaiter_mE1F32A1C6FE47278A365FDF2B9568CA32946CB7A_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B ConfiguredTaskAwaitable_1_GetAwaiter_m8BADE678898DDEDA3A989ADAEC3688879A861DC8_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
 {
-	ConfiguredTaskAwaitable_1_tC87A11B468B02016B8A1DB047C1A83D2B9EF0419* _thisAdjusted;
+	ConfiguredTaskAwaitable_1_t319DF7B5C492D1AC531D960DF8ADFE670E007BD7* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<ConfiguredTaskAwaitable_1_tC87A11B468B02016B8A1DB047C1A83D2B9EF0419*>(__this + _offset);
-	ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237 _returnValue;
-	_returnValue = ConfiguredTaskAwaitable_1_GetAwaiter_mE1F32A1C6FE47278A365FDF2B9568CA32946CB7A_inline(_thisAdjusted, method);
+	_thisAdjusted = reinterpret_cast<ConfiguredTaskAwaitable_1_t319DF7B5C492D1AC531D960DF8ADFE670E007BD7*>(__this + _offset);
+	ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B _returnValue;
+	_returnValue = ConfiguredTaskAwaitable_1_GetAwaiter_m8BADE678898DDEDA3A989ADAEC3688879A861DC8_inline(_thisAdjusted, method);
 	return _returnValue;
 }
 #ifdef __clang__
@@ -21565,10 +21565,10 @@ IL2CPP_EXTERN_C  Il2CppChar ConfiguredTaskAwaiter_GetResult_mFC0E402D034CC9E205E
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<Vuplex.WebView.FindResult>::.ctor(System.Threading.Tasks.Task`1<TResult>,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfiguredTaskAwaiter__ctor_mAD3C900CB103AEDDD0D5195742AA9788ECC86C88_gshared (ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237* __this, Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23* ___task0, bool ___continueOnCapturedContext1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfiguredTaskAwaiter__ctor_m3E1FAD78C96B154ED0DBB2499511DEF78AC71CC9_gshared (ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B* __this, Task_1_tFDA470395214E04F9B25F683581646238192AEF0* ___task0, bool ___continueOnCapturedContext1, const RuntimeMethod* method) 
 {
 	{
-		Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23* L_0 = ___task0;
+		Task_1_tFDA470395214E04F9B25F683581646238192AEF0* L_0 = ___task0;
 		__this->___m_task_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_task_0), (void*)L_0);
 		bool L_1 = ___continueOnCapturedContext1;
@@ -21576,71 +21576,71 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfiguredTaskAwaiter__ctor_mAD3C900CB10
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void ConfiguredTaskAwaiter__ctor_mAD3C900CB103AEDDD0D5195742AA9788ECC86C88_AdjustorThunk (RuntimeObject* __this, Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23* ___task0, bool ___continueOnCapturedContext1, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void ConfiguredTaskAwaiter__ctor_m3E1FAD78C96B154ED0DBB2499511DEF78AC71CC9_AdjustorThunk (RuntimeObject* __this, Task_1_tFDA470395214E04F9B25F683581646238192AEF0* ___task0, bool ___continueOnCapturedContext1, const RuntimeMethod* method)
 {
-	ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237* _thisAdjusted;
+	ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237*>(__this + _offset);
-	ConfiguredTaskAwaiter__ctor_mAD3C900CB103AEDDD0D5195742AA9788ECC86C88(_thisAdjusted, ___task0, ___continueOnCapturedContext1, method);
+	_thisAdjusted = reinterpret_cast<ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B*>(__this + _offset);
+	ConfiguredTaskAwaiter__ctor_m3E1FAD78C96B154ED0DBB2499511DEF78AC71CC9(_thisAdjusted, ___task0, ___continueOnCapturedContext1, method);
 }
 // System.Boolean System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<Vuplex.WebView.FindResult>::get_IsCompleted()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConfiguredTaskAwaiter_get_IsCompleted_m0EBB868E749523E521A16A54170E68778A838A4C_gshared (ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConfiguredTaskAwaiter_get_IsCompleted_m421682E3F39FB68B2266A2B5FFBCE21C5C58C129_gshared (ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B* __this, const RuntimeMethod* method) 
 {
 	{
-		Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23* L_0 = (Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23*)__this->___m_task_0;
+		Task_1_tFDA470395214E04F9B25F683581646238192AEF0* L_0 = (Task_1_tFDA470395214E04F9B25F683581646238192AEF0*)__this->___m_task_0;
 		NullCheck((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)L_0);
 		bool L_1;
 		L_1 = Task_get_IsCompleted_m942D6D536545EF059089398B19435591561BB831((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)L_0, NULL);
 		return L_1;
 	}
 }
-IL2CPP_EXTERN_C  bool ConfiguredTaskAwaiter_get_IsCompleted_m0EBB868E749523E521A16A54170E68778A838A4C_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  bool ConfiguredTaskAwaiter_get_IsCompleted_m421682E3F39FB68B2266A2B5FFBCE21C5C58C129_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
 {
-	ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237* _thisAdjusted;
+	ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237*>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B*>(__this + _offset);
 	bool _returnValue;
-	_returnValue = ConfiguredTaskAwaiter_get_IsCompleted_m0EBB868E749523E521A16A54170E68778A838A4C(_thisAdjusted, method);
+	_returnValue = ConfiguredTaskAwaiter_get_IsCompleted_m421682E3F39FB68B2266A2B5FFBCE21C5C58C129(_thisAdjusted, method);
 	return _returnValue;
 }
 // System.Void System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<Vuplex.WebView.FindResult>::UnsafeOnCompleted(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfiguredTaskAwaiter_UnsafeOnCompleted_mA5693DA417FFF5254A1FA64D796130399BFFBD7B_gshared (ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___continuation0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfiguredTaskAwaiter_UnsafeOnCompleted_m7A6A2A8DFF84A9F4137EF7DB962906169AAF0202_gshared (ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___continuation0, const RuntimeMethod* method) 
 {
 	{
-		Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23* L_0 = (Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23*)__this->___m_task_0;
+		Task_1_tFDA470395214E04F9B25F683581646238192AEF0* L_0 = (Task_1_tFDA470395214E04F9B25F683581646238192AEF0*)__this->___m_task_0;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___continuation0;
 		bool L_2 = (bool)__this->___m_continueOnCapturedContext_1;
 		TaskAwaiter_OnCompletedInternal_m8017DEDF7A41F58AFB178F31D417F47D3F83D5D4((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)L_0, L_1, L_2, (bool)0, NULL);
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void ConfiguredTaskAwaiter_UnsafeOnCompleted_mA5693DA417FFF5254A1FA64D796130399BFFBD7B_AdjustorThunk (RuntimeObject* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___continuation0, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void ConfiguredTaskAwaiter_UnsafeOnCompleted_m7A6A2A8DFF84A9F4137EF7DB962906169AAF0202_AdjustorThunk (RuntimeObject* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___continuation0, const RuntimeMethod* method)
 {
-	ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237* _thisAdjusted;
+	ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237*>(__this + _offset);
-	ConfiguredTaskAwaiter_UnsafeOnCompleted_mA5693DA417FFF5254A1FA64D796130399BFFBD7B(_thisAdjusted, ___continuation0, method);
+	_thisAdjusted = reinterpret_cast<ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B*>(__this + _offset);
+	ConfiguredTaskAwaiter_UnsafeOnCompleted_m7A6A2A8DFF84A9F4137EF7DB962906169AAF0202(_thisAdjusted, ___continuation0, method);
 }
 // TResult System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<Vuplex.WebView.FindResult>::GetResult()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 ConfiguredTaskAwaiter_GetResult_m6795FF4ECE7009676A4C4EC84714F61945C8B2F1_gshared (ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 ConfiguredTaskAwaiter_GetResult_m4986D59380099CACEF7A8C4F6D66DD6FE26064CF_gshared (ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B* __this, const RuntimeMethod* method) 
 {
 	{
-		Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23* L_0 = (Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23*)__this->___m_task_0;
+		Task_1_tFDA470395214E04F9B25F683581646238192AEF0* L_0 = (Task_1_tFDA470395214E04F9B25F683581646238192AEF0*)__this->___m_task_0;
 		TaskAwaiter_ValidateEnd_m6BB967A466C17A106BC547009EDE196266651751((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)L_0, NULL);
-		Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23* L_1 = (Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23*)__this->___m_task_0;
+		Task_1_tFDA470395214E04F9B25F683581646238192AEF0* L_1 = (Task_1_tFDA470395214E04F9B25F683581646238192AEF0*)__this->___m_task_0;
 		NullCheck(L_1);
-		FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 L_2;
-		L_2 = ((  FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 (*) (Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1)))(L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 L_2;
+		L_2 = ((  FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 (*) (Task_1_tFDA470395214E04F9B25F683581646238192AEF0*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1)))(L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		return L_2;
 	}
 }
-IL2CPP_EXTERN_C  FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 ConfiguredTaskAwaiter_GetResult_m6795FF4ECE7009676A4C4EC84714F61945C8B2F1_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 ConfiguredTaskAwaiter_GetResult_m4986D59380099CACEF7A8C4F6D66DD6FE26064CF_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
 {
-	ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237* _thisAdjusted;
+	ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237*>(__this + _offset);
-	FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 _returnValue;
-	_returnValue = ConfiguredTaskAwaiter_GetResult_m6795FF4ECE7009676A4C4EC84714F61945C8B2F1(_thisAdjusted, method);
+	_thisAdjusted = reinterpret_cast<ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B*>(__this + _offset);
+	FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 _returnValue;
+	_returnValue = ConfiguredTaskAwaiter_GetResult_m4986D59380099CACEF7A8C4F6D66DD6FE26064CF(_thisAdjusted, method);
 	return _returnValue;
 }
 #ifdef __clang__
@@ -24113,7 +24113,7 @@ IL_0049:
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void System.Threading.Tasks.ContinuationTaskFromResultTask`1<Vuplex.WebView.FindResult>::.ctor(System.Threading.Tasks.Task`1<TAntecedentResult>,System.Delegate,System.Object,System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.InternalTaskOptions)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContinuationTaskFromResultTask_1__ctor_m656699281F735018EC3288C3646739E3286B9D4C_gshared (ContinuationTaskFromResultTask_1_t76ECFA358DE08BFF92A2E1B8D91F08A7A8347AA0* __this, Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23* ___antecedent0, Delegate_t* ___action1, RuntimeObject* ___state2, int32_t ___creationOptions3, int32_t ___internalOptions4, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContinuationTaskFromResultTask_1__ctor_m89B53D7ED5EE94E47456A2C3BA55490DD1A7159B_gshared (ContinuationTaskFromResultTask_1_t5DB7C783B70531650F37B5FCE14E94C864435537* __this, Task_1_tFDA470395214E04F9B25F683581646238192AEF0* ___antecedent0, Delegate_t* ___action1, RuntimeObject* ___state2, int32_t ___creationOptions3, int32_t ___internalOptions4, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -24135,59 +24135,59 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContinuationTaskFromResultTask_1__ctor_m
 		int32_t L_5 = ___creationOptions3;
 		int32_t L_6 = ___internalOptions4;
 		Task__ctor_m5B0CC976AA85C96DBBDBFCE32829D1A2DC66941D((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)__this, L_0, L_1, L_3, L_4, L_5, L_6, (TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E*)NULL, NULL);
-		Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23* L_7 = ___antecedent0;
+		Task_1_tFDA470395214E04F9B25F683581646238192AEF0* L_7 = ___antecedent0;
 		__this->___m_antecedent_38 = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_antecedent_38), (void*)L_7);
 		return;
 	}
 }
 // System.Void System.Threading.Tasks.ContinuationTaskFromResultTask`1<Vuplex.WebView.FindResult>::InnerInvoke()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContinuationTaskFromResultTask_1_InnerInvoke_m24FDE6650E96716F910C59BBAF44C8991434BC82_gshared (ContinuationTaskFromResultTask_1_t76ECFA358DE08BFF92A2E1B8D91F08A7A8347AA0* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContinuationTaskFromResultTask_1_InnerInvoke_mE9F144181361CE78A69BA03ED92C49A94D94822C_gshared (ContinuationTaskFromResultTask_1_t5DB7C783B70531650F37B5FCE14E94C864435537* __this, const RuntimeMethod* method) 
 {
-	Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23* V_0 = NULL;
-	Action_1_t5558AF6B3D149F72EE3665A91F29E3470E626306* V_1 = NULL;
-	Action_2_tE04B03A7880E48417142CCC47442790DF577089F* V_2 = NULL;
+	Task_1_tFDA470395214E04F9B25F683581646238192AEF0* V_0 = NULL;
+	Action_1_t57510690D75FCE5C323ECF55FB5797E21EBD28CC* V_1 = NULL;
+	Action_2_t92EADDBBA43820AE7C598C14E72C98B1EC7E2A5F* V_2 = NULL;
 	{
-		Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23* L_0 = (Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23*)__this->___m_antecedent_38;
+		Task_1_tFDA470395214E04F9B25F683581646238192AEF0* L_0 = (Task_1_tFDA470395214E04F9B25F683581646238192AEF0*)__this->___m_antecedent_38;
 		V_0 = L_0;
-		__this->___m_antecedent_38 = (Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_antecedent_38), (void*)(Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23*)NULL);
-		Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23* L_1 = V_0;
+		__this->___m_antecedent_38 = (Task_1_tFDA470395214E04F9B25F683581646238192AEF0*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_antecedent_38), (void*)(Task_1_tFDA470395214E04F9B25F683581646238192AEF0*)NULL);
+		Task_1_tFDA470395214E04F9B25F683581646238192AEF0* L_1 = V_0;
 		NullCheck((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)L_1);
 		bool L_2;
 		L_2 = Task_NotifyDebuggerOfWaitCompletionIfNecessary_mC72FCA6A404CB3384E9799C079299A975C9055DE((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)L_1, NULL);
 		Delegate_t* L_3 = (Delegate_t*)((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)__this)->___m_action_2;
-		V_1 = ((Action_1_t5558AF6B3D149F72EE3665A91F29E3470E626306*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->klass->rgctx_data, 0)));
-		Action_1_t5558AF6B3D149F72EE3665A91F29E3470E626306* L_4 = V_1;
+		V_1 = ((Action_1_t57510690D75FCE5C323ECF55FB5797E21EBD28CC*)IsInst((RuntimeObject*)L_3, il2cpp_rgctx_data(method->klass->rgctx_data, 0)));
+		Action_1_t57510690D75FCE5C323ECF55FB5797E21EBD28CC* L_4 = V_1;
 		if (!L_4)
 		{
 			goto IL_002c;
 		}
 	}
 	{
-		Action_1_t5558AF6B3D149F72EE3665A91F29E3470E626306* L_5 = V_1;
-		Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23* L_6 = V_0;
+		Action_1_t57510690D75FCE5C323ECF55FB5797E21EBD28CC* L_5 = V_1;
+		Task_1_tFDA470395214E04F9B25F683581646238192AEF0* L_6 = V_0;
 		NullCheck(L_5);
-		((  void (*) (Action_1_t5558AF6B3D149F72EE3665A91F29E3470E626306*, Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 1)))(L_5, L_6, il2cpp_rgctx_method(method->klass->rgctx_data, 1));
+		((  void (*) (Action_1_t57510690D75FCE5C323ECF55FB5797E21EBD28CC*, Task_1_tFDA470395214E04F9B25F683581646238192AEF0*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 1)))(L_5, L_6, il2cpp_rgctx_method(method->klass->rgctx_data, 1));
 		return;
 	}
 
 IL_002c:
 	{
 		Delegate_t* L_7 = (Delegate_t*)((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)__this)->___m_action_2;
-		V_2 = ((Action_2_tE04B03A7880E48417142CCC47442790DF577089F*)IsInst((RuntimeObject*)L_7, il2cpp_rgctx_data(method->klass->rgctx_data, 2)));
-		Action_2_tE04B03A7880E48417142CCC47442790DF577089F* L_8 = V_2;
+		V_2 = ((Action_2_t92EADDBBA43820AE7C598C14E72C98B1EC7E2A5F*)IsInst((RuntimeObject*)L_7, il2cpp_rgctx_data(method->klass->rgctx_data, 2)));
+		Action_2_t92EADDBBA43820AE7C598C14E72C98B1EC7E2A5F* L_8 = V_2;
 		if (!L_8)
 		{
 			goto IL_0049;
 		}
 	}
 	{
-		Action_2_tE04B03A7880E48417142CCC47442790DF577089F* L_9 = V_2;
-		Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23* L_10 = V_0;
+		Action_2_t92EADDBBA43820AE7C598C14E72C98B1EC7E2A5F* L_9 = V_2;
+		Task_1_tFDA470395214E04F9B25F683581646238192AEF0* L_10 = V_0;
 		RuntimeObject* L_11 = (RuntimeObject*)((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)__this)->___m_stateObject_3;
 		NullCheck(L_9);
-		((  void (*) (Action_2_tE04B03A7880E48417142CCC47442790DF577089F*, Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23*, RuntimeObject*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_9, L_10, L_11, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+		((  void (*) (Action_2_t92EADDBBA43820AE7C598C14E72C98B1EC7E2A5F*, Task_1_tFDA470395214E04F9B25F683581646238192AEF0*, RuntimeObject*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_9, L_10, L_11, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
 		return;
 	}
 
@@ -32921,10 +32921,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ConfiguredTaskAwaiter_tFE1F3E8785
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237 ConfiguredTaskAwaitable_1_GetAwaiter_mE1F32A1C6FE47278A365FDF2B9568CA32946CB7A_gshared_inline (ConfiguredTaskAwaitable_1_tC87A11B468B02016B8A1DB047C1A83D2B9EF0419* __this, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B ConfiguredTaskAwaitable_1_GetAwaiter_m8BADE678898DDEDA3A989ADAEC3688879A861DC8_gshared_inline (ConfiguredTaskAwaitable_1_t319DF7B5C492D1AC531D960DF8ADFE670E007BD7* __this, const RuntimeMethod* method) 
 {
 	{
-		ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237 L_0 = (ConfiguredTaskAwaiter_t61BFB32115CDE4EE1371B5A2A14C71C8415B1237)__this->___m_configuredTaskAwaiter_0;
+		ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B L_0 = (ConfiguredTaskAwaiter_tFC54F19A297B129A51E5285A54FAD20C6B6E626B)__this->___m_configuredTaskAwaiter_0;
 		return L_0;
 	}
 }
