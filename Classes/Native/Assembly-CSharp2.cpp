@@ -5898,6 +5898,8 @@ struct CustomUIController_tB313197716B9B4AD415A8A6B488FAD900CFEE62C  : public Mo
 	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___videoSuccessText_19;
 	// System.Boolean CustomUIController::openMenu
 	bool ___openMenu_20;
+	// System.Boolean CustomUIController::loaderActive
+	bool ___loaderActive_21;
 };
 
 struct CustomUIController_tB313197716B9B4AD415A8A6B488FAD900CFEE62C_StaticFields

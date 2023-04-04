@@ -476,10 +476,10 @@ extern void AkazeVideo_set_flip_horizontal_mA23A211AAB25DF0B702B23F69FE6D7002312
 extern void AkazeVideo_get_flip_vertical_m844919B44EC8794AAEAB2E3125DFEA9BC6FB3838 (void);
 // 0x000000E7 System.Void AkazeVideo::set_flip_vertical(System.Boolean)
 extern void AkazeVideo_set_flip_vertical_mA57898EE09C28C252FCB40DB48248983E46D9C38 (void);
-// 0x000000E8 System.Int32 AkazeVideo::get_from()
-extern void AkazeVideo_get_from_m491C78A9F8D507959CD44351C59180E072ECAE71 (void);
-// 0x000000E9 System.Void AkazeVideo::set_from(System.Int32)
-extern void AkazeVideo_set_from_mAAFC364DEC7D41F163B811AF77D7E853653779B9 (void);
+// 0x000000E8 System.Double AkazeVideo::get_from()
+extern void AkazeVideo_get_from_m704AA266B2996846E42C471C8B5F820C24CF0EAD (void);
+// 0x000000E9 System.Void AkazeVideo::set_from(System.Double)
+extern void AkazeVideo_set_from_m7A0FDA34B4D738E3AB125DA210D83D3C8A9AD1D1 (void);
 // 0x000000EA System.Double AkazeVideo::get_to()
 extern void AkazeVideo_get_to_m05A52BC03B5E3B952A7432356BE5BBA29E86F8FE (void);
 // 0x000000EB System.Void AkazeVideo::set_to(System.Double)
@@ -5640,8 +5640,8 @@ static Il2CppMethodPointer s_methodPointers[2793] =
 	AkazeVideo_set_flip_horizontal_mA23A211AAB25DF0B702B23F69FE6D70023128AF3,
 	AkazeVideo_get_flip_vertical_m844919B44EC8794AAEAB2E3125DFEA9BC6FB3838,
 	AkazeVideo_set_flip_vertical_mA57898EE09C28C252FCB40DB48248983E46D9C38,
-	AkazeVideo_get_from_m491C78A9F8D507959CD44351C59180E072ECAE71,
-	AkazeVideo_set_from_mAAFC364DEC7D41F163B811AF77D7E853653779B9,
+	AkazeVideo_get_from_m704AA266B2996846E42C471C8B5F820C24CF0EAD,
+	AkazeVideo_set_from_m7A0FDA34B4D738E3AB125DA210D83D3C8A9AD1D1,
 	AkazeVideo_get_to_m05A52BC03B5E3B952A7432356BE5BBA29E86F8FE,
 	AkazeVideo_set_to_mE30418A292B5D60C38DF255C846305C056E43C0A,
 	AkazeVideo_get_color_mFDA5D4B46763D69019C6D9AC4B3F12F673BEE953,
@@ -8545,8 +8545,8 @@ static const int32_t s_InvokerIndices[2793] =
 	6845,
 	8422,
 	6845,
-	8503,
-	6930,
+	8456,
+	6882,
 	8456,
 	6882,
 	8537,

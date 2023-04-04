@@ -1687,8 +1687,8 @@ struct AkazeVideo_t83C3E0B85A77E09E1DBC8B06A09ACFA38FE099C9  : public RuntimeObj
 	bool ___U3Cflip_horizontalU3Ek__BackingField_2;
 	// System.Boolean AkazeVideo::<flip_vertical>k__BackingField
 	bool ___U3Cflip_verticalU3Ek__BackingField_3;
-	// System.Int32 AkazeVideo::<from>k__BackingField
-	int32_t ___U3CfromU3Ek__BackingField_4;
+	// System.Double AkazeVideo::<from>k__BackingField
+	double ___U3CfromU3Ek__BackingField_4;
 	// System.Double AkazeVideo::<to>k__BackingField
 	double ___U3CtoU3Ek__BackingField_5;
 	// System.String AkazeVideo::<color>k__BackingField
@@ -5186,6 +5186,8 @@ struct CustomUIController_tB313197716B9B4AD415A8A6B488FAD900CFEE62C  : public Mo
 	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___videoSuccessText_19;
 	// System.Boolean CustomUIController::openMenu
 	bool ___openMenu_20;
+	// System.Boolean CustomUIController::loaderActive
+	bool ___loaderActive_21;
 };
 
 struct CustomUIController_tB313197716B9B4AD415A8A6B488FAD900CFEE62C_StaticFields
@@ -10910,21 +10912,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkazeVideo_set_flip_vertical_mA57898EE09
 		return;
 	}
 }
-// System.Int32 AkazeVideo::get_from()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AkazeVideo_get_from_m491C78A9F8D507959CD44351C59180E072ECAE71 (AkazeVideo_t83C3E0B85A77E09E1DBC8B06A09ACFA38FE099C9* __this, const RuntimeMethod* method) 
+// System.Double AkazeVideo::get_from()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double AkazeVideo_get_from_m704AA266B2996846E42C471C8B5F820C24CF0EAD (AkazeVideo_t83C3E0B85A77E09E1DBC8B06A09ACFA38FE099C9* __this, const RuntimeMethod* method) 
 {
 	{
-		// public int from { get; set; }
-		int32_t L_0 = __this->___U3CfromU3Ek__BackingField_4;
+		// public double from { get; set; }
+		double L_0 = __this->___U3CfromU3Ek__BackingField_4;
 		return L_0;
 	}
 }
-// System.Void AkazeVideo::set_from(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkazeVideo_set_from_mAAFC364DEC7D41F163B811AF77D7E853653779B9 (AkazeVideo_t83C3E0B85A77E09E1DBC8B06A09ACFA38FE099C9* __this, int32_t ___value0, const RuntimeMethod* method) 
+// System.Void AkazeVideo::set_from(System.Double)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AkazeVideo_set_from_m7A0FDA34B4D738E3AB125DA210D83D3C8A9AD1D1 (AkazeVideo_t83C3E0B85A77E09E1DBC8B06A09ACFA38FE099C9* __this, double ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public int from { get; set; }
-		int32_t L_0 = ___value0;
+		// public double from { get; set; }
+		double L_0 = ___value0;
 		__this->___U3CfromU3Ek__BackingField_4 = L_0;
 		return;
 	}
