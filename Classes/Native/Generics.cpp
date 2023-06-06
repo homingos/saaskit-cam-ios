@@ -319,9 +319,9 @@ struct U3CU3Ec__DisplayClass17_0_1_t2B15CAC58697E814BC5DCB25B4947CD8A1A91E29;
 // BestHTTP.PlatformSupport.Threading.ThreadedRunner/<>c__DisplayClass1_0`2<System.Object,System.Object>
 struct U3CU3Ec__DisplayClass1_0_2_t78F990B1911D583D162A3D75C26B5CA34550E89E;
 // Vuplex.WebView.Internal.NativeKeyboardListener/<>c__DisplayClass20_0`2<System.Object,System.Boolean>
-struct U3CU3Ec__DisplayClass20_0_2_t711454894F15638BCAA4330A0A3CC80846B13BF2;
+struct U3CU3Ec__DisplayClass20_0_2_tF009235867E7A6EE5D729173332A432C927EC15F;
 // Vuplex.WebView.Internal.NativeKeyboardListener/<>c__DisplayClass20_0`2<System.Object,System.Object>
-struct U3CU3Ec__DisplayClass20_0_2_t5E7AD99D07ABDF22255F1C71DDBDD7BC26CEF24D;
+struct U3CU3Ec__DisplayClass20_0_2_t3F31FA70A1202404E9B5FAA9F6C650241CE37E09;
 // BestHTTP.PlatformSupport.Threading.ThreadedRunner/<>c__DisplayClass2_0`3<System.Object,System.Object,System.Object>
 struct U3CU3Ec__DisplayClass2_0_3_t3AE04CD1CBB31297AF06AA1C58F7964AEE652FC6;
 // System.Threading.Tasks.TaskFactory`1/<>c__DisplayClass35_0<System.Nullable`1<System.Boolean>>
@@ -347,7 +347,7 @@ struct U3CU3Ec__DisplayClass35_0_t87BE690002D787A5A3537E340CC55E015C7E6F1F;
 // System.Threading.Tasks.TaskFactory`1/<>c__DisplayClass35_0<System.Char>
 struct U3CU3Ec__DisplayClass35_0_t2BBFECAA451116F72E3C4A23E630DD5EDD1E9F37;
 // System.Threading.Tasks.TaskFactory`1/<>c__DisplayClass35_0<Vuplex.WebView.FindResult>
-struct U3CU3Ec__DisplayClass35_0_t68807C02701E481DDE43338518F195F99B07FF97;
+struct U3CU3Ec__DisplayClass35_0_tCF353193AB935B32460D940DEA6AA2E35A5F09E4;
 // System.Threading.Tasks.TaskFactory`1/<>c__DisplayClass35_0<System.Int32>
 struct U3CU3Ec__DisplayClass35_0_tFFEA89859EAD073D30214FE571A06387716CC107;
 // System.Threading.Tasks.TaskFactory`1/<>c__DisplayClass35_0<System.Object>
@@ -791,7 +791,7 @@ struct Func_2_tE48A03159F635D127212FD727ACB9FB31A26811F;
 // System.Func`2<System.IAsyncResult,System.Char>
 struct Func_2_tD6BE8F24EC6D330941C3B3B9D957F24D21636C0B;
 // System.Func`2<System.IAsyncResult,Vuplex.WebView.FindResult>
-struct Func_2_tBA8729FCA831B4F1CAEDB7F77E9F5EFE1E477820;
+struct Func_2_t9EE9850A3642906D82DA0A9CC3D2763D7EC41F50;
 // System.Func`2<System.IAsyncResult,System.Int32>
 struct Func_2_t220F4BE926B8D4493F769800A03F8F5ACE5CD4C0;
 // System.Func`2<System.IAsyncResult,System.Object>
@@ -1055,7 +1055,7 @@ struct TaskFactory_1_tFAEAC22A1E986463E6956C344A78A7C7197288E0;
 // System.Threading.Tasks.TaskFactory`1<System.Char>
 struct TaskFactory_1_tAE55B2107FC11B3C6C510A21445CAC987671E7FD;
 // System.Threading.Tasks.TaskFactory`1<Vuplex.WebView.FindResult>
-struct TaskFactory_1_tC50D36A65928E5278DB93B80884C4BCCA6E68722;
+struct TaskFactory_1_tFDFBDF20BD9AA396AAE90044E3A7DEA1D9D6D3F2;
 // System.Threading.Tasks.TaskFactory`1<System.Int32>
 struct TaskFactory_1_t0BEF06D58E44525B9135AB0B22D016856EE69FF3;
 // System.Threading.Tasks.TaskFactory`1<System.Object>
@@ -1085,7 +1085,7 @@ struct Task_1_t824317F4B958F7512E8F7300511752937A6C6043;
 // System.Threading.Tasks.Task`1<System.Char>
 struct Task_1_tF70626CA48A1BC439512EBC23E365CCCE98C92F9;
 // System.Threading.Tasks.Task`1<Vuplex.WebView.FindResult>
-struct Task_1_tFDA470395214E04F9B25F683581646238192AEF0;
+struct Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23;
 // System.Threading.Tasks.Task`1<System.Int32>
 struct Task_1_t4C228DE57804012969575431CFF12D57C875552D;
 // System.Threading.Tasks.Task`1<System.Object>
@@ -2592,7 +2592,7 @@ struct U3CU3Ec__DisplayClass1_0_2_t78F990B1911D583D162A3D75C26B5CA34550E89E  : p
 };
 
 // Vuplex.WebView.Internal.NativeKeyboardListener/<>c__DisplayClass20_0`2<System.Object,System.Boolean>
-struct U3CU3Ec__DisplayClass20_0_2_t711454894F15638BCAA4330A0A3CC80846B13BF2  : public RuntimeObject
+struct U3CU3Ec__DisplayClass20_0_2_tF009235867E7A6EE5D729173332A432C927EC15F  : public RuntimeObject
 {
 	// System.Collections.Generic.Dictionary`2<TArg,TReturn> Vuplex.WebView.Internal.NativeKeyboardListener/<>c__DisplayClass20_0`2::cache
 	Dictionary_2_tDBC7BB75C617E4886F85171F2758C7996F98EC36* ___cache_0;
@@ -2601,7 +2601,7 @@ struct U3CU3Ec__DisplayClass20_0_2_t711454894F15638BCAA4330A0A3CC80846B13BF2  : 
 };
 
 // Vuplex.WebView.Internal.NativeKeyboardListener/<>c__DisplayClass20_0`2<System.Object,System.Object>
-struct U3CU3Ec__DisplayClass20_0_2_t5E7AD99D07ABDF22255F1C71DDBDD7BC26CEF24D  : public RuntimeObject
+struct U3CU3Ec__DisplayClass20_0_2_t3F31FA70A1202404E9B5FAA9F6C650241CE37E09  : public RuntimeObject
 {
 	// System.Collections.Generic.Dictionary`2<TArg,TReturn> Vuplex.WebView.Internal.NativeKeyboardListener/<>c__DisplayClass20_0`2::cache
 	Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* ___cache_0;
@@ -2744,14 +2744,14 @@ struct U3CU3Ec__DisplayClass35_0_t2BBFECAA451116F72E3C4A23E630DD5EDD1E9F37  : pu
 };
 
 // System.Threading.Tasks.TaskFactory`1/<>c__DisplayClass35_0<Vuplex.WebView.FindResult>
-struct U3CU3Ec__DisplayClass35_0_t68807C02701E481DDE43338518F195F99B07FF97  : public RuntimeObject
+struct U3CU3Ec__DisplayClass35_0_tCF353193AB935B32460D940DEA6AA2E35A5F09E4  : public RuntimeObject
 {
 	// System.Func`2<System.IAsyncResult,TResult> System.Threading.Tasks.TaskFactory`1/<>c__DisplayClass35_0::endFunction
-	Func_2_tBA8729FCA831B4F1CAEDB7F77E9F5EFE1E477820* ___endFunction_0;
+	Func_2_t9EE9850A3642906D82DA0A9CC3D2763D7EC41F50* ___endFunction_0;
 	// System.Action`1<System.IAsyncResult> System.Threading.Tasks.TaskFactory`1/<>c__DisplayClass35_0::endAction
 	Action_1_t8AE9CB3E5DC764211C9FEAC59DE7B65AD1444780* ___endAction_1;
 	// System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.TaskFactory`1/<>c__DisplayClass35_0::promise
-	Task_1_tFDA470395214E04F9B25F683581646238192AEF0* ___promise_2;
+	Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23* ___promise_2;
 };
 
 // System.Threading.Tasks.TaskFactory`1/<>c__DisplayClass35_0<System.Int32>
@@ -5627,7 +5627,7 @@ struct FieldInfo_t  : public MemberInfo_t
 };
 
 // Vuplex.WebView.FindResult
-struct FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 
+struct FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 
 {
 	// System.Int32 Vuplex.WebView.FindResult::CurrentMatchIndex
 	int32_t ___CurrentMatchIndex_0;
@@ -6964,16 +6964,16 @@ struct Task_1_t92877BA87ADE0900BD5EBC3E66E94C5598602A9A_StaticFields
 };
 
 // System.Threading.Tasks.Task`1<Vuplex.WebView.FindResult>
-struct Task_1_tFDA470395214E04F9B25F683581646238192AEF0  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
+struct Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
 {
 	// TResult System.Threading.Tasks.Task`1::m_result
-	FindResult_tAC6DF4CE5A34124B141D57CD24A2AB81936978E9 ___m_result_38;
+	FindResult_t271B3A2E9CE1F9FF8F0E5D825EB91B49E769EC56 ___m_result_38;
 };
 
-struct Task_1_tFDA470395214E04F9B25F683581646238192AEF0_StaticFields
+struct Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23_StaticFields
 {
 	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
-	TaskFactory_1_tC50D36A65928E5278DB93B80884C4BCCA6E68722* ___s_defaultFactory_39;
+	TaskFactory_1_tFDFBDF20BD9AA396AAE90044E3A7DEA1D9D6D3F2* ___s_defaultFactory_39;
 };
 
 // System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>
@@ -8187,7 +8187,7 @@ struct Func_2_tD6BE8F24EC6D330941C3B3B9D957F24D21636C0B  : public MulticastDeleg
 };
 
 // System.Func`2<System.IAsyncResult,Vuplex.WebView.FindResult>
-struct Func_2_tBA8729FCA831B4F1CAEDB7F77E9F5EFE1E477820  : public MulticastDelegate_t
+struct Func_2_t9EE9850A3642906D82DA0A9CC3D2763D7EC41F50  : public MulticastDelegate_t
 {
 };
 
@@ -14198,7 +14198,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0_2_U3CRunShortLi
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void Vuplex.WebView.Internal.NativeKeyboardListener/<>c__DisplayClass20_0`2<System.Object,System.Boolean>::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass20_0_2__ctor_mEA76CF484ECA5B508B431A68B15E7286D7D58892_gshared (U3CU3Ec__DisplayClass20_0_2_t711454894F15638BCAA4330A0A3CC80846B13BF2* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass20_0_2__ctor_m944D51200D6CA2E476795B2B6158BBD5E3471232_gshared (U3CU3Ec__DisplayClass20_0_2_tF009235867E7A6EE5D729173332A432C927EC15F* __this, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
@@ -14206,7 +14206,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass20_0_2__ctor_mEA76C
 	}
 }
 // TReturn Vuplex.WebView.Internal.NativeKeyboardListener/<>c__DisplayClass20_0`2<System.Object,System.Boolean>::<_memoize>b__0(TArg)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass20_0_2_U3C_memoizeU3Eb__0_m0D86B4A92B705F24AF863249B1C1E3B1059EA7A3_gshared (U3CU3Ec__DisplayClass20_0_2_t711454894F15638BCAA4330A0A3CC80846B13BF2* __this, RuntimeObject* ___arg0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass20_0_2_U3C_memoizeU3Eb__0_mA0E98123B56EF22C957502419885B1259D2CE59A_gshared (U3CU3Ec__DisplayClass20_0_2_tF009235867E7A6EE5D729173332A432C927EC15F* __this, RuntimeObject* ___arg0, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	{
@@ -14256,7 +14256,7 @@ IL_0012:
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void Vuplex.WebView.Internal.NativeKeyboardListener/<>c__DisplayClass20_0`2<System.Object,System.Object>::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass20_0_2__ctor_m499EA39FBA0A149FBC5EF208DBC69BE4502C19F7_gshared (U3CU3Ec__DisplayClass20_0_2_t5E7AD99D07ABDF22255F1C71DDBDD7BC26CEF24D* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass20_0_2__ctor_mFBF43790ABC8F6CD257C08B52E279DD421FF9288_gshared (U3CU3Ec__DisplayClass20_0_2_t3F31FA70A1202404E9B5FAA9F6C650241CE37E09* __this, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
@@ -14264,7 +14264,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass20_0_2__ctor_m499EA
 	}
 }
 // TReturn Vuplex.WebView.Internal.NativeKeyboardListener/<>c__DisplayClass20_0`2<System.Object,System.Object>::<_memoize>b__0(TArg)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec__DisplayClass20_0_2_U3C_memoizeU3Eb__0_m1C775C1FCD058557343FB3EFED2B4C25F76AEBEC_gshared (U3CU3Ec__DisplayClass20_0_2_t5E7AD99D07ABDF22255F1C71DDBDD7BC26CEF24D* __this, RuntimeObject* ___arg0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec__DisplayClass20_0_2_U3C_memoizeU3Eb__0_m5F0E597E68F7D3EB3A1F184D74D6D5207EE0242F_gshared (U3CU3Ec__DisplayClass20_0_2_t3F31FA70A1202404E9B5FAA9F6C650241CE37E09* __this, RuntimeObject* ___arg0, const RuntimeMethod* method) 
 {
 	RuntimeObject* V_0 = NULL;
 	{
@@ -14896,7 +14896,7 @@ IL_0021:
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void System.Threading.Tasks.TaskFactory`1/<>c__DisplayClass35_0<Vuplex.WebView.FindResult>::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0__ctor_mA28AAD0B99C6287CAC71F152FA7D855602A7360C_gshared (U3CU3Ec__DisplayClass35_0_t68807C02701E481DDE43338518F195F99B07FF97* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0__ctor_mB194F45C5844A6A46F4D8374DD01290EF158F9B1_gshared (U3CU3Ec__DisplayClass35_0_tCF353193AB935B32460D940DEA6AA2E35A5F09E4* __this, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
@@ -14904,7 +14904,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0__ctor_mA28AAD0
 	}
 }
 // System.Void System.Threading.Tasks.TaskFactory`1/<>c__DisplayClass35_0<Vuplex.WebView.FindResult>::<FromAsyncImpl>b__0(System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0_U3CFromAsyncImplU3Eb__0_mD2B31CA05DC05867D1463EFDF317AF50D4E4128C_gshared (U3CU3Ec__DisplayClass35_0_t68807C02701E481DDE43338518F195F99B07FF97* __this, RuntimeObject* ___iar0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0_U3CFromAsyncImplU3Eb__0_mD6DA9E148DDBC5C7EA652A314D5001AD06A34EEA_gshared (U3CU3Ec__DisplayClass35_0_tCF353193AB935B32460D940DEA6AA2E35A5F09E4* __this, RuntimeObject* ___iar0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -14924,10 +14924,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0_U3CFromAsyncIm
 	}
 	{
 		RuntimeObject* L_2 = ___iar0;
-		Func_2_tBA8729FCA831B4F1CAEDB7F77E9F5EFE1E477820* L_3 = (Func_2_tBA8729FCA831B4F1CAEDB7F77E9F5EFE1E477820*)__this->___endFunction_0;
+		Func_2_t9EE9850A3642906D82DA0A9CC3D2763D7EC41F50* L_3 = (Func_2_t9EE9850A3642906D82DA0A9CC3D2763D7EC41F50*)__this->___endFunction_0;
 		Action_1_t8AE9CB3E5DC764211C9FEAC59DE7B65AD1444780* L_4 = (Action_1_t8AE9CB3E5DC764211C9FEAC59DE7B65AD1444780*)__this->___endAction_1;
-		Task_1_tFDA470395214E04F9B25F683581646238192AEF0* L_5 = (Task_1_tFDA470395214E04F9B25F683581646238192AEF0*)__this->___promise_2;
-		((  void (*) (RuntimeObject*, Func_2_tBA8729FCA831B4F1CAEDB7F77E9F5EFE1E477820*, Action_1_t8AE9CB3E5DC764211C9FEAC59DE7B65AD1444780*, Task_1_tFDA470395214E04F9B25F683581646238192AEF0*, bool, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(L_2, L_3, L_4, L_5, (bool)1, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
+		Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23* L_5 = (Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23*)__this->___promise_2;
+		((  void (*) (RuntimeObject*, Func_2_t9EE9850A3642906D82DA0A9CC3D2763D7EC41F50*, Action_1_t8AE9CB3E5DC764211C9FEAC59DE7B65AD1444780*, Task_1_t1F0D5128D9133D121C907ED17D0E624A58AD2D23*, bool, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(L_2, L_3, L_4, L_5, (bool)1, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
 	}
 
 IL_0021:

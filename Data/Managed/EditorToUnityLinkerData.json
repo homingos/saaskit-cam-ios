@@ -88,6 +88,13 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "ConfigManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "CustomInitializationErrorHandler",
             "moduleName": "",
             "usedInScenes": []
@@ -128,14 +135,28 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "downloadVideo",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "EditorExtension",
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "EventLogger",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
@@ -165,7 +186,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -173,6 +194,13 @@
             "nativeClass": "GlobalGameManager",
             "fullManagedTypeName": "",
             "moduleName": "Core",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "GyroscopeCameraRotation",
+            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -231,7 +259,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -249,20 +277,13 @@
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "CommonScripts.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "MessageBox",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
             "managedAssemblyName": "",
             "nativeClass": "NamedObject",
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -286,7 +307,7 @@
             "moduleName": "AI",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -609,14 +630,14 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "ScanBarAnim",
+            "fullManagedTypeName": "ScrollHandler",
             "moduleName": "",
             "usedInScenes": []
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "ScrollHandler",
+            "fullManagedTypeName": "select_update",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -628,24 +649,122 @@
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "StartCamera",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "CommonScripts.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "StatusMessage",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
             "managedAssemblyName": "",
             "nativeClass": "StreamingManager",
             "fullManagedTypeName": "",
             "moduleName": "Streaming",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "tap_to_scan",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Tayx.Graphy.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Tayx.Graphy.Advanced.G_AdvancedData",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Tayx.Graphy.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Tayx.Graphy.Audio.G_AudioGraph",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Tayx.Graphy.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Tayx.Graphy.Audio.G_AudioManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Tayx.Graphy.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Tayx.Graphy.Audio.G_AudioMonitor",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Tayx.Graphy.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Tayx.Graphy.Audio.G_AudioText",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Tayx.Graphy.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Tayx.Graphy.Fps.G_FpsGraph",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Tayx.Graphy.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Tayx.Graphy.Fps.G_FpsManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Tayx.Graphy.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Tayx.Graphy.Fps.G_FpsMonitor",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Tayx.Graphy.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Tayx.Graphy.Fps.G_FpsText",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Tayx.Graphy.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Tayx.Graphy.GraphyDebugger",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Tayx.Graphy.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Tayx.Graphy.GraphyManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Tayx.Graphy.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Tayx.Graphy.Ram.G_RamGraph",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Tayx.Graphy.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Tayx.Graphy.Ram.G_RamManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Tayx.Graphy.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Tayx.Graphy.Ram.G_RamMonitor",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Tayx.Graphy.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Tayx.Graphy.Ram.G_RamText",
+            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -686,6 +805,20 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "toastKiller",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TouchCameraRotation",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "UIManager",
             "moduleName": "",
             "usedInScenes": []
@@ -696,7 +829,8 @@
             "fullManagedTypeName": "UnityEditor.Animations.AnimatorController",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -727,7 +861,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -778,7 +912,8 @@
             "fullManagedTypeName": "UnityEngine.AnimationClip",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -787,7 +922,8 @@
             "fullManagedTypeName": "UnityEngine.Animator",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -797,7 +933,7 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -816,7 +952,7 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -844,7 +980,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -854,7 +990,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -864,7 +1000,7 @@
             "moduleName": "UI",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -873,8 +1009,7 @@
             "fullManagedTypeName": "UnityEngine.CanvasGroup",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity"
             ]
         },
         {
@@ -884,7 +1019,7 @@
             "moduleName": "UI",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -894,7 +1029,7 @@
             "moduleName": "Physics",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -904,7 +1039,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -942,7 +1077,7 @@
             "moduleName": "TextRendering",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -952,7 +1087,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -971,7 +1106,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -981,7 +1116,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -991,7 +1126,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -1001,7 +1136,7 @@
             "moduleName": "Physics",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -1011,7 +1146,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -1021,7 +1156,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -1031,7 +1166,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -1040,7 +1175,8 @@
             "fullManagedTypeName": "UnityEngine.Motion",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -1050,7 +1186,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -1067,7 +1203,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -1077,7 +1213,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -1279,6 +1415,13 @@
         {
             "managedAssemblyName": "Unity.RenderPipelines.Universal.Runtime.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Rendering.Universal.Bloom",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.RenderPipelines.Universal.Runtime.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.Rendering.Universal.PostProcessData",
             "moduleName": "",
             "usedInScenes": []
@@ -1287,6 +1430,13 @@
             "managedAssemblyName": "Unity.RenderPipelines.Universal.Runtime.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusion",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.RenderPipelines.Universal.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Rendering.Universal.Tonemapping",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -1328,7 +1478,21 @@
         {
             "managedAssemblyName": "Unity.RenderPipelines.Universal.Runtime.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Rendering.Universal.Vignette",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.RenderPipelines.Universal.Runtime.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.Rendering.Universal.XRSystemData",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.RenderPipelines.Core.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Rendering.VolumeProfile",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -1339,7 +1503,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -1357,7 +1521,8 @@
             "fullManagedTypeName": "UnityEngine.RuntimeAnimatorController",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Flam/Scenes/FlamCamera.unity"
+                "Assets/Flam/Scenes/FlamCamera.unity",
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -1367,7 +1532,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -1386,7 +1551,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -1405,7 +1570,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -1415,7 +1580,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -1425,7 +1590,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -1435,7 +1600,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity",
-                "Assets/Flam/Scenes/PermissionScene.unity"
+                "Assets/Flam/Scenes/Launcher.unity"
             ]
         },
         {
@@ -1546,6 +1711,13 @@
         {
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.Shadow",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.UI.Slider",
             "moduleName": "",
             "usedInScenes": []
@@ -1579,6 +1751,13 @@
             "usedInScenes": [
                 "Assets/Flam/Scenes/FlamCamera.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "VideoPlacer",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "Vuforia.Unity.Engine.dll",
@@ -1618,6 +1797,13 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "vuforia_frame_rate_setter",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "VuforiaCloudDataHandler",
             "moduleName": "",
             "usedInScenes": []
@@ -1630,56 +1816,56 @@
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp.dll",
+            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Vuplex.WebView.CanvasKeyboard",
             "moduleName": "",
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp.dll",
+            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Vuplex.WebView.CanvasPointerInputDetector",
             "moduleName": "",
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp.dll",
+            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Vuplex.WebView.CanvasWebViewPrefab",
             "moduleName": "",
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp.dll",
+            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Vuplex.WebView.DefaultPointerInputDetector",
             "moduleName": "",
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp.dll",
+            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Vuplex.WebView.Internal.CanvasViewportMaterialView",
             "moduleName": "",
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp.dll",
+            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Vuplex.WebView.Internal.ViewportMaterialView",
             "moduleName": "",
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp.dll",
+            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Vuplex.WebView.Keyboard",
             "moduleName": "",
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp.dll",
+            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Vuplex.WebView.WebViewPrefab",
             "moduleName": "",

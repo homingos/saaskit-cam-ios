@@ -954,6 +954,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral6FFB662544B7CC75E90E30E825D1C3A41E593CBC
 IL2CPP_EXTERN_C String_t* _stringLiteral7F4C724BD10943E8B0B17A6E069F992E219EF5E8;
 IL2CPP_EXTERN_C String_t* _stringLiteral83049B131A8927B0644EED69956A38C65EF8D79D;
 IL2CPP_EXTERN_C String_t* _stringLiteral8576BA38A6B54451F2DCD524CBE7A6AEAD448846;
+IL2CPP_EXTERN_C String_t* _stringLiteral8C9E00B57BC60BA8DFE775104296F0D55A788667;
 IL2CPP_EXTERN_C String_t* _stringLiteral92BF5D2AB9AD1A68596BC5F92B31A8D6A6C3F5BF;
 IL2CPP_EXTERN_C String_t* _stringLiteral95110EC88C6D1C778A2B3129FA272025371ADA3A;
 IL2CPP_EXTERN_C String_t* _stringLiteral9D5A3AE3D2B0B5E5AF5AB489000D9B88FA11E907;
@@ -7756,6 +7757,8 @@ struct ApiKeys_t8899E8A7900D4C068386E7A4DAC3B9F25B32BBB2  : public MonoBehaviour
 	String_t* ___clientID_5;
 	// System.String ApiKeys::privateKey
 	String_t* ___privateKey_6;
+	// System.String ApiKeys::clientName
+	String_t* ___clientName_7;
 };
 
 struct ApiKeys_t8899E8A7900D4C068386E7A4DAC3B9F25B32BBB2_StaticFields
@@ -17316,9 +17319,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void APIController_SendHTTPRequest_TisRuntime
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral590349A0F7229BD85683335845D28C23C0D999AC);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5B58EBE31E594BF8FA4BEA3CD075473149322B18);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral64058CC688A96A90239811EF06C9D20DB0499C3E);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral66F9618FDA792CAB23AF2D7FFB50AB2D3E393DC5);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral83049B131A8927B0644EED69956A38C65EF8D79D);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8576BA38A6B54451F2DCD524CBE7A6AEAD448846);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8C9E00B57BC60BA8DFE775104296F0D55A788667);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral95110EC88C6D1C778A2B3129FA272025371ADA3A);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9D5A3AE3D2B0B5E5AF5AB489000D9B88FA11E907);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9D98CF45AE5B5E623759A6DCB43B04AC6BAE9719);
@@ -17541,10 +17544,10 @@ IL_0108:
 		String_t* L_51;
 		L_51 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral83049B131A8927B0644EED69956A38C65EF8D79D, L_50, NULL);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB((RuntimeObject*)L_51, NULL);
-		// req.SetHeader("source", "saas");
+		// req.SetHeader("Source", "saas");
 		HTTPRequest_t32091DC566685F9827D7D7EA51A5D6601CB6485B* L_52 = V_1;
 		NullCheck(L_52);
-		HTTPRequest_SetHeader_m741F44B03F51631B98F41D8AEFC65FDE833E17D4(L_52, _stringLiteral66F9618FDA792CAB23AF2D7FFB50AB2D3E393DC5, _stringLiteralF91227292A5C5387576A1E4F0D30CDB516F5E51E, NULL);
+		HTTPRequest_SetHeader_m741F44B03F51631B98F41D8AEFC65FDE833E17D4(L_52, _stringLiteral8C9E00B57BC60BA8DFE775104296F0D55A788667, _stringLiteralF91227292A5C5387576A1E4F0D30CDB516F5E51E, NULL);
 		// if (additionalHeaders != null)
 		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_53 = ___additionalHeaders6;
 		if (!L_53)

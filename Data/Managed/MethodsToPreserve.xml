@@ -6,18 +6,49 @@
 		<type fullname="configAssetBundle">
 			<method name="OnClickDefaultFilter"/>
 		</type>
+		<type fullname="CustomTrackableEventHandler">
+			<method name="stop360"/>
+		</type>
 		<type fullname="CustomUIController">
 			<method name="CancelButton"/>
+			<method name="eventRecordStart"/>
+			<method name="eventRecordStop"/>
 			<method name="HelpScreen"/>
 		</type>
+		<type fullname="downloadVideo">
+			<method name="downloadButton"/>
+		</type>
 		<type fullname="PermissionManager">
-			<method name="OpenSettings"/>
-			<method name="OpenSettings"/>
-			<method name="OpenSettings"/>
-			<method name="OpenSettings"/>
+			<method name="AskCam"/>
+			<method name="AskCam"/>
+			<method name="AskMic"/>
+			<method name="AskMic"/>
+			<method name="NextScene"/>
+		</type>
+		<type fullname="tap_to_scan">
+			<method name="onTapToScanClick"/>
+		</type>
+		<type fullname="VideoPlacer">
+			<method name="stopAnchorVideo"/>
 		</type>
 		<type fullname="vuplexReference">
+			<method name="dont_update"/>
 			<method name="openCreation"/>
+			<method name="openGallery"/>
+			<method name="openPayment_expired"/>
+			<method name="openPayment_expired"/>
+			<method name="openPayment_scan"/>
+			<method name="openPayment_scan"/>
+			<method name="openPayment_scan"/>
+			<method name="openPayment_update"/>
+			<method name="openPayment_update"/>
+			<method name="pay_later"/>
+			<method name="pay_later"/>
+			<method name="pay_now"/>
+			<method name="pay_now"/>
+			<method name="updateEvent"/>
+			<method name="updateEvent"/>
+			<method name="updateEvent"/>
 		</type>
 	</assembly>
 	<assembly fullname="Assembly-CSharp-firstpass" ignoreIfMissing="1">
@@ -43,6 +74,18 @@
 			<method name="OnDecrement"/>
 			<method name="OnIncrement"/>
 			<method name="OnIncrement"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
 		</type>
 	</assembly>
 </linker>

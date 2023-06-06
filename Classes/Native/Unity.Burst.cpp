@@ -177,8 +177,6 @@ struct IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5;
 struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
 // System.InvalidOperationException
 struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB;
-// System.Runtime.CompilerServices.IsReadOnlyAttribute
-struct IsReadOnlyAttribute_t21EB37F7C74C04A9F8DE2EB74773A0D5524A1A0F;
 // System.Runtime.CompilerServices.IsUnmanagedAttribute
 struct IsUnmanagedAttribute_t34B56B6F3EC3258E9CACECDF4C4471551591FD47;
 // System.Reflection.MemberFilter
@@ -2774,11 +2772,6 @@ struct IntPtr_t_StaticFields
 {
 	// System.IntPtr System.IntPtr::Zero
 	intptr_t ___Zero_1;
-};
-
-// System.Runtime.CompilerServices.IsReadOnlyAttribute
-struct IsReadOnlyAttribute_t21EB37F7C74C04A9F8DE2EB74773A0D5524A1A0F  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
 };
 
 // System.Runtime.CompilerServices.IsUnmanagedAttribute
@@ -5937,22 +5930,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void v128__ctor_m1389403EA3D816B261AE6B32ABAA
 #endif
 // System.Void Microsoft.CodeAnalysis.EmbeddedAttribute::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m1987D9EDD695EB253C5DAAE3909C9FCD69E7681C (EmbeddedAttribute_tB15AE7271F787DA6A515EA05BEC5B218E147E15A* __this, const RuntimeMethod* method) 
-{
-	{
-		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void System.Runtime.CompilerServices.IsReadOnlyAttribute::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IsReadOnlyAttribute__ctor_mD2F5692D77429D270289E727F57B341383B57A27 (IsReadOnlyAttribute_t21EB37F7C74C04A9F8DE2EB74773A0D5524A1A0F* __this, const RuntimeMethod* method) 
 {
 	{
 		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);

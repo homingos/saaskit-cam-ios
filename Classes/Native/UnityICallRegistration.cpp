@@ -726,17 +726,9 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_AsyncOperation_get_isDone();
 		Register_UnityEngine_AsyncOperation_get_isDone();
 
-		//System.Single UnityEngine.AsyncOperation::get_progress()
-		void Register_UnityEngine_AsyncOperation_get_progress();
-		Register_UnityEngine_AsyncOperation_get_progress();
-
 		//System.Void UnityEngine.AsyncOperation::InternalDestroy(System.IntPtr)
 		void Register_UnityEngine_AsyncOperation_InternalDestroy();
 		Register_UnityEngine_AsyncOperation_InternalDestroy();
-
-		//System.Void UnityEngine.AsyncOperation::set_allowSceneActivation(System.Boolean)
-		void Register_UnityEngine_AsyncOperation_set_allowSceneActivation();
-		Register_UnityEngine_AsyncOperation_set_allowSceneActivation();
 
 	//End Registrations for type : UnityEngine.AsyncOperation
 
@@ -751,6 +743,18 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_Audio_AudioMixer_SetFloat();
 
 	//End Registrations for type : UnityEngine.Audio.AudioMixer
+
+	//Start Registrations for type : UnityEngine.AudioListener
+
+		//System.Void UnityEngine.AudioListener::GetOutputDataHelper(System.Single[],System.Int32)
+		void Register_UnityEngine_AudioListener_GetOutputDataHelper();
+		Register_UnityEngine_AudioListener_GetOutputDataHelper();
+
+		//System.Void UnityEngine.AudioListener::GetSpectrumDataHelper(System.Single[],System.Int32,UnityEngine.FFTWindow)
+		void Register_UnityEngine_AudioListener_GetSpectrumDataHelper();
+		Register_UnityEngine_AudioListener_GetSpectrumDataHelper();
+
+	//End Registrations for type : UnityEngine.AudioListener
 
 	//Start Registrations for type : UnityEngine.AudioSettings
 
@@ -1270,10 +1274,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_CanvasGroup_set_blocksRaycasts();
 		Register_UnityEngine_CanvasGroup_set_blocksRaycasts();
 
-		//System.Void UnityEngine.CanvasGroup::set_interactable(System.Boolean)
-		void Register_UnityEngine_CanvasGroup_set_interactable();
-		Register_UnityEngine_CanvasGroup_set_interactable();
-
 	//End Registrations for type : UnityEngine.CanvasGroup
 
 	//Start Registrations for type : UnityEngine.CanvasRenderer
@@ -1597,6 +1597,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Int32 UnityEngine.Debug::ExtractStackTraceNoAlloc(System.Byte*,System.Int32,System.String)
 		void Register_UnityEngine_Debug_ExtractStackTraceNoAlloc();
 		Register_UnityEngine_Debug_ExtractStackTraceNoAlloc();
+
+		//System.Void UnityEngine.Debug::Break()
+		void Register_UnityEngine_Debug_Break();
+		Register_UnityEngine_Debug_Break();
 
 	//End Registrations for type : UnityEngine.Debug
 
@@ -2534,6 +2538,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Gyroscope_rotationRateUnbiased_Internal_Injected();
 		Register_UnityEngine_Gyroscope_rotationRateUnbiased_Internal_Injected();
 
+		//System.Void UnityEngine.Gyroscope::rotationRate_Internal_Injected(System.Int32,UnityEngine.Vector3&)
+		void Register_UnityEngine_Gyroscope_rotationRate_Internal_Injected();
+		Register_UnityEngine_Gyroscope_rotationRate_Internal_Injected();
+
 		//System.Void UnityEngine.Gyroscope::setEnabled_Internal(System.Int32,System.Boolean)
 		void Register_UnityEngine_Gyroscope_setEnabled_Internal();
 		Register_UnityEngine_Gyroscope_setEnabled_Internal();
@@ -2545,6 +2553,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Boolean UnityEngine.Handheld::PlayFullScreenMovie_Bindings_Injected(System.String,UnityEngine.Color&,UnityEngine.FullScreenMovieControlMode,UnityEngine.FullScreenMovieScalingMode)
 		void Register_UnityEngine_Handheld_PlayFullScreenMovie_Bindings_Injected();
 		Register_UnityEngine_Handheld_PlayFullScreenMovie_Bindings_Injected();
+
+		//System.Void UnityEngine.Handheld::Vibrate()
+		void Register_UnityEngine_Handheld_Vibrate();
+		Register_UnityEngine_Handheld_Vibrate();
 
 	//End Registrations for type : UnityEngine.Handheld
 
@@ -2973,6 +2985,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Material::SetConstantBufferImpl(System.Int32,UnityEngine.ComputeBuffer,System.Int32,System.Int32)
 		void Register_UnityEngine_Material_SetConstantBufferImpl();
 		Register_UnityEngine_Material_SetConstantBufferImpl();
+
+		//System.Void UnityEngine.Material::SetFloatArrayImpl(System.Int32,System.Single[],System.Int32)
+		void Register_UnityEngine_Material_SetFloatArrayImpl();
+		Register_UnityEngine_Material_SetFloatArrayImpl();
 
 		//System.Void UnityEngine.Material::SetFloatImpl(System.Int32,System.Single)
 		void Register_UnityEngine_Material_SetFloatImpl();
@@ -3458,10 +3474,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Networking_UnityWebRequest_GetHTTPStatusString();
 		Register_UnityEngine_Networking_UnityWebRequest_GetHTTPStatusString();
 
-		//System.String UnityEngine.Networking.UnityWebRequest::GetUrl()
-		void Register_UnityEngine_Networking_UnityWebRequest_GetUrl();
-		Register_UnityEngine_Networking_UnityWebRequest_GetUrl();
-
 		//System.String UnityEngine.Networking.UnityWebRequest::GetWebErrorString(UnityEngine.Networking.UnityWebRequest/UnityWebRequestError)
 		void Register_UnityEngine_Networking_UnityWebRequest_GetWebErrorString();
 		Register_UnityEngine_Networking_UnityWebRequest_GetWebErrorString();
@@ -3585,10 +3597,6 @@ void RegisterAllStrippedInternalCalls()
 		//UnityEngine.Object UnityEngine.Object::FindObjectFromInstanceID(System.Int32)
 		void Register_UnityEngine_Object_FindObjectFromInstanceID();
 		Register_UnityEngine_Object_FindObjectFromInstanceID();
-
-		//UnityEngine.Object UnityEngine.Object::ForceLoadFromInstanceID(System.Int32)
-		void Register_UnityEngine_Object_ForceLoadFromInstanceID();
-		Register_UnityEngine_Object_ForceLoadFromInstanceID();
 
 		//UnityEngine.Object UnityEngine.Object::Internal_CloneSingle(UnityEngine.Object)
 		void Register_UnityEngine_Object_Internal_CloneSingle();
@@ -3814,9 +3822,21 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.Profiling.Profiler
 
+		//System.Int64 UnityEngine.Profiling.Profiler::GetMonoUsedSizeLong()
+		void Register_UnityEngine_Profiling_Profiler_GetMonoUsedSizeLong();
+		Register_UnityEngine_Profiling_Profiler_GetMonoUsedSizeLong();
+
 		//System.Int64 UnityEngine.Profiling.Profiler::GetRuntimeMemorySizeLong(UnityEngine.Object)
 		void Register_UnityEngine_Profiling_Profiler_GetRuntimeMemorySizeLong();
 		Register_UnityEngine_Profiling_Profiler_GetRuntimeMemorySizeLong();
+
+		//System.Int64 UnityEngine.Profiling.Profiler::GetTotalAllocatedMemoryLong()
+		void Register_UnityEngine_Profiling_Profiler_GetTotalAllocatedMemoryLong();
+		Register_UnityEngine_Profiling_Profiler_GetTotalAllocatedMemoryLong();
+
+		//System.Int64 UnityEngine.Profiling.Profiler::GetTotalReservedMemoryLong()
+		void Register_UnityEngine_Profiling_Profiler_GetTotalReservedMemoryLong();
+		Register_UnityEngine_Profiling_Profiler_GetTotalReservedMemoryLong();
 
 		//System.Void UnityEngine.Profiling.Profiler::BeginSampleImpl(System.String,UnityEngine.Object)
 		void Register_UnityEngine_Profiling_Profiler_BeginSampleImpl();
@@ -4646,10 +4666,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_RenderSettings_get_subtractiveShadowColor_Injected();
 		Register_UnityEngine_RenderSettings_get_subtractiveShadowColor_Injected();
 
-		//System.Void UnityEngine.RenderSettings::set_ambientIntensity(System.Single)
-		void Register_UnityEngine_RenderSettings_set_ambientIntensity();
-		Register_UnityEngine_RenderSettings_set_ambientIntensity();
-
 		//UnityEngine.Light UnityEngine.RenderSettings::get_sun()
 		void Register_UnityEngine_RenderSettings_get_sun();
 		Register_UnityEngine_RenderSettings_get_sun();
@@ -5019,6 +5035,14 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_Screen_GetScreenOrientation();
 
 	//End Registrations for type : UnityEngine.Screen
+
+	//Start Registrations for type : UnityEngine.ScreenCapture
+
+		//System.Void UnityEngine.ScreenCapture::CaptureScreenshot(System.String,System.Int32,UnityEngine.ScreenCapture/StereoScreenCaptureMode)
+		void Register_UnityEngine_ScreenCapture_CaptureScreenshot();
+		Register_UnityEngine_ScreenCapture_CaptureScreenshot();
+
+	//End Registrations for type : UnityEngine.ScreenCapture
 
 	//Start Registrations for type : UnityEngine.ScriptableObject
 
@@ -5450,10 +5474,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_SystemInfo_GetProcessorCount();
 		Register_UnityEngine_SystemInfo_GetProcessorCount();
 
-		//System.Int32 UnityEngine.SystemInfo::GetProcessorFrequencyMHz()
-		void Register_UnityEngine_SystemInfo_GetProcessorFrequencyMHz();
-		Register_UnityEngine_SystemInfo_GetProcessorFrequencyMHz();
-
 		//System.Int32 UnityEngine.SystemInfo::GetRenderTextureSupportedMSAASampleCount_Injected(UnityEngine.RenderTextureDescriptor&)
 		void Register_UnityEngine_SystemInfo_GetRenderTextureSupportedMSAASampleCount_Injected();
 		Register_UnityEngine_SystemInfo_GetRenderTextureSupportedMSAASampleCount_Injected();
@@ -5535,54 +5555,6 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_SystemInfo_GetRenderingThreadingMode();
 
 	//End Registrations for type : UnityEngine.SystemInfo
-
-	//Start Registrations for type : UnityEngine.Terrain
-
-		//System.Boolean UnityEngine.Terrain::get_allowAutoConnect()
-		void Register_UnityEngine_Terrain_get_allowAutoConnect();
-		Register_UnityEngine_Terrain_get_allowAutoConnect();
-
-		//System.Int32 UnityEngine.Terrain::get_groupingID()
-		void Register_UnityEngine_Terrain_get_groupingID();
-		Register_UnityEngine_Terrain_get_groupingID();
-
-		//System.Void UnityEngine.Terrain::SetNeighbors(UnityEngine.Terrain,UnityEngine.Terrain,UnityEngine.Terrain,UnityEngine.Terrain)
-		void Register_UnityEngine_Terrain_SetNeighbors();
-		Register_UnityEngine_Terrain_SetNeighbors();
-
-		//UnityEngine.TerrainData UnityEngine.Terrain::get_terrainData()
-		void Register_UnityEngine_Terrain_get_terrainData();
-		Register_UnityEngine_Terrain_get_terrainData();
-
-		//UnityEngine.Terrain[] UnityEngine.Terrain::get_activeTerrains()
-		void Register_UnityEngine_Terrain_get_activeTerrains();
-		Register_UnityEngine_Terrain_get_activeTerrains();
-
-	//End Registrations for type : UnityEngine.Terrain
-
-	//Start Registrations for type : UnityEngine.TerrainData
-
-		//System.Int32 UnityEngine.TerrainData::GetBoundaryValue(UnityEngine.TerrainData/BoundaryValueType)
-		void Register_UnityEngine_TerrainData_GetBoundaryValue();
-		Register_UnityEngine_TerrainData_GetBoundaryValue();
-
-		//System.Single UnityEngine.TerrainData::GetAlphamapResolutionInternal()
-		void Register_UnityEngine_TerrainData_GetAlphamapResolutionInternal();
-		Register_UnityEngine_TerrainData_GetAlphamapResolutionInternal();
-
-		//System.Void UnityEngine.TerrainData::Internal_Create(UnityEngine.TerrainData)
-		void Register_UnityEngine_TerrainData_Internal_Create();
-		Register_UnityEngine_TerrainData_Internal_Create();
-
-		//System.Void UnityEngine.TerrainData::get_size_Injected(UnityEngine.Vector3&)
-		void Register_UnityEngine_TerrainData_get_size_Injected();
-		Register_UnityEngine_TerrainData_get_size_Injected();
-
-		//UnityEngine.Terrain[] UnityEngine.TerrainData::get_users()
-		void Register_UnityEngine_TerrainData_get_users();
-		Register_UnityEngine_TerrainData_get_users();
-
-	//End Registrations for type : UnityEngine.TerrainData
 
 	//Start Registrations for type : UnityEngine.TextAsset
 
@@ -5907,26 +5879,6 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_Texture3D_SetPixels();
 
 	//End Registrations for type : UnityEngine.Texture3D
-
-	//Start Registrations for type : UnityEngine.Tilemaps.Tilemap
-
-		//System.Void UnityEngine.Tilemaps.Tilemap::RefreshTile_Injected(UnityEngine.Vector3Int&)
-		void Register_UnityEngine_Tilemaps_Tilemap_RefreshTile_Injected();
-		Register_UnityEngine_Tilemaps_Tilemap_RefreshTile_Injected();
-
-		//System.Void UnityEngine.Tilemaps.Tilemap::RefreshTilesNative(System.Void*,System.Int32)
-		void Register_UnityEngine_Tilemaps_Tilemap_RefreshTilesNative();
-		Register_UnityEngine_Tilemaps_Tilemap_RefreshTilesNative();
-
-	//End Registrations for type : UnityEngine.Tilemaps.Tilemap
-
-	//Start Registrations for type : UnityEngine.Tilemaps.TilemapRenderer
-
-		//System.Void UnityEngine.Tilemaps.TilemapRenderer::OnSpriteAtlasRegistered(UnityEngine.U2D.SpriteAtlas)
-		void Register_UnityEngine_Tilemaps_TilemapRenderer_OnSpriteAtlasRegistered();
-		Register_UnityEngine_Tilemaps_TilemapRenderer_OnSpriteAtlasRegistered();
-
-	//End Registrations for type : UnityEngine.Tilemaps.TilemapRenderer
 
 	//Start Registrations for type : UnityEngine.Time
 
@@ -6380,39 +6332,11 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.UnityLogWriter
 
-	//Start Registrations for type : UnityEngine.VFX.VFXEventAttribute
-
-		//System.IntPtr UnityEngine.VFX.VFXEventAttribute::Internal_Create()
-		void Register_UnityEngine_VFX_VFXEventAttribute_Internal_Create();
-		Register_UnityEngine_VFX_VFXEventAttribute_Internal_Create();
-
-		//System.Void UnityEngine.VFX.VFXEventAttribute::Internal_Destroy(System.IntPtr)
-		void Register_UnityEngine_VFX_VFXEventAttribute_Internal_Destroy();
-		Register_UnityEngine_VFX_VFXEventAttribute_Internal_Destroy();
-
-		//System.Void UnityEngine.VFX.VFXEventAttribute::Internal_InitFromAsset(UnityEngine.VFX.VisualEffectAsset)
-		void Register_UnityEngine_VFX_VFXEventAttribute_Internal_InitFromAsset();
-		Register_UnityEngine_VFX_VFXEventAttribute_Internal_InitFromAsset();
-
-	//End Registrations for type : UnityEngine.VFX.VFXEventAttribute
-
-	//Start Registrations for type : UnityEngine.VFX.VFXSpawnerState
-
-		//System.Void UnityEngine.VFX.VFXSpawnerState::Internal_Destroy(System.IntPtr)
-		void Register_UnityEngine_VFX_VFXSpawnerState_Internal_Destroy();
-		Register_UnityEngine_VFX_VFXSpawnerState_Internal_Destroy();
-
-	//End Registrations for type : UnityEngine.VFX.VFXSpawnerState
-
-	//Start Registrations for type : UnityEngine.VFX.VisualEffect
-
-		//UnityEngine.VFX.VisualEffectAsset UnityEngine.VFX.VisualEffect::get_visualEffectAsset()
-		void Register_UnityEngine_VFX_VisualEffect_get_visualEffectAsset();
-		Register_UnityEngine_VFX_VisualEffect_get_visualEffectAsset();
-
-	//End Registrations for type : UnityEngine.VFX.VisualEffect
-
 	//Start Registrations for type : UnityEngine.Video.VideoPlayer
+
+		//System.Boolean UnityEngine.Video.VideoPlayer::get_isPlaying()
+		void Register_UnityEngine_Video_VideoPlayer_get_isPlaying();
+		Register_UnityEngine_Video_VideoPlayer_get_isPlaying();
 
 		//System.String UnityEngine.Video.VideoPlayer::get_url()
 		void Register_UnityEngine_Video_VideoPlayer_get_url();
@@ -6425,6 +6349,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Video.VideoPlayer::Play()
 		void Register_UnityEngine_Video_VideoPlayer_Play();
 		Register_UnityEngine_Video_VideoPlayer_Play();
+
+		//System.Void UnityEngine.Video.VideoPlayer::Prepare()
+		void Register_UnityEngine_Video_VideoPlayer_Prepare();
+		Register_UnityEngine_Video_VideoPlayer_Prepare();
 
 		//System.Void UnityEngine.Video.VideoPlayer::SetDirectAudioVolume(System.UInt16,System.Single)
 		void Register_UnityEngine_Video_VideoPlayer_SetDirectAudioVolume();

@@ -189,7 +189,7 @@ struct CachedInvokableCall_1_t6D4F407FB7CC5D1211F9D4653C3450ACB8A067BA;
 // UnityEngine.Events.CachedInvokableCall`1<System.Single>
 struct CachedInvokableCall_1_t2FC1002B91116AD8AB2525F411DC8061D81F80B3;
 // Vuplex.WebView.Internal.CachingGetter`1<System.Object>
-struct CachingGetter_1_tA8F4F4AA4C7B3B8DC55068E054788CD15A63B553;
+struct CachingGetter_1_t534A96F1026AA1F30B0D371516D300028D5BAABC;
 // System.Runtime.CompilerServices.CallSite`1<System.Object>
 struct CallSite_1_t8003A47F608763107DBCC0D06FFD87AE4EE7BA98;
 // System.Linq.Expressions.Interpreter.CastInstruction/CastInstructionT`1<System.Boolean>
@@ -1036,14 +1036,14 @@ struct U3CU3Ec_t24CE44E972541D9A99CA8CBCD6E7778828C2D9BC_StaticFields
 };
 
 // Vuplex.WebView.Internal.CachingGetter`1/<_invalidateCachePeriodically>d__6<System.Object>
-struct U3C_invalidateCachePeriodicallyU3Ed__6_tB98AD81DC9D7BE4B3239217677614EC3CC28AFEE  : public RuntimeObject
+struct U3C_invalidateCachePeriodicallyU3Ed__6_tC5D7762831D054BE913F10A2D700944368716B41  : public RuntimeObject
 {
 	// System.Int32 Vuplex.WebView.Internal.CachingGetter`1/<_invalidateCachePeriodically>d__6::<>1__state
 	int32_t ___U3CU3E1__state_0;
 	// System.Object Vuplex.WebView.Internal.CachingGetter`1/<_invalidateCachePeriodically>d__6::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
 	// Vuplex.WebView.Internal.CachingGetter`1<TResult> Vuplex.WebView.Internal.CachingGetter`1/<_invalidateCachePeriodically>d__6::<>4__this
-	CachingGetter_1_tA8F4F4AA4C7B3B8DC55068E054788CD15A63B553* ___U3CU3E4__this_2;
+	CachingGetter_1_t534A96F1026AA1F30B0D371516D300028D5BAABC* ___U3CU3E4__this_2;
 };
 
 // Newtonsoft.Json.Utilities.BidirectionalDictionary`2<System.Object,System.Object>
@@ -1104,7 +1104,7 @@ struct CachedAttributeGetter_1_tA977CAC0187229F00FF5DE2D3A0721915A049417_StaticF
 };
 
 // Vuplex.WebView.Internal.CachingGetter`1<System.Object>
-struct CachingGetter_1_tA8F4F4AA4C7B3B8DC55068E054788CD15A63B553  : public RuntimeObject
+struct CachingGetter_1_t534A96F1026AA1F30B0D371516D300028D5BAABC  : public RuntimeObject
 {
 	// System.Func`1<TResult> Vuplex.WebView.Internal.CachingGetter`1::_getterFunction
 	Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* ____getterFunction_0;
@@ -12393,7 +12393,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CachedInvokableCall_1_Invoke_m6800F73584
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void Vuplex.WebView.Internal.CachingGetter`1<System.Object>::.ctor(System.Func`1<TResult>,System.Int32,UnityEngine.MonoBehaviour)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CachingGetter_1__ctor_m41452FCD460B240103D24F52DC7599BF0D377AE0_gshared (CachingGetter_1_tA8F4F4AA4C7B3B8DC55068E054788CD15A63B553* __this, Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* ___getterFunction0, int32_t ___cacheInvalidationPeriodSeconds1, MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* ___monoBehaviourForCoroutine2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CachingGetter_1__ctor_mFD26BAFE2280922CBA9D2687CFDE6D295A8A1F8D_gshared (CachingGetter_1_t534A96F1026AA1F30B0D371516D300028D5BAABC* __this, Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* ___getterFunction0, int32_t ___cacheInvalidationPeriodSeconds1, MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* ___monoBehaviourForCoroutine2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -12420,7 +12420,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CachingGetter_1__ctor_m41452FCD460B24010
 		// monoBehaviourForCoroutine.StartCoroutine(_invalidateCachePeriodically());
 		MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* L_3 = ___monoBehaviourForCoroutine2;
 		RuntimeObject* L_4;
-		L_4 = ((  RuntimeObject* (*) (CachingGetter_1_tA8F4F4AA4C7B3B8DC55068E054788CD15A63B553*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
+		L_4 = ((  RuntimeObject* (*) (CachingGetter_1_t534A96F1026AA1F30B0D371516D300028D5BAABC*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
 		NullCheck(L_3);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_5;
 		L_5 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(L_3, L_4, NULL);
@@ -12429,7 +12429,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CachingGetter_1__ctor_m41452FCD460B24010
 	}
 }
 // TResult Vuplex.WebView.Internal.CachingGetter`1<System.Object>::GetValue()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CachingGetter_1_GetValue_m8BF2AE02FE96DA4754AB1AA34BA94A6294CA5568_gshared (CachingGetter_1_tA8F4F4AA4C7B3B8DC55068E054788CD15A63B553* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CachingGetter_1_GetValue_m34A95782FBE309D5BE2415127F7F7CE9329286FB_gshared (CachingGetter_1_t534A96F1026AA1F30B0D371516D300028D5BAABC* __this, const RuntimeMethod* method) 
 {
 	{
 		// if (_valueNeedsToBeUpdated) {
@@ -12459,13 +12459,13 @@ IL_0020:
 	}
 }
 // System.Collections.IEnumerator Vuplex.WebView.Internal.CachingGetter`1<System.Object>::_invalidateCachePeriodically()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CachingGetter_1__invalidateCachePeriodically_mC1AE58608F7FD35BBC1E655D6CE23A0CFAD8AE39_gshared (CachingGetter_1_tA8F4F4AA4C7B3B8DC55068E054788CD15A63B553* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CachingGetter_1__invalidateCachePeriodically_m76F8DA70EB9D0E18BF2095646124EC80C5A5D5AB_gshared (CachingGetter_1_t534A96F1026AA1F30B0D371516D300028D5BAABC* __this, const RuntimeMethod* method) 
 {
 	{
-		U3C_invalidateCachePeriodicallyU3Ed__6_tB98AD81DC9D7BE4B3239217677614EC3CC28AFEE* L_0 = (U3C_invalidateCachePeriodicallyU3Ed__6_tB98AD81DC9D7BE4B3239217677614EC3CC28AFEE*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 3));
+		U3C_invalidateCachePeriodicallyU3Ed__6_tC5D7762831D054BE913F10A2D700944368716B41* L_0 = (U3C_invalidateCachePeriodicallyU3Ed__6_tC5D7762831D054BE913F10A2D700944368716B41*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 3));
 		NullCheck(L_0);
-		((  void (*) (U3C_invalidateCachePeriodicallyU3Ed__6_tB98AD81DC9D7BE4B3239217677614EC3CC28AFEE*, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))(L_0, 0, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
-		U3C_invalidateCachePeriodicallyU3Ed__6_tB98AD81DC9D7BE4B3239217677614EC3CC28AFEE* L_1 = L_0;
+		((  void (*) (U3C_invalidateCachePeriodicallyU3Ed__6_tC5D7762831D054BE913F10A2D700944368716B41*, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))(L_0, 0, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
+		U3C_invalidateCachePeriodicallyU3Ed__6_tC5D7762831D054BE913F10A2D700944368716B41* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this_2 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);

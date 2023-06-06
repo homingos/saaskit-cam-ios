@@ -4834,8 +4834,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SystemInfo_GetOperatingSystem_m03DA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_GetOperatingSystemFamily_mE40096D3196E10CC8940F79B729CA985D1CD4396 (const RuntimeMethod* method) ;
 // System.String UnityEngine.SystemInfo::GetProcessorType()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SystemInfo_GetProcessorType_m54485B77930922924FB7D19224231432C1914902 (const RuntimeMethod* method) ;
-// System.Int32 UnityEngine.SystemInfo::GetProcessorFrequencyMHz()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_GetProcessorFrequencyMHz_mCA79AC3DCC8E689DF82370CE825DE30D5E075D47 (const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.SystemInfo::GetProcessorCount()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_GetProcessorCount_m2F74AE3847562EB11FE73E94B27D03DCF0EA998D (const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.SystemInfo::GetPhysicalMemoryMB()
@@ -20133,25 +20131,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AsyncOperation_get_isDone_m68A0682777E21
 	bool icallRetVal = _il2cpp_icall_func(__this);
 	return icallRetVal;
 }
-// System.Single UnityEngine.AsyncOperation::get_progress()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AsyncOperation_get_progress_mF3B2837C1A5DDF3C2F7A3BA1E449DD4C71C632EE (AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* __this, const RuntimeMethod* method) 
-{
-	typedef float (*AsyncOperation_get_progress_mF3B2837C1A5DDF3C2F7A3BA1E449DD4C71C632EE_ftn) (AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C*);
-	static AsyncOperation_get_progress_mF3B2837C1A5DDF3C2F7A3BA1E449DD4C71C632EE_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (AsyncOperation_get_progress_mF3B2837C1A5DDF3C2F7A3BA1E449DD4C71C632EE_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AsyncOperation::get_progress()");
-	float icallRetVal = _il2cpp_icall_func(__this);
-	return icallRetVal;
-}
-// System.Void UnityEngine.AsyncOperation::set_allowSceneActivation(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncOperation_set_allowSceneActivation_mBD94FAB342455508CD7962D3CED490C64AF74522 (AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* __this, bool ___value0, const RuntimeMethod* method) 
-{
-	typedef void (*AsyncOperation_set_allowSceneActivation_mBD94FAB342455508CD7962D3CED490C64AF74522_ftn) (AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C*, bool);
-	static AsyncOperation_set_allowSceneActivation_mBD94FAB342455508CD7962D3CED490C64AF74522_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (AsyncOperation_set_allowSceneActivation_mBD94FAB342455508CD7962D3CED490C64AF74522_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AsyncOperation::set_allowSceneActivation(System.Boolean)");
-	_il2cpp_icall_func(__this, ___value0);
-}
 // System.Void UnityEngine.AsyncOperation::Finalize()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncOperation_Finalize_m8163934A18D3DAD2BF51272AAA35EAB1C7BBDE7D (AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* __this, const RuntimeMethod* method) 
 {
@@ -25824,16 +25803,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D971
 	Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* icallRetVal = _il2cpp_icall_func(___instanceID0);
 	return icallRetVal;
 }
-// UnityEngine.Object UnityEngine.Object::ForceLoadFromInstanceID(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* Object_ForceLoadFromInstanceID_mDC03EC6F7745D8194DF5A7A0C50188228F3E95B6 (int32_t ___instanceID0, const RuntimeMethod* method) 
-{
-	typedef Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* (*Object_ForceLoadFromInstanceID_mDC03EC6F7745D8194DF5A7A0C50188228F3E95B6_ftn) (int32_t);
-	static Object_ForceLoadFromInstanceID_mDC03EC6F7745D8194DF5A7A0C50188228F3E95B6_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Object_ForceLoadFromInstanceID_mDC03EC6F7745D8194DF5A7A0C50188228F3E95B6_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Object::ForceLoadFromInstanceID(System.Int32)");
-	Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* icallRetVal = _il2cpp_icall_func(___instanceID0);
-	return icallRetVal;
-}
 // System.Void UnityEngine.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_m2149FA40CEC8D82AC20D3508AB40C0D8EFEF68E6 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, const RuntimeMethod* method) 
 {
@@ -27402,23 +27371,6 @@ IL_0009:
 		return L_1;
 	}
 }
-// System.Int32 UnityEngine.SystemInfo::get_processorFrequency()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_get_processorFrequency_mC3B994657AC07ECDFFF09E2B67AA90F5ED7F39E8 (const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	{
-		int32_t L_0;
-		L_0 = SystemInfo_GetProcessorFrequencyMHz_mCA79AC3DCC8E689DF82370CE825DE30D5E075D47(NULL);
-		V_0 = L_0;
-		goto IL_0009;
-	}
-
-IL_0009:
-	{
-		int32_t L_1 = V_0;
-		return L_1;
-	}
-}
 // System.Int32 UnityEngine.SystemInfo::get_processorCount()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_get_processorCount_m6B20AC11AEA09CA06278FBC47BAAEAA01BC7DB55 (const RuntimeMethod* method) 
 {
@@ -28307,16 +28259,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SystemInfo_GetProcessorType_m54485B
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (SystemInfo_GetProcessorType_m54485B77930922924FB7D19224231432C1914902_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.SystemInfo::GetProcessorType()");
 	String_t* icallRetVal = _il2cpp_icall_func();
-	return icallRetVal;
-}
-// System.Int32 UnityEngine.SystemInfo::GetProcessorFrequencyMHz()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_GetProcessorFrequencyMHz_mCA79AC3DCC8E689DF82370CE825DE30D5E075D47 (const RuntimeMethod* method) 
-{
-	typedef int32_t (*SystemInfo_GetProcessorFrequencyMHz_mCA79AC3DCC8E689DF82370CE825DE30D5E075D47_ftn) ();
-	static SystemInfo_GetProcessorFrequencyMHz_mCA79AC3DCC8E689DF82370CE825DE30D5E075D47_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (SystemInfo_GetProcessorFrequencyMHz_mCA79AC3DCC8E689DF82370CE825DE30D5E075D47_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.SystemInfo::GetProcessorFrequencyMHz()");
-	int32_t icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
 }
 // System.Int32 UnityEngine.SystemInfo::GetProcessorCount()

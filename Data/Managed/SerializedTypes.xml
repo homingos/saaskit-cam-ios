@@ -5,7 +5,6 @@
 		<type fullname="InstantCardsServerData" preserve="nothing" serialized="true"/>
 		<type fullname="LocalEffectsClass" preserve="nothing" serialized="true"/>
 		<type fullname="LocalTargetData" preserve="nothing" serialized="true"/>
-		<type fullname="SDKAuthCredentials" preserve="nothing" serialized="true"/>
 		<type fullname="ThemeData" preserve="nothing" serialized="true"/>
 		<type fullname="VideoData" preserve="nothing" serialized="true"/>
 		<type fullname="VuplexRoutes" preserve="nothing" serialized="true"/>
@@ -17,8 +16,19 @@
 	<assembly fullname="RuntimeInspector.Runtime">
 		<type fullname="RuntimeInspectorNamespace.VariableSet" preserve="nothing" serialized="true"/>
 	</assembly>
+	<assembly fullname="Tayx.Graphy">
+		<type fullname="Tayx.Graphy.GraphyDebugger/DebugCondition" preserve="nothing" serialized="true"/>
+		<type fullname="Tayx.Graphy.GraphyDebugger/DebugPacket" preserve="nothing" serialized="true"/>
+	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Core.Runtime">
+		<type fullname="UnityEngine.Rendering.BoolParameter" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Rendering.ClampedFloatParameter" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Rendering.ClampedIntParameter" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Rendering.ColorParameter" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Rendering.MinFloatParameter" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Rendering.TextureParameter" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.UI.DebugUIPrefabBundle" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Rendering.Vector2Parameter" preserve="nothing" serialized="true"/>
 	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Universal.Runtime">
 		<type fullname="UnityEngine.Rendering.Universal.PostProcessData/ShaderResources" preserve="nothing" serialized="true"/>
@@ -26,6 +36,7 @@
 		<type fullname="UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusionSettings" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.Universal.ScriptableRendererData/DebugShaderResources" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.Universal.StencilStateData" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Rendering.Universal.TonemappingModeParameter" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.Universal.UniversalRendererData/ShaderResources" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.Universal.XRSystemData/ShaderResources" preserve="nothing" serialized="true"/>
 	</assembly>

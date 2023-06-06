@@ -1076,6 +1076,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_m2149FA40CEC8D82AC20D3508AB
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PCMReaderCallback_Invoke_m76784C690C36B513E2AA5B0E4FD9831B2C7E5152_inline (PCMReaderCallback_t3396D9613664F0AFF65FB91018FD0F901CC16F1E* __this, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___data0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AudioClip/PCMSetPositionCallback::Invoke(System.Int32)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PCMSetPositionCallback_Invoke_m434D4F02FA25F91DF6199EC5A799C551C7F93702_inline (PCMSetPositionCallback_t8D7135A2FB40647CAEC93F5254AD59E18DEB6072* __this, int32_t ___position0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.AudioListener::GetOutputDataHelper(System.Single[],System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioListener_GetOutputDataHelper_mB30445231F5805870AA625983442CE881D7B66FB (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___samples0, int32_t ___channel1, const RuntimeMethod* method) ;
+// System.Void UnityEngine.AudioListener::GetSpectrumDataHelper(System.Single[],System.Int32,UnityEngine.FFTWindow)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioListener_GetSpectrumDataHelper_m2631C609AB0CC9ED84EB55C939EDC78456E0482F (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___samples0, int32_t ___channel1, int32_t ___window2, const RuntimeMethod* method) ;
 // System.Single UnityEngine.AudioSource::GetPitch(UnityEngine.AudioSource)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AudioSource_GetPitch_m80F6D2BAF966F669253E9231AFCFFC303779913D (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___source0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AudioSource::SetPitch(UnityEngine.AudioSource,System.Single)
@@ -1842,6 +1846,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PCMSetPositionCallback_Invoke_m434D4F02F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void UnityEngine.AudioListener::GetOutputDataHelper(System.Single[],System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioListener_GetOutputDataHelper_mB30445231F5805870AA625983442CE881D7B66FB (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___samples0, int32_t ___channel1, const RuntimeMethod* method) 
+{
+	typedef void (*AudioListener_GetOutputDataHelper_mB30445231F5805870AA625983442CE881D7B66FB_ftn) (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*, int32_t);
+	static AudioListener_GetOutputDataHelper_mB30445231F5805870AA625983442CE881D7B66FB_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioListener_GetOutputDataHelper_mB30445231F5805870AA625983442CE881D7B66FB_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioListener::GetOutputDataHelper(System.Single[],System.Int32)");
+	_il2cpp_icall_func(___samples0, ___channel1);
+}
+// System.Void UnityEngine.AudioListener::GetSpectrumDataHelper(System.Single[],System.Int32,UnityEngine.FFTWindow)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioListener_GetSpectrumDataHelper_m2631C609AB0CC9ED84EB55C939EDC78456E0482F (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___samples0, int32_t ___channel1, int32_t ___window2, const RuntimeMethod* method) 
+{
+	typedef void (*AudioListener_GetSpectrumDataHelper_m2631C609AB0CC9ED84EB55C939EDC78456E0482F_ftn) (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*, int32_t, int32_t);
+	static AudioListener_GetSpectrumDataHelper_m2631C609AB0CC9ED84EB55C939EDC78456E0482F_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioListener_GetSpectrumDataHelper_m2631C609AB0CC9ED84EB55C939EDC78456E0482F_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioListener::GetSpectrumDataHelper(System.Single[],System.Int32,UnityEngine.FFTWindow)");
+	_il2cpp_icall_func(___samples0, ___channel1, ___window2);
+}
+// System.Void UnityEngine.AudioListener::GetOutputData(System.Single[],System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioListener_GetOutputData_m296DA3768E887CCD587D5BDD55A3D9AB1ADECA9E (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___samples0, int32_t ___channel1, const RuntimeMethod* method) 
+{
+	{
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_0 = ___samples0;
+		int32_t L_1 = ___channel1;
+		AudioListener_GetOutputDataHelper_mB30445231F5805870AA625983442CE881D7B66FB(L_0, L_1, NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.AudioListener::GetSpectrumData(System.Single[],System.Int32,UnityEngine.FFTWindow)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioListener_GetSpectrumData_m66A3A04DD3DF8A2CBE8DE16ED2CBD9AA42EBFABC (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___samples0, int32_t ___channel1, int32_t ___window2, const RuntimeMethod* method) 
+{
+	{
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_0 = ___samples0;
+		int32_t L_1 = ___channel1;
+		int32_t L_2 = ___window2;
+		AudioListener_GetSpectrumDataHelper_m2631C609AB0CC9ED84EB55C939EDC78456E0482F(L_0, L_1, L_2, NULL);
+		return;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

@@ -756,8 +756,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Touch_get_radius_m5BC9C50DABBB17B07742B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Touch_get_radiusVariance_m6F54BE964B91C3B2F8FA2A483E1FDB644B282B21 (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, const RuntimeMethod* method) ;
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Gyroscope::rotationRate_Internal_Injected(System.Int32,UnityEngine.Vector3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Gyroscope_rotationRate_Internal_Injected_mDE2FBCB9A01D69CED09AF11FA0958E0EA6B0E5DF (int32_t ___idx0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___ret1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Gyroscope::rotationRateUnbiased_Internal_Injected(System.Int32,UnityEngine.Vector3&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Gyroscope_rotationRateUnbiased_Internal_Injected_m1BEF4BAAC9DF68F7C8858E504D4F15CBCA92B63B (int32_t ___idx0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___ret1, const RuntimeMethod* method) ;
+// UnityEngine.Vector3 UnityEngine.Gyroscope::rotationRate_Internal(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Gyroscope_rotationRate_Internal_mC69243A53ADC6720409577DA04DAE4C573F9498D (int32_t ___idx0, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Gyroscope::rotationRateUnbiased_Internal(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Gyroscope_rotationRateUnbiased_Internal_m4E9399AE2BEE46D5998CA2103F5BCE545E7DCEC3 (int32_t ___idx0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Gyroscope::setEnabled_Internal(System.Int32,System.Boolean)
@@ -1325,6 +1329,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Gyroscope__ctor_mC476EA849DBF7705A36094F
 		return;
 	}
 }
+// UnityEngine.Vector3 UnityEngine.Gyroscope::rotationRate_Internal(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Gyroscope_rotationRate_Internal_mC69243A53ADC6720409577DA04DAE4C573F9498D (int32_t ___idx0, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		int32_t L_0 = ___idx0;
+		Gyroscope_rotationRate_Internal_Injected_mDE2FBCB9A01D69CED09AF11FA0958E0EA6B0E5DF(L_0, (&V_0), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
+		return L_1;
+	}
+}
 // UnityEngine.Vector3 UnityEngine.Gyroscope::rotationRateUnbiased_Internal(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Gyroscope_rotationRateUnbiased_Internal_m4E9399AE2BEE46D5998CA2103F5BCE545E7DCEC3 (int32_t ___idx0, const RuntimeMethod* method) 
 {
@@ -1345,6 +1361,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Gyroscope_setEnabled_Internal_mBA928BFDE
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Gyroscope_setEnabled_Internal_mBA928BFDE5565840E372846AF9E0D0E45AD7D115_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Gyroscope::setEnabled_Internal(System.Int32,System.Boolean)");
 	_il2cpp_icall_func(___idx0, ___enabled1);
+}
+// UnityEngine.Vector3 UnityEngine.Gyroscope::get_rotationRate()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Gyroscope_get_rotationRate_mCF8F2D040B77A6C147092302C80C8DEC39918954 (Gyroscope_tA4CEC0F47FFB4CEB90410CC6B860D052BB35BE9E* __this, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		int32_t L_0 = __this->___m_GyroIndex_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Gyroscope_rotationRate_Internal_mC69243A53ADC6720409577DA04DAE4C573F9498D(L_0, NULL);
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = V_0;
+		return L_2;
+	}
 }
 // UnityEngine.Vector3 UnityEngine.Gyroscope::get_rotationRateUnbiased()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Gyroscope_get_rotationRateUnbiased_m6B54A5F9A866E1F5005EA8B1575607DF2F3AB7A3 (Gyroscope_tA4CEC0F47FFB4CEB90410CC6B860D052BB35BE9E* __this, const RuntimeMethod* method) 
@@ -1374,6 +1409,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Gyroscope_set_enabled_m2B22BC93369BA6103
 		Gyroscope_setEnabled_Internal_mBA928BFDE5565840E372846AF9E0D0E45AD7D115(L_0, L_1, NULL);
 		return;
 	}
+}
+// System.Void UnityEngine.Gyroscope::rotationRate_Internal_Injected(System.Int32,UnityEngine.Vector3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Gyroscope_rotationRate_Internal_Injected_mDE2FBCB9A01D69CED09AF11FA0958E0EA6B0E5DF (int32_t ___idx0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___ret1, const RuntimeMethod* method) 
+{
+	typedef void (*Gyroscope_rotationRate_Internal_Injected_mDE2FBCB9A01D69CED09AF11FA0958E0EA6B0E5DF_ftn) (int32_t, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*);
+	static Gyroscope_rotationRate_Internal_Injected_mDE2FBCB9A01D69CED09AF11FA0958E0EA6B0E5DF_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Gyroscope_rotationRate_Internal_Injected_mDE2FBCB9A01D69CED09AF11FA0958E0EA6B0E5DF_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Gyroscope::rotationRate_Internal_Injected(System.Int32,UnityEngine.Vector3&)");
+	_il2cpp_icall_func(___idx0, ___ret1);
 }
 // System.Void UnityEngine.Gyroscope::rotationRateUnbiased_Internal_Injected(System.Int32,UnityEngine.Vector3&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Gyroscope_rotationRateUnbiased_Internal_Injected_m1BEF4BAAC9DF68F7C8858E504D4F15CBCA92B63B (int32_t ___idx0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___ret1, const RuntimeMethod* method) 

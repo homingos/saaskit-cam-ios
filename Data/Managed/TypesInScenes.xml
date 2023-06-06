@@ -11,25 +11,38 @@
 		<type fullname="CanvasScalerHelper" preserve="nothing"/>
 		<type fullname="CheckInternet" preserve="nothing"/>
 		<type fullname="configAssetBundle" preserve="nothing"/>
+		<type fullname="ConfigManager" preserve="nothing"/>
 		<type fullname="CustomInitializationErrorHandler" preserve="nothing"/>
 		<type fullname="CustomTrackableEventHandler" preserve="nothing"/>
 		<type fullname="CustomUIController" preserve="nothing"/>
 		<type fullname="DownloadIT" preserve="nothing"/>
+		<type fullname="downloadVideo" preserve="nothing"/>
+		<type fullname="EventLogger" preserve="nothing"/>
 		<type fullname="FilterButton" preserve="nothing"/>
 		<type fullname="FlamCamera" preserve="nothing"/>
 		<type fullname="FSCController" preserve="nothing"/>
+		<type fullname="GyroscopeCameraRotation" preserve="nothing"/>
 		<type fullname="LoadingAnimation" preserve="nothing"/>
 		<type fullname="MakeInstantTargets" preserve="nothing"/>
 		<type fullname="OrigamiManager" preserve="nothing"/>
 		<type fullname="ParticleParent" preserve="nothing"/>
 		<type fullname="PermissionManager" preserve="nothing"/>
 		<type fullname="RoboManager" preserve="nothing"/>
-		<type fullname="ScanBarAnim" preserve="nothing"/>
 		<type fullname="ScrollHandler" preserve="nothing"/>
-		<type fullname="StartCamera" preserve="nothing"/>
+		<type fullname="select_update" preserve="nothing"/>
+		<type fullname="tap_to_scan" preserve="nothing"/>
+		<type fullname="toastKiller" preserve="nothing"/>
+		<type fullname="TouchCameraRotation" preserve="nothing"/>
 		<type fullname="UIManager" preserve="nothing"/>
+		<type fullname="VideoPlacer" preserve="nothing"/>
+		<type fullname="vuforia_frame_rate_setter" preserve="nothing"/>
 		<type fullname="VuforiaCloudDataHandler" preserve="nothing"/>
 		<type fullname="VuforiaTrackableController" preserve="nothing"/>
+		<type fullname="VuplexController" preserve="nothing"/>
+		<type fullname="vuplexReference" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Assembly-CSharp-firstpass">
+		<type fullname="NatSuite.Examples.ReplayCam" preserve="nothing"/>
 		<type fullname="Vuplex.WebView.CanvasKeyboard" preserve="nothing"/>
 		<type fullname="Vuplex.WebView.CanvasPointerInputDetector" preserve="nothing"/>
 		<type fullname="Vuplex.WebView.CanvasWebViewPrefab" preserve="nothing"/>
@@ -38,15 +51,6 @@
 		<type fullname="Vuplex.WebView.Internal.ViewportMaterialView" preserve="nothing"/>
 		<type fullname="Vuplex.WebView.Keyboard" preserve="nothing"/>
 		<type fullname="Vuplex.WebView.WebViewPrefab" preserve="nothing"/>
-		<type fullname="VuplexController" preserve="nothing"/>
-		<type fullname="vuplexReference" preserve="nothing"/>
-	</assembly>
-	<assembly fullname="Assembly-CSharp-firstpass">
-		<type fullname="NatSuite.Examples.ReplayCam" preserve="nothing"/>
-	</assembly>
-	<assembly fullname="CommonScripts">
-		<type fullname="MessageBox" preserve="nothing"/>
-		<type fullname="StatusMessage" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="DOTween">
 		<type fullname="DG.Tweening.Core.DOTweenSettings" preserve="nothing"/>
@@ -100,6 +104,23 @@
 		<type fullname="RuntimeInspectorNamespace.Vector4Field" preserve="nothing"/>
 		<type fullname="RuntimeInspectorNamespace.WindowDragHandler" preserve="nothing"/>
 	</assembly>
+	<assembly fullname="Tayx.Graphy">
+		<type fullname="Tayx.Graphy.Advanced.G_AdvancedData" preserve="nothing"/>
+		<type fullname="Tayx.Graphy.Audio.G_AudioGraph" preserve="nothing"/>
+		<type fullname="Tayx.Graphy.Audio.G_AudioManager" preserve="nothing"/>
+		<type fullname="Tayx.Graphy.Audio.G_AudioMonitor" preserve="nothing"/>
+		<type fullname="Tayx.Graphy.Audio.G_AudioText" preserve="nothing"/>
+		<type fullname="Tayx.Graphy.Fps.G_FpsGraph" preserve="nothing"/>
+		<type fullname="Tayx.Graphy.Fps.G_FpsManager" preserve="nothing"/>
+		<type fullname="Tayx.Graphy.Fps.G_FpsMonitor" preserve="nothing"/>
+		<type fullname="Tayx.Graphy.Fps.G_FpsText" preserve="nothing"/>
+		<type fullname="Tayx.Graphy.GraphyDebugger" preserve="nothing"/>
+		<type fullname="Tayx.Graphy.GraphyManager" preserve="nothing"/>
+		<type fullname="Tayx.Graphy.Ram.G_RamGraph" preserve="nothing"/>
+		<type fullname="Tayx.Graphy.Ram.G_RamManager" preserve="nothing"/>
+		<type fullname="Tayx.Graphy.Ram.G_RamMonitor" preserve="nothing"/>
+		<type fullname="Tayx.Graphy.Ram.G_RamText" preserve="nothing"/>
+	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Core.Runtime">
 		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerBitField" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerButton" preserve="nothing"/>
@@ -128,15 +149,19 @@
 		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerVector3" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerVector4" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.UI.UIFoldout" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.VolumeProfile" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Universal.Runtime">
+		<type fullname="UnityEngine.Rendering.Universal.Bloom" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.Universal.PostProcessData" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusion" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.Universal.Tonemapping" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.Universal.UniversalRendererData" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.Universal.UniversalRenderPipelineGlobalSettings" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.Universal.Vignette" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.Universal.XRSystemData" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
@@ -221,6 +246,7 @@
 		<type fullname="UnityEngine.UI.RectMask2D" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Scrollbar" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.ScrollRect" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.Shadow" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Slider" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Text" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Toggle" preserve="nothing"/>
