@@ -3276,6 +3276,62 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.Mesh
 
+	//Start Registrations for type : UnityEngine.Mesh/MeshData
+
+		//System.Int32 UnityEngine.Mesh/MeshData::GetVertexBufferCount(System.IntPtr)
+		void Register_UnityEngine_Mesh_MeshData_GetVertexBufferCount();
+		Register_UnityEngine_Mesh_MeshData_GetVertexBufferCount();
+
+		//System.IntPtr UnityEngine.Mesh/MeshData::GetIndexDataPtr(System.IntPtr)
+		void Register_UnityEngine_Mesh_MeshData_GetIndexDataPtr();
+		Register_UnityEngine_Mesh_MeshData_GetIndexDataPtr();
+
+		//System.IntPtr UnityEngine.Mesh/MeshData::GetVertexDataPtr(System.IntPtr,System.Int32)
+		void Register_UnityEngine_Mesh_MeshData_GetVertexDataPtr();
+		Register_UnityEngine_Mesh_MeshData_GetVertexDataPtr();
+
+		//System.UInt64 UnityEngine.Mesh/MeshData::GetIndexDataSize(System.IntPtr)
+		void Register_UnityEngine_Mesh_MeshData_GetIndexDataSize();
+		Register_UnityEngine_Mesh_MeshData_GetIndexDataSize();
+
+		//System.UInt64 UnityEngine.Mesh/MeshData::GetVertexDataSize(System.IntPtr,System.Int32)
+		void Register_UnityEngine_Mesh_MeshData_GetVertexDataSize();
+		Register_UnityEngine_Mesh_MeshData_GetVertexDataSize();
+
+		//System.Void UnityEngine.Mesh/MeshData::SetIndexBufferParamsImpl(System.IntPtr,System.Int32,UnityEngine.Rendering.IndexFormat)
+		void Register_UnityEngine_Mesh_MeshData_SetIndexBufferParamsImpl();
+		Register_UnityEngine_Mesh_MeshData_SetIndexBufferParamsImpl();
+
+		//System.Void UnityEngine.Mesh/MeshData::SetSubMeshCount(System.IntPtr,System.Int32)
+		void Register_UnityEngine_Mesh_MeshData_SetSubMeshCount();
+		Register_UnityEngine_Mesh_MeshData_SetSubMeshCount();
+
+		//System.Void UnityEngine.Mesh/MeshData::SetSubMeshImpl_Injected(System.IntPtr,System.Int32,UnityEngine.Rendering.SubMeshDescriptor&,UnityEngine.Rendering.MeshUpdateFlags)
+		void Register_UnityEngine_Mesh_MeshData_SetSubMeshImpl_Injected();
+		Register_UnityEngine_Mesh_MeshData_SetSubMeshImpl_Injected();
+
+		//System.Void UnityEngine.Mesh/MeshData::SetVertexBufferParamsFromArray(System.IntPtr,System.Int32,UnityEngine.Rendering.VertexAttributeDescriptor[])
+		void Register_UnityEngine_Mesh_MeshData_SetVertexBufferParamsFromArray();
+		Register_UnityEngine_Mesh_MeshData_SetVertexBufferParamsFromArray();
+
+	//End Registrations for type : UnityEngine.Mesh/MeshData
+
+	//Start Registrations for type : UnityEngine.Mesh/MeshDataArray
+
+		//System.Void UnityEngine.Mesh/MeshDataArray::ApplyToMeshImpl(UnityEngine.Mesh,System.IntPtr,UnityEngine.Rendering.MeshUpdateFlags)
+		void Register_UnityEngine_Mesh_MeshDataArray_ApplyToMeshImpl();
+		Register_UnityEngine_Mesh_MeshDataArray_ApplyToMeshImpl();
+
+		//System.Void UnityEngine.Mesh/MeshDataArray::CreateNewMeshDatas(System.IntPtr*,System.Int32)
+		void Register_UnityEngine_Mesh_MeshDataArray_CreateNewMeshDatas();
+		Register_UnityEngine_Mesh_MeshDataArray_CreateNewMeshDatas();
+
+		//System.Void UnityEngine.Mesh/MeshDataArray::ReleaseMeshDatas(System.IntPtr*,System.Int32)
+		void Register_UnityEngine_Mesh_MeshDataArray_ReleaseMeshDatas();
+		Register_UnityEngine_Mesh_MeshDataArray_ReleaseMeshDatas();
+
+	//End Registrations for type : UnityEngine.Mesh/MeshDataArray
+
 	//Start Registrations for type : UnityEngine.MeshCollider
 
 		//System.Void UnityEngine.MeshCollider::set_cookingOptions(UnityEngine.MeshColliderCookingOptions)

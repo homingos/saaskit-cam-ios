@@ -7674,6 +7674,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AsyncGPUReadbackRequest_GetDataRaw_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7 AsyncGPUReadback_Request_Internal_Texture_1_mE15C0D08EAC169466A4C93DA35540E8F13543B8D (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___src0, int32_t ___mipIndex1, AsyncRequestNativeArrayData_tF7EA8207508AB7275CC8571CCAE60492A9741505* ___data2, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Rendering.AsyncGPUReadback::Request_Internal_Texture_1_Injected(UnityEngine.Texture,System.Int32,UnityEngine.Rendering.AsyncRequestNativeArrayData*,UnityEngine.Rendering.AsyncGPUReadbackRequest&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncGPUReadback_Request_Internal_Texture_1_Injected_mAF52F2A60C4AB443325D09337DD83B4CE859518A (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___src0, int32_t ___mipIndex1, AsyncRequestNativeArrayData_tF7EA8207508AB7275CC8571CCAE60492A9741505* ___data2, AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7* ___ret3, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Rendering.SubMeshDescriptor::set_indexStart(System.Int32)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SubMeshDescriptor_set_indexStart_m04437852C448D05DB7638F9A207474187659FACB_inline (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, int32_t ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Rendering.SubMeshDescriptor::set_indexCount(System.Int32)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SubMeshDescriptor_set_indexCount_m851B9A38CC1B4DBE766A064963D9FE6FC9D91674_inline (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, int32_t ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Rendering.SubMeshDescriptor::set_topology(UnityEngine.MeshTopology)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SubMeshDescriptor_set_topology_m634819D6C110CD6EBFAF6590C48E24F77AC5A3CA_inline (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, int32_t ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Rendering.SubMeshDescriptor::set_bounds(UnityEngine.Bounds)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SubMeshDescriptor_set_bounds_mF5AFD8FC9DD1321F7EBA2B115034E238B472ACEB_inline (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Rendering.SubMeshDescriptor::set_baseVertex(System.Int32)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SubMeshDescriptor_set_baseVertex_mCCFBB14F4973C3EF2C00689667CEDA5A9AA20D9B_inline (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, int32_t ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Rendering.SubMeshDescriptor::set_firstVertex(System.Int32)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SubMeshDescriptor_set_firstVertex_mDC927003E251431E6DC95ACD80043DC8DC446FD8_inline (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, int32_t ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Rendering.SubMeshDescriptor::set_vertexCount(System.Int32)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SubMeshDescriptor_set_vertexCount_mA5715EC8038FD91335706AE9226B94DA7D840436_inline (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, int32_t ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Rendering.SubMeshDescriptor::.ctor(System.Int32,System.Int32,UnityEngine.MeshTopology)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubMeshDescriptor__ctor_m5234E625F44FA9B04F41BD9DC013E47C2C628D66 (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, int32_t ___indexStart0, int32_t ___indexCount1, int32_t ___topology2, const RuntimeMethod* method) ;
 // UnityEngine.Bounds UnityEngine.Rendering.SubMeshDescriptor::get_bounds()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 SubMeshDescriptor_get_bounds_mD2F47C8E1407CAFAEE966ACE1D870CB50AF3CEE4_inline (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, const RuntimeMethod* method) ;
 // UnityEngine.MeshTopology UnityEngine.Rendering.SubMeshDescriptor::get_topology()
@@ -23641,6 +23657,34 @@ IL_0013:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void UnityEngine.Rendering.SubMeshDescriptor::.ctor(System.Int32,System.Int32,UnityEngine.MeshTopology)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubMeshDescriptor__ctor_m5234E625F44FA9B04F41BD9DC013E47C2C628D66 (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, int32_t ___indexStart0, int32_t ___indexCount1, int32_t ___topology2, const RuntimeMethod* method) 
+{
+	Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		int32_t L_0 = ___indexStart0;
+		SubMeshDescriptor_set_indexStart_m04437852C448D05DB7638F9A207474187659FACB_inline(__this, L_0, NULL);
+		int32_t L_1 = ___indexCount1;
+		SubMeshDescriptor_set_indexCount_m851B9A38CC1B4DBE766A064963D9FE6FC9D91674_inline(__this, L_1, NULL);
+		int32_t L_2 = ___topology2;
+		SubMeshDescriptor_set_topology_m634819D6C110CD6EBFAF6590C48E24F77AC5A3CA_inline(__this, L_2, NULL);
+		il2cpp_codegen_initobj((&V_0), sizeof(Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3));
+		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_3 = V_0;
+		SubMeshDescriptor_set_bounds_mF5AFD8FC9DD1321F7EBA2B115034E238B472ACEB_inline(__this, L_3, NULL);
+		SubMeshDescriptor_set_baseVertex_mCCFBB14F4973C3EF2C00689667CEDA5A9AA20D9B_inline(__this, 0, NULL);
+		SubMeshDescriptor_set_firstVertex_mDC927003E251431E6DC95ACD80043DC8DC446FD8_inline(__this, 0, NULL);
+		SubMeshDescriptor_set_vertexCount_mA5715EC8038FD91335706AE9226B94DA7D840436_inline(__this, 0, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void SubMeshDescriptor__ctor_m5234E625F44FA9B04F41BD9DC013E47C2C628D66_AdjustorThunk (RuntimeObject* __this, int32_t ___indexStart0, int32_t ___indexCount1, int32_t ___topology2, const RuntimeMethod* method)
+{
+	SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934*>(__this + _offset);
+	SubMeshDescriptor__ctor_m5234E625F44FA9B04F41BD9DC013E47C2C628D66(_thisAdjusted, ___indexStart0, ___indexCount1, ___topology2, method);
+}
 // UnityEngine.Bounds UnityEngine.Rendering.SubMeshDescriptor::get_bounds()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 SubMeshDescriptor_get_bounds_mD2F47C8E1407CAFAEE966ACE1D870CB50AF3CEE4 (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, const RuntimeMethod* method) 
 {
@@ -23657,6 +23701,22 @@ IL2CPP_EXTERN_C  Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 SubMeshDescrip
 	Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 _returnValue;
 	_returnValue = SubMeshDescriptor_get_bounds_mD2F47C8E1407CAFAEE966ACE1D870CB50AF3CEE4_inline(_thisAdjusted, method);
 	return _returnValue;
+}
+// System.Void UnityEngine.Rendering.SubMeshDescriptor::set_bounds(UnityEngine.Bounds)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubMeshDescriptor_set_bounds_mF5AFD8FC9DD1321F7EBA2B115034E238B472ACEB (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___value0, const RuntimeMethod* method) 
+{
+	{
+		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_0 = ___value0;
+		__this->___U3CboundsU3Ek__BackingField_0 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void SubMeshDescriptor_set_bounds_mF5AFD8FC9DD1321F7EBA2B115034E238B472ACEB_AdjustorThunk (RuntimeObject* __this, Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___value0, const RuntimeMethod* method)
+{
+	SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934*>(__this + _offset);
+	SubMeshDescriptor_set_bounds_mF5AFD8FC9DD1321F7EBA2B115034E238B472ACEB_inline(_thisAdjusted, ___value0, method);
 }
 // UnityEngine.MeshTopology UnityEngine.Rendering.SubMeshDescriptor::get_topology()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SubMeshDescriptor_get_topology_mA3766E71B2249BAA047049095DC9E166BF17CEA7 (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, const RuntimeMethod* method) 
@@ -23675,6 +23735,22 @@ IL2CPP_EXTERN_C  int32_t SubMeshDescriptor_get_topology_mA3766E71B2249BAA0470490
 	_returnValue = SubMeshDescriptor_get_topology_mA3766E71B2249BAA047049095DC9E166BF17CEA7_inline(_thisAdjusted, method);
 	return _returnValue;
 }
+// System.Void UnityEngine.Rendering.SubMeshDescriptor::set_topology(UnityEngine.MeshTopology)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubMeshDescriptor_set_topology_m634819D6C110CD6EBFAF6590C48E24F77AC5A3CA (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->___U3CtopologyU3Ek__BackingField_1 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void SubMeshDescriptor_set_topology_m634819D6C110CD6EBFAF6590C48E24F77AC5A3CA_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934*>(__this + _offset);
+	SubMeshDescriptor_set_topology_m634819D6C110CD6EBFAF6590C48E24F77AC5A3CA_inline(_thisAdjusted, ___value0, method);
+}
 // System.Int32 UnityEngine.Rendering.SubMeshDescriptor::get_indexStart()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SubMeshDescriptor_get_indexStart_m68D7CB754235A9C5F5123A3336D12E3CA478718E (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, const RuntimeMethod* method) 
 {
@@ -23691,6 +23767,22 @@ IL2CPP_EXTERN_C  int32_t SubMeshDescriptor_get_indexStart_m68D7CB754235A9C5F5123
 	int32_t _returnValue;
 	_returnValue = SubMeshDescriptor_get_indexStart_m68D7CB754235A9C5F5123A3336D12E3CA478718E_inline(_thisAdjusted, method);
 	return _returnValue;
+}
+// System.Void UnityEngine.Rendering.SubMeshDescriptor::set_indexStart(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubMeshDescriptor_set_indexStart_m04437852C448D05DB7638F9A207474187659FACB (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->___U3CindexStartU3Ek__BackingField_2 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void SubMeshDescriptor_set_indexStart_m04437852C448D05DB7638F9A207474187659FACB_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934*>(__this + _offset);
+	SubMeshDescriptor_set_indexStart_m04437852C448D05DB7638F9A207474187659FACB_inline(_thisAdjusted, ___value0, method);
 }
 // System.Int32 UnityEngine.Rendering.SubMeshDescriptor::get_indexCount()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SubMeshDescriptor_get_indexCount_m28ADC82F4E9F709E400DA16712AAA8A548528EB9 (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, const RuntimeMethod* method) 
@@ -23709,6 +23801,22 @@ IL2CPP_EXTERN_C  int32_t SubMeshDescriptor_get_indexCount_m28ADC82F4E9F709E400DA
 	_returnValue = SubMeshDescriptor_get_indexCount_m28ADC82F4E9F709E400DA16712AAA8A548528EB9_inline(_thisAdjusted, method);
 	return _returnValue;
 }
+// System.Void UnityEngine.Rendering.SubMeshDescriptor::set_indexCount(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubMeshDescriptor_set_indexCount_m851B9A38CC1B4DBE766A064963D9FE6FC9D91674 (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->___U3CindexCountU3Ek__BackingField_3 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void SubMeshDescriptor_set_indexCount_m851B9A38CC1B4DBE766A064963D9FE6FC9D91674_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934*>(__this + _offset);
+	SubMeshDescriptor_set_indexCount_m851B9A38CC1B4DBE766A064963D9FE6FC9D91674_inline(_thisAdjusted, ___value0, method);
+}
 // System.Int32 UnityEngine.Rendering.SubMeshDescriptor::get_baseVertex()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SubMeshDescriptor_get_baseVertex_mF0B569B62BA72FA94CB159390375BBC0D0EE6D53 (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, const RuntimeMethod* method) 
 {
@@ -23725,6 +23833,22 @@ IL2CPP_EXTERN_C  int32_t SubMeshDescriptor_get_baseVertex_mF0B569B62BA72FA94CB15
 	int32_t _returnValue;
 	_returnValue = SubMeshDescriptor_get_baseVertex_mF0B569B62BA72FA94CB159390375BBC0D0EE6D53_inline(_thisAdjusted, method);
 	return _returnValue;
+}
+// System.Void UnityEngine.Rendering.SubMeshDescriptor::set_baseVertex(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubMeshDescriptor_set_baseVertex_mCCFBB14F4973C3EF2C00689667CEDA5A9AA20D9B (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->___U3CbaseVertexU3Ek__BackingField_4 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void SubMeshDescriptor_set_baseVertex_mCCFBB14F4973C3EF2C00689667CEDA5A9AA20D9B_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934*>(__this + _offset);
+	SubMeshDescriptor_set_baseVertex_mCCFBB14F4973C3EF2C00689667CEDA5A9AA20D9B_inline(_thisAdjusted, ___value0, method);
 }
 // System.Int32 UnityEngine.Rendering.SubMeshDescriptor::get_firstVertex()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SubMeshDescriptor_get_firstVertex_mEF80F76B602C4BF97182F76104D4D256344E8806 (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, const RuntimeMethod* method) 
@@ -23743,6 +23867,22 @@ IL2CPP_EXTERN_C  int32_t SubMeshDescriptor_get_firstVertex_mEF80F76B602C4BF97182
 	_returnValue = SubMeshDescriptor_get_firstVertex_mEF80F76B602C4BF97182F76104D4D256344E8806_inline(_thisAdjusted, method);
 	return _returnValue;
 }
+// System.Void UnityEngine.Rendering.SubMeshDescriptor::set_firstVertex(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubMeshDescriptor_set_firstVertex_mDC927003E251431E6DC95ACD80043DC8DC446FD8 (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->___U3CfirstVertexU3Ek__BackingField_5 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void SubMeshDescriptor_set_firstVertex_mDC927003E251431E6DC95ACD80043DC8DC446FD8_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934*>(__this + _offset);
+	SubMeshDescriptor_set_firstVertex_mDC927003E251431E6DC95ACD80043DC8DC446FD8_inline(_thisAdjusted, ___value0, method);
+}
 // System.Int32 UnityEngine.Rendering.SubMeshDescriptor::get_vertexCount()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SubMeshDescriptor_get_vertexCount_m75611DFB7BE0ED9F5260BD460A815BDCE11EA211 (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, const RuntimeMethod* method) 
 {
@@ -23759,6 +23899,22 @@ IL2CPP_EXTERN_C  int32_t SubMeshDescriptor_get_vertexCount_m75611DFB7BE0ED9F5260
 	int32_t _returnValue;
 	_returnValue = SubMeshDescriptor_get_vertexCount_m75611DFB7BE0ED9F5260BD460A815BDCE11EA211_inline(_thisAdjusted, method);
 	return _returnValue;
+}
+// System.Void UnityEngine.Rendering.SubMeshDescriptor::set_vertexCount(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubMeshDescriptor_set_vertexCount_mA5715EC8038FD91335706AE9226B94DA7D840436 (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->___U3CvertexCountU3Ek__BackingField_6 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void SubMeshDescriptor_set_vertexCount_mA5715EC8038FD91335706AE9226B94DA7D840436_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934*>(__this + _offset);
+	SubMeshDescriptor_set_vertexCount_mA5715EC8038FD91335706AE9226B94DA7D840436_inline(_thisAdjusted, ___value0, method);
 }
 // System.String UnityEngine.Rendering.SubMeshDescriptor::ToString()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SubMeshDescriptor_ToString_mBA25D925D5A941C4DC6C6A80BB9D1D1371E12C78 (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, const RuntimeMethod* method) 
@@ -35665,6 +35821,62 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SceneManagerAPI_t9F40646DDC167DB7
 		il2cpp_codegen_runtime_class_init_inline(SceneManagerAPI_t9F40646DDC167DB7D66499DE8E0E4C1776D75169_il2cpp_TypeInfo_var);
 		SceneManagerAPI_t9F40646DDC167DB7D66499DE8E0E4C1776D75169* L_0 = ((SceneManagerAPI_t9F40646DDC167DB7D66499DE8E0E4C1776D75169_StaticFields*)il2cpp_codegen_static_fields_for(SceneManagerAPI_t9F40646DDC167DB7D66499DE8E0E4C1776D75169_il2cpp_TypeInfo_var))->___U3CoverrideAPIU3Ek__BackingField_1;
 		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SubMeshDescriptor_set_indexStart_m04437852C448D05DB7638F9A207474187659FACB_inline (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->___U3CindexStartU3Ek__BackingField_2 = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SubMeshDescriptor_set_indexCount_m851B9A38CC1B4DBE766A064963D9FE6FC9D91674_inline (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->___U3CindexCountU3Ek__BackingField_3 = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SubMeshDescriptor_set_topology_m634819D6C110CD6EBFAF6590C48E24F77AC5A3CA_inline (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->___U3CtopologyU3Ek__BackingField_1 = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SubMeshDescriptor_set_bounds_mF5AFD8FC9DD1321F7EBA2B115034E238B472ACEB_inline (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___value0, const RuntimeMethod* method) 
+{
+	{
+		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_0 = ___value0;
+		__this->___U3CboundsU3Ek__BackingField_0 = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SubMeshDescriptor_set_baseVertex_mCCFBB14F4973C3EF2C00689667CEDA5A9AA20D9B_inline (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->___U3CbaseVertexU3Ek__BackingField_4 = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SubMeshDescriptor_set_firstVertex_mDC927003E251431E6DC95ACD80043DC8DC446FD8_inline (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->___U3CfirstVertexU3Ek__BackingField_5 = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SubMeshDescriptor_set_vertexCount_mA5715EC8038FD91335706AE9226B94DA7D840436_inline (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->___U3CvertexCountU3Ek__BackingField_6 = L_0;
+		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 SubMeshDescriptor_get_bounds_mD2F47C8E1407CAFAEE966ACE1D870CB50AF3CEE4_inline (SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* __this, const RuntimeMethod* method) 

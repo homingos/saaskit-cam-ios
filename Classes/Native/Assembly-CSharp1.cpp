@@ -93,6 +93,8 @@ struct Action_1_t49AD19663F9D6070EBF5FD37F8BEA43810805799;
 struct Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1;
 // System.Action`1<TrackingResponse>
 struct Action_1_t2CF998FC6BD498533A7FE989E2F06FC595329BAC;
+// System.Action`1<Vuforia.VuforiaEngineError>
+struct Action_1_t200E6E63BE9DC88796A35F12241202F36461989B;
 // System.Action`1<Vuforia.VuforiaInitError>
 struct Action_1_tF4CAAB52A69FEBB4D629E2D59C8EE77A263FEE43;
 // System.Action`2<System.Int32,System.Int32>
@@ -129,6 +131,8 @@ struct IOrderedEnumerable_1_t9AAD7C9275FDCC6C941C75B7705677089BC9DB25;
 struct KeyCollection_t1E134F42FFB64450959D03FBB57185F3B7B7A488;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.String,UnityEngine.GameObject>
 struct KeyCollection_tB57CC90FD7461471159C351E10C1C4C745284454;
+// System.Lazy`1<Vuforia.SingleThreadTaskScheduler>
+struct Lazy_1_t591DC30870074E8A02ABA62243C1B9521932D152;
 // System.Collections.Generic.List`1<UnityEngine.Animator>
 struct List_1_tEBD00B2A570CE5B5FF960B2BE20A243010D51651;
 // System.Collections.Generic.List`1<UnityEngine.AudioSource>
@@ -1894,6 +1898,8 @@ struct ObserverFactory_t15303B50E9714D21517E15020805420A68418285  : public Runti
 	RuntimeObject* ___mEngine_1;
 	// Vuforia.Internal.Core.IObserverFactory Vuforia.ObserverFactory::mFactory
 	RuntimeObject* ___mFactory_2;
+	// System.Lazy`1<Vuforia.SingleThreadTaskScheduler> Vuforia.ObserverFactory::mAsyncTaskScheduler
+	Lazy_1_t591DC30870074E8A02ABA62243C1B9521932D152* ___mAsyncTaskScheduler_3;
 };
 
 // Position
@@ -2180,26 +2186,28 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
 // Vuforia.VuforiaApplication
 struct VuforiaApplication_t84202EE6AE3488947F9398AA46BAB1D6F7CCDA46  : public RuntimeObject
 {
-	// System.Action Vuforia.VuforiaApplication::mOnBeforeVuforiaInitialized
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___mOnBeforeVuforiaInitialized_0;
-	// System.Action`1<Vuforia.VuforiaInitError> Vuforia.VuforiaApplication::mOnVuforiaInitialized
-	Action_1_tF4CAAB52A69FEBB4D629E2D59C8EE77A263FEE43* ___mOnVuforiaInitialized_1;
-	// System.Action Vuforia.VuforiaApplication::mOnVuforiaStarted
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___mOnVuforiaStarted_2;
 	// Vuforia.VuforiaInitError Vuforia.VuforiaApplication::mInitError
-	int32_t ___mInitError_3;
+	int32_t ___mInitError_1;
+	// System.Action Vuforia.VuforiaApplication::mOnBeforeVuforiaInitialized
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___mOnBeforeVuforiaInitialized_2;
+	// System.Action`1<Vuforia.VuforiaInitError> Vuforia.VuforiaApplication::mOnVuforiaInitialized
+	Action_1_tF4CAAB52A69FEBB4D629E2D59C8EE77A263FEE43* ___mOnVuforiaInitialized_3;
+	// System.Action Vuforia.VuforiaApplication::mOnVuforiaStarted
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___mOnVuforiaStarted_4;
+	// System.Action`1<Vuforia.VuforiaEngineError> Vuforia.VuforiaApplication::OnVuforiaError
+	Action_1_t200E6E63BE9DC88796A35F12241202F36461989B* ___OnVuforiaError_5;
 	// System.Action`1<System.Boolean> Vuforia.VuforiaApplication::OnVuforiaPaused
-	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___OnVuforiaPaused_5;
+	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___OnVuforiaPaused_6;
 	// System.Action Vuforia.VuforiaApplication::OnVuforiaStopped
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnVuforiaStopped_6;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnVuforiaStopped_7;
 	// System.Action Vuforia.VuforiaApplication::OnVuforiaDeinitialized
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnVuforiaDeinitialized_7;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnVuforiaDeinitialized_8;
 };
 
 struct VuforiaApplication_t84202EE6AE3488947F9398AA46BAB1D6F7CCDA46_StaticFields
 {
 	// Vuforia.VuforiaApplication Vuforia.VuforiaApplication::sInstance
-	VuforiaApplication_t84202EE6AE3488947F9398AA46BAB1D6F7CCDA46* ___sInstance_4;
+	VuforiaApplication_t84202EE6AE3488947F9398AA46BAB1D6F7CCDA46* ___sInstance_0;
 };
 
 // VuplexRoutes
@@ -6681,18 +6689,20 @@ struct ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB  : public Vuf
 	bool ___PreviewVisible_4;
 	// System.Boolean Vuforia.ObserverBehaviour::RuntimeOcclusion
 	bool ___RuntimeOcclusion_5;
+	// System.Boolean Vuforia.ObserverBehaviour::RuntimeCollider
+	bool ___RuntimeCollider_6;
 	// System.String Vuforia.ObserverBehaviour::mTrackableName
-	String_t* ___mTrackableName_6;
+	String_t* ___mTrackableName_7;
 	// System.Boolean Vuforia.ObserverBehaviour::mInitializedInEditor
-	bool ___mInitializedInEditor_7;
+	bool ___mInitializedInEditor_8;
 	// System.Action`2<Vuforia.ObserverBehaviour,Vuforia.TargetStatus> Vuforia.ObserverBehaviour::OnTargetStatusChanged
-	Action_2_tAC0AA9B652075EE1CE661500AC3373C7008D598F* ___OnTargetStatusChanged_8;
+	Action_2_tAC0AA9B652075EE1CE661500AC3373C7008D598F* ___OnTargetStatusChanged_9;
 	// System.Action`1<Vuforia.ObserverBehaviour> Vuforia.ObserverBehaviour::OnBehaviourDestroyed
-	Action_1_t49AD19663F9D6070EBF5FD37F8BEA43810805799* ___OnBehaviourDestroyed_9;
+	Action_1_t49AD19663F9D6070EBF5FD37F8BEA43810805799* ___OnBehaviourDestroyed_10;
 	// Vuforia.Internal.Observers.IObserver Vuforia.ObserverBehaviour::mObserver
-	RuntimeObject* ___mObserver_10;
+	RuntimeObject* ___mObserver_11;
 	// Vuforia.TargetStatus Vuforia.ObserverBehaviour::<TargetStatus>k__BackingField
-	TargetStatus_t5D866F1CAA9D70E5B66D532E69B190EA3BAAC4B0 ___U3CTargetStatusU3Ek__BackingField_11;
+	TargetStatus_t5D866F1CAA9D70E5B66D532E69B190EA3BAAC4B0 ___U3CTargetStatusU3Ek__BackingField_12;
 };
 
 // OrigamiManager
@@ -6911,13 +6921,13 @@ struct Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098  : public Selectable_t32
 struct DataSetTrackableBehaviour_tC09F7225D59E476738430EC99104A6455579452F  : public ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB
 {
 	// System.String Vuforia.DataSetTrackableBehaviour::mDataSetPath
-	String_t* ___mDataSetPath_13;
+	String_t* ___mDataSetPath_14;
 };
 
 struct DataSetTrackableBehaviour_tC09F7225D59E476738430EC99104A6455579452F_StaticFields
 {
 	// System.Single Vuforia.DataSetTrackableBehaviour::VirtualSceneScaleFactor
-	float ___VirtualSceneScaleFactor_12;
+	float ___VirtualSceneScaleFactor_13;
 };
 
 // UnityEngine.UI.MaskableGraphic
@@ -7533,29 +7543,29 @@ struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_StaticFields
 struct ImageTargetBehaviour_t014481FC6A8B819C2BCE7922BA6BD53E1B23F120  : public ScalableDataSetTrackableBehaviour_tC0985C18F93D61F367025B09CA45401C82592B8A
 {
 	// System.Single Vuforia.ImageTargetBehaviour::mAspectRatio
-	float ___mAspectRatio_14;
+	float ___mAspectRatio_15;
 	// Vuforia.ImageTargetType Vuforia.ImageTargetBehaviour::mImageTargetType
-	int32_t ___mImageTargetType_15;
+	int32_t ___mImageTargetType_16;
 	// System.Single Vuforia.ImageTargetBehaviour::mWidth
-	float ___mWidth_16;
+	float ___mWidth_17;
 	// System.Single Vuforia.ImageTargetBehaviour::mHeight
-	float ___mHeight_17;
+	float ___mHeight_18;
 	// UnityEngine.Texture2D Vuforia.ImageTargetBehaviour::mRuntimeTexture
-	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___mRuntimeTexture_18;
-	// Vuforia.DataSetTrackableBehaviour/TargetMotionHint Vuforia.ImageTargetBehaviour::mMotionHint
-	int32_t ___mMotionHint_19;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___mRuntimeTexture_19;
+	// Vuforia.Internal.TargetMotionHint Vuforia.ImageTargetBehaviour::mMotionHint
+	int32_t ___mMotionHint_20;
 	// Vuforia.TrackingOptimization Vuforia.ImageTargetBehaviour::mTrackingOptimization
-	int32_t ___mTrackingOptimization_20;
+	int32_t ___mTrackingOptimization_21;
 	// System.Boolean Vuforia.ImageTargetBehaviour::mTrackingOptimizationNeedsUpgrade
-	bool ___mTrackingOptimizationNeedsUpgrade_21;
+	bool ___mTrackingOptimizationNeedsUpgrade_22;
 	// Vuforia.ImageTargetPreview Vuforia.ImageTargetBehaviour::mPreview
-	ImageTargetPreview_tC3CEEA7E57439F3D488B9F24D2DA2E2C07BD4AF2* ___mPreview_22;
+	ImageTargetPreview_tC3CEEA7E57439F3D488B9F24D2DA2E2C07BD4AF2* ___mPreview_23;
 	// UnityEngine.Vector2 Vuforia.ImageTargetBehaviour::mLastSize
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___mLastSize_23;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___mLastSize_24;
 	// System.Collections.Generic.List`1<Vuforia.VirtualButtonBehaviour> Vuforia.ImageTargetBehaviour::mVirtualButtonBehaviours
-	List_1_t7F11ABA4A96E2842FB0A540B2DB6A4A521CAB024* ___mVirtualButtonBehaviours_24;
+	List_1_t7F11ABA4A96E2842FB0A540B2DB6A4A521CAB024* ___mVirtualButtonBehaviours_25;
 	// Vuforia.Internal.Observers.ImageTargetObserver Vuforia.ImageTargetBehaviour::mImageTargetObserver
-	ImageTargetObserver_t37CA9AEAE11535DFD06CD5C9D7D2F356A5D20252* ___mImageTargetObserver_25;
+	ImageTargetObserver_t37CA9AEAE11535DFD06CD5C9D7D2F356A5D20252* ___mImageTargetObserver_26;
 };
 
 // TMPro.TextMeshProUGUI

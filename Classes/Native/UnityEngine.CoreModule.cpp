@@ -355,6 +355,8 @@ struct Il2CppEagerStaticClassConstructionAttribute_t281D90A6001BE0D464C6ACDCCDC3
 struct ImageEffectAllowedInSceneView_t1F7C90CBB9520B45DE7107D93DFBF513A2A11AD8;
 // System.IndexOutOfRangeException
 struct IndexOutOfRangeException_t7ECB35264FB6CA8FAA516BD958F4B2ADC78E8A82;
+// System.IntPtr
+struct IntPtr_t;
 // System.InvalidOperationException
 struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB;
 // System.Runtime.CompilerServices.IsReadOnlyAttribute
@@ -567,6 +569,8 @@ IL2CPP_EXTERN_C String_t* _stringLiteral2244E3CCD3E30E3930E9ED890F9124FD597DC065
 IL2CPP_EXTERN_C String_t* _stringLiteral2409165FB90CD4A8B916FCA75790766B82C91748;
 IL2CPP_EXTERN_C String_t* _stringLiteral2871F975E8887269F65A6772517F34F6B41FB241;
 IL2CPP_EXTERN_C String_t* _stringLiteral28C465003282051121EE7D48EF8B31BA0647E4E4;
+IL2CPP_EXTERN_C String_t* _stringLiteral2956576D4D7B715600E40D140A87CD9FCBAF2307;
+IL2CPP_EXTERN_C String_t* _stringLiteral2AAF6C7A90E58D7205596DC636D6A02BDB914696;
 IL2CPP_EXTERN_C String_t* _stringLiteral2AD47C03F7A83F82E3B2ADFE8A60F1727FD3BEFD;
 IL2CPP_EXTERN_C String_t* _stringLiteral2C15AA9860EA132E537148CBC6619ADD860EF775;
 IL2CPP_EXTERN_C String_t* _stringLiteral3101ED7ACD48624A3ECC70BC8CA746903A32B589;
@@ -581,6 +585,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral44F1E7DB2E8AAD233857868896DFEFE5A63EECEF
 IL2CPP_EXTERN_C String_t* _stringLiteral47A3FAF17D89549FD0F0ECA7370B81F7C80DFCDE;
 IL2CPP_EXTERN_C String_t* _stringLiteral4908BF0936B537B6A39A4EACD2BD389033325122;
 IL2CPP_EXTERN_C String_t* _stringLiteral4B8146FB95E4F51B29DA41EB5F6D60F8FD0ECF21;
+IL2CPP_EXTERN_C String_t* _stringLiteral4D0C751D4CFFC243E48BA1ACB26638D05BA032BB;
 IL2CPP_EXTERN_C String_t* _stringLiteral4DC0ECF676CDB8466A06C299A2E315606DFC00BD;
 IL2CPP_EXTERN_C String_t* _stringLiteral4F673DA184FCA110DBB1F3B27CA5C5ABA2ACAE4D;
 IL2CPP_EXTERN_C String_t* _stringLiteral508CD29D61D05D15F8238921DECD948008407FC3;
@@ -620,6 +625,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralAEEADD39FAC5E5FBA4DB890FD04D7348FC618A7D
 IL2CPP_EXTERN_C String_t* _stringLiteralB13A454B4BEA015A31A39130BFED12123F412969;
 IL2CPP_EXTERN_C String_t* _stringLiteralB19726143F1CB60CB74821ED0B9AB64839C2B1E6;
 IL2CPP_EXTERN_C String_t* _stringLiteralB1C444E3BFA01B92C5E542F92FCD1CBF5FA93A17;
+IL2CPP_EXTERN_C String_t* _stringLiteralB54D393654F24720778CBD1865ACD7D51485886C;
 IL2CPP_EXTERN_C String_t* _stringLiteralB647E12B1D81328C42C9D3281EE76E2D95B95F7E;
 IL2CPP_EXTERN_C String_t* _stringLiteralB6BE5E6EB8C59B49D99F881735E7F7B961518D18;
 IL2CPP_EXTERN_C String_t* _stringLiteralB8CAB23D3552365A15469C345D71BC2F4E90829F;
@@ -639,6 +645,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralD6FBBF71CAB1C021AB97045C16F58D7D83B506A3
 IL2CPP_EXTERN_C String_t* _stringLiteralD874F42C13E37C2DC1439129B007C88EBE826695;
 IL2CPP_EXTERN_C String_t* _stringLiteralD9E6133A11F47696D4E62AD543E1580B6ABE9EDF;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+IL2CPP_EXTERN_C String_t* _stringLiteralDA7AEF839C310E50649FABCB16048EC805ED1DCF;
 IL2CPP_EXTERN_C String_t* _stringLiteralDB5BDF250FB405C28F8339105020CD7742C70937;
 IL2CPP_EXTERN_C String_t* _stringLiteralDC71B380AFF23A38F6029B32B61C6943CB960350;
 IL2CPP_EXTERN_C String_t* _stringLiteralE346FCA480D938C6DF7AFF5910AC3A02E158E6E7;
@@ -650,6 +657,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralE8744A8B8BD390EB66CA0CAE2376C973E6904FFB
 IL2CPP_EXTERN_C String_t* _stringLiteralEB0A157666700D8227FD4B66A26FDC02035E89BF;
 IL2CPP_EXTERN_C String_t* _stringLiteralEFFDE064E209436E365A2FB038A6092DD43A74D9;
 IL2CPP_EXTERN_C String_t* _stringLiteralF01E33DC40C04661F92640CF2C246EE3E85DAC09;
+IL2CPP_EXTERN_C String_t* _stringLiteralF077EC9145A09C838B122B15176BBB37F51ADD96;
 IL2CPP_EXTERN_C String_t* _stringLiteralFBFED6DEA5A92748E7B7A0A236B4FBA1EFEF38C6;
 IL2CPP_EXTERN_C String_t* _stringLiteralFE1BEE966B8909C513B4C6BC1FBFE2904BDC0C71;
 IL2CPP_EXTERN_C String_t* _stringLiteralFF54EBEF45A506AA2137A63AB3B1A51A3EC8E03E;
@@ -681,6 +689,9 @@ IL2CPP_EXTERN_C const RuntimeMethod* MaterialPropertyBlock_SetVectorArray_m92BE4
 IL2CPP_EXTERN_C const RuntimeMethod* Material_SetFloatArray_mDD55CA01A77C833890C19ADDC468DD2AB77E0B9E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Material_SetMatrixArray_m49725B5D7773D361DB5CAE20ADFBCF980742FC8B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Material_SetVectorArray_m3C32668277A77D4312B97AA97E4421E9B93A4516_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MeshDataArray_ApplyToMeshAndDispose_m7231722BE23F2C0B92BD2C49624A6CDEB078FB0B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MeshDataArray__ctor_m8F99AE5A5D5E8BE74721D1DFE7F3D22B502DE027_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Mesh_ApplyAndDisposeWritableMeshData_mAA50A07E9CE4E84DC0FDC0830E3A80314B4BEFE5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Mesh_CheckIndicesArrayRange_m0B8030BE6248E1E411D92E3255777E6E530527F4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Mesh_DefaultDimensionForChannel_mCE2BFE4516CB37EA677E8671997D986FF654C130_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Mesh_GetAllocArrayFromChannel_TisColor32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B_m72075F645F848EBDDA48A31CCCA7B6D760B7C28E_RuntimeMethod_var;
@@ -737,6 +748,8 @@ IL2CPP_EXTERN_C const RuntimeMethod* Texture3D_ValidateIsNotCrunched_m7B73D94359
 IL2CPP_EXTERN_C const RuntimeMethod* Texture_set_dimension_m522458561BBCEFA57B639864DF6C9FEEB9D89B71_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Texture_set_height_m2A62EC27DC1F0AE6A952B2B65FF7BF68710CDF36_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Texture_set_width_m309DEA6AA9203B160624755C5D9EA75AB08AD6AE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnsafeUtility_AlignOf_TisIntPtr_t_mB17C6C168D8CA088879EDD0D5B9923F70F5269B8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnsafeUtility_SizeOf_TisIntPtr_t_mB2B3CFF1CB804C99734D4E2F5D8A8C9DB0D209A8_RuntimeMethod_var;
 struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_com;
 struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_pinvoke;
 struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com;
@@ -2564,6 +2577,15 @@ struct U3Cm_ShadowCullPlanesU3Ee__FixedBuffer_tEBBBC21BE4AF7AC2F831E9A67E5E5CFEB
 		};
 		uint8_t U3Cm_ShadowCullPlanesU3Ee__FixedBuffer_tEBBBC21BE4AF7AC2F831E9A67E5E5CFEBDF2DE4F__padding[96];
 	};
+};
+
+// UnityEngine.Mesh/MeshDataArray
+struct MeshDataArray_tE4230F9233EEE183C338005AD160B04905345BBB 
+{
+	// System.IntPtr* UnityEngine.Mesh/MeshDataArray::m_Ptrs
+	intptr_t* ___m_Ptrs_0;
+	// System.Int32 UnityEngine.Mesh/MeshDataArray::m_Length
+	int32_t ___m_Length_1;
 };
 
 // UnityEngine.Rendering.ScriptableCullingParameters/<m_CullingPlanes>e__FixedBuffer
@@ -4883,6 +4905,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_SetUvsImpl_TisVector4_t58B63D32F48C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_GetUVsImpl_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m3E1A3BC6C031ACC6AADE8D351A25CC3766047B5B_gshared (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, int32_t ___uvIndex0, List_1_tF42FEB6C3B18B7E7C8F2DE1FEBA00D2491736317* ___uvs1, int32_t ___dim2, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.NoAllocHelpers::SafeLength<System.Int32>(System.Collections.Generic.List`1<T>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NoAllocHelpers_SafeLength_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m910F55DA116EEF0221ADFF22689A9842AC46C5FE_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___values0, const RuntimeMethod* method) ;
+// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeUtility::SizeOf<System.IntPtr>()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisIntPtr_t_mB2B3CFF1CB804C99734D4E2F5D8A8C9DB0D209A8_gshared (const RuntimeMethod* method) ;
+// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeUtility::AlignOf<System.IntPtr>()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_AlignOf_TisIntPtr_t_mB17C6C168D8CA088879EDD0D5B9923F70F5269B8_gshared (const RuntimeMethod* method) ;
 
 // System.Void System.Attribute::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2 (Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA* __this, const RuntimeMethod* method) ;
@@ -6062,6 +6088,14 @@ inline void Mesh_GetUVsImpl_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3
 }
 // System.Void UnityEngine.Mesh::SetVertexBufferParamsFromArray(System.Int32,UnityEngine.Rendering.VertexAttributeDescriptor[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_SetVertexBufferParamsFromArray_m5AFDBD976242355204BEF7241198FD652DBEDDE6 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, int32_t ___vertexCount0, VertexAttributeDescriptorU5BU5D_t5D10E60612F12777F59B7E33939F9075DB0E02B2* ___attributes1, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Mesh/MeshDataArray::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshDataArray__ctor_m8F99AE5A5D5E8BE74721D1DFE7F3D22B502DE027 (MeshDataArray_tE4230F9233EEE183C338005AD160B04905345BBB* __this, int32_t ___meshesCount0, const RuntimeMethod* method) ;
+// System.Void System.ArgumentNullException::.ctor(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentNullException__ctor_m6D9C7B47EA708382838B264BA02EBB7576DFA155 (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* __this, String_t* ___paramName0, String_t* ___message1, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.Mesh/MeshDataArray::get_Length()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MeshDataArray_get_Length_mE5147D0A29F7FEA94599B869997BB142407D090C_inline (MeshDataArray_tE4230F9233EEE183C338005AD160B04905345BBB* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Mesh/MeshDataArray::ApplyToMeshAndDispose(UnityEngine.Mesh,UnityEngine.Rendering.MeshUpdateFlags)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshDataArray_ApplyToMeshAndDispose_m7231722BE23F2C0B92BD2C49624A6CDEB078FB0B (MeshDataArray_tE4230F9233EEE183C338005AD160B04905345BBB* __this, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___mesh0, int32_t ___flags1, const RuntimeMethod* method) ;
 // System.String UnityEngine.Object::get_name()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::LogError(System.Object)
@@ -6131,6 +6165,52 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_RecalculateNormalsImpl_m87F16BA2194
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_MarkDynamicImpl_m989606245279A69A710361DC0443BE39960DF857 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Mesh::UploadMeshDataImpl(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_UploadMeshDataImpl_m7B81CF63A72BFB42433F6AAF6789B9DD06D94CC1 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, bool ___markNoLongerReadable0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Mesh/MeshData::SetSubMeshImpl_Injected(System.IntPtr,System.Int32,UnityEngine.Rendering.SubMeshDescriptor&,UnityEngine.Rendering.MeshUpdateFlags)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshData_SetSubMeshImpl_Injected_m4597F2D872F3FC4E12A0B94288312EF66473CA0B (intptr_t ___self0, int32_t ___index1, SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* ___desc2, int32_t ___flags3, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.Mesh/MeshData::GetVertexBufferCount(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MeshData_GetVertexBufferCount_m7EEB079F7315473C7F7FBEBD45D4A687F18042D8 (intptr_t ___self0, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.Mesh/MeshData::get_vertexBufferCount()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MeshData_get_vertexBufferCount_mA6E407D61AFF65C192204BCA96BA14B5509EBD4F (MeshData_tFCD3E8B24DBC948C0FDF0900B918E3FF117369AC* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Mesh/MeshData::SetVertexBufferParamsFromArray(System.IntPtr,System.Int32,UnityEngine.Rendering.VertexAttributeDescriptor[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshData_SetVertexBufferParamsFromArray_m33C3E7740A311DD757C83FD24C3F88C8A06D5E75 (intptr_t ___self0, int32_t ___vertexCount1, VertexAttributeDescriptorU5BU5D_t5D10E60612F12777F59B7E33939F9075DB0E02B2* ___attributes2, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Mesh/MeshData::SetVertexBufferParams(System.Int32,UnityEngine.Rendering.VertexAttributeDescriptor[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshData_SetVertexBufferParams_mA26423ECD8597CF1C1501C317863817F00A926A3 (MeshData_tFCD3E8B24DBC948C0FDF0900B918E3FF117369AC* __this, int32_t ___vertexCount0, VertexAttributeDescriptorU5BU5D_t5D10E60612F12777F59B7E33939F9075DB0E02B2* ___attributes1, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Mesh/MeshData::SetIndexBufferParamsImpl(System.IntPtr,System.Int32,UnityEngine.Rendering.IndexFormat)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshData_SetIndexBufferParamsImpl_mA89CBD91A537E9AC660960C231F51924ADCF62C0 (intptr_t ___self0, int32_t ___indexCount1, int32_t ___indexFormat2, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Mesh/MeshData::SetIndexBufferParams(System.Int32,UnityEngine.Rendering.IndexFormat)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshData_SetIndexBufferParams_mA57F24E12ED6F8C937767B1023BBEA268AA31B2D (MeshData_tFCD3E8B24DBC948C0FDF0900B918E3FF117369AC* __this, int32_t ___indexCount0, int32_t ___format1, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Mesh/MeshData::SetSubMeshCount(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshData_SetSubMeshCount_m7EF695FD6E66161237330E6E9FB4D0B7CA9F91DE (intptr_t ___self0, int32_t ___count1, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Mesh/MeshData::set_subMeshCount(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshData_set_subMeshCount_m87AA53E47F636DCCCD5AAB0847D0679AF591B6B9 (MeshData_tFCD3E8B24DBC948C0FDF0900B918E3FF117369AC* __this, int32_t ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Mesh/MeshData::SetSubMeshImpl(System.IntPtr,System.Int32,UnityEngine.Rendering.SubMeshDescriptor,UnityEngine.Rendering.MeshUpdateFlags)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshData_SetSubMeshImpl_m684861E32ED24CD3B228D55F0C0B8B2C6E9350C2 (intptr_t ___self0, int32_t ___index1, SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934 ___desc2, int32_t ___flags3, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Mesh/MeshData::SetSubMesh(System.Int32,UnityEngine.Rendering.SubMeshDescriptor,UnityEngine.Rendering.MeshUpdateFlags)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshData_SetSubMesh_mA8194F572260ED6493E7F2EFE68A91982CDE3318 (MeshData_tFCD3E8B24DBC948C0FDF0900B918E3FF117369AC* __this, int32_t ___index0, SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934 ___desc1, int32_t ___flags2, const RuntimeMethod* method) ;
+// UnityEngine.Mesh/MeshData UnityEngine.Mesh/MeshDataArray::get_Item(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MeshData_tFCD3E8B24DBC948C0FDF0900B918E3FF117369AC MeshDataArray_get_Item_mB60115AEAC872376DFD5597C094B60BC77F3A13C (MeshDataArray_tE4230F9233EEE183C338005AD160B04905345BBB* __this, int32_t ___index0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Mesh/MeshDataArray::ReleaseMeshDatas(System.IntPtr*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshDataArray_ReleaseMeshDatas_m84203D2E45A79CA64617948B17ADF7B21C76C9D2 (intptr_t* ___datas0, int32_t ___count1, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Mesh/MeshDataArray::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshDataArray_Dispose_mDBB00B32298F9640C984ED15FEB2F8DA5BE206E2 (MeshDataArray_tE4230F9233EEE183C338005AD160B04905345BBB* __this, const RuntimeMethod* method) ;
+// System.String System.String::Concat(System.String,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___str00, String_t* ___str11, String_t* ___str22, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Mesh/MeshDataArray::ApplyToMeshImpl(UnityEngine.Mesh,System.IntPtr,UnityEngine.Rendering.MeshUpdateFlags)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshDataArray_ApplyToMeshImpl_m81FE40946FBDC1C4F18D6298D83A320C9C33AEF5 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___mesh0, intptr_t ___data1, int32_t ___flags2, const RuntimeMethod* method) ;
+// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeUtility::SizeOf<System.IntPtr>()
+inline int32_t UnsafeUtility_SizeOf_TisIntPtr_t_mB2B3CFF1CB804C99734D4E2F5D8A8C9DB0D209A8 (const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (const RuntimeMethod*))UnsafeUtility_SizeOf_TisIntPtr_t_mB2B3CFF1CB804C99734D4E2F5D8A8C9DB0D209A8_gshared)(method);
+}
+// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeUtility::AlignOf<System.IntPtr>()
+inline int32_t UnsafeUtility_AlignOf_TisIntPtr_t_mB17C6C168D8CA088879EDD0D5B9923F70F5269B8 (const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (const RuntimeMethod*))UnsafeUtility_AlignOf_TisIntPtr_t_mB17C6C168D8CA088879EDD0D5B9923F70F5269B8_gshared)(method);
+}
+// System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeUtility::Malloc(System.Int64,System.Int32,Unity.Collections.Allocator)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* UnsafeUtility_Malloc_mD7BD28D5AE7E4901B225B7DFFE2B568EE7BDC0C9 (int64_t ___size0, int32_t ___alignment1, int32_t ___allocator2, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Mesh/MeshDataArray::CreateNewMeshDatas(System.IntPtr*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshDataArray_CreateNewMeshDatas_mACB9D24503972B0A0E0AA8C4C1D6A6AFAA49C148 (intptr_t* ___datas0, int32_t ___count1, const RuntimeMethod* method) ;
 // System.Single UnityEngine.BoneWeight::get_weight0()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BoneWeight_get_weight0_m2BFE8C332832D2275A154F23FB7CB06E028E79E9 (BoneWeight_t7E7DACA0D0F56698E05EBBD839D1D343502EA11F* __this, const RuntimeMethod* method) ;
 // System.Single UnityEngine.BoneWeight::get_weight1()
@@ -6415,8 +6495,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GraphicsFormatUtility_GetDepthStencil
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RenderTextureDescriptor_get_graphicsFormat_m50F25A4F179EA318C8D3B0D8685F9C5F59F7DEC0 (RenderTextureDescriptor_t69845881CE6437E4E61F92074F2F84079F23FA46* __this, const RuntimeMethod* method) ;
 // UnityEngine.Experimental.Rendering.GraphicsFormat UnityEngine.RenderTextureDescriptor::get_depthStencilFormat()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t RenderTextureDescriptor_get_depthStencilFormat_m360929BE5BD10E9C3D8C936AA6B44B1D11C119CB_inline (RenderTextureDescriptor_t69845881CE6437E4E61F92074F2F84079F23FA46* __this, const RuntimeMethod* method) ;
-// System.String System.String::Concat(System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___str00, String_t* ___str11, String_t* ___str22, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Experimental.Rendering.GraphicsFormatUtility::IsDepthFormat(UnityEngine.Experimental.Rendering.GraphicsFormat)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GraphicsFormatUtility_IsDepthFormat_m3CCCC9CE8DD7DAD9814D03E252D7B0F1C89A1452 (int32_t ___format0, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Experimental.Rendering.GraphicsFormatUtility::IsStencilFormat(UnityEngine.Experimental.Rendering.GraphicsFormat)
@@ -25466,6 +25544,88 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_SetVertexBufferParams_m8033EB85082C
 		return;
 	}
 }
+// UnityEngine.Mesh/MeshDataArray UnityEngine.Mesh::AllocateWritableMeshData(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MeshDataArray_tE4230F9233EEE183C338005AD160B04905345BBB Mesh_AllocateWritableMeshData_mBB3379F313E58D95EEC2E55BD731E0FCF0BAA087 (int32_t ___meshCount0, const RuntimeMethod* method) 
+{
+	MeshDataArray_tE4230F9233EEE183C338005AD160B04905345BBB V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		int32_t L_0 = ___meshCount0;
+		MeshDataArray_tE4230F9233EEE183C338005AD160B04905345BBB L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		MeshDataArray__ctor_m8F99AE5A5D5E8BE74721D1DFE7F3D22B502DE027((&L_1), L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		MeshDataArray_tE4230F9233EEE183C338005AD160B04905345BBB L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Void UnityEngine.Mesh::ApplyAndDisposeWritableMeshData(UnityEngine.Mesh/MeshDataArray,UnityEngine.Mesh,UnityEngine.Rendering.MeshUpdateFlags)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_ApplyAndDisposeWritableMeshData_mAA50A07E9CE4E84DC0FDC0830E3A80314B4BEFE5 (MeshDataArray_tE4230F9233EEE183C338005AD160B04905345BBB ___data0, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___mesh1, int32_t ___flags2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	{
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_0 = ___mesh1;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_3 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
+		NullCheck(L_3);
+		ArgumentNullException__ctor_m6D9C7B47EA708382838B264BA02EBB7576DFA155(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralEB0A157666700D8227FD4B66A26FDC02035E89BF)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral2956576D4D7B715600E40D140A87CD9FCBAF2307)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Mesh_ApplyAndDisposeWritableMeshData_mAA50A07E9CE4E84DC0FDC0830E3A80314B4BEFE5_RuntimeMethod_var)));
+	}
+
+IL_001c:
+	{
+		int32_t L_4;
+		L_4 = MeshDataArray_get_Length_mE5147D0A29F7FEA94599B869997BB142407D090C_inline((&___data0), NULL);
+		V_1 = (bool)((((int32_t)((((int32_t)L_4) == ((int32_t)1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_5 = V_1;
+		if (!L_5)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		int32_t L_6;
+		L_6 = MeshDataArray_get_Length_mE5147D0A29F7FEA94599B869997BB142407D090C_inline((&___data0), NULL);
+		int32_t L_7 = L_6;
+		RuntimeObject* L_8 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)), &L_7);
+		String_t* L_9;
+		L_9 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral4D0C751D4CFFC243E48BA1ACB26638D05BA032BB)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralF077EC9145A09C838B122B15176BBB37F51ADD96)), L_8, NULL);
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_10 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
+		NullCheck(L_10);
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_10, L_9, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_10, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Mesh_ApplyAndDisposeWritableMeshData_mAA50A07E9CE4E84DC0FDC0830E3A80314B4BEFE5_RuntimeMethod_var)));
+	}
+
+IL_004e:
+	{
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_11 = ___mesh1;
+		int32_t L_12 = ___flags2;
+		MeshDataArray_ApplyToMeshAndDispose_m7231722BE23F2C0B92BD2C49624A6CDEB078FB0B((&___data0), L_11, L_12, NULL);
+		return;
+	}
+}
 // System.Void UnityEngine.Mesh::PrintErrorCantAccessIndices()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_PrintErrorCantAccessIndices_mC2A8F7BBED09D4D6ABC265AFCC2979795C1ABF0C (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, const RuntimeMethod* method) 
 {
@@ -26483,6 +26643,427 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_bounds_Injected_m13D417C394E27C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Int32 UnityEngine.Mesh/MeshData::GetVertexBufferCount(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MeshData_GetVertexBufferCount_m7EEB079F7315473C7F7FBEBD45D4A687F18042D8 (intptr_t ___self0, const RuntimeMethod* method) 
+{
+	typedef int32_t (*MeshData_GetVertexBufferCount_m7EEB079F7315473C7F7FBEBD45D4A687F18042D8_ftn) (intptr_t);
+	static MeshData_GetVertexBufferCount_m7EEB079F7315473C7F7FBEBD45D4A687F18042D8_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (MeshData_GetVertexBufferCount_m7EEB079F7315473C7F7FBEBD45D4A687F18042D8_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Mesh/MeshData::GetVertexBufferCount(System.IntPtr)");
+	int32_t icallRetVal = _il2cpp_icall_func(___self0);
+	return icallRetVal;
+}
+// System.IntPtr UnityEngine.Mesh/MeshData::GetVertexDataPtr(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t MeshData_GetVertexDataPtr_mFEE366C279531E7664A0D373C29BFA561C3EC2BE (intptr_t ___self0, int32_t ___stream1, const RuntimeMethod* method) 
+{
+	typedef intptr_t (*MeshData_GetVertexDataPtr_mFEE366C279531E7664A0D373C29BFA561C3EC2BE_ftn) (intptr_t, int32_t);
+	static MeshData_GetVertexDataPtr_mFEE366C279531E7664A0D373C29BFA561C3EC2BE_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (MeshData_GetVertexDataPtr_mFEE366C279531E7664A0D373C29BFA561C3EC2BE_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Mesh/MeshData::GetVertexDataPtr(System.IntPtr,System.Int32)");
+	intptr_t icallRetVal = _il2cpp_icall_func(___self0, ___stream1);
+	return icallRetVal;
+}
+// System.UInt64 UnityEngine.Mesh/MeshData::GetVertexDataSize(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t MeshData_GetVertexDataSize_mC9EEED84721B54917210824BF204CCF4C1CE774D (intptr_t ___self0, int32_t ___stream1, const RuntimeMethod* method) 
+{
+	typedef uint64_t (*MeshData_GetVertexDataSize_mC9EEED84721B54917210824BF204CCF4C1CE774D_ftn) (intptr_t, int32_t);
+	static MeshData_GetVertexDataSize_mC9EEED84721B54917210824BF204CCF4C1CE774D_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (MeshData_GetVertexDataSize_mC9EEED84721B54917210824BF204CCF4C1CE774D_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Mesh/MeshData::GetVertexDataSize(System.IntPtr,System.Int32)");
+	uint64_t icallRetVal = _il2cpp_icall_func(___self0, ___stream1);
+	return icallRetVal;
+}
+// System.IntPtr UnityEngine.Mesh/MeshData::GetIndexDataPtr(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t MeshData_GetIndexDataPtr_mC3662C797B24BDD967595C63AA6AB9DBB8B9F02A (intptr_t ___self0, const RuntimeMethod* method) 
+{
+	typedef intptr_t (*MeshData_GetIndexDataPtr_mC3662C797B24BDD967595C63AA6AB9DBB8B9F02A_ftn) (intptr_t);
+	static MeshData_GetIndexDataPtr_mC3662C797B24BDD967595C63AA6AB9DBB8B9F02A_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (MeshData_GetIndexDataPtr_mC3662C797B24BDD967595C63AA6AB9DBB8B9F02A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Mesh/MeshData::GetIndexDataPtr(System.IntPtr)");
+	intptr_t icallRetVal = _il2cpp_icall_func(___self0);
+	return icallRetVal;
+}
+// System.UInt64 UnityEngine.Mesh/MeshData::GetIndexDataSize(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t MeshData_GetIndexDataSize_mC7D4DB52A49B547CC336CA29021E59DD5EDAA00C (intptr_t ___self0, const RuntimeMethod* method) 
+{
+	typedef uint64_t (*MeshData_GetIndexDataSize_mC7D4DB52A49B547CC336CA29021E59DD5EDAA00C_ftn) (intptr_t);
+	static MeshData_GetIndexDataSize_mC7D4DB52A49B547CC336CA29021E59DD5EDAA00C_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (MeshData_GetIndexDataSize_mC7D4DB52A49B547CC336CA29021E59DD5EDAA00C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Mesh/MeshData::GetIndexDataSize(System.IntPtr)");
+	uint64_t icallRetVal = _il2cpp_icall_func(___self0);
+	return icallRetVal;
+}
+// System.Void UnityEngine.Mesh/MeshData::SetVertexBufferParamsFromArray(System.IntPtr,System.Int32,UnityEngine.Rendering.VertexAttributeDescriptor[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshData_SetVertexBufferParamsFromArray_m33C3E7740A311DD757C83FD24C3F88C8A06D5E75 (intptr_t ___self0, int32_t ___vertexCount1, VertexAttributeDescriptorU5BU5D_t5D10E60612F12777F59B7E33939F9075DB0E02B2* ___attributes2, const RuntimeMethod* method) 
+{
+	typedef void (*MeshData_SetVertexBufferParamsFromArray_m33C3E7740A311DD757C83FD24C3F88C8A06D5E75_ftn) (intptr_t, int32_t, VertexAttributeDescriptorU5BU5D_t5D10E60612F12777F59B7E33939F9075DB0E02B2*);
+	static MeshData_SetVertexBufferParamsFromArray_m33C3E7740A311DD757C83FD24C3F88C8A06D5E75_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (MeshData_SetVertexBufferParamsFromArray_m33C3E7740A311DD757C83FD24C3F88C8A06D5E75_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Mesh/MeshData::SetVertexBufferParamsFromArray(System.IntPtr,System.Int32,UnityEngine.Rendering.VertexAttributeDescriptor[])");
+	_il2cpp_icall_func(___self0, ___vertexCount1, ___attributes2);
+}
+// System.Void UnityEngine.Mesh/MeshData::SetIndexBufferParamsImpl(System.IntPtr,System.Int32,UnityEngine.Rendering.IndexFormat)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshData_SetIndexBufferParamsImpl_mA89CBD91A537E9AC660960C231F51924ADCF62C0 (intptr_t ___self0, int32_t ___indexCount1, int32_t ___indexFormat2, const RuntimeMethod* method) 
+{
+	typedef void (*MeshData_SetIndexBufferParamsImpl_mA89CBD91A537E9AC660960C231F51924ADCF62C0_ftn) (intptr_t, int32_t, int32_t);
+	static MeshData_SetIndexBufferParamsImpl_mA89CBD91A537E9AC660960C231F51924ADCF62C0_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (MeshData_SetIndexBufferParamsImpl_mA89CBD91A537E9AC660960C231F51924ADCF62C0_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Mesh/MeshData::SetIndexBufferParamsImpl(System.IntPtr,System.Int32,UnityEngine.Rendering.IndexFormat)");
+	_il2cpp_icall_func(___self0, ___indexCount1, ___indexFormat2);
+}
+// System.Void UnityEngine.Mesh/MeshData::SetSubMeshCount(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshData_SetSubMeshCount_m7EF695FD6E66161237330E6E9FB4D0B7CA9F91DE (intptr_t ___self0, int32_t ___count1, const RuntimeMethod* method) 
+{
+	typedef void (*MeshData_SetSubMeshCount_m7EF695FD6E66161237330E6E9FB4D0B7CA9F91DE_ftn) (intptr_t, int32_t);
+	static MeshData_SetSubMeshCount_m7EF695FD6E66161237330E6E9FB4D0B7CA9F91DE_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (MeshData_SetSubMeshCount_m7EF695FD6E66161237330E6E9FB4D0B7CA9F91DE_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Mesh/MeshData::SetSubMeshCount(System.IntPtr,System.Int32)");
+	_il2cpp_icall_func(___self0, ___count1);
+}
+// System.Void UnityEngine.Mesh/MeshData::SetSubMeshImpl(System.IntPtr,System.Int32,UnityEngine.Rendering.SubMeshDescriptor,UnityEngine.Rendering.MeshUpdateFlags)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshData_SetSubMeshImpl_m684861E32ED24CD3B228D55F0C0B8B2C6E9350C2 (intptr_t ___self0, int32_t ___index1, SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934 ___desc2, int32_t ___flags3, const RuntimeMethod* method) 
+{
+	{
+		intptr_t L_0 = ___self0;
+		int32_t L_1 = ___index1;
+		int32_t L_2 = ___flags3;
+		MeshData_SetSubMeshImpl_Injected_m4597F2D872F3FC4E12A0B94288312EF66473CA0B(L_0, L_1, (&___desc2), L_2, NULL);
+		return;
+	}
+}
+// System.Int32 UnityEngine.Mesh/MeshData::get_vertexBufferCount()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MeshData_get_vertexBufferCount_mA6E407D61AFF65C192204BCA96BA14B5509EBD4F (MeshData_tFCD3E8B24DBC948C0FDF0900B918E3FF117369AC* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		intptr_t L_0 = __this->___m_Ptr_0;
+		int32_t L_1;
+		L_1 = MeshData_GetVertexBufferCount_m7EEB079F7315473C7F7FBEBD45D4A687F18042D8(L_0, NULL);
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		int32_t L_2 = V_0;
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C  int32_t MeshData_get_vertexBufferCount_mA6E407D61AFF65C192204BCA96BA14B5509EBD4F_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	MeshData_tFCD3E8B24DBC948C0FDF0900B918E3FF117369AC* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshData_tFCD3E8B24DBC948C0FDF0900B918E3FF117369AC*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = MeshData_get_vertexBufferCount_mA6E407D61AFF65C192204BCA96BA14B5509EBD4F(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.Mesh/MeshData::SetVertexBufferParams(System.Int32,UnityEngine.Rendering.VertexAttributeDescriptor[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshData_SetVertexBufferParams_mA26423ECD8597CF1C1501C317863817F00A926A3 (MeshData_tFCD3E8B24DBC948C0FDF0900B918E3FF117369AC* __this, int32_t ___vertexCount0, VertexAttributeDescriptorU5BU5D_t5D10E60612F12777F59B7E33939F9075DB0E02B2* ___attributes1, const RuntimeMethod* method) 
+{
+	{
+		intptr_t L_0 = __this->___m_Ptr_0;
+		int32_t L_1 = ___vertexCount0;
+		VertexAttributeDescriptorU5BU5D_t5D10E60612F12777F59B7E33939F9075DB0E02B2* L_2 = ___attributes1;
+		MeshData_SetVertexBufferParamsFromArray_m33C3E7740A311DD757C83FD24C3F88C8A06D5E75(L_0, L_1, L_2, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void MeshData_SetVertexBufferParams_mA26423ECD8597CF1C1501C317863817F00A926A3_AdjustorThunk (RuntimeObject* __this, int32_t ___vertexCount0, VertexAttributeDescriptorU5BU5D_t5D10E60612F12777F59B7E33939F9075DB0E02B2* ___attributes1, const RuntimeMethod* method)
+{
+	MeshData_tFCD3E8B24DBC948C0FDF0900B918E3FF117369AC* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshData_tFCD3E8B24DBC948C0FDF0900B918E3FF117369AC*>(__this + _offset);
+	MeshData_SetVertexBufferParams_mA26423ECD8597CF1C1501C317863817F00A926A3(_thisAdjusted, ___vertexCount0, ___attributes1, method);
+}
+// System.Void UnityEngine.Mesh/MeshData::SetIndexBufferParams(System.Int32,UnityEngine.Rendering.IndexFormat)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshData_SetIndexBufferParams_mA57F24E12ED6F8C937767B1023BBEA268AA31B2D (MeshData_tFCD3E8B24DBC948C0FDF0900B918E3FF117369AC* __this, int32_t ___indexCount0, int32_t ___format1, const RuntimeMethod* method) 
+{
+	{
+		intptr_t L_0 = __this->___m_Ptr_0;
+		int32_t L_1 = ___indexCount0;
+		int32_t L_2 = ___format1;
+		MeshData_SetIndexBufferParamsImpl_mA89CBD91A537E9AC660960C231F51924ADCF62C0(L_0, L_1, L_2, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void MeshData_SetIndexBufferParams_mA57F24E12ED6F8C937767B1023BBEA268AA31B2D_AdjustorThunk (RuntimeObject* __this, int32_t ___indexCount0, int32_t ___format1, const RuntimeMethod* method)
+{
+	MeshData_tFCD3E8B24DBC948C0FDF0900B918E3FF117369AC* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshData_tFCD3E8B24DBC948C0FDF0900B918E3FF117369AC*>(__this + _offset);
+	MeshData_SetIndexBufferParams_mA57F24E12ED6F8C937767B1023BBEA268AA31B2D(_thisAdjusted, ___indexCount0, ___format1, method);
+}
+// System.Void UnityEngine.Mesh/MeshData::set_subMeshCount(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshData_set_subMeshCount_m87AA53E47F636DCCCD5AAB0847D0679AF591B6B9 (MeshData_tFCD3E8B24DBC948C0FDF0900B918E3FF117369AC* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		intptr_t L_0 = __this->___m_Ptr_0;
+		int32_t L_1 = ___value0;
+		MeshData_SetSubMeshCount_m7EF695FD6E66161237330E6E9FB4D0B7CA9F91DE(L_0, L_1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void MeshData_set_subMeshCount_m87AA53E47F636DCCCD5AAB0847D0679AF591B6B9_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	MeshData_tFCD3E8B24DBC948C0FDF0900B918E3FF117369AC* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshData_tFCD3E8B24DBC948C0FDF0900B918E3FF117369AC*>(__this + _offset);
+	MeshData_set_subMeshCount_m87AA53E47F636DCCCD5AAB0847D0679AF591B6B9(_thisAdjusted, ___value0, method);
+}
+// System.Void UnityEngine.Mesh/MeshData::SetSubMesh(System.Int32,UnityEngine.Rendering.SubMeshDescriptor,UnityEngine.Rendering.MeshUpdateFlags)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshData_SetSubMesh_mA8194F572260ED6493E7F2EFE68A91982CDE3318 (MeshData_tFCD3E8B24DBC948C0FDF0900B918E3FF117369AC* __this, int32_t ___index0, SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934 ___desc1, int32_t ___flags2, const RuntimeMethod* method) 
+{
+	{
+		intptr_t L_0 = __this->___m_Ptr_0;
+		int32_t L_1 = ___index0;
+		SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934 L_2 = ___desc1;
+		int32_t L_3 = ___flags2;
+		MeshData_SetSubMeshImpl_m684861E32ED24CD3B228D55F0C0B8B2C6E9350C2(L_0, L_1, L_2, L_3, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void MeshData_SetSubMesh_mA8194F572260ED6493E7F2EFE68A91982CDE3318_AdjustorThunk (RuntimeObject* __this, int32_t ___index0, SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934 ___desc1, int32_t ___flags2, const RuntimeMethod* method)
+{
+	MeshData_tFCD3E8B24DBC948C0FDF0900B918E3FF117369AC* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshData_tFCD3E8B24DBC948C0FDF0900B918E3FF117369AC*>(__this + _offset);
+	MeshData_SetSubMesh_mA8194F572260ED6493E7F2EFE68A91982CDE3318(_thisAdjusted, ___index0, ___desc1, ___flags2, method);
+}
+// System.Void UnityEngine.Mesh/MeshData::SetSubMeshImpl_Injected(System.IntPtr,System.Int32,UnityEngine.Rendering.SubMeshDescriptor&,UnityEngine.Rendering.MeshUpdateFlags)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshData_SetSubMeshImpl_Injected_m4597F2D872F3FC4E12A0B94288312EF66473CA0B (intptr_t ___self0, int32_t ___index1, SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934* ___desc2, int32_t ___flags3, const RuntimeMethod* method) 
+{
+	typedef void (*MeshData_SetSubMeshImpl_Injected_m4597F2D872F3FC4E12A0B94288312EF66473CA0B_ftn) (intptr_t, int32_t, SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934*, int32_t);
+	static MeshData_SetSubMeshImpl_Injected_m4597F2D872F3FC4E12A0B94288312EF66473CA0B_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (MeshData_SetSubMeshImpl_Injected_m4597F2D872F3FC4E12A0B94288312EF66473CA0B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Mesh/MeshData::SetSubMeshImpl_Injected(System.IntPtr,System.Int32,UnityEngine.Rendering.SubMeshDescriptor&,UnityEngine.Rendering.MeshUpdateFlags)");
+	_il2cpp_icall_func(___self0, ___index1, ___desc2, ___flags3);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UnityEngine.Mesh/MeshDataArray::ReleaseMeshDatas(System.IntPtr*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshDataArray_ReleaseMeshDatas_m84203D2E45A79CA64617948B17ADF7B21C76C9D2 (intptr_t* ___datas0, int32_t ___count1, const RuntimeMethod* method) 
+{
+	typedef void (*MeshDataArray_ReleaseMeshDatas_m84203D2E45A79CA64617948B17ADF7B21C76C9D2_ftn) (intptr_t*, int32_t);
+	static MeshDataArray_ReleaseMeshDatas_m84203D2E45A79CA64617948B17ADF7B21C76C9D2_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (MeshDataArray_ReleaseMeshDatas_m84203D2E45A79CA64617948B17ADF7B21C76C9D2_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Mesh/MeshDataArray::ReleaseMeshDatas(System.IntPtr*,System.Int32)");
+	_il2cpp_icall_func(___datas0, ___count1);
+}
+// System.Void UnityEngine.Mesh/MeshDataArray::CreateNewMeshDatas(System.IntPtr*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshDataArray_CreateNewMeshDatas_mACB9D24503972B0A0E0AA8C4C1D6A6AFAA49C148 (intptr_t* ___datas0, int32_t ___count1, const RuntimeMethod* method) 
+{
+	typedef void (*MeshDataArray_CreateNewMeshDatas_mACB9D24503972B0A0E0AA8C4C1D6A6AFAA49C148_ftn) (intptr_t*, int32_t);
+	static MeshDataArray_CreateNewMeshDatas_mACB9D24503972B0A0E0AA8C4C1D6A6AFAA49C148_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (MeshDataArray_CreateNewMeshDatas_mACB9D24503972B0A0E0AA8C4C1D6A6AFAA49C148_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Mesh/MeshDataArray::CreateNewMeshDatas(System.IntPtr*,System.Int32)");
+	_il2cpp_icall_func(___datas0, ___count1);
+}
+// System.Void UnityEngine.Mesh/MeshDataArray::ApplyToMeshImpl(UnityEngine.Mesh,System.IntPtr,UnityEngine.Rendering.MeshUpdateFlags)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshDataArray_ApplyToMeshImpl_m81FE40946FBDC1C4F18D6298D83A320C9C33AEF5 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___mesh0, intptr_t ___data1, int32_t ___flags2, const RuntimeMethod* method) 
+{
+	typedef void (*MeshDataArray_ApplyToMeshImpl_m81FE40946FBDC1C4F18D6298D83A320C9C33AEF5_ftn) (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*, intptr_t, int32_t);
+	static MeshDataArray_ApplyToMeshImpl_m81FE40946FBDC1C4F18D6298D83A320C9C33AEF5_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (MeshDataArray_ApplyToMeshImpl_m81FE40946FBDC1C4F18D6298D83A320C9C33AEF5_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Mesh/MeshDataArray::ApplyToMeshImpl(UnityEngine.Mesh,System.IntPtr,UnityEngine.Rendering.MeshUpdateFlags)");
+	_il2cpp_icall_func(___mesh0, ___data1, ___flags2);
+}
+// System.Int32 UnityEngine.Mesh/MeshDataArray::get_Length()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MeshDataArray_get_Length_mE5147D0A29F7FEA94599B869997BB142407D090C (MeshDataArray_tE4230F9233EEE183C338005AD160B04905345BBB* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___m_Length_1;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t MeshDataArray_get_Length_mE5147D0A29F7FEA94599B869997BB142407D090C_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	MeshDataArray_tE4230F9233EEE183C338005AD160B04905345BBB* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshDataArray_tE4230F9233EEE183C338005AD160B04905345BBB*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = MeshDataArray_get_Length_mE5147D0A29F7FEA94599B869997BB142407D090C_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// UnityEngine.Mesh/MeshData UnityEngine.Mesh/MeshDataArray::get_Item(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MeshData_tFCD3E8B24DBC948C0FDF0900B918E3FF117369AC MeshDataArray_get_Item_mB60115AEAC872376DFD5597C094B60BC77F3A13C (MeshDataArray_tE4230F9233EEE183C338005AD160B04905345BBB* __this, int32_t ___index0, const RuntimeMethod* method) 
+{
+	MeshData_tFCD3E8B24DBC948C0FDF0900B918E3FF117369AC V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	MeshData_tFCD3E8B24DBC948C0FDF0900B918E3FF117369AC V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		intptr_t* L_0 = __this->___m_Ptrs_0;
+		int32_t L_1 = ___index0;
+		uint32_t L_2 = sizeof(intptr_t);
+		(&V_0)->___m_Ptr_0 = ((*(((intptr_t*)il2cpp_codegen_add((intptr_t)L_0, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_1), (int32_t)L_2)))))));
+		MeshData_tFCD3E8B24DBC948C0FDF0900B918E3FF117369AC L_3 = V_0;
+		V_1 = L_3;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		MeshData_tFCD3E8B24DBC948C0FDF0900B918E3FF117369AC L_4 = V_1;
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  MeshData_tFCD3E8B24DBC948C0FDF0900B918E3FF117369AC MeshDataArray_get_Item_mB60115AEAC872376DFD5597C094B60BC77F3A13C_AdjustorThunk (RuntimeObject* __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	MeshDataArray_tE4230F9233EEE183C338005AD160B04905345BBB* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshDataArray_tE4230F9233EEE183C338005AD160B04905345BBB*>(__this + _offset);
+	MeshData_tFCD3E8B24DBC948C0FDF0900B918E3FF117369AC _returnValue;
+	_returnValue = MeshDataArray_get_Item_mB60115AEAC872376DFD5597C094B60BC77F3A13C(_thisAdjusted, ___index0, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.Mesh/MeshDataArray::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshDataArray_Dispose_mDBB00B32298F9640C984ED15FEB2F8DA5BE206E2 (MeshDataArray_tE4230F9233EEE183C338005AD160B04905345BBB* __this, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		int32_t L_0 = __this->___m_Length_1;
+		V_0 = (bool)((!(((uint32_t)L_0) <= ((uint32_t)0)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		intptr_t* L_2 = __this->___m_Ptrs_0;
+		int32_t L_3 = __this->___m_Length_1;
+		MeshDataArray_ReleaseMeshDatas_m84203D2E45A79CA64617948B17ADF7B21C76C9D2(L_2, L_3, NULL);
+		intptr_t* L_4 = __this->___m_Ptrs_0;
+		UnsafeUtility_Free_mFF99F4F02FE7F735AB30D8987D6953E55A2B23E1((void*)L_4, 4, NULL);
+	}
+
+IL_002f:
+	{
+		__this->___m_Ptrs_0 = (intptr_t*)((uintptr_t)0);
+		__this->___m_Length_1 = 0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void MeshDataArray_Dispose_mDBB00B32298F9640C984ED15FEB2F8DA5BE206E2_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	MeshDataArray_tE4230F9233EEE183C338005AD160B04905345BBB* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshDataArray_tE4230F9233EEE183C338005AD160B04905345BBB*>(__this + _offset);
+	MeshDataArray_Dispose_mDBB00B32298F9640C984ED15FEB2F8DA5BE206E2(_thisAdjusted, method);
+}
+// System.Void UnityEngine.Mesh/MeshDataArray::ApplyToMeshAndDispose(UnityEngine.Mesh,UnityEngine.Rendering.MeshUpdateFlags)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshDataArray_ApplyToMeshAndDispose_m7231722BE23F2C0B92BD2C49624A6CDEB078FB0B (MeshDataArray_tE4230F9233EEE183C338005AD160B04905345BBB* __this, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___mesh0, int32_t ___flags1, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_0 = ___mesh0;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = Mesh_get_canAccess_m97F255BBB8C009D643920E2D095B6DB8868E3572(L_0, NULL);
+		V_0 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_3 = ___mesh0;
+		NullCheck(L_3);
+		String_t* L_4;
+		L_4 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_3, NULL);
+		String_t* L_5;
+		L_5 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralDA7AEF839C310E50649FABCB16048EC805ED1DCF)), L_4, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral2AAF6C7A90E58D7205596DC636D6A02BDB914696)), NULL);
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_6 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
+		NullCheck(L_6);
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_6, L_5, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&MeshDataArray_ApplyToMeshAndDispose_m7231722BE23F2C0B92BD2C49624A6CDEB078FB0B_RuntimeMethod_var)));
+	}
+
+IL_0029:
+	{
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_7 = ___mesh0;
+		intptr_t* L_8 = __this->___m_Ptrs_0;
+		int32_t L_9 = ___flags1;
+		MeshDataArray_ApplyToMeshImpl_m81FE40946FBDC1C4F18D6298D83A320C9C33AEF5(L_7, ((*(L_8))), L_9, NULL);
+		MeshDataArray_Dispose_mDBB00B32298F9640C984ED15FEB2F8DA5BE206E2(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void MeshDataArray_ApplyToMeshAndDispose_m7231722BE23F2C0B92BD2C49624A6CDEB078FB0B_AdjustorThunk (RuntimeObject* __this, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___mesh0, int32_t ___flags1, const RuntimeMethod* method)
+{
+	MeshDataArray_tE4230F9233EEE183C338005AD160B04905345BBB* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshDataArray_tE4230F9233EEE183C338005AD160B04905345BBB*>(__this + _offset);
+	MeshDataArray_ApplyToMeshAndDispose_m7231722BE23F2C0B92BD2C49624A6CDEB078FB0B(_thisAdjusted, ___mesh0, ___flags1, method);
+}
+// System.Void UnityEngine.Mesh/MeshDataArray::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshDataArray__ctor_m8F99AE5A5D5E8BE74721D1DFE7F3D22B502DE027 (MeshDataArray_tE4230F9233EEE183C338005AD160B04905345BBB* __this, int32_t ___meshesCount0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnsafeUtility_AlignOf_TisIntPtr_t_mB17C6C168D8CA088879EDD0D5B9923F70F5269B8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnsafeUtility_SizeOf_TisIntPtr_t_mB2B3CFF1CB804C99734D4E2F5D8A8C9DB0D209A8_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = ___meshesCount0;
+		V_1 = (bool)((((int32_t)L_0) < ((int32_t)0))? 1 : 0);
+		bool L_1 = V_1;
+		if (!L_1)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		int32_t L_2 = ___meshesCount0;
+		int32_t L_3 = L_2;
+		RuntimeObject* L_4 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)), &L_3);
+		String_t* L_5;
+		L_5 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralB54D393654F24720778CBD1865ACD7D51485886C)), L_4, NULL);
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_6 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
+		NullCheck(L_6);
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_6, L_5, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&MeshDataArray__ctor_m8F99AE5A5D5E8BE74721D1DFE7F3D22B502DE027_RuntimeMethod_var)));
+	}
+
+IL_001f:
+	{
+		int32_t L_7 = ___meshesCount0;
+		__this->___m_Length_1 = L_7;
+		int32_t L_8;
+		L_8 = UnsafeUtility_SizeOf_TisIntPtr_t_mB2B3CFF1CB804C99734D4E2F5D8A8C9DB0D209A8(UnsafeUtility_SizeOf_TisIntPtr_t_mB2B3CFF1CB804C99734D4E2F5D8A8C9DB0D209A8_RuntimeMethod_var);
+		int32_t L_9 = ___meshesCount0;
+		V_0 = ((int32_t)il2cpp_codegen_multiply(L_8, L_9));
+		int32_t L_10 = V_0;
+		int32_t L_11;
+		L_11 = UnsafeUtility_AlignOf_TisIntPtr_t_mB17C6C168D8CA088879EDD0D5B9923F70F5269B8(UnsafeUtility_AlignOf_TisIntPtr_t_mB17C6C168D8CA088879EDD0D5B9923F70F5269B8_RuntimeMethod_var);
+		void* L_12;
+		L_12 = UnsafeUtility_Malloc_mD7BD28D5AE7E4901B225B7DFFE2B568EE7BDC0C9(((int64_t)L_10), L_11, 4, NULL);
+		__this->___m_Ptrs_0 = (intptr_t*)L_12;
+		intptr_t* L_13 = __this->___m_Ptrs_0;
+		int32_t L_14 = ___meshesCount0;
+		MeshDataArray_CreateNewMeshDatas_mACB9D24503972B0A0E0AA8C4C1D6A6AFAA49C148(L_13, L_14, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void MeshDataArray__ctor_m8F99AE5A5D5E8BE74721D1DFE7F3D22B502DE027_AdjustorThunk (RuntimeObject* __this, int32_t ___meshesCount0, const RuntimeMethod* method)
+{
+	MeshDataArray_tE4230F9233EEE183C338005AD160B04905345BBB* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshDataArray_tE4230F9233EEE183C338005AD160B04905345BBB*>(__this + _offset);
+	MeshDataArray__ctor_m8F99AE5A5D5E8BE74721D1DFE7F3D22B502DE027(_thisAdjusted, ___meshesCount0, method);
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -37430,6 +38011,13 @@ IL_0021:
 	{
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9 = V_0;
 		return L_9;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MeshDataArray_get_Length_mE5147D0A29F7FEA94599B869997BB142407D090C_inline (MeshDataArray_tE4230F9233EEE183C338005AD160B04905345BBB* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___m_Length_1;
+		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, float ___x0, float ___y1, float ___z2, float ___w3, const RuntimeMethod* method) 

@@ -158,6 +158,8 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E;
 struct ViewportMaterialView_tC3B452F30C2F11F05CBE728329A3B7A9E7B914BC;
 // System.Void
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+// VuforiaLicense
+struct VuforiaLicense_t558A3A93186A45EF8A9401D2262B52B5593182BC;
 // VuplexAuthMessage
 struct VuplexAuthMessage_tEF46E3BDF66995DB6B91D74FE0BDA39DD99C7883;
 // VuplexAuthMessageData
@@ -233,6 +235,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralACA17B5E97AB70876B1E32195BA2671A739D9AC8
 IL2CPP_EXTERN_C String_t* _stringLiteralAD183C4E463D8D478375B6D636EF42F8A9197AF7;
 IL2CPP_EXTERN_C String_t* _stringLiteralAD2DEFEC962AB41F89D4801276C52369DF6A0C9E;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+IL2CPP_EXTERN_C String_t* _stringLiteralE33FD5F26853E97F353A686A00ED4C49DFB318F6;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CStartU3Ed__27_tB1BBD3D1C9915990A14ADC216EB8EAE2B38BA8EA_m32A00F924559325D4845FC184EFF0B77508F10DD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var;
@@ -422,6 +425,11 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
 };
 // Native definition for COM marshalling of System.ValueType
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+
+// VuforiaLicense
+struct VuforiaLicense_t558A3A93186A45EF8A9401D2262B52B5593182BC  : public RuntimeObject
 {
 };
 
@@ -3927,6 +3935,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void vuplexReference__ctor_mF3C6FECE02FA20E1F
 {
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.String VuforiaLicense::GetLicenseKey()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VuforiaLicense_GetLicenseKey_m796D51E5EF1C53F3D62BA4EA8806AC1FB1A5E3C4 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE33FD5F26853E97F353A686A00ED4C49DFB318F6);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// return license;
+		return _stringLiteralE33FD5F26853E97F353A686A00ED4C49DFB318F6;
+	}
+}
+// System.Void VuforiaLicense::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuforiaLicense__ctor_m094B92B3323DFFD79ADB696474D5D158C95E291B (VuforiaLicense_t558A3A93186A45EF8A9401D2262B52B5593182BC* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
 }

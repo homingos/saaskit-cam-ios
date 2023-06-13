@@ -5138,6 +5138,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeThread_Sleep_m045B45EF6673E55D7E5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RuntimeThread_Yield_mB4903E8A1790112F3F7120F5AA5BEB837187E3BB (const RuntimeMethod* method) ;
 // System.Boolean Internal.Runtime.Augments.RuntimeThread::SpinWait(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RuntimeThread_SpinWait_m207B0ED3CE280136135B45281FB19581B44015F3 (int32_t ___iterations0, const RuntimeMethod* method) ;
+// System.Void System.Threading.SpinWait::Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpinWait_Reset_m4960D0B08DB7009BB35E873C0E437842BB5551AF (SpinWait_t51CFFA8FF70F1B430E075F96CFD936260D8CE675* __this, const RuntimeMethod* method) ;
 // System.Int32 System.Environment::get_TickCount()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Environment_get_TickCount_m183BFCF001E12849E3D898957F0B81FD88BA183C (const RuntimeMethod* method) ;
 // System.Int32 System.Environment::get_ProcessorCount()
@@ -5296,6 +5298,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lock_Release_m850DFAAE174F441E7A917D018D
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LockHolder_Dispose_m6487C16D28CF1510F8E4D38A5787F1CA345732C3_inline (LockHolder_t759094B031976CAB1D40EEA607217A40DB7A0A59* __this, const RuntimeMethod* method) ;
 // System.Void System.Threading.Monitor::Enter(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Enter_m759A82E6E56E06C313A9AF4679E304E0D58ABB93 (RuntimeObject* ___obj0, const RuntimeMethod* method) ;
+// System.Void System.Threading.SemaphoreSlim::.ctor(System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SemaphoreSlim__ctor_m4A03DD6613DDA7F8A18DC71DA2515EA45ABFBFDC (SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* __this, int32_t ___initialCount0, int32_t ___maxCount1, const RuntimeMethod* method) ;
 // System.String System.Threading.SemaphoreSlim::GetResourceString(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SemaphoreSlim_GetResourceString_mF88CC5030F1200C9FC4749D70439DF599C6B5939 (String_t* ___str0, const RuntimeMethod* method) ;
 // System.Boolean System.Threading.SemaphoreSlim::Wait(System.Int32,System.Threading.CancellationToken)
@@ -19291,6 +19295,21 @@ IL2CPP_EXTERN_C  void SpinWait_SpinOnceCore_m01B1E2777694995FA77170B7C5A5446A997
 	_thisAdjusted = reinterpret_cast<SpinWait_t51CFFA8FF70F1B430E075F96CFD936260D8CE675*>(__this + _offset);
 	SpinWait_SpinOnceCore_m01B1E2777694995FA77170B7C5A5446A997D15F6(_thisAdjusted, ___sleep1Threshold0, method);
 }
+// System.Void System.Threading.SpinWait::Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpinWait_Reset_m4960D0B08DB7009BB35E873C0E437842BB5551AF (SpinWait_t51CFFA8FF70F1B430E075F96CFD936260D8CE675* __this, const RuntimeMethod* method) 
+{
+	{
+		__this->____count_1 = 0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void SpinWait_Reset_m4960D0B08DB7009BB35E873C0E437842BB5551AF_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	SpinWait_t51CFFA8FF70F1B430E075F96CFD936260D8CE675* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<SpinWait_t51CFFA8FF70F1B430E075F96CFD936260D8CE675*>(__this + _offset);
+	SpinWait_Reset_m4960D0B08DB7009BB35E873C0E437842BB5551AF(_thisAdjusted, method);
+}
 // System.Void System.Threading.SpinWait::.cctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpinWait__cctor_mD4EE2FAA9EB7848C116A3D74F3F2A43B190155BE (const RuntimeMethod* method) 
 {
@@ -21599,6 +21618,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lock__ctor_m9D2E1516FF05DF6C2F641AF1FF0F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Int32 System.Threading.SemaphoreSlim::get_CurrentCount()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SemaphoreSlim_get_CurrentCount_m19C6DB628D1FC39E1DCAAF0A1FB68439BB9BEE12 (SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___m_currentCount_0;
+		il2cpp_codegen_memory_barrier();
+		return L_0;
+	}
+}
+// System.Void System.Threading.SemaphoreSlim::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SemaphoreSlim__ctor_m73D901D121964C448D9B67A43088FE09FFB886AB (SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* __this, int32_t ___initialCount0, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___initialCount0;
+		SemaphoreSlim__ctor_m4A03DD6613DDA7F8A18DC71DA2515EA45ABFBFDC(__this, L_0, ((int32_t)2147483647LL), NULL);
+		return;
+	}
+}
 // System.Void System.Threading.SemaphoreSlim::.ctor(System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SemaphoreSlim__ctor_m4A03DD6613DDA7F8A18DC71DA2515EA45ABFBFDC (SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* __this, int32_t ___initialCount0, int32_t ___maxCount1, const RuntimeMethod* method) 
 {
@@ -21686,6 +21723,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SemaphoreSlim_Wait_m7D9142C725E70A145FFB
 		bool L_1;
 		L_1 = SemaphoreSlim_Wait_m492E13794FCEAFB224C69BCE9864AF17A2B0D48A(__this, (-1), L_0, NULL);
 		return;
+	}
+}
+// System.Boolean System.Threading.SemaphoreSlim::Wait(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SemaphoreSlim_Wait_m18BBCF0145B9A7C17C5881351BF80560119B9846 (SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* __this, int32_t ___millisecondsTimeout0, const RuntimeMethod* method) 
+{
+	CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		int32_t L_0 = ___millisecondsTimeout0;
+		il2cpp_codegen_initobj((&V_0), sizeof(CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED));
+		CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_1 = V_0;
+		bool L_2;
+		L_2 = SemaphoreSlim_Wait_m492E13794FCEAFB224C69BCE9864AF17A2B0D48A(__this, L_0, L_1, NULL);
+		return L_2;
 	}
 }
 // System.Boolean System.Threading.SemaphoreSlim::Wait(System.Int32,System.Threading.CancellationToken)
@@ -27102,6 +27153,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Monitor_Wait_m60B0A448270187089CC75DE856
 		bool L_2;
 		L_2 = Monitor_Wait_m55CB5EBEBF583A455739F5369C3290E54F41E8E9(L_0, L_1, (bool)0, NULL);
 		return L_2;
+	}
+}
+// System.Boolean System.Threading.Monitor::Wait(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Monitor_Wait_m322138959FFE3F4F3212658ACB0C30C981880D28 (RuntimeObject* ___obj0, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = ___obj0;
+		bool L_1;
+		L_1 = Monitor_Wait_m55CB5EBEBF583A455739F5369C3290E54F41E8E9(L_0, (-1), (bool)0, NULL);
+		return L_1;
 	}
 }
 // System.Void System.Threading.Monitor::Pulse(System.Object)
