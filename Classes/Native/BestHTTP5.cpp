@@ -10998,7 +10998,7 @@ CATCH_0133_1:
 				TlsFatalAlert_t5C8406807C6E3B08C200474AFD516B1F2BFD8D2D* L_72 = V_9;
 				NullCheck(L_72);
 				int16_t L_73;
-				L_73 = VirtualFuncInvoker0< int16_t >::Invoke(13 /* System.Int16 BestHTTP.SecureProtocol.Org.BouncyCastle.Tls.TlsFatalAlert::get_AlertDescription() */, L_72);
+				L_73 = VirtualFuncInvoker0< int16_t >::Invoke(14 /* System.Int16 BestHTTP.SecureProtocol.Org.BouncyCastle.Tls.TlsFatalAlert::get_AlertDescription() */, L_72);
 				VirtualActionInvoker3< ClientHandshakeState_t81186880D4E5B9507AFEC026DCFAE62B5F3188D2*, DtlsRecordLayer_t2D8E57890B1311F34F23327DFE359AE2761B99B8*, int16_t >::Invoke(6 /* System.Void BestHTTP.SecureProtocol.Org.BouncyCastle.Tls.DtlsClientProtocol::AbortClientHandshake(BestHTTP.SecureProtocol.Org.BouncyCastle.Tls.DtlsClientProtocol/ClientHandshakeState,BestHTTP.SecureProtocol.Org.BouncyCastle.Tls.DtlsRecordLayer,System.Int16) */, __this, L_70, L_71, L_73);
 				// throw fatalAlert;
 				TlsFatalAlert_t5C8406807C6E3B08C200474AFD516B1F2BFD8D2D* L_74 = V_9;
@@ -20920,7 +20920,7 @@ CATCH_0090_1:
 				TlsFatalAlert_t5C8406807C6E3B08C200474AFD516B1F2BFD8D2D* L_38 = V_4;
 				NullCheck(L_38);
 				int16_t L_39;
-				L_39 = VirtualFuncInvoker0< int16_t >::Invoke(13 /* System.Int16 BestHTTP.SecureProtocol.Org.BouncyCastle.Tls.TlsFatalAlert::get_AlertDescription() */, L_38);
+				L_39 = VirtualFuncInvoker0< int16_t >::Invoke(14 /* System.Int16 BestHTTP.SecureProtocol.Org.BouncyCastle.Tls.TlsFatalAlert::get_AlertDescription() */, L_38);
 				VirtualActionInvoker3< ServerHandshakeState_t8DE8176C06CBF8886F689ADBE60EA91B5481B340*, DtlsRecordLayer_t2D8E57890B1311F34F23327DFE359AE2761B99B8*, int16_t >::Invoke(9 /* System.Void BestHTTP.SecureProtocol.Org.BouncyCastle.Tls.DtlsServerProtocol::AbortServerHandshake(BestHTTP.SecureProtocol.Org.BouncyCastle.Tls.DtlsServerProtocol/ServerHandshakeState,BestHTTP.SecureProtocol.Org.BouncyCastle.Tls.DtlsRecordLayer,System.Int16) */, __this, L_36, L_37, L_39);
 				// throw fatalAlert;
 				TlsFatalAlert_t5C8406807C6E3B08C200474AFD516B1F2BFD8D2D* L_40 = V_4;
@@ -23887,7 +23887,7 @@ CATCH_0085:
 		TlsFatalAlert_t5C8406807C6E3B08C200474AFD516B1F2BFD8D2D* L_24 = V_1;
 		NullCheck(L_24);
 		int16_t L_25;
-		L_25 = VirtualFuncInvoker0< int16_t >::Invoke(13 /* System.Int16 BestHTTP.SecureProtocol.Org.BouncyCastle.Tls.TlsFatalAlert::get_AlertDescription() */, L_24);
+		L_25 = VirtualFuncInvoker0< int16_t >::Invoke(14 /* System.Int16 BestHTTP.SecureProtocol.Org.BouncyCastle.Tls.TlsFatalAlert::get_AlertDescription() */, L_24);
 		NullCheck(L_23);
 		VirtualActionInvoker1< int16_t >::Invoke(25 /* System.Void BestHTTP.SecureProtocol.Org.BouncyCastle.Tls.DtlsRecordLayer::Fail(System.Int16) */, L_23, L_25);
 		// throw fatalAlert;
@@ -24112,7 +24112,7 @@ CATCH_006d:
 		TlsFatalAlert_t5C8406807C6E3B08C200474AFD516B1F2BFD8D2D* L_20 = V_0;
 		NullCheck(L_20);
 		int16_t L_21;
-		L_21 = VirtualFuncInvoker0< int16_t >::Invoke(13 /* System.Int16 BestHTTP.SecureProtocol.Org.BouncyCastle.Tls.TlsFatalAlert::get_AlertDescription() */, L_20);
+		L_21 = VirtualFuncInvoker0< int16_t >::Invoke(14 /* System.Int16 BestHTTP.SecureProtocol.Org.BouncyCastle.Tls.TlsFatalAlert::get_AlertDescription() */, L_20);
 		NullCheck(L_19);
 		VirtualActionInvoker1< int16_t >::Invoke(25 /* System.Void BestHTTP.SecureProtocol.Org.BouncyCastle.Tls.DtlsRecordLayer::Fail(System.Int16) */, L_19, L_21);
 		// throw fatalAlert;

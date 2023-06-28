@@ -5330,7 +5330,7 @@ IL_02cd_1:
 					Exception_t* L_164 = V_8;
 					NullCheck(L_164);
 					String_t* L_165;
-					L_165 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Exception::get_StackTrace() */, L_164);
+					L_165 = VirtualFuncInvoker0< String_t* >::Invoke(10 /* System.String System.Exception::get_StackTrace() */, L_164);
 					NullCheck(L_158);
 					StringBuilder_t* L_166;
 					L_166 = StringBuilder_AppendFormat_m40962B9C5B41720C6424721E526C0D99D95112A2(L_158, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral836C802AE0F55DE404DEE46F626E14CFAE92855F)), L_161, L_163, L_165, NULL);
@@ -9220,7 +9220,7 @@ IL_0047:
 		Exception_t* L_19 = ___cause3;
 		NullCheck(L_19);
 		String_t* L_20;
-		L_20 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Exception::get_StackTrace() */, L_19);
+		L_20 = VirtualFuncInvoker0< String_t* >::Invoke(10 /* System.String System.Exception::get_StackTrace() */, L_19);
 		G_B3_0 = L_20;
 		G_B3_1 = G_B2_0;
 		G_B3_2 = G_B2_1;

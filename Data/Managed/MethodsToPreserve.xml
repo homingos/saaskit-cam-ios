@@ -23,6 +23,7 @@
 			<method name="AskCam"/>
 			<method name="AskMic"/>
 			<method name="AskMic"/>
+			<method name="grantPermissions"/>
 			<method name="NextScene"/>
 		</type>
 		<type fullname="tap_to_scan">

@@ -168,6 +168,13 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "firebaseManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "FlamCamera",
             "moduleName": "",
             "usedInScenes": []
@@ -615,6 +622,13 @@
             "managedAssemblyName": "RuntimeInspector.Runtime.dll",
             "nativeClass": "",
             "fullManagedTypeName": "RuntimeInspectorNamespace.WindowDragHandler",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "safeAreaScript",
             "moduleName": "",
             "usedInScenes": []
         },

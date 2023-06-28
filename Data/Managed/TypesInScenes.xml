@@ -19,6 +19,7 @@
 		<type fullname="downloadVideo" preserve="nothing"/>
 		<type fullname="EventLogger" preserve="nothing"/>
 		<type fullname="FilterButton" preserve="nothing"/>
+		<type fullname="firebaseManager" preserve="nothing"/>
 		<type fullname="FlamCamera" preserve="nothing"/>
 		<type fullname="FSCController" preserve="nothing"/>
 		<type fullname="GyroscopeCameraRotation" preserve="nothing"/>
@@ -28,6 +29,7 @@
 		<type fullname="ParticleParent" preserve="nothing"/>
 		<type fullname="PermissionManager" preserve="nothing"/>
 		<type fullname="RoboManager" preserve="nothing"/>
+		<type fullname="safeAreaScript" preserve="nothing"/>
 		<type fullname="ScrollHandler" preserve="nothing"/>
 		<type fullname="select_update" preserve="nothing"/>
 		<type fullname="tap_to_scan" preserve="nothing"/>

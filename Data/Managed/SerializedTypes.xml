@@ -1,6 +1,7 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="AssetDataResponse" preserve="nothing" serialized="true"/>
+		<type fullname="ConfigurationResponse" preserve="nothing" serialized="true"/>
 		<type fullname="Effects" preserve="nothing" serialized="true"/>
 		<type fullname="InstantCardsServerData" preserve="nothing" serialized="true"/>
 		<type fullname="LocalEffectsClass" preserve="nothing" serialized="true"/>
