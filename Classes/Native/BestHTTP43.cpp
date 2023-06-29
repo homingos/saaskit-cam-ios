@@ -23447,7 +23447,7 @@ CATCH_02ad:
 		Exception_t* L_113 = V_8;
 		NullCheck(L_113);
 		String_t* L_114;
-		L_114 = VirtualFuncInvoker0< String_t* >::Invoke(10 /* System.String System.Exception::get_StackTrace() */, L_113);
+		L_114 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Exception::get_StackTrace() */, L_113);
 		NullCheck(L_112);
 		ArrayElementTypeCheck (L_112, L_114);
 		(L_112)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_114);

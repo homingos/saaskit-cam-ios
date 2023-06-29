@@ -8681,7 +8681,7 @@ IL_0079:
 		L_20 = HTTPRequest_get_Exception_m41EE1C0E37C706940243D0927C4E140819EB914D_inline(L_19, NULL);
 		NullCheck(L_20);
 		String_t* L_21;
-		L_21 = VirtualFuncInvoker0< String_t* >::Invoke(10 /* System.String System.Exception::get_StackTrace() */, L_20);
+		L_21 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Exception::get_StackTrace() */, L_20);
 		String_t* L_22;
 		L_22 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_18, _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD, L_21, NULL);
 		G_B8_0 = L_22;
@@ -9482,7 +9482,7 @@ IL_008c:
 		L_23 = HTTPRequest_get_Exception_m41EE1C0E37C706940243D0927C4E140819EB914D_inline(L_22, NULL);
 		NullCheck(L_23);
 		String_t* L_24;
-		L_24 = VirtualFuncInvoker0< String_t* >::Invoke(10 /* System.String System.Exception::get_StackTrace() */, L_23);
+		L_24 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Exception::get_StackTrace() */, L_23);
 		String_t* L_25;
 		L_25 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_21, _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD, L_24, NULL);
 		G_B8_0 = L_25;
@@ -12953,7 +12953,7 @@ CATCH_02dc:
 		Exception_t* L_131 = V_17;
 		NullCheck(L_131);
 		String_t* L_132;
-		L_132 = VirtualFuncInvoker0< String_t* >::Invoke(10 /* System.String System.Exception::get_StackTrace() */, L_131);
+		L_132 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Exception::get_StackTrace() */, L_131);
 		String_t* L_133;
 		L_133 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralD4939CB19DF705D78606B98FD66806DF43A8AD36)), L_130, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralFF2545B44F913F714F64637B65F8A8B9B5256D80)), L_132, NULL);
 		*((RuntimeObject**)L_128) = (RuntimeObject*)L_133;
@@ -19847,7 +19847,7 @@ IL_00b9:
 		L_29 = HTTPRequest_get_Exception_m41EE1C0E37C706940243D0927C4E140819EB914D_inline(L_28, NULL);
 		NullCheck(L_29);
 		String_t* L_30;
-		L_30 = VirtualFuncInvoker0< String_t* >::Invoke(10 /* System.String System.Exception::get_StackTrace() */, L_29);
+		L_30 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Exception::get_StackTrace() */, L_29);
 		String_t* L_31;
 		L_31 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_27, _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD, L_30, NULL);
 		G_B10_0 = L_31;
@@ -20487,7 +20487,7 @@ IL_0111:
 		L_50 = HTTPRequest_get_Exception_m41EE1C0E37C706940243D0927C4E140819EB914D_inline(L_49, NULL);
 		NullCheck(L_50);
 		String_t* L_51;
-		L_51 = VirtualFuncInvoker0< String_t* >::Invoke(10 /* System.String System.Exception::get_StackTrace() */, L_50);
+		L_51 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Exception::get_StackTrace() */, L_50);
 		String_t* L_52;
 		L_52 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_48, _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745, L_51, NULL);
 		G_B14_0 = L_52;
@@ -21471,7 +21471,7 @@ IL_0105:
 		L_43 = HTTPRequest_get_Exception_m41EE1C0E37C706940243D0927C4E140819EB914D_inline(L_42, NULL);
 		NullCheck(L_43);
 		String_t* L_44;
-		L_44 = VirtualFuncInvoker0< String_t* >::Invoke(10 /* System.String System.Exception::get_StackTrace() */, L_43);
+		L_44 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Exception::get_StackTrace() */, L_43);
 		String_t* L_45;
 		L_45 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_41, _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD, L_44, NULL);
 		G_B11_0 = L_45;
@@ -21803,7 +21803,7 @@ IL_0136:
 		L_49 = HTTPRequest_get_Exception_m41EE1C0E37C706940243D0927C4E140819EB914D_inline(L_48, NULL);
 		NullCheck(L_49);
 		String_t* L_50;
-		L_50 = VirtualFuncInvoker0< String_t* >::Invoke(10 /* System.String System.Exception::get_StackTrace() */, L_49);
+		L_50 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Exception::get_StackTrace() */, L_49);
 		String_t* L_51;
 		L_51 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_47, _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD, L_50, NULL);
 		G_B14_0 = L_51;
@@ -22271,7 +22271,7 @@ IL_00e3:
 		L_41 = HTTPRequest_get_Exception_m41EE1C0E37C706940243D0927C4E140819EB914D_inline(L_40, NULL);
 		NullCheck(L_41);
 		String_t* L_42;
-		L_42 = VirtualFuncInvoker0< String_t* >::Invoke(10 /* System.String System.Exception::get_StackTrace() */, L_41);
+		L_42 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Exception::get_StackTrace() */, L_41);
 		String_t* L_43;
 		L_43 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_39, _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD, L_42, NULL);
 		G_B10_0 = L_43;
@@ -29294,7 +29294,7 @@ IL_0125:
 		L_40 = HTTPRequest_get_Exception_m41EE1C0E37C706940243D0927C4E140819EB914D_inline(L_39, NULL);
 		NullCheck(L_40);
 		String_t* L_41;
-		L_41 = VirtualFuncInvoker0< String_t* >::Invoke(10 /* System.String System.Exception::get_StackTrace() */, L_40);
+		L_41 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Exception::get_StackTrace() */, L_40);
 		String_t* L_42;
 		L_42 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_38, _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD, L_41, NULL);
 		G_B17_0 = L_42;

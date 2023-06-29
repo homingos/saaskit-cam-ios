@@ -670,10 +670,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Application_get_platform();
 		Register_UnityEngine_Application_get_platform();
 
-		//UnityEngine.StackTraceLogType UnityEngine.Application::GetStackTraceLogType(UnityEngine.LogType)
-		void Register_UnityEngine_Application_GetStackTraceLogType();
-		Register_UnityEngine_Application_GetStackTraceLogType();
-
 		//UnityEngine.SystemLanguage UnityEngine.Application::get_systemLanguage()
 		void Register_UnityEngine_Application_get_systemLanguage();
 		Register_UnityEngine_Application_get_systemLanguage();

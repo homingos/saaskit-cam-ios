@@ -224,10 +224,6 @@ struct CachedInvokableCall_1_t2FC1002B91116AD8AB2525F411DC8061D81F80B3;
 struct CachingGetter_1_t534A96F1026AA1F30B0D371516D300028D5BAABC;
 // System.Runtime.CompilerServices.CallSite`1<System.Object>
 struct CallSite_1_t8003A47F608763107DBCC0D06FFD87AE4EE7BA98;
-// Firebase.Dispatcher/CallbackStorage`1<System.Boolean>
-struct CallbackStorage_1_t29EA4F28015B26816BDAFC97509E553D412741A4;
-// Firebase.Dispatcher/CallbackStorage`1<System.Object>
-struct CallbackStorage_1_tE1F9FFA8A0223A7E67F7E84FFDAD5197A60C9142;
 // System.Linq.Expressions.Interpreter.CastInstruction/CastInstructionT`1<System.Boolean>
 struct CastInstructionT_1_t1CE6795CF4185E76357637CC34A0A245C92AEC32;
 // System.Linq.Expressions.Interpreter.CastInstruction/CastInstructionT`1<System.Byte>
@@ -1307,24 +1303,6 @@ struct CachingGetter_1_t534A96F1026AA1F30B0D371516D300028D5BAABC  : public Runti
 	RuntimeObject* ____cachedValue_2;
 	// UnityEngine.WaitForSeconds Vuplex.WebView.Internal.CachingGetter`1::_waitForSeconds
 	WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* ____waitForSeconds_3;
-};
-
-// Firebase.Dispatcher/CallbackStorage`1<System.Boolean>
-struct CallbackStorage_1_t29EA4F28015B26816BDAFC97509E553D412741A4  : public RuntimeObject
-{
-	// TResult Firebase.Dispatcher/CallbackStorage`1::<Result>k__BackingField
-	bool ___U3CResultU3Ek__BackingField_0;
-	// System.Exception Firebase.Dispatcher/CallbackStorage`1::<Exception>k__BackingField
-	Exception_t* ___U3CExceptionU3Ek__BackingField_1;
-};
-
-// Firebase.Dispatcher/CallbackStorage`1<System.Object>
-struct CallbackStorage_1_tE1F9FFA8A0223A7E67F7E84FFDAD5197A60C9142  : public RuntimeObject
-{
-	// TResult Firebase.Dispatcher/CallbackStorage`1::<Result>k__BackingField
-	RuntimeObject* ___U3CResultU3Ek__BackingField_0;
-	// System.Exception Firebase.Dispatcher/CallbackStorage`1::<Exception>k__BackingField
-	Exception_t* ___U3CExceptionU3Ek__BackingField_1;
 };
 
 // BestHTTP.Extensions.CircularBuffer`1<System.Double>
@@ -18868,109 +18846,6 @@ IL_0010:
 		UnaryExpression_tFB4F40A211A2FF9B58F1A86E0EDB474121867B96* L_7;
 		L_7 = Expression_Convert_mD5233B60383B3FD0F5A044E4440FB32CBF9609D5(L_5, L_6, NULL);
 		return (Expression_t70AA908ECBD33E94249BF235E4EBB0F831AD8785*)L_7;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// TResult Firebase.Dispatcher/CallbackStorage`1<System.Boolean>::get_Result()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CallbackStorage_1_get_Result_m4D72FEA7A646125C2F8AD9E535163AA8336010B8_gshared (CallbackStorage_1_t29EA4F28015B26816BDAFC97509E553D412741A4* __this, const RuntimeMethod* method) 
-{
-	{
-		bool L_0 = (bool)__this->___U3CResultU3Ek__BackingField_0;
-		return L_0;
-	}
-}
-// System.Void Firebase.Dispatcher/CallbackStorage`1<System.Boolean>::set_Result(TResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CallbackStorage_1_set_Result_mB336ABC80AD5E0A84F4FCC912EC3829AA6EF6628_gshared (CallbackStorage_1_t29EA4F28015B26816BDAFC97509E553D412741A4* __this, bool ___value0, const RuntimeMethod* method) 
-{
-	{
-		bool L_0 = ___value0;
-		__this->___U3CResultU3Ek__BackingField_0 = L_0;
-		return;
-	}
-}
-// System.Exception Firebase.Dispatcher/CallbackStorage`1<System.Boolean>::get_Exception()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t* CallbackStorage_1_get_Exception_mDBC3EB60A252F7D022458A5CE2812DFFFEC5871C_gshared (CallbackStorage_1_t29EA4F28015B26816BDAFC97509E553D412741A4* __this, const RuntimeMethod* method) 
-{
-	{
-		Exception_t* L_0 = (Exception_t*)__this->___U3CExceptionU3Ek__BackingField_1;
-		return L_0;
-	}
-}
-// System.Void Firebase.Dispatcher/CallbackStorage`1<System.Boolean>::set_Exception(System.Exception)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CallbackStorage_1_set_Exception_m5388E7120084D67A68FD36E25348EBD0FFE45F19_gshared (CallbackStorage_1_t29EA4F28015B26816BDAFC97509E553D412741A4* __this, Exception_t* ___value0, const RuntimeMethod* method) 
-{
-	{
-		Exception_t* L_0 = ___value0;
-		__this->___U3CExceptionU3Ek__BackingField_1 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CExceptionU3Ek__BackingField_1), (void*)L_0);
-		return;
-	}
-}
-// System.Void Firebase.Dispatcher/CallbackStorage`1<System.Boolean>::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CallbackStorage_1__ctor_m264E8D46391FD2830084CD5DADD0142EB779C41E_gshared (CallbackStorage_1_t29EA4F28015B26816BDAFC97509E553D412741A4* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// TResult Firebase.Dispatcher/CallbackStorage`1<System.Object>::get_Result()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CallbackStorage_1_get_Result_mB8F291F02690F9095AEF35102844A20CECA54627_gshared (CallbackStorage_1_tE1F9FFA8A0223A7E67F7E84FFDAD5197A60C9142* __this, const RuntimeMethod* method) 
-{
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->___U3CResultU3Ek__BackingField_0;
-		return L_0;
-	}
-}
-// System.Void Firebase.Dispatcher/CallbackStorage`1<System.Object>::set_Result(TResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CallbackStorage_1_set_Result_m6FB6AFD3D25C83A3B8966966BA3253CDE1252A01_gshared (CallbackStorage_1_tE1F9FFA8A0223A7E67F7E84FFDAD5197A60C9142* __this, RuntimeObject* ___value0, const RuntimeMethod* method) 
-{
-	{
-		RuntimeObject* L_0 = ___value0;
-		__this->___U3CResultU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CResultU3Ek__BackingField_0), (void*)L_0);
-		return;
-	}
-}
-// System.Exception Firebase.Dispatcher/CallbackStorage`1<System.Object>::get_Exception()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t* CallbackStorage_1_get_Exception_m99600073E740BF08F7B60660F2C64A375F2905A2_gshared (CallbackStorage_1_tE1F9FFA8A0223A7E67F7E84FFDAD5197A60C9142* __this, const RuntimeMethod* method) 
-{
-	{
-		Exception_t* L_0 = (Exception_t*)__this->___U3CExceptionU3Ek__BackingField_1;
-		return L_0;
-	}
-}
-// System.Void Firebase.Dispatcher/CallbackStorage`1<System.Object>::set_Exception(System.Exception)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CallbackStorage_1_set_Exception_m28574EE1D4B860A250EAE43662B9E09EBF093F09_gshared (CallbackStorage_1_tE1F9FFA8A0223A7E67F7E84FFDAD5197A60C9142* __this, Exception_t* ___value0, const RuntimeMethod* method) 
-{
-	{
-		Exception_t* L_0 = ___value0;
-		__this->___U3CExceptionU3Ek__BackingField_1 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CExceptionU3Ek__BackingField_1), (void*)L_0);
-		return;
-	}
-}
-// System.Void Firebase.Dispatcher/CallbackStorage`1<System.Object>::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CallbackStorage_1__ctor_m9217671CF0514EB2207698865B6ED096D0490B2E_gshared (CallbackStorage_1_tE1F9FFA8A0223A7E67F7E84FFDAD5197A60C9142* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		return;
 	}
 }
 #ifdef __clang__

@@ -6769,7 +6769,7 @@ IL_0029_1:
 			Exception_t* L_11 = V_2;
 			NullCheck(L_11);
 			String_t* L_12;
-			L_12 = VirtualFuncInvoker0< String_t* >::Invoke(10 /* System.String System.Exception::get_StackTrace() */, L_11);
+			L_12 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Exception::get_StackTrace() */, L_11);
 			NullCheck(L_5);
 			StringBuilder_t* L_13;
 			L_13 = StringBuilder_AppendFormat_m40962B9C5B41720C6424721E526C0D99D95112A2(L_5, _stringLiteral836C802AE0F55DE404DEE46F626E14CFAE92855F, L_8, L_10, L_12, NULL);
@@ -6881,7 +6881,7 @@ IL_009e_1:
 			Exception_t* L_35 = ___ex2;
 			NullCheck(L_35);
 			String_t* L_36;
-			L_36 = VirtualFuncInvoker0< String_t* >::Invoke(10 /* System.String System.Exception::get_StackTrace() */, L_35);
+			L_36 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Exception::get_StackTrace() */, L_35);
 			G_B11_0 = L_36;
 			G_B11_1 = G_B10_0;
 			G_B11_2 = G_B10_1;
@@ -8835,7 +8835,7 @@ IL_006d:
 		Exception_t* L_25 = V_0;
 		NullCheck(L_25);
 		String_t* L_26;
-		L_26 = VirtualFuncInvoker0< String_t* >::Invoke(10 /* System.String System.Exception::get_StackTrace() */, L_25);
+		L_26 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Exception::get_StackTrace() */, L_25);
 		String_t* L_27;
 		L_27 = LoggingContext_Escape_m5C4ADEC51DB4E05D43EB87B8314C36E4C442A17E(L_26, NULL);
 		NullCheck(L_24);
