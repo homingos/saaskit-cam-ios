@@ -41,6 +41,7 @@
 		<type fullname="VuforiaTrackableController" preserve="nothing"/>
 		<type fullname="VuplexController" preserve="nothing"/>
 		<type fullname="vuplexReference" preserve="nothing"/>
+		<type fullname="wait_and_kill" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Assembly-CSharp-firstpass">
 		<type fullname="NatSuite.Examples.ReplayCam" preserve="nothing"/>
@@ -198,6 +199,7 @@
 		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Collider" preserve="nothing"/>
 		<type fullname="UnityEngine.Component" preserve="nothing"/>
+		<type fullname="UnityEngine.Cubemap" preserve="nothing"/>
 		<type fullname="UnityEngine.Font" preserve="nothing"/>
 		<type fullname="UnityEngine.GameObject" preserve="nothing"/>
 		<type fullname="UnityEngine.Light" preserve="nothing"/>

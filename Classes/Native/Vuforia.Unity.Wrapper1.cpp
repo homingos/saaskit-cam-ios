@@ -437,6 +437,7 @@ struct VuVector3F_t0D8184FEC600D512E82695E2BE073109B24E62D5
 };
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=36
+#pragma pack(push, tp, 1)
 struct __StaticArrayInitTypeSizeU3D36_tF8A50E8A1ED1331225541C1C0DE541B0CEF3F36D 
 {
 	union
@@ -450,8 +451,10 @@ struct __StaticArrayInitTypeSizeU3D36_tF8A50E8A1ED1331225541C1C0DE541B0CEF3F36D
 		uint8_t __StaticArrayInitTypeSizeU3D36_tF8A50E8A1ED1331225541C1C0DE541B0CEF3F36D__padding[36];
 	};
 };
+#pragma pack(pop, tp)
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=56
+#pragma pack(push, tp, 1)
 struct __StaticArrayInitTypeSizeU3D56_tF88FAD7606762876F91FB6C7F6E9EC8638A3B9FF 
 {
 	union
@@ -465,8 +468,10 @@ struct __StaticArrayInitTypeSizeU3D56_tF88FAD7606762876F91FB6C7F6E9EC8638A3B9FF
 		uint8_t __StaticArrayInitTypeSizeU3D56_tF88FAD7606762876F91FB6C7F6E9EC8638A3B9FF__padding[56];
 	};
 };
+#pragma pack(pop, tp)
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=64
+#pragma pack(push, tp, 1)
 struct __StaticArrayInitTypeSizeU3D64_tE553FDBA070D456BE2A82D6C8D3BDA3B3D595C08 
 {
 	union
@@ -480,6 +485,7 @@ struct __StaticArrayInitTypeSizeU3D64_tE553FDBA070D456BE2A82D6C8D3BDA3B3D595C08
 		uint8_t __StaticArrayInitTypeSizeU3D64_tE553FDBA070D456BE2A82D6C8D3BDA3B3D595C08__padding[64];
 	};
 };
+#pragma pack(pop, tp)
 
 // System.Nullable`1<Vuforia.VuValidationAreaObservationValidationInfo>
 struct Nullable_1_t6440582F25025997DBC42E484DBBDC57DFA4EC93 

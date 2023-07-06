@@ -4689,6 +4689,7 @@ struct XmlTypeMapMemberList_t5542A0234B55CC3AD3EDD7B830E7C4603FAAD63E  : public 
 };
 
 // System.Xml.Schema.XmlAtomicValue/Union
+#pragma pack(push, tp, 1)
 struct Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B 
 {
 	union
@@ -4757,6 +4758,7 @@ struct Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B
 		uint8_t Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B__padding[8];
 	};
 };
+#pragma pack(pop, tp)
 // Native definition for P/Invoke marshalling of System.Xml.Schema.XmlAtomicValue/Union
 struct Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B_marshaled_pinvoke
 {

@@ -4514,6 +4514,7 @@ struct VuVuMarkObservationInstanceInfo_t16C259012F500B7E2CA0C8AEE57F8E82067DE519
 };
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=10
+#pragma pack(push, tp, 1)
 struct __StaticArrayInitTypeSizeU3D10_tB5010175CADB4EABB044B4B583C5D61BFF911181 
 {
 	union
@@ -4527,8 +4528,10 @@ struct __StaticArrayInitTypeSizeU3D10_tB5010175CADB4EABB044B4B583C5D61BFF911181
 		uint8_t __StaticArrayInitTypeSizeU3D10_tB5010175CADB4EABB044B4B583C5D61BFF911181__padding[10];
 	};
 };
+#pragma pack(pop, tp)
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=12
+#pragma pack(push, tp, 1)
 struct __StaticArrayInitTypeSizeU3D12_t9678BE1C13BAB9E62F12930F5BBC3086458BBC0F 
 {
 	union
@@ -4542,8 +4545,10 @@ struct __StaticArrayInitTypeSizeU3D12_t9678BE1C13BAB9E62F12930F5BBC3086458BBC0F
 		uint8_t __StaticArrayInitTypeSizeU3D12_t9678BE1C13BAB9E62F12930F5BBC3086458BBC0F__padding[12];
 	};
 };
+#pragma pack(pop, tp)
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=16
+#pragma pack(push, tp, 1)
 struct __StaticArrayInitTypeSizeU3D16_tACB7ABF59CC704E19B13F35EEE7DD0A8043F7287 
 {
 	union
@@ -4557,8 +4562,10 @@ struct __StaticArrayInitTypeSizeU3D16_tACB7ABF59CC704E19B13F35EEE7DD0A8043F7287
 		uint8_t __StaticArrayInitTypeSizeU3D16_tACB7ABF59CC704E19B13F35EEE7DD0A8043F7287__padding[16];
 	};
 };
+#pragma pack(pop, tp)
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=20
+#pragma pack(push, tp, 1)
 struct __StaticArrayInitTypeSizeU3D20_tB0732BE58EFED775F30259485AECF221635B5BDA 
 {
 	union
@@ -4572,8 +4579,10 @@ struct __StaticArrayInitTypeSizeU3D20_tB0732BE58EFED775F30259485AECF221635B5BDA
 		uint8_t __StaticArrayInitTypeSizeU3D20_tB0732BE58EFED775F30259485AECF221635B5BDA__padding[20];
 	};
 };
+#pragma pack(pop, tp)
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=24
+#pragma pack(push, tp, 1)
 struct __StaticArrayInitTypeSizeU3D24_t72E1006886F4CE29775F0BA40AC9AF9F1F57AE4A 
 {
 	union
@@ -4587,8 +4596,10 @@ struct __StaticArrayInitTypeSizeU3D24_t72E1006886F4CE29775F0BA40AC9AF9F1F57AE4A
 		uint8_t __StaticArrayInitTypeSizeU3D24_t72E1006886F4CE29775F0BA40AC9AF9F1F57AE4A__padding[24];
 	};
 };
+#pragma pack(pop, tp)
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=28
+#pragma pack(push, tp, 1)
 struct __StaticArrayInitTypeSizeU3D28_tEC01C136349E063BE8541A733DFE7A5CB0FB5312 
 {
 	union
@@ -4602,8 +4613,10 @@ struct __StaticArrayInitTypeSizeU3D28_tEC01C136349E063BE8541A733DFE7A5CB0FB5312
 		uint8_t __StaticArrayInitTypeSizeU3D28_tEC01C136349E063BE8541A733DFE7A5CB0FB5312__padding[28];
 	};
 };
+#pragma pack(pop, tp)
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=40
+#pragma pack(push, tp, 1)
 struct __StaticArrayInitTypeSizeU3D40_tB0E8191F574E2508C62A5D177DDC68DF2FB493A9 
 {
 	union
@@ -4617,8 +4630,10 @@ struct __StaticArrayInitTypeSizeU3D40_tB0E8191F574E2508C62A5D177DDC68DF2FB493A9
 		uint8_t __StaticArrayInitTypeSizeU3D40_tB0E8191F574E2508C62A5D177DDC68DF2FB493A9__padding[40];
 	};
 };
+#pragma pack(pop, tp)
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=44
+#pragma pack(push, tp, 1)
 struct __StaticArrayInitTypeSizeU3D44_t119E7D382182A7D730D302B04ABDA212DB4643A9 
 {
 	union
@@ -4632,8 +4647,10 @@ struct __StaticArrayInitTypeSizeU3D44_t119E7D382182A7D730D302B04ABDA212DB4643A9
 		uint8_t __StaticArrayInitTypeSizeU3D44_t119E7D382182A7D730D302B04ABDA212DB4643A9__padding[44];
 	};
 };
+#pragma pack(pop, tp)
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=52
+#pragma pack(push, tp, 1)
 struct __StaticArrayInitTypeSizeU3D52_t9E1C7E6ACA2208F3DE309FE0D3819EE5BA982767 
 {
 	union
@@ -4647,8 +4664,10 @@ struct __StaticArrayInitTypeSizeU3D52_t9E1C7E6ACA2208F3DE309FE0D3819EE5BA982767
 		uint8_t __StaticArrayInitTypeSizeU3D52_t9E1C7E6ACA2208F3DE309FE0D3819EE5BA982767__padding[52];
 	};
 };
+#pragma pack(pop, tp)
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=56
+#pragma pack(push, tp, 1)
 struct __StaticArrayInitTypeSizeU3D56_tA9227E08E091771DC7B5B975B845DEAAC6234793 
 {
 	union
@@ -4662,8 +4681,10 @@ struct __StaticArrayInitTypeSizeU3D56_tA9227E08E091771DC7B5B975B845DEAAC6234793
 		uint8_t __StaticArrayInitTypeSizeU3D56_tA9227E08E091771DC7B5B975B845DEAAC6234793__padding[56];
 	};
 };
+#pragma pack(pop, tp)
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=6
+#pragma pack(push, tp, 1)
 struct __StaticArrayInitTypeSizeU3D6_tB5F94EC6D2FFE05C780AC4DAF02B34C1B79250B5 
 {
 	union
@@ -4677,6 +4698,7 @@ struct __StaticArrayInitTypeSizeU3D6_tB5F94EC6D2FFE05C780AC4DAF02B34C1B79250B5
 		uint8_t __StaticArrayInitTypeSizeU3D6_tB5F94EC6D2FFE05C780AC4DAF02B34C1B79250B5__padding[6];
 	};
 };
+#pragma pack(pop, tp)
 
 // Vuforia.Internal.Core.ObserverFactory/<>c__DisplayClass24_0
 struct U3CU3Ec__DisplayClass24_0_t9DBF418771DA6B4B32D55A58BB2026730C750B41 

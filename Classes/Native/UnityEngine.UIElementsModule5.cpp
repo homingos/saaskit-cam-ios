@@ -8419,6 +8419,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TooltipEvent_LocalInit_mDF107572A323DC6E
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TooltipEvent_set_rect_mCD96D19C063247F8DE3B8553843C27611286A5FD_inline (TooltipEvent_t48F59E9AFAADF9D1B8A7A3A5CB8A49DA6D3E7187* __this, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___value0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UIElements.TooltipEvent::set_tooltip(System.String)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TooltipEvent_set_tooltip_m989CA98943B7E44DDCC4FFC4940F8701A65C4980_inline (TooltipEvent_t48F59E9AFAADF9D1B8A7A3A5CB8A49DA6D3E7187* __this, String_t* ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.UIElements.EventBase::set_ignoreCompositeRoots(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBase_set_ignoreCompositeRoots_m07FC5BFF70C642A131303CEC424BDE3A7A31CB68 (EventBase_tD7F89B936EB8074AE31E7B15976C072277371F7C* __this, bool ___value0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.TooltipEvent>::.ctor()
 inline void EventBase_1__ctor_mB1E5663AF6567CB703A4F1484568B8F32A0CD723 (EventBase_1_tA8F4CCB45CFF201C5BB301A14B9C4FC60522358C* __this, const RuntimeMethod* method)
 {
@@ -16587,6 +16589,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TooltipEvent_LocalInit_mDF107572A323DC6E
 		TooltipEvent_set_rect_mCD96D19C063247F8DE3B8553843C27611286A5FD_inline(__this, L_0, NULL);
 		String_t* L_1 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty_6;
 		TooltipEvent_set_tooltip_m989CA98943B7E44DDCC4FFC4940F8701A65C4980_inline(__this, L_1, NULL);
+		EventBase_set_ignoreCompositeRoots_m07FC5BFF70C642A131303CEC424BDE3A7A31CB68(__this, (bool)1, NULL);
 		return;
 	}
 }

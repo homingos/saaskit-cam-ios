@@ -8403,6 +8403,8 @@ inline void List_1__ctor_m73786708BB5BF136266E56407D245B8241A7F24C (List_1_t1E32
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FocusController_set_imguiKeyboardControl_mF0465DDC02D3633ABB46765EA4D0B84263629155_inline (FocusController_t5D2E45F2CCBE3B7082DE4088EE03C2E8F736011A* __this, int32_t ___value0, const RuntimeMethod* method) ;
 // UnityEngine.UIElements.Focusable UnityEngine.UIElements.FocusController::GetRetargetedFocusedElement(UnityEngine.UIElements.VisualElement)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0* FocusController_GetRetargetedFocusedElement_m5FE220546B2647E0838540C718AF9632A03B2401 (FocusController_t5D2E45F2CCBE3B7082DE4088EE03C2E8F736011A* __this, VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___retargetAgainst0, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.UIElements.FocusController::IsLocalElement(UnityEngine.UIElements.Focusable)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FocusController_IsLocalElement_m04A8A8FDE74955742802A06DBC02BE99159C6D9F (FocusController_t5D2E45F2CCBE3B7082DE4088EE03C2E8F736011A* __this, Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0* ___f0, const RuntimeMethod* method) ;
 // System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<UnityEngine.UIElements.FocusController/FocusedElement>::GetEnumerator()
 inline Enumerator_tC40C530F62540E93BDAAFF42E8BDE3B3B3328EA0 List_1_GetEnumerator_mBF7B1E08D38E0651BF5E200997E3A903B018CDC0 (List_1_t1E327CB749CA1F2F2DA41B2D4DFF57FD6BE0FF66* __this, const RuntimeMethod* method)
 {
@@ -19195,7 +19197,7 @@ IL_004b:
 		L_19 = Hierarchy_get_parent_m1CB3F7548632A5B5747041AF64B12BB0E0F402D4((&V_1), NULL);
 		NullCheck(L_19);
 		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_20;
-		L_20 = VirtualFuncInvoker0< VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* >::Invoke(93 /* UnityEngine.UIElements.VisualElement UnityEngine.UIElements.VisualElement::get_contentContainer() */, L_19);
+		L_20 = VirtualFuncInvoker0< VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* >::Invoke(94 /* UnityEngine.UIElements.VisualElement UnityEngine.UIElements.VisualElement::get_contentContainer() */, L_19);
 		G_B9_0 = ((((RuntimeObject*)(VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)L_16) == ((RuntimeObject*)(VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)L_20))? 1 : 0);
 		goto IL_0074;
 	}
@@ -19580,10 +19582,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FocusController_get_focusRing_
 // UnityEngine.UIElements.Focusable UnityEngine.UIElements.FocusController::get_focusedElement()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0* FocusController_get_focusedElement_mC8B530DA2FE09394ADA0A4D25A85DBF5C66853D8 (FocusController_t5D2E45F2CCBE3B7082DE4088EE03C2E8F736011A* __this, const RuntimeMethod* method) 
 {
+	Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0* V_0 = NULL;
+	Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0* V_1 = NULL;
+	Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0* G_B3_0 = NULL;
 	{
 		Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0* L_0;
 		L_0 = FocusController_GetRetargetedFocusedElement_m5FE220546B2647E0838540C718AF9632A03B2401(__this, (VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)NULL, NULL);
-		return L_0;
+		V_0 = L_0;
+		Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0* L_1 = V_0;
+		bool L_2;
+		L_2 = FocusController_IsLocalElement_m04A8A8FDE74955742802A06DBC02BE99159C6D9F(__this, L_1, NULL);
+		if (L_2)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		G_B3_0 = ((Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0*)(NULL));
+		goto IL_0016;
+	}
+
+IL_0015:
+	{
+		Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0* L_3 = V_0;
+		G_B3_0 = L_3;
+	}
+
+IL_0016:
+	{
+		V_1 = G_B3_0;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0* L_4 = V_1;
+		return L_4;
 	}
 }
 // System.Boolean UnityEngine.UIElements.FocusController::IsFocused(UnityEngine.UIElements.Focusable)
@@ -19598,70 +19632,88 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FocusController_IsFocused_mC6FBCB39C5995
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_mBF7B1E08D38E0651BF5E200997E3A903B018CDC0_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	Enumerator_tC40C530F62540E93BDAAFF42E8BDE3B3B3328EA0 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	FocusedElement_t1EE083A1C5276213C533A38C6B5DC02E9DE5CBEF V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	bool V_2 = false;
-	bool V_3 = false;
+	bool V_0 = false;
+	bool V_1 = false;
+	Enumerator_tC40C530F62540E93BDAAFF42E8BDE3B3B3328EA0 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	FocusedElement_t1EE083A1C5276213C533A38C6B5DC02E9DE5CBEF V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	bool V_4 = false;
 	{
-		List_1_t1E327CB749CA1F2F2DA41B2D4DFF57FD6BE0FF66* L_0 = __this->___m_FocusedElements_1;
-		NullCheck(L_0);
-		Enumerator_tC40C530F62540E93BDAAFF42E8BDE3B3B3328EA0 L_1;
-		L_1 = List_1_GetEnumerator_mBF7B1E08D38E0651BF5E200997E3A903B018CDC0(L_0, List_1_GetEnumerator_mBF7B1E08D38E0651BF5E200997E3A903B018CDC0_RuntimeMethod_var);
-		V_0 = L_1;
+		Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0* L_0 = ___f0;
+		bool L_1;
+		L_1 = FocusController_IsLocalElement_m04A8A8FDE74955742802A06DBC02BE99159C6D9F(__this, L_0, NULL);
+		V_0 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		V_1 = (bool)0;
+		goto IL_005e;
+	}
+
+IL_0013:
+	{
+		List_1_t1E327CB749CA1F2F2DA41B2D4DFF57FD6BE0FF66* L_3 = __this->___m_FocusedElements_1;
+		NullCheck(L_3);
+		Enumerator_tC40C530F62540E93BDAAFF42E8BDE3B3B3328EA0 L_4;
+		L_4 = List_1_GetEnumerator_mBF7B1E08D38E0651BF5E200997E3A903B018CDC0(L_3, List_1_GetEnumerator_mBF7B1E08D38E0651BF5E200997E3A903B018CDC0_RuntimeMethod_var);
+		V_2 = L_4;
 	}
 	{
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_0037:
+FINALLY_004b:
 			{// begin finally (depth: 1)
-				Enumerator_Dispose_m5FF3A7B62D564BACBD69B456F802A6E283C47034((&V_0), Enumerator_Dispose_m5FF3A7B62D564BACBD69B456F802A6E283C47034_RuntimeMethod_var);
+				Enumerator_Dispose_m5FF3A7B62D564BACBD69B456F802A6E283C47034((&V_2), Enumerator_Dispose_m5FF3A7B62D564BACBD69B456F802A6E283C47034_RuntimeMethod_var);
 				return;
 			}// end finally (depth: 1)
 		});
 		try
 		{// begin try (depth: 1)
 			{
-				goto IL_002c_1;
+				goto IL_0040_1;
 			}
 
-IL_0010_1:
+IL_0022_1:
 			{
-				FocusedElement_t1EE083A1C5276213C533A38C6B5DC02E9DE5CBEF L_2;
-				L_2 = Enumerator_get_Current_m77DBD0307C69F473DA6A47070D76091FABC89DBE_inline((&V_0), Enumerator_get_Current_m77DBD0307C69F473DA6A47070D76091FABC89DBE_RuntimeMethod_var);
-				V_1 = L_2;
-				FocusedElement_t1EE083A1C5276213C533A38C6B5DC02E9DE5CBEF L_3 = V_1;
-				Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0* L_4 = L_3.___m_FocusedElement_1;
-				Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0* L_5 = ___f0;
-				V_2 = (bool)((((RuntimeObject*)(Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0*)L_4) == ((RuntimeObject*)(Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0*)L_5))? 1 : 0);
-				bool L_6 = V_2;
-				if (!L_6)
+				FocusedElement_t1EE083A1C5276213C533A38C6B5DC02E9DE5CBEF L_5;
+				L_5 = Enumerator_get_Current_m77DBD0307C69F473DA6A47070D76091FABC89DBE_inline((&V_2), Enumerator_get_Current_m77DBD0307C69F473DA6A47070D76091FABC89DBE_RuntimeMethod_var);
+				V_3 = L_5;
+				FocusedElement_t1EE083A1C5276213C533A38C6B5DC02E9DE5CBEF L_6 = V_3;
+				Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0* L_7 = L_6.___m_FocusedElement_1;
+				Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0* L_8 = ___f0;
+				V_4 = (bool)((((RuntimeObject*)(Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0*)L_7) == ((RuntimeObject*)(Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0*)L_8))? 1 : 0);
+				bool L_9 = V_4;
+				if (!L_9)
 				{
-					goto IL_002b_1;
+					goto IL_003f_1;
 				}
 			}
 			{
-				V_3 = (bool)1;
-				goto IL_004a;
+				V_1 = (bool)1;
+				goto IL_005e;
 			}
 
-IL_002b_1:
+IL_003f_1:
 			{
 			}
 
-IL_002c_1:
+IL_0040_1:
 			{
-				bool L_7;
-				L_7 = Enumerator_MoveNext_m2A06FB8CD851A83B6FA4E393CCBEF6AD960288E8((&V_0), Enumerator_MoveNext_m2A06FB8CD851A83B6FA4E393CCBEF6AD960288E8_RuntimeMethod_var);
-				if (L_7)
+				bool L_10;
+				L_10 = Enumerator_MoveNext_m2A06FB8CD851A83B6FA4E393CCBEF6AD960288E8((&V_2), Enumerator_MoveNext_m2A06FB8CD851A83B6FA4E393CCBEF6AD960288E8_RuntimeMethod_var);
+				if (L_10)
 				{
-					goto IL_0010_1;
+					goto IL_0022_1;
 				}
 			}
 			{
-				goto IL_0046;
+				goto IL_005a;
 			}
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
@@ -19670,16 +19722,16 @@ IL_002c_1:
 		}
 	}
 
-IL_0046:
+IL_005a:
 	{
-		V_3 = (bool)0;
-		goto IL_004a;
+		V_1 = (bool)0;
+		goto IL_005e;
 	}
 
-IL_004a:
+IL_005e:
 	{
-		bool L_8 = V_3;
-		return L_8;
+		bool L_11 = V_1;
+		return L_11;
 	}
 }
 // UnityEngine.UIElements.Focusable UnityEngine.UIElements.FocusController::GetRetargetedFocusedElement(UnityEngine.UIElements.VisualElement)
@@ -19926,6 +19978,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379
 	}
 	bool V_0 = false;
 	Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0* V_1 = NULL;
+	Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0* V_2 = NULL;
+	Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0* G_B4_0 = NULL;
 	{
 		List_1_t1E327CB749CA1F2F2DA41B2D4DFF57FD6BE0FF66* L_0 = __this->___m_FocusedElements_1;
 		NullCheck(L_0);
@@ -19935,7 +19989,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379
 		bool L_2 = V_0;
 		if (!L_2)
 		{
-			goto IL_0028;
+			goto IL_0036;
 		}
 	}
 	{
@@ -19945,19 +19999,79 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379
 		L_4 = List_1_get_Item_mBD1D12956B0BC820EDB39DE6B983C74A30A6DB63(L_3, 0, List_1_get_Item_mBD1D12956B0BC820EDB39DE6B983C74A30A6DB63_RuntimeMethod_var);
 		Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0* L_5 = L_4.___m_FocusedElement_1;
 		V_1 = L_5;
-		goto IL_002c;
-	}
-
-IL_0028:
-	{
-		V_1 = (Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0*)NULL;
-		goto IL_002c;
-	}
-
-IL_002c:
-	{
 		Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0* L_6 = V_1;
-		return L_6;
+		bool L_7;
+		L_7 = FocusController_IsLocalElement_m04A8A8FDE74955742802A06DBC02BE99159C6D9F(__this, L_6, NULL);
+		if (L_7)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		G_B4_0 = ((Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0*)(NULL));
+		goto IL_0033;
+	}
+
+IL_0032:
+	{
+		Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0* L_8 = V_1;
+		G_B4_0 = L_8;
+	}
+
+IL_0033:
+	{
+		V_2 = G_B4_0;
+		goto IL_003a;
+	}
+
+IL_0036:
+	{
+		V_2 = (Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0*)NULL;
+		goto IL_003a;
+	}
+
+IL_003a:
+	{
+		Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0* L_9 = V_2;
+		return L_9;
+	}
+}
+// System.Boolean UnityEngine.UIElements.FocusController::IsLocalElement(UnityEngine.UIElements.Focusable)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FocusController_IsLocalElement_m04A8A8FDE74955742802A06DBC02BE99159C6D9F (FocusController_t5D2E45F2CCBE3B7082DE4088EE03C2E8F736011A* __this, Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0* ___f0, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	FocusController_t5D2E45F2CCBE3B7082DE4088EE03C2E8F736011A* G_B3_0 = NULL;
+	{
+		Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0* L_0 = ___f0;
+		if (L_0)
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		G_B3_0 = ((FocusController_t5D2E45F2CCBE3B7082DE4088EE03C2E8F736011A*)(NULL));
+		goto IL_000d;
+	}
+
+IL_0007:
+	{
+		Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0* L_1 = ___f0;
+		NullCheck(L_1);
+		FocusController_t5D2E45F2CCBE3B7082DE4088EE03C2E8F736011A* L_2;
+		L_2 = VirtualFuncInvoker0< FocusController_t5D2E45F2CCBE3B7082DE4088EE03C2E8F736011A* >::Invoke(15 /* UnityEngine.UIElements.FocusController UnityEngine.UIElements.Focusable::get_focusController() */, L_1);
+		G_B3_0 = L_2;
+	}
+
+IL_000d:
+	{
+		V_0 = (bool)((((RuntimeObject*)(FocusController_t5D2E45F2CCBE3B7082DE4088EE03C2E8F736011A*)G_B3_0) == ((RuntimeObject*)(FocusController_t5D2E45F2CCBE3B7082DE4088EE03C2E8F736011A*)__this))? 1 : 0);
+		goto IL_0013;
+	}
+
+IL_0013:
+	{
+		bool L_3 = V_0;
+		return L_3;
 	}
 }
 // System.Boolean UnityEngine.UIElements.FocusController::IsPendingFocus(UnityEngine.UIElements.Focusable)
@@ -25969,7 +26083,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IMGUIContainer_Dispose_m98123D5A659A67CC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		VirtualActionInvoker1< bool >::Invoke(95 /* System.Void UnityEngine.UIElements.IMGUIContainer::Dispose(System.Boolean) */, __this, (bool)1);
+		VirtualActionInvoker1< bool >::Invoke(96 /* System.Void UnityEngine.UIElements.IMGUIContainer::Dispose(System.Boolean) */, __this, (bool)1);
 		il2cpp_codegen_runtime_class_init_inline(GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
 		GC_SuppressFinalize_m71815DBD5A0CD2EA1BE43317B08B7A14949EDC65(__this, NULL);
 		return;
@@ -30961,7 +31075,7 @@ IL_006c:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_19 = V_0;
 		NullCheck(L_18);
 		bool L_20;
-		L_20 = VirtualFuncInvoker1< bool, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 >::Invoke(91 /* System.Boolean UnityEngine.UIElements.VisualElement::ContainsPoint(UnityEngine.Vector2) */, L_18, L_19);
+		L_20 = VirtualFuncInvoker1< bool, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 >::Invoke(92 /* System.Boolean UnityEngine.UIElements.VisualElement::ContainsPoint(UnityEngine.Vector2) */, L_18, L_19);
 		V_1 = L_20;
 		bool L_21 = V_1;
 		if (L_21)

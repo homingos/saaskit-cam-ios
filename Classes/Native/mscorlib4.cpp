@@ -1753,28 +1753,6 @@ struct NumberBuffer_tE874ADE8F26E879B88784939C623CCEEF30C7643
 	Il2CppChar* ____allDigits_4;
 };
 #pragma pack(pop, tp)
-// Native definition for P/Invoke marshalling of System.Number/NumberBuffer
-#pragma pack(push, tp, 1)
-struct NumberBuffer_tE874ADE8F26E879B88784939C623CCEEF30C7643_marshaled_pinvoke
-{
-	int32_t ___precision_0;
-	int32_t ___scale_1;
-	int32_t ____sign_2;
-	DigitsAndNullTerminator_tEF216B2D9886B3B6EBDBBA0E540214C013C02ECA ____digits_3;
-	Il2CppChar* ____allDigits_4;
-};
-#pragma pack(pop, tp)
-// Native definition for COM marshalling of System.Number/NumberBuffer
-#pragma pack(push, tp, 1)
-struct NumberBuffer_tE874ADE8F26E879B88784939C623CCEEF30C7643_marshaled_com
-{
-	int32_t ___precision_0;
-	int32_t ___scale_1;
-	int32_t ____sign_2;
-	DigitsAndNullTerminator_tEF216B2D9886B3B6EBDBBA0E540214C013C02ECA ____digits_3;
-	Il2CppChar* ____allDigits_4;
-};
-#pragma pack(pop, tp)
 
 // System.ReadOnlySpan`1<System.Byte>
 struct ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D 
@@ -14700,6 +14678,9 @@ IL_0006:
 	}
 }
 // System.Decimal System.Math::Max(System.Decimal,System.Decimal)
+#if IL2CPP_TARGET_WINDOWS && IL2CPP_TARGET_X64
+IL2CPP_DISABLE_OPTIMIZATIONS
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F Math_Max_mD7FF6874440F53BF259EA83A0A66522448A960AF (Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___val10, Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___val21, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14716,6 +14697,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Decimal_tDA6C877282B2D789CF97C0949661CC11D643
 		return L_1;
 	}
 }
+#if IL2CPP_TARGET_WINDOWS && IL2CPP_TARGET_X64
+IL2CPP_ENABLE_OPTIMIZATIONS
+#endif
 // System.Double System.Math::Max(System.Double,System.Double)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Max_m7BAC743E1752A51F258BB82DEBDD13E7C6D3ED26 (double ___val10, double ___val21, const RuntimeMethod* method) 
 {

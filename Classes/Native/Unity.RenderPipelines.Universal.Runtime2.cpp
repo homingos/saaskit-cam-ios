@@ -30266,11 +30266,10 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void DrawCallJob_Execute_m77
 	float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 V_12;
 	memset((&V_12), 0, sizeof(V_12));
 	float V_13 = 0.0f;
-	bool V_14 = false;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_15;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	DecalSubDrawCall_t68CDD2E663F805776DE0281AB4FAEDC8B8D9EC49 V_15;
 	memset((&V_15), 0, sizeof(V_15));
-	DecalSubDrawCall_t68CDD2E663F805776DE0281AB4FAEDC8B8D9EC49 V_16;
-	memset((&V_16), 0, sizeof(V_16));
 	{
 		// int subCallIndex = 0;
 		V_0 = 0;
@@ -30280,7 +30279,7 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void DrawCallJob_Execute_m77
 		V_2 = 0;
 		// for (int i = 0; i < visibleDecalCount; ++i)
 		V_3 = 0;
-		goto IL_01db;
+		goto IL_01cb;
 	}
 
 IL_000d:
@@ -30302,7 +30301,7 @@ IL_000d:
 		int32_t L_7 = V_5;
 		if (!((int32_t)(L_6&L_7)))
 		{
-			goto IL_01d7;
+			goto IL_01c7;
 		}
 	}
 	{
@@ -30324,9 +30323,9 @@ IL_000d:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = L_15.___position_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
 		L_17 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_14, L_16, NULL);
-		V_15 = L_17;
+		V_14 = L_17;
 		float L_18;
-		L_18 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_15), NULL);
+		L_18 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_14), NULL);
 		V_8 = L_18;
 		// float cullDistance = math.min(drawDistance.x, maxDrawDistance) + boundingSphere.radius;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_19 = V_7;
@@ -30342,7 +30341,7 @@ IL_000d:
 		float L_26 = V_9;
 		if ((((float)L_25) > ((float)L_26)))
 		{
-			goto IL_01d7;
+			goto IL_01c7;
 		}
 	}
 	{
@@ -30425,15 +30424,10 @@ IL_000d:
 		int32_t L_71 = V_1;
 		int32_t L_72 = V_2;
 		// bool isReachedMaximumBatchSize = instanceCount >= 250;
-		// bool isLastDecal = i == visibleDecalCount - 1;
-		int32_t L_73 = V_3;
-		int32_t L_74 = __this->___visibleDecalCount_14;
-		V_14 = (bool)((((int32_t)L_73) == ((int32_t)((int32_t)il2cpp_codegen_subtract(L_74, 1))))? 1 : 0);
-		// if (isReachedMaximumBatchSize || isLastDecal)
-		bool L_75 = V_14;
-		if (!((int32_t)(((((int32_t)((((int32_t)((int32_t)il2cpp_codegen_subtract(L_71, L_72))) < ((int32_t)((int32_t)250)))? 1 : 0)) == ((int32_t)0))? 1 : 0)|(int32_t)L_75)))
+		// if (isReachedMaximumBatchSize)
+		if (!((((int32_t)((((int32_t)((int32_t)il2cpp_codegen_subtract(L_71, L_72))) < ((int32_t)((int32_t)250)))? 1 : 0)) == ((int32_t)0))? 1 : 0))
 		{
-			goto IL_01d7;
+			goto IL_01c7;
 		}
 	}
 	{
@@ -30442,44 +30436,74 @@ IL_000d:
 		//     start = instanceStart,
 		//     end = instanceIndex,
 		// };
-		NativeArray_1_t197AED29D4CF7A6BC8C6C69B7BABD82BDC8475E2* L_76 = (&__this->___subCalls_18);
-		int32_t L_77 = V_0;
-		int32_t L_78 = L_77;
-		V_0 = ((int32_t)il2cpp_codegen_add(L_78, 1));
-		il2cpp_codegen_initobj((&V_16), sizeof(DecalSubDrawCall_t68CDD2E663F805776DE0281AB4FAEDC8B8D9EC49));
-		int32_t L_79 = V_2;
-		(&V_16)->___start_0 = L_79;
-		int32_t L_80 = V_1;
-		(&V_16)->___end_1 = L_80;
-		DecalSubDrawCall_t68CDD2E663F805776DE0281AB4FAEDC8B8D9EC49 L_81 = V_16;
-		IL2CPP_NATIVEARRAY_SET_ITEM(DecalSubDrawCall_t68CDD2E663F805776DE0281AB4FAEDC8B8D9EC49, (L_76)->___m_Buffer_0, L_78, (L_81));
+		NativeArray_1_t197AED29D4CF7A6BC8C6C69B7BABD82BDC8475E2* L_73 = (&__this->___subCalls_18);
+		int32_t L_74 = V_0;
+		int32_t L_75 = L_74;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_75, 1));
+		il2cpp_codegen_initobj((&V_15), sizeof(DecalSubDrawCall_t68CDD2E663F805776DE0281AB4FAEDC8B8D9EC49));
+		int32_t L_76 = V_2;
+		(&V_15)->___start_0 = L_76;
+		int32_t L_77 = V_1;
+		(&V_15)->___end_1 = L_77;
+		DecalSubDrawCall_t68CDD2E663F805776DE0281AB4FAEDC8B8D9EC49 L_78 = V_15;
+		IL2CPP_NATIVEARRAY_SET_ITEM(DecalSubDrawCall_t68CDD2E663F805776DE0281AB4FAEDC8B8D9EC49, (L_73)->___m_Buffer_0, L_75, (L_78));
 		// instanceStart = instanceIndex;
-		int32_t L_82 = V_1;
-		V_2 = L_82;
+		int32_t L_79 = V_1;
+		V_2 = L_79;
 	}
 
-IL_01d7:
+IL_01c7:
 	{
 		// for (int i = 0; i < visibleDecalCount; ++i)
-		int32_t L_83 = V_3;
-		V_3 = ((int32_t)il2cpp_codegen_add(L_83, 1));
+		int32_t L_80 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_80, 1));
 	}
 
-IL_01db:
+IL_01cb:
 	{
 		// for (int i = 0; i < visibleDecalCount; ++i)
-		int32_t L_84 = V_3;
-		int32_t L_85 = __this->___visibleDecalCount_14;
-		if ((((int32_t)L_84) < ((int32_t)L_85)))
+		int32_t L_81 = V_3;
+		int32_t L_82 = __this->___visibleDecalCount_14;
+		if ((((int32_t)L_81) < ((int32_t)L_82)))
 		{
 			goto IL_000d;
 		}
 	}
 	{
+		// int remainingInstanceCount = instanceIndex - instanceStart;
+		int32_t L_83 = V_1;
+		int32_t L_84 = V_2;
+		// if (remainingInstanceCount != 0)
+		if (!((int32_t)il2cpp_codegen_subtract(L_83, L_84)))
+		{
+			goto IL_0206;
+		}
+	}
+	{
+		// subCalls[subCallIndex++] = new DecalSubDrawCall()
+		// {
+		//     start = instanceStart,
+		//     end = instanceIndex,
+		// };
+		NativeArray_1_t197AED29D4CF7A6BC8C6C69B7BABD82BDC8475E2* L_85 = (&__this->___subCalls_18);
+		int32_t L_86 = V_0;
+		int32_t L_87 = L_86;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_87, 1));
+		il2cpp_codegen_initobj((&V_15), sizeof(DecalSubDrawCall_t68CDD2E663F805776DE0281AB4FAEDC8B8D9EC49));
+		int32_t L_88 = V_2;
+		(&V_15)->___start_0 = L_88;
+		int32_t L_89 = V_1;
+		(&V_15)->___end_1 = L_89;
+		DecalSubDrawCall_t68CDD2E663F805776DE0281AB4FAEDC8B8D9EC49 L_90 = V_15;
+		IL2CPP_NATIVEARRAY_SET_ITEM(DecalSubDrawCall_t68CDD2E663F805776DE0281AB4FAEDC8B8D9EC49, (L_85)->___m_Buffer_0, L_87, (L_90));
+	}
+
+IL_0206:
+	{
 		// subCallCount[0] = subCallIndex;
-		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_86 = (&__this->___subCallCount_19);
-		int32_t L_87 = V_0;
-		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_86)->___m_Buffer_0, 0, (L_87));
+		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_91 = (&__this->___subCallCount_19);
+		int32_t L_92 = V_0;
+		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_91)->___m_Buffer_0, 0, (L_92));
 		// }
 		return;
 	}

@@ -1464,6 +1464,8 @@ struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_StaticFields
 // System.Diagnostics.Tracing.EventSource
 struct EventSource_tA86759A1E6F272632C299AAC181C0A67E5C52F25  : public RuntimeObject
 {
+	// System.String System.Diagnostics.Tracing.EventSource::<Name>k__BackingField
+	String_t* ___U3CNameU3Ek__BackingField_0;
 };
 
 // System.Collections.Hashtable
@@ -2404,9 +2406,9 @@ struct DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE  : public
 struct DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields
 {
 	// System.Data.DataCommonEventSource System.Data.DataCommonEventSource::Log
-	DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* ___Log_0;
+	DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* ___Log_1;
 	// System.Int64 System.Data.DataCommonEventSource::s_nextScopeId
-	int64_t ___s_nextScopeId_1;
+	int64_t ___s_nextScopeId_2;
 };
 
 // System.Data.DataKey
@@ -5756,7 +5758,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable__ctor_m6217DD991E5E66260E640EA
 		il2cpp_codegen_runtime_class_init_inline(GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
 		GC_SuppressFinalize_m71815DBD5A0CD2EA1BE43317B08B7A14949EDC65(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_10 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_10 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 		int32_t L_11;
 		L_11 = DataTable_get_ObjectID_m3A05B9B04446D482AE01B532B3A04146BD431358_inline(__this, NULL);
 		NullCheck(L_10);
@@ -9782,7 +9784,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_RestoreIndexEvents_m35DC3296AA
 	int32_t G_B13_0 = 0;
 	{
 		il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_0 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_0 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 		int32_t L_1;
 		L_1 = DataTable_get_ObjectID_m3A05B9B04446D482AE01B532B3A04146BD431358_inline(__this, NULL);
 		int32_t L_2 = __this->____suspendIndexEvents_43;
@@ -10009,7 +10011,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_SuspendIndexEvents_m188631E40F
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_0 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_0 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 		int32_t L_1;
 		L_1 = DataTable_get_ObjectID_m3A05B9B04446D482AE01B532B3A04146BD431358_inline(__this, NULL);
 		int32_t L_2 = __this->____suspendIndexEvents_43;
@@ -11284,7 +11286,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_set_Locale_m7AF00397576C7E63EE
 	int32_t G_B19_0 = 0;
 	{
 		il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_0 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_0 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 		int32_t L_1;
 		L_1 = DataTable_get_ObjectID_m3A05B9B04446D482AE01B532B3A04146BD431358_inline(__this, NULL);
 		NullCheck(L_0);
@@ -11299,7 +11301,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_set_Locale_m7AF00397576C7E63EE
 FINALLY_0100:
 			{// begin finally (depth: 1)
 				il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-				DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_3 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+				DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_3 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 				int64_t L_4 = V_0;
 				NullCheck(L_3);
 				DataCommonEventSource_ExitScope_m0D37CCB8C891C2965F2662EAFD04498B2A48F12C(L_3, L_4, NULL);
@@ -12728,7 +12730,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_set_TableName_m999802721AE1265
 	int32_t V_4 = 0;
 	{
 		il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_0 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_0 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 		int32_t L_1;
 		L_1 = DataTable_get_ObjectID_m3A05B9B04446D482AE01B532B3A04146BD431358_inline(__this, NULL);
 		String_t* L_2 = ___value0;
@@ -12744,7 +12746,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_set_TableName_m999802721AE1265
 FINALLY_01a3:
 			{// begin finally (depth: 1)
 				il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-				DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_4 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+				DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_4 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 				int64_t L_5 = V_0;
 				NullCheck(L_4);
 				DataCommonEventSource_ExitScope_m0D37CCB8C891C2965F2662EAFD04498B2A48F12C(L_4, L_5, NULL);
@@ -13336,7 +13338,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_set_Namespace_mDF54C6C7531B3B0
 	String_t* G_B6_0 = NULL;
 	{
 		il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_0 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_0 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 		int32_t L_1;
 		L_1 = DataTable_get_ObjectID_m3A05B9B04446D482AE01B532B3A04146BD431358_inline(__this, NULL);
 		String_t* L_2 = ___value0;
@@ -13352,7 +13354,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_set_Namespace_mDF54C6C7531B3B0
 FINALLY_0092:
 			{// begin finally (depth: 1)
 				il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-				DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_4 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+				DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_4 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 				int64_t L_5 = V_0;
 				NullCheck(L_4);
 				DataCommonEventSource_ExitScope_m0D37CCB8C891C2965F2662EAFD04498B2A48F12C(L_4, L_5, NULL);
@@ -14398,7 +14400,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_set_Prefix_m0B008275BB20CB1B7F
 IL_000a:
 	{
 		il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_2 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_2 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 		int32_t L_3;
 		L_3 = DataTable_get_ObjectID_m3A05B9B04446D482AE01B532B3A04146BD431358_inline(__this, NULL);
 		String_t* L_4 = ___value0;
@@ -15510,7 +15512,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DataTable_t9240A0D6726299C55832BF4EE085C864A1
 	DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* G_B3_3 = NULL;
 	{
 		il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_0 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_0 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 		int32_t L_1;
 		L_1 = DataTable_get_ObjectID_m3A05B9B04446D482AE01B532B3A04146BD431358_inline(__this, NULL);
 		DataSet_t1F72E9737C995EBFDCF793C87CAC3196EA02411B* L_2 = ___cloneDS0;
@@ -15559,7 +15561,7 @@ IL_001c:
 FINALLY_0049:
 			{// begin finally (depth: 1)
 				il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-				DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_6 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+				DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_6 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 				int64_t L_7 = V_0;
 				NullCheck(L_6);
 				DataCommonEventSource_ExitScope_m0D37CCB8C891C2965F2662EAFD04498B2A48F12C(L_6, L_7, NULL);
@@ -17197,7 +17199,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_Clear_mE341DBE6F9A4CD2ED337866
 	DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* V_6 = NULL;
 	{
 		il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_0 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_0 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 		int32_t L_1;
 		L_1 = DataTable_get_ObjectID_m3A05B9B04446D482AE01B532B3A04146BD431358_inline(__this, NULL);
 		bool L_2 = ___clearAll0;
@@ -17213,7 +17215,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_Clear_mE341DBE6F9A4CD2ED337866
 FINALLY_0156:
 			{// begin finally (depth: 1)
 				il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-				DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_4 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+				DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_4 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 				int64_t L_5 = V_0;
 				NullCheck(L_4);
 				DataCommonEventSource_ExitScope_m0D37CCB8C891C2965F2662EAFD04498B2A48F12C(L_4, L_5, NULL);
@@ -18218,7 +18220,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_InsertRow_m2B978DAB606C9C890A5
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_0 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_0 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 		int32_t L_1;
 		L_1 = DataTable_get_ObjectID_m3A05B9B04446D482AE01B532B3A04146BD431358_inline(__this, NULL);
 		DataRow_t4C2743279B40E332809F4E6EE3443B75E4C38388* L_2 = ___row0;
@@ -18236,7 +18238,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_InsertRow_m2B978DAB606C9C890A5
 FINALLY_0177:
 			{// begin finally (depth: 1)
 				il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-				DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_5 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+				DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_5 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 				int64_t L_6 = V_0;
 				NullCheck(L_5);
 				DataCommonEventSource_ExitScope_m0D37CCB8C891C2965F2662EAFD04498B2A48F12C(L_5, L_6, NULL);
@@ -19109,7 +19111,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_OnColumnChanging_m1A71B1A32A58
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_1 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_1 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 		int32_t L_2;
 		L_2 = DataTable_get_ObjectID_m3A05B9B04446D482AE01B532B3A04146BD431358_inline(__this, NULL);
 		NullCheck(L_1);
@@ -19145,7 +19147,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_OnColumnChanged_m26426805FC308
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_1 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_1 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 		int32_t L_2;
 		L_2 = DataTable_get_ObjectID_m3A05B9B04446D482AE01B532B3A04146BD431358_inline(__this, NULL);
 		NullCheck(L_1);
@@ -19181,7 +19183,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_OnPropertyChanging_mC06542272C
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_1 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_1 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 		int32_t L_2;
 		L_2 = DataTable_get_ObjectID_m3A05B9B04446D482AE01B532B3A04146BD431358_inline(__this, NULL);
 		NullCheck(L_1);
@@ -19341,7 +19343,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_OnRowChanged_mBA6A01E50B13DD9D
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_1 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_1 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 		int32_t L_2;
 		L_2 = DataTable_get_ObjectID_m3A05B9B04446D482AE01B532B3A04146BD431358_inline(__this, NULL);
 		NullCheck(L_1);
@@ -19377,7 +19379,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_OnRowChanging_mD920C6DADEB0FE9
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_1 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_1 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 		int32_t L_2;
 		L_2 = DataTable_get_ObjectID_m3A05B9B04446D482AE01B532B3A04146BD431358_inline(__this, NULL);
 		NullCheck(L_1);
@@ -19413,7 +19415,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_OnRowDeleting_mE10906F6EDBD724
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_1 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_1 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 		int32_t L_2;
 		L_2 = DataTable_get_ObjectID_m3A05B9B04446D482AE01B532B3A04146BD431358_inline(__this, NULL);
 		NullCheck(L_1);
@@ -19449,7 +19451,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_OnRowDeleted_m36413D63E07C485B
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_1 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_1 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 		int32_t L_2;
 		L_2 = DataTable_get_ObjectID_m3A05B9B04446D482AE01B532B3A04146BD431358_inline(__this, NULL);
 		NullCheck(L_1);
@@ -19485,7 +19487,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_OnTableCleared_m079FF1138133A9
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_1 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_1 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 		int32_t L_2;
 		L_2 = DataTable_get_ObjectID_m3A05B9B04446D482AE01B532B3A04146BD431358_inline(__this, NULL);
 		NullCheck(L_1);
@@ -19521,7 +19523,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_OnTableClearing_m695CF4C082120
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_1 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_1 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 		int32_t L_2;
 		L_2 = DataTable_get_ObjectID_m3A05B9B04446D482AE01B532B3A04146BD431358_inline(__this, NULL);
 		NullCheck(L_1);
@@ -19557,7 +19559,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_OnTableNewRow_m36B51FB04261888
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_1 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_1 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 		int32_t L_2;
 		L_2 = DataTable_get_ObjectID_m3A05B9B04446D482AE01B532B3A04146BD431358_inline(__this, NULL);
 		NullCheck(L_1);
@@ -19594,7 +19596,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_OnInitialized_m1C28AEDD05BBD84
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_1 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_1 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 		int32_t L_2;
 		L_2 = DataTable_get_ObjectID_m3A05B9B04446D482AE01B532B3A04146BD431358_inline(__this, NULL);
 		NullCheck(L_1);
@@ -20849,7 +20851,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_Reset_m3D93F2770C18D6DBFC68ED0
 	int32_t V_2 = 0;
 	{
 		il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_0 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_0 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 		int32_t L_1;
 		L_1 = DataTable_get_ObjectID_m3A05B9B04446D482AE01B532B3A04146BD431358_inline(__this, NULL);
 		NullCheck(L_0);
@@ -20864,7 +20866,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_Reset_m3D93F2770C18D6DBFC68ED0
 FINALLY_0078:
 			{// begin finally (depth: 1)
 				il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-				DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_3 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+				DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_3 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 				int64_t L_4 = V_0;
 				NullCheck(L_3);
 				DataCommonEventSource_ExitScope_m0D37CCB8C891C2965F2662EAFD04498B2A48F12C(L_3, L_4, NULL);
@@ -23347,7 +23349,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_Merge_mC219F73E503F024612E1ACF
 	DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* G_B3_3 = NULL;
 	{
 		il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_0 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_0 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 		int32_t L_1;
 		L_1 = DataTable_get_ObjectID_m3A05B9B04446D482AE01B532B3A04146BD431358_inline(__this, NULL);
 		DataTable_t9240A0D6726299C55832BF4EE085C864A1CCBB07* L_2 = ___table0;
@@ -23398,7 +23400,7 @@ IL_001c:
 FINALLY_004f:
 			{// begin finally (depth: 1)
 				il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-				DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_8 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+				DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_8 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 				int64_t L_9 = V_0;
 				NullCheck(L_8);
 				DataCommonEventSource_ExitScope_m0D37CCB8C891C2965F2662EAFD04498B2A48F12C(L_8, L_9, NULL);
@@ -23479,7 +23481,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_WriteXml_m9440C61E2DFFFE0EA582
 	String_t* V_2 = NULL;
 	{
 		il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_0 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_0 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 		int32_t L_1;
 		L_1 = DataTable_get_ObjectID_m3A05B9B04446D482AE01B532B3A04146BD431358_inline(__this, NULL);
 		int32_t L_2 = ___mode1;
@@ -23495,7 +23497,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_WriteXml_m9440C61E2DFFFE0EA582
 FINALLY_00df:
 			{// begin finally (depth: 1)
 				il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-				DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_4 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+				DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_4 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 				int64_t L_5 = V_0;
 				NullCheck(L_4);
 				DataCommonEventSource_ExitScope_m0D37CCB8C891C2965F2662EAFD04498B2A48F12C(L_4, L_5, NULL);
@@ -23939,7 +23941,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_WriteXmlSchema_mFAF385491106BB
 	String_t* V_2 = NULL;
 	{
 		il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_0 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_0 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 		int32_t L_1;
 		L_1 = DataTable_get_ObjectID_m3A05B9B04446D482AE01B532B3A04146BD431358_inline(__this, NULL);
 		NullCheck(L_0);
@@ -23954,7 +23956,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_WriteXmlSchema_mFAF385491106BB
 FINALLY_00bc:
 			{// begin finally (depth: 1)
 				il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-				DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_3 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+				DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_3 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 				int64_t L_4 = V_0;
 				NullCheck(L_3);
 				DataCommonEventSource_ExitScope_m0D37CCB8C891C2965F2662EAFD04498B2A48F12C(L_3, L_4, NULL);
@@ -26203,7 +26205,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_ReadXmlSchema_m7DC90C1DC7E4037
 	String_t* G_B17_0 = NULL;
 	{
 		il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_0 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+		DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_0 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 		int32_t L_1;
 		L_1 = DataTable_get_ObjectID_m3A05B9B04446D482AE01B532B3A04146BD431358_inline(__this, NULL);
 		bool L_2 = ___denyResolving1;
@@ -26219,7 +26221,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTable_ReadXmlSchema_m7DC90C1DC7E4037
 FINALLY_04f2:
 			{// begin finally (depth: 1)
 				il2cpp_codegen_runtime_class_init_inline(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var);
-				DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_4 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_0;
+				DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE* L_4 = ((DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_StaticFields*)il2cpp_codegen_static_fields_for(DataCommonEventSource_tC3BB57E78CED1A7EFBCC8F852266121F4641CBFE_il2cpp_TypeInfo_var))->___Log_1;
 				int64_t L_5 = V_0;
 				NullCheck(L_4);
 				DataCommonEventSource_ExitScope_m0D37CCB8C891C2965F2662EAFD04498B2A48F12C(L_4, L_5, NULL);

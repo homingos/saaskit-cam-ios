@@ -332,8 +332,8 @@ struct U3CU3Ec_t3284589A02BB4D190E3BABE34DE8A00BACDB390D_StaticFields
 {
 	// UnityEngine.Rendering.Universal.Internal.PostProcessPass/<>c UnityEngine.Rendering.Universal.Internal.PostProcessPass/<>c::<>9
 	U3CU3Ec_t3284589A02BB4D190E3BABE34DE8A00BACDB390D* ___U3CU3E9_0;
-	// System.Func`4<UnityEngine.Light,UnityEngine.Camera,UnityEngine.Vector3,System.Single> UnityEngine.Rendering.Universal.Internal.PostProcessPass/<>c::<>9__68_0
-	Func_4_t10E373E09E0663CA58211D9753566AB17B869CFE* ___U3CU3E9__68_0_1;
+	// System.Func`4<UnityEngine.Light,UnityEngine.Camera,UnityEngine.Vector3,System.Single> UnityEngine.Rendering.Universal.Internal.PostProcessPass/<>c::<>9__67_0
+	Func_4_t10E373E09E0663CA58211D9753566AB17B869CFE* ___U3CU3E9__67_0_1;
 };
 
 // UnityEngine.Rendering.Universal.Internal.PostProcessPass/MaterialLibrary
@@ -808,6 +808,7 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 };
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=12
+#pragma pack(push, tp, 1)
 struct __StaticArrayInitTypeSizeU3D12_t5F40C9EEDE242DFE47A8DCE218ED3DF3E88B4EC0 
 {
 	union
@@ -821,8 +822,10 @@ struct __StaticArrayInitTypeSizeU3D12_t5F40C9EEDE242DFE47A8DCE218ED3DF3E88B4EC0
 		uint8_t __StaticArrayInitTypeSizeU3D12_t5F40C9EEDE242DFE47A8DCE218ED3DF3E88B4EC0__padding[12];
 	};
 };
+#pragma pack(pop, tp)
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=16
+#pragma pack(push, tp, 1)
 struct __StaticArrayInitTypeSizeU3D16_tB86B9BFC4ADBF4E2DF11F39AF43639693C65DF05 
 {
 	union
@@ -836,8 +839,10 @@ struct __StaticArrayInitTypeSizeU3D16_tB86B9BFC4ADBF4E2DF11F39AF43639693C65DF05
 		uint8_t __StaticArrayInitTypeSizeU3D16_tB86B9BFC4ADBF4E2DF11F39AF43639693C65DF05__padding[16];
 	};
 };
+#pragma pack(pop, tp)
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=24
+#pragma pack(push, tp, 1)
 struct __StaticArrayInitTypeSizeU3D24_tB605E983EFADFA4C2759D8C48AB45B0B3A7BCC51 
 {
 	union
@@ -851,8 +856,10 @@ struct __StaticArrayInitTypeSizeU3D24_tB605E983EFADFA4C2759D8C48AB45B0B3A7BCC51
 		uint8_t __StaticArrayInitTypeSizeU3D24_tB605E983EFADFA4C2759D8C48AB45B0B3A7BCC51__padding[24];
 	};
 };
+#pragma pack(pop, tp)
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=960
+#pragma pack(push, tp, 1)
 struct __StaticArrayInitTypeSizeU3D960_t86900CB1F8550ABFAD884FDD8E17F7B7AA90ED0D 
 {
 	union
@@ -866,6 +873,7 @@ struct __StaticArrayInitTypeSizeU3D960_t86900CB1F8550ABFAD884FDD8E17F7B7AA90ED0D
 		uint8_t __StaticArrayInitTypeSizeU3D960_t86900CB1F8550ABFAD884FDD8E17F7B7AA90ED0D__padding[960];
 	};
 };
+#pragma pack(pop, tp)
 
 // UnityEngine.Rendering.CameraProperties/<layerCullDistances>e__FixedBuffer
 struct U3ClayerCullDistancesU3Ee__FixedBuffer_t899804C5038AB391CB8F8C17638A02661B106C3F 
@@ -1877,22 +1885,22 @@ struct Type_t_StaticFields
 	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase_6;
 };
 
-// UnityEngine.Rendering.Universal.Internal.PostProcessPass/<>c__DisplayClass59_0
-struct U3CU3Ec__DisplayClass59_0_t88753AB174063F0A92D3656540A1E2863E33261D 
+// UnityEngine.Rendering.Universal.Internal.PostProcessPass/<>c__DisplayClass58_0
+struct U3CU3Ec__DisplayClass58_0_t8618277CB2EA64670146C671687EBCFE74DEDE98 
 {
-	// UnityEngine.Rendering.RenderTargetIdentifier UnityEngine.Rendering.Universal.Internal.PostProcessPass/<>c__DisplayClass59_0::source
+	// UnityEngine.Rendering.RenderTargetIdentifier UnityEngine.Rendering.Universal.Internal.PostProcessPass/<>c__DisplayClass58_0::source
 	RenderTargetIdentifier_tA528663AC6EB3911D8E91AA40F7070FA5455442B ___source_0;
-	// UnityEngine.Rendering.Universal.Internal.PostProcessPass UnityEngine.Rendering.Universal.Internal.PostProcessPass/<>c__DisplayClass59_0::<>4__this
+	// UnityEngine.Rendering.Universal.Internal.PostProcessPass UnityEngine.Rendering.Universal.Internal.PostProcessPass/<>c__DisplayClass58_0::<>4__this
 	PostProcessPass_tC4EC25E25E2972BF5409B546D4F7F15D681AD286* ___U3CU3E4__this_1;
-	// UnityEngine.Rendering.RenderTargetIdentifier UnityEngine.Rendering.Universal.Internal.PostProcessPass/<>c__DisplayClass59_0::destination
+	// UnityEngine.Rendering.RenderTargetIdentifier UnityEngine.Rendering.Universal.Internal.PostProcessPass/<>c__DisplayClass58_0::destination
 	RenderTargetIdentifier_tA528663AC6EB3911D8E91AA40F7070FA5455442B ___destination_2;
-	// UnityEngine.Rendering.CommandBuffer UnityEngine.Rendering.Universal.Internal.PostProcessPass/<>c__DisplayClass59_0::cmd
+	// UnityEngine.Rendering.CommandBuffer UnityEngine.Rendering.Universal.Internal.PostProcessPass/<>c__DisplayClass58_0::cmd
 	CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* ___cmd_3;
-	// System.Boolean UnityEngine.Rendering.Universal.Internal.PostProcessPass/<>c__DisplayClass59_0::tempTargetUsed
+	// System.Boolean UnityEngine.Rendering.Universal.Internal.PostProcessPass/<>c__DisplayClass58_0::tempTargetUsed
 	bool ___tempTargetUsed_4;
-	// System.Boolean UnityEngine.Rendering.Universal.Internal.PostProcessPass/<>c__DisplayClass59_0::tempTarget2Used
+	// System.Boolean UnityEngine.Rendering.Universal.Internal.PostProcessPass/<>c__DisplayClass58_0::tempTarget2Used
 	bool ___tempTarget2Used_5;
-	// System.Int32 UnityEngine.Rendering.Universal.Internal.PostProcessPass/<>c__DisplayClass59_0::amountOfPassesRemaining
+	// System.Int32 UnityEngine.Rendering.Universal.Internal.PostProcessPass/<>c__DisplayClass58_0::amountOfPassesRemaining
 	int32_t ___amountOfPassesRemaining_6;
 };
 
@@ -2974,8 +2982,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mB26E3080A715C814D9B9A5C71
 		return;
 	}
 }
-// System.Single UnityEngine.Rendering.Universal.Internal.PostProcessPass/<>c::<DoLensFlareDatadriven>b__68_0(UnityEngine.Light,UnityEngine.Camera,UnityEngine.Vector3)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec_U3CDoLensFlareDatadrivenU3Eb__68_0_m2CF6D232CF074CE7DA1AAD8C4B58090829631F7B (U3CU3Ec_t3284589A02BB4D190E3BABE34DE8A00BACDB390D* __this, Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* ___light0, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___cam1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___wo2, const RuntimeMethod* method) 
+// System.Single UnityEngine.Rendering.Universal.Internal.PostProcessPass/<>c::<DoLensFlareDatadriven>b__67_0(UnityEngine.Light,UnityEngine.Camera,UnityEngine.Vector3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec_U3CDoLensFlareDatadrivenU3Eb__67_0_mFE2B73A17BC04055C9EBE71CBE34B07B93845682 (U3CU3Ec_t3284589A02BB4D190E3BABE34DE8A00BACDB390D* __this, Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* ___light0, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___cam1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___wo2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)

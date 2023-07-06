@@ -355,31 +355,59 @@ extern "C" void UnityKeyboard_LayoutChanged(NSString* layout);
 
 - (void)setTextInputTraits:(id<UITextInputTraits>)traits
     withParam:(KeyboardShowParam)param
-    withCap:(UITextAutocapitalizationType)capitalization
 {
-    traits.keyboardType = param.keyboardType;
-    traits.autocorrectionType = param.autocorrectionType;
-    traits.spellCheckingType  = param.spellcheckingType;
-    traits.keyboardAppearance = param.appearance;
-    traits.autocapitalizationType = capitalization;
+    UITextAutocapitalizationType capitalization = [KeyboardDelegate capitalizationForKeyboardParam: param];
+
     if (!_inputHidden)
         traits.secureTextEntry = param.secure;
+    if (param.secure)
+    {
+        traits.autocorrectionType = UITextAutocorrectionTypeNo;
+        traits.spellCheckingType  = UITextSpellCheckingTypeNo;
+        traits.autocapitalizationType = UITextAutocapitalizationTypeNone;
+    }
+    else
+    {
+        traits.autocorrectionType = param.autocorrectionType;
+        traits.spellCheckingType  = param.spellcheckingType;
+        traits.autocapitalizationType = capitalization;
+    }
+    traits.keyboardType = param.keyboardType;
+    traits.keyboardAppearance = param.appearance;
+}
+
++ (UITextAutocapitalizationType)capitalizationForKeyboardParam:(KeyboardShowParam)param
+{
+    if (param.secure)
+        return UITextAutocapitalizationTypeNone;
+
+    UITextAutocapitalizationType capitalization;
+    switch (param.keyboardType)
+    {
+        case UIKeyboardTypeURL:
+        case UIKeyboardTypeEmailAddress:
+        case UIKeyboardTypeWebSearch:
+            capitalization = UITextAutocapitalizationTypeNone;
+            break;
+        default:
+            capitalization = UITextAutocapitalizationTypeSentences;
+    }
+
+    return capitalization;
 }
 
 - (void)setKeyboardParams:(KeyboardShowParam)param
 {
-    if (!editView.hidden)
+    [NSObject cancelPreviousPerformRequestsWithTarget: self];
+    if (cachedKeyboardParam.multiline != param.multiline ||
+        cachedKeyboardParam.secure != param.secure ||
+        cachedKeyboardParam.keyboardType != param.keyboardType ||
+        cachedKeyboardParam.autocorrectionType != param.autocorrectionType ||
+        cachedKeyboardParam.appearance != param.appearance)
     {
-        [NSObject cancelPreviousPerformRequestsWithTarget: self];
-        if (cachedKeyboardParam.multiline != param.multiline ||
-            cachedKeyboardParam.secure != param.secure ||
-            cachedKeyboardParam.keyboardType != param.keyboardType ||
-            cachedKeyboardParam.autocorrectionType != param.autocorrectionType ||
-            cachedKeyboardParam.appearance != param.appearance)
-        {
-            [self hideUIDelayed];
-        }
+        [self hideUIDelayed];
     }
+
     cachedKeyboardParam = param;
 
     if (_active)
@@ -389,15 +417,11 @@ extern "C" void UnityKeyboard_LayoutChanged(NSString* layout);
 
     _characterLimit = param.characterLimit;
 
-    UITextAutocapitalizationType capitalization = UITextAutocapitalizationTypeSentences;
-    if (param.keyboardType == UIKeyboardTypeURL || param.keyboardType == UIKeyboardTypeEmailAddress || param.keyboardType == UIKeyboardTypeWebSearch)
-        capitalization = UITextAutocapitalizationTypeNone;
-
 #if PLATFORM_IOS
     _multiline = param.multiline;
     if (_multiline)
     {
-        [self setTextInputTraits: textView withParam: param withCap: capitalization];
+        [self setTextInputTraits: textView withParam: param];
     }
     else
     {
@@ -408,14 +432,14 @@ extern "C" void UnityKeyboard_LayoutChanged(NSString* layout);
                 textField.textContentType = UITextContentTypeOneTimeCode;
         }
 #endif
-        [self setTextInputTraits: textField withParam: param withCap: capitalization];
+        [self setTextInputTraits: textField withParam: param];
         textField.placeholder = [NSString stringWithUTF8String: param.placeholder];
     }
     inputView = _multiline ? textView : textField;
     editView = _multiline ? textView : fieldToolbar;
 
 #else // PLATFORM_TVOS
-    [self setTextInputTraits: textField withParam: param withCap: capitalization];
+    [self setTextInputTraits: textField withParam: param];
     textField.placeholder = [NSString stringWithUTF8String: param.placeholder];
     inputView = textField;
     editView = textField;
@@ -507,10 +531,7 @@ extern "C" void UnityKeyboard_LayoutChanged(NSString* layout);
 
     editView.hidden     = _inputHidden ? YES : NO;
     inputView.hidden    = _inputHidden ? YES : NO;
-    if (_inputHidden)
-        textField.secureTextEntry = NO;
-    else
-        textField.secureTextEntry = cachedKeyboardParam.secure;
+    [self setTextInputTraits: textField withParam: cachedKeyboardParam];
 }
 
 #if PLATFORM_IOS

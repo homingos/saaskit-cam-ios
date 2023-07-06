@@ -6342,8 +6342,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Marshal_ClearUnicode_m6CBCE7AC53A2014EC4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Marshal_PtrToStringAnsi_m8DF88D9F22FCF791C538A36C9233B3882F579B4A (intptr_t ___ptr0, const RuntimeMethod* method) ;
 // System.String System.Runtime.InteropServices.Marshal::PtrToStringUni(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Marshal_PtrToStringUni_mA30F3D8587F2E51F70DF5F30A3C2910CBDAB6F20 (intptr_t ___ptr0, const RuntimeMethod* method) ;
-// System.Void System.Buffer::Memcpy(System.Byte*,System.Byte*,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Buffer_Memcpy_m87345ACEE449F8CEA42341BC9F4AFC3743EF96D1 (uint8_t* ___dest0, uint8_t* ___src1, int32_t ___len2, const RuntimeMethod* method) ;
+// System.Void System.Buffer::Memcpy(System.Byte*,System.Byte*,System.Int32,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Buffer_Memcpy_mB203712DD2D0E5DF1CF52F752638F8B94E03E217 (uint8_t* ___dest0, uint8_t* ___src1, int32_t ___len2, bool ___useICall3, const RuntimeMethod* method) ;
 // System.Int32 System.Runtime.CompilerServices.RuntimeHelpers::get_OffsetToStringData()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RuntimeHelpers_get_OffsetToStringData_m90A5D27EF88BE9432BF7093B7D7E7A0ACB0A8FBD (const RuntimeMethod* method) ;
 // System.IntPtr System.Runtime.InteropServices.Marshal::StringToHGlobalAnsi(System.Char*,System.Int32)
@@ -24125,7 +24125,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int16_t Marshal_ReadInt16_mEE01C1BEFBE61268B0
 IL_0012:
 	{
 		uint8_t* L_6 = V_0;
-		Buffer_Memcpy_m87345ACEE449F8CEA42341BC9F4AFC3743EF96D1((uint8_t*)((uintptr_t)(&V_1)), L_6, 2, NULL);
+		Buffer_Memcpy_mB203712DD2D0E5DF1CF52F752638F8B94E03E217((uint8_t*)((uintptr_t)(&V_1)), L_6, 2, (bool)1, NULL);
 		int16_t L_7 = V_1;
 		return L_7;
 	}
@@ -24472,7 +24472,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Marshal_WriteInt16_m26DD2EB279960A59A36E
 IL_0013:
 	{
 		uint8_t* L_6 = V_0;
-		Buffer_Memcpy_m87345ACEE449F8CEA42341BC9F4AFC3743EF96D1(L_6, (uint8_t*)((uintptr_t)(&___val2)), 2, NULL);
+		Buffer_Memcpy_mB203712DD2D0E5DF1CF52F752638F8B94E03E217(L_6, (uint8_t*)((uintptr_t)(&___val2)), 2, (bool)1, NULL);
 		return;
 	}
 }

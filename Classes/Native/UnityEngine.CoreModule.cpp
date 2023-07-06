@@ -2088,6 +2088,7 @@ struct NotNullAttribute_tFD5F5AE3C9DC85F2B0D94895101FA16B1C864819  : public Attr
 };
 
 // Unity.Profiling.ProfilerCategory
+#pragma pack(push, tp, 1)
 struct ProfilerCategory_tA55212CD512C618AF6D2147791F20319896592AC 
 {
 	union
@@ -2112,6 +2113,7 @@ struct ProfilerCategory_tA55212CD512C618AF6D2147791F20319896592AC
 		uint8_t ProfilerCategory_tA55212CD512C618AF6D2147791F20319896592AC__padding[2];
 	};
 };
+#pragma pack(pop, tp)
 
 // Unity.Profiling.ProfilerRecorder
 struct ProfilerRecorder_t363D18B531351FF6D7A09072564EB5D8FC60E613 
@@ -2121,6 +2123,7 @@ struct ProfilerRecorder_t363D18B531351FF6D7A09072564EB5D8FC60E613
 };
 
 // Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle
+#pragma pack(push, tp, 1)
 struct ProfilerRecorderHandle_t1215F88C92BAED83BFC3665C0D1BBFD347A33FD4 
 {
 	union
@@ -2145,6 +2148,7 @@ struct ProfilerRecorderHandle_t1215F88C92BAED83BFC3665C0D1BBFD347A33FD4
 		uint8_t ProfilerRecorderHandle_t1215F88C92BAED83BFC3665C0D1BBFD347A33FD4__padding[8];
 	};
 };
+#pragma pack(pop, tp)
 
 // Unity.Profiling.ProfilerRecorderSample
 struct ProfilerRecorderSample_t1F59CC43F81B774053308543605585CA87C94C5F 
@@ -3132,6 +3136,7 @@ struct ProcessingState_t10820A0F2C4361EF738FC9F09881334C28700FD8
 };
 
 // Unity.Profiling.LowLevel.Unsafe.ProfilerCategoryDescription
+#pragma pack(push, tp, 1)
 struct ProfilerCategoryDescription_t95156934408507201B3A69E71BE15975ACDDED28 
 {
 	union
@@ -3221,6 +3226,7 @@ struct ProfilerCategoryDescription_t95156934408507201B3A69E71BE15975ACDDED28
 		uint8_t ProfilerCategoryDescription_t95156934408507201B3A69E71BE15975ACDDED28__padding[24];
 	};
 };
+#pragma pack(pop, tp)
 
 // Unity.Profiling.ProfilerMarker
 struct ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD 
@@ -3230,6 +3236,7 @@ struct ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD
 };
 
 // Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderDescription
+#pragma pack(push, tp, 1)
 struct ProfilerRecorderDescription_t297485A3B4ACDA282AD652B53135D20AD70F4575 
 {
 	union
@@ -3332,6 +3339,7 @@ struct ProfilerRecorderDescription_t297485A3B4ACDA282AD652B53135D20AD70F4575
 		uint8_t ProfilerRecorderDescription_t297485A3B4ACDA282AD652B53135D20AD70F4575__padding[24];
 	};
 };
+#pragma pack(pop, tp)
 
 // UnityEngine.Ray
 struct Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 

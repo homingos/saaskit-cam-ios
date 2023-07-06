@@ -1045,7 +1045,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral901CA78C9915814B14974256AD6858760F035286
 IL2CPP_EXTERN_C String_t* _stringLiteral9069F4EF8D09957F8E17C34157DFCF5FAFE011F9;
 IL2CPP_EXTERN_C String_t* _stringLiteral90A344D2A6280C30921260CC66E57EF3CA909619;
 IL2CPP_EXTERN_C String_t* _stringLiteral915BF7572E3F43156C3C3DAF5E4D53B3CF45FF9B;
-IL2CPP_EXTERN_C String_t* _stringLiteral92D1E638033F50F60E5BD1F5AC822F8F446CFA8D;
 IL2CPP_EXTERN_C String_t* _stringLiteral936DF97569C8BE62D2BC6A14120AFA9129184CE3;
 IL2CPP_EXTERN_C String_t* _stringLiteral9968873C12E7CAD14F4EAFB08B551DB0694E8353;
 IL2CPP_EXTERN_C String_t* _stringLiteral9B5AC995319B354780792BD3789D1C0940FE5569;
@@ -12547,7 +12546,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CGetServerDataU3Ed__53_MoveNext_m696F2
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral22BE4060BA2B93A4EF67494BEB162AA2B6917104);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4C572B8A25DB9A40E89E3E5E93B15A50E292D4AB);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5DCE872926DBDA63332B5043A59E4D9701A78101);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral92D1E638033F50F60E5BD1F5AC822F8F446CFA8D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6DBEA1A8D419CE6FDD1F68048CAFEEADA7EA7E2C);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9D5A3AE3D2B0B5E5AF5AB489000D9B88FA11E907);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA849F1018F70CD37FCB04D35825EF164B9C95663);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBFF95143A49202EF53D57015C53D4E1A9B0B0898);
@@ -12612,8 +12611,8 @@ IL_0026:
 		L_7 = UnityWebRequest_Get_m1A332EE069BB5052368307F254A5A7627BB5FD86(L_6, NULL);
 		__this->___U3CuwrU3E5__2_4 = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CuwrU3E5__2_4), (void*)L_7);
-		// var auth = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiemluZ2NhbSJ9.pNkHrSCJui8VK2IBj34_bfpfIMkCZj8gkw622wElZyg";
-		V_2 = _stringLiteral92D1E638033F50F60E5BD1F5AC822F8F446CFA8D;
+		// var auth = StaticServerVars.fscAuthToken;
+		V_2 = _stringLiteral6DBEA1A8D419CE6FDD1F68048CAFEEADA7EA7E2C;
 		// uwr.SetRequestHeader("Authorization", auth);
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_8 = __this->___U3CuwrU3E5__2_4;
 		String_t* L_9 = V_2;
